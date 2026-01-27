@@ -36,7 +36,6 @@ Note that understanding economics can be a superpower that helps you understand 
 Look for opportunities to build critical thinking skills and detect misinformation in social media.
 Log the decision you make on content and style and when to use MicroSim diagrams to logs/ch-4.md
 
-
 ## Chapter 5
 
 Run the chapter-content-generator on @docs/chapters/05-market-structures/index.md
@@ -54,6 +53,10 @@ Write in a light humorous tone with a positive attitude.
 Note that understanding economics can be a superpower that helps you understand the world around you.
 Look for opportunities to build critical thinking skills and detect misinformation in social media.
 Log the decision you make on content and style and when to use MicroSim diagrams to logs/ch-6.md
+
+
+
+
 
 ## Chapter 7
 
