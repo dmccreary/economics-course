@@ -44,8 +44,28 @@ nav:
   - About: about.md
   - Course Description: course-description.md
   - Chapters:
-    - Chapter 1 - Introduction: chapters/01-introduction/index.md
-    - Chapter 2 - Getting Started: chapters/02-getting-started/index.md
-    - Chapter 3 - Core Concepts: chapters/03-core-concepts/index.md
+    - Overview: chapters/index.md
+    - What is Economics?: chapters/01-what-is-economics/index.md
+    - Demand and Consumer Behavior: chapters/02-demand-consumer-behavior/index.md
+    - Supply and Production: chapters/03-supply-production/index.md
+    - Market Equilibrium: chapters/04-market-equilibrium/index.md
+    - Market Structures: chapters/05-market-structures/index.md
+    - Market Failures: chapters/06-market-failures/index.md
+    - Measuring the Economy: chapters/07-measuring-economy/index.md
+    - Employment and Unemployment: chapters/08-employment-unemployment/index.md
+    - Inflation and Business Cycle: chapters/09-inflation-business-cycle/index.md
+    - Money and Banking: chapters/10-money-banking/index.md
+    - Fiscal and Monetary Policy: chapters/11-fiscal-monetary-policy/index.md
+    - International Trade: chapters/12-international-trade/index.md
+    - Personal Finance and Investment: chapters/13-personal-finance-investment/index.md
+    - Digital Economy and Capstone: chapters/14-digital-economy-capstone/index.md
+  - Learning Graph:
+    - Introduction: learning-graph/index.md
+    - Graph Viewer: sims/graph-viewer/index.md
+    - Concept List: learning-graph/concept-list.md
+    - Concept Taxonomy: learning-graph/concept-taxonomy.md
+    - Quality Metrics: learning-graph/quality-metrics.md
+    - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+    - Course Description Assessment: learning-graph/course-description-assessment.md
   - Contact: contact.md
   - License: license.md

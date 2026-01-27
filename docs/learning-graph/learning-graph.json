@@ -1,0 +1,2665 @@
+{
+  "metadata": {
+    "title": "Introduction to Economics",
+    "description": "An interactive intelligent textbook for high school students covering microeconomics, macroeconomics, personal finance, and the digital economy through hands-on simulations.",
+    "creator": "Dan McCreary",
+    "date": "2026-01-27",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundation Concepts",
+      "color": "LightCoral",
+      "font": {
+        "color": "white"
+      }
+    },
+    "MICRO": {
+      "classifierName": "Microeconomics",
+      "color": "PeachPuff",
+      "font": {
+        "color": "black"
+      }
+    },
+    "MKSTR": {
+      "classifierName": "Market Structures",
+      "color": "LightYellow",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PUBEC": {
+      "classifierName": "Public Economics",
+      "color": "Honeydew",
+      "font": {
+        "color": "black"
+      }
+    },
+    "MACRO": {
+      "classifierName": "Macroeconomics",
+      "color": "PaleTurquoise",
+      "font": {
+        "color": "black"
+      }
+    },
+    "MONEY": {
+      "classifierName": "Money and Banking",
+      "color": "PowderBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "POLICY": {
+      "classifierName": "Economic Policy",
+      "color": "Lavender",
+      "font": {
+        "color": "black"
+      }
+    },
+    "INTL": {
+      "classifierName": "International Trade",
+      "color": "LavenderBlush",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PFIN": {
+      "classifierName": "Personal Finance",
+      "color": "PaleGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "INVEST": {
+      "classifierName": "Investment",
+      "color": "Aquamarine",
+      "font": {
+        "color": "black"
+      }
+    },
+    "DIGITAL": {
+      "classifierName": "Digital Economy",
+      "color": "Thistle",
+      "font": {
+        "color": "black"
+      }
+    },
+    "THINK": {
+      "classifierName": "Critical Thinking",
+      "color": "MistyRose",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CAPSTONE": {
+      "classifierName": "Capstone Projects",
+      "color": "Plum",
+      "font": {
+        "color": "white"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Economics",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 2,
+      "label": "Scarcity",
+      "group": "FOUND"
+    },
+    {
+      "id": 3,
+      "label": "Opportunity Cost",
+      "group": "FOUND"
+    },
+    {
+      "id": 4,
+      "label": "Trade-offs",
+      "group": "FOUND"
+    },
+    {
+      "id": 5,
+      "label": "Marginal Analysis",
+      "group": "FOUND"
+    },
+    {
+      "id": 6,
+      "label": "Incentives",
+      "group": "FOUND"
+    },
+    {
+      "id": 7,
+      "label": "Rational Decision Making",
+      "group": "FOUND"
+    },
+    {
+      "id": 8,
+      "label": "Economic Models",
+      "group": "FOUND"
+    },
+    {
+      "id": 9,
+      "label": "Positive Economics",
+      "group": "FOUND"
+    },
+    {
+      "id": 10,
+      "label": "Normative Economics",
+      "group": "FOUND"
+    },
+    {
+      "id": 11,
+      "label": "Microeconomics",
+      "group": "FOUND"
+    },
+    {
+      "id": 12,
+      "label": "Macroeconomics",
+      "group": "FOUND"
+    },
+    {
+      "id": 13,
+      "label": "Market Economy",
+      "group": "FOUND"
+    },
+    {
+      "id": 14,
+      "label": "Command Economy",
+      "group": "FOUND"
+    },
+    {
+      "id": 15,
+      "label": "Mixed Economy",
+      "group": "FOUND"
+    },
+    {
+      "id": 16,
+      "label": "Factors of Production",
+      "group": "FOUND"
+    },
+    {
+      "id": 17,
+      "label": "Production Possibilities",
+      "group": "FOUND"
+    },
+    {
+      "id": 18,
+      "label": "Efficiency",
+      "group": "FOUND"
+    },
+    {
+      "id": 19,
+      "label": "Demand",
+      "group": "MICRO"
+    },
+    {
+      "id": 20,
+      "label": "Law of Demand",
+      "group": "MICRO"
+    },
+    {
+      "id": 21,
+      "label": "Demand Curve",
+      "group": "MICRO"
+    },
+    {
+      "id": 22,
+      "label": "Change in Demand",
+      "group": "MICRO"
+    },
+    {
+      "id": 23,
+      "label": "Determinants of Demand",
+      "group": "MICRO"
+    },
+    {
+      "id": 24,
+      "label": "Normal Goods",
+      "group": "MICRO"
+    },
+    {
+      "id": 25,
+      "label": "Inferior Goods",
+      "group": "MICRO"
+    },
+    {
+      "id": 26,
+      "label": "Substitute Goods",
+      "group": "MICRO"
+    },
+    {
+      "id": 27,
+      "label": "Complementary Goods",
+      "group": "MICRO"
+    },
+    {
+      "id": 28,
+      "label": "Supply",
+      "group": "MICRO"
+    },
+    {
+      "id": 29,
+      "label": "Law of Supply",
+      "group": "MICRO"
+    },
+    {
+      "id": 30,
+      "label": "Supply Curve",
+      "group": "MICRO"
+    },
+    {
+      "id": 31,
+      "label": "Change in Supply",
+      "group": "MICRO"
+    },
+    {
+      "id": 32,
+      "label": "Determinants of Supply",
+      "group": "MICRO"
+    },
+    {
+      "id": 33,
+      "label": "Market Equilibrium",
+      "group": "MICRO"
+    },
+    {
+      "id": 34,
+      "label": "Equilibrium Price",
+      "group": "MICRO"
+    },
+    {
+      "id": 35,
+      "label": "Surplus",
+      "group": "MICRO"
+    },
+    {
+      "id": 36,
+      "label": "Shortage",
+      "group": "MICRO"
+    },
+    {
+      "id": 37,
+      "label": "Price Mechanism",
+      "group": "MICRO"
+    },
+    {
+      "id": 38,
+      "label": "Price Ceiling",
+      "group": "MICRO"
+    },
+    {
+      "id": 39,
+      "label": "Price Floor",
+      "group": "MICRO"
+    },
+    {
+      "id": 40,
+      "label": "Elasticity",
+      "group": "MICRO"
+    },
+    {
+      "id": 41,
+      "label": "Price Elasticity of Demand",
+      "group": "MICRO"
+    },
+    {
+      "id": 42,
+      "label": "Elastic Demand",
+      "group": "MICRO"
+    },
+    {
+      "id": 43,
+      "label": "Inelastic Demand",
+      "group": "MICRO"
+    },
+    {
+      "id": 44,
+      "label": "Consumer Surplus",
+      "group": "MICRO"
+    },
+    {
+      "id": 45,
+      "label": "Producer Surplus",
+      "group": "MICRO"
+    },
+    {
+      "id": 46,
+      "label": "Utility",
+      "group": "MICRO"
+    },
+    {
+      "id": 47,
+      "label": "Marginal Utility",
+      "group": "MICRO"
+    },
+    {
+      "id": 48,
+      "label": "Diminishing Marginal Utility",
+      "group": "MICRO"
+    },
+    {
+      "id": 49,
+      "label": "Consumer Choice",
+      "group": "MICRO"
+    },
+    {
+      "id": 50,
+      "label": "Budget Constraint",
+      "group": "MICRO"
+    },
+    {
+      "id": 51,
+      "label": "Production Function",
+      "group": "MICRO"
+    },
+    {
+      "id": 52,
+      "label": "Marginal Product",
+      "group": "MICRO"
+    },
+    {
+      "id": 53,
+      "label": "Diminishing Returns",
+      "group": "MICRO"
+    },
+    {
+      "id": 54,
+      "label": "Marginal Revenue",
+      "group": "MICRO"
+    },
+    {
+      "id": 55,
+      "label": "Marginal Cost",
+      "group": "MICRO"
+    },
+    {
+      "id": 56,
+      "label": "Average Total Cost",
+      "group": "MICRO"
+    },
+    {
+      "id": 57,
+      "label": "Fixed Costs",
+      "group": "MICRO"
+    },
+    {
+      "id": 58,
+      "label": "Variable Costs",
+      "group": "MICRO"
+    },
+    {
+      "id": 59,
+      "label": "Economies of Scale",
+      "group": "MICRO"
+    },
+    {
+      "id": 60,
+      "label": "Profit Maximization",
+      "group": "MICRO"
+    },
+    {
+      "id": 61,
+      "label": "Market Structure",
+      "group": "MKSTR"
+    },
+    {
+      "id": 62,
+      "label": "Perfect Competition",
+      "group": "MKSTR"
+    },
+    {
+      "id": 63,
+      "label": "Price Taker",
+      "group": "MKSTR"
+    },
+    {
+      "id": 64,
+      "label": "Monopoly",
+      "group": "MKSTR"
+    },
+    {
+      "id": 65,
+      "label": "Natural Monopoly",
+      "group": "MKSTR"
+    },
+    {
+      "id": 66,
+      "label": "Price Maker",
+      "group": "MKSTR"
+    },
+    {
+      "id": 67,
+      "label": "Oligopoly",
+      "group": "MKSTR"
+    },
+    {
+      "id": 68,
+      "label": "Monopolistic Competition",
+      "group": "MKSTR"
+    },
+    {
+      "id": 69,
+      "label": "Product Differentiation",
+      "group": "MKSTR"
+    },
+    {
+      "id": 70,
+      "label": "Barriers to Entry",
+      "group": "MKSTR"
+    },
+    {
+      "id": 71,
+      "label": "Market Power",
+      "group": "MKSTR"
+    },
+    {
+      "id": 72,
+      "label": "Market Failure",
+      "group": "PUBEC"
+    },
+    {
+      "id": 73,
+      "label": "Externalities",
+      "group": "PUBEC"
+    },
+    {
+      "id": 74,
+      "label": "Negative Externality",
+      "group": "PUBEC"
+    },
+    {
+      "id": 75,
+      "label": "Positive Externality",
+      "group": "PUBEC"
+    },
+    {
+      "id": 76,
+      "label": "Public Goods",
+      "group": "PUBEC"
+    },
+    {
+      "id": 77,
+      "label": "Free Rider Problem",
+      "group": "PUBEC"
+    },
+    {
+      "id": 78,
+      "label": "Common Resources",
+      "group": "PUBEC"
+    },
+    {
+      "id": 79,
+      "label": "Tragedy of the Commons",
+      "group": "PUBEC"
+    },
+    {
+      "id": 80,
+      "label": "Deadweight Loss",
+      "group": "PUBEC"
+    },
+    {
+      "id": 81,
+      "label": "Government Intervention",
+      "group": "PUBEC"
+    },
+    {
+      "id": 82,
+      "label": "Taxes",
+      "group": "PUBEC"
+    },
+    {
+      "id": 83,
+      "label": "Subsidies",
+      "group": "PUBEC"
+    },
+    {
+      "id": 84,
+      "label": "Pigouvian Tax",
+      "group": "PUBEC"
+    },
+    {
+      "id": 85,
+      "label": "Regulation",
+      "group": "PUBEC"
+    },
+    {
+      "id": 86,
+      "label": "Antitrust Policy",
+      "group": "PUBEC"
+    },
+    {
+      "id": 87,
+      "label": "Property Rights",
+      "group": "PUBEC"
+    },
+    {
+      "id": 88,
+      "label": "Market Efficiency",
+      "group": "PUBEC"
+    },
+    {
+      "id": 89,
+      "label": "Equity",
+      "group": "PUBEC"
+    },
+    {
+      "id": 90,
+      "label": "Efficiency vs Equity",
+      "group": "PUBEC"
+    },
+    {
+      "id": 91,
+      "label": "Tax Incidence",
+      "group": "PUBEC"
+    },
+    {
+      "id": 92,
+      "label": "Welfare Economics",
+      "group": "PUBEC"
+    },
+    {
+      "id": 93,
+      "label": "Gross Domestic Product",
+      "group": "MACRO"
+    },
+    {
+      "id": 94,
+      "label": "GDP Calculation",
+      "group": "MACRO"
+    },
+    {
+      "id": 95,
+      "label": "Nominal GDP",
+      "group": "MACRO"
+    },
+    {
+      "id": 96,
+      "label": "Real GDP",
+      "group": "MACRO"
+    },
+    {
+      "id": 97,
+      "label": "Per Capita GDP",
+      "group": "MACRO"
+    },
+    {
+      "id": 98,
+      "label": "Economic Growth",
+      "group": "MACRO"
+    },
+    {
+      "id": 99,
+      "label": "Standard of Living",
+      "group": "MACRO"
+    },
+    {
+      "id": 100,
+      "label": "Unemployment",
+      "group": "MACRO"
+    },
+    {
+      "id": 101,
+      "label": "Unemployment Rate",
+      "group": "MACRO"
+    },
+    {
+      "id": 102,
+      "label": "Labor Force",
+      "group": "MACRO"
+    },
+    {
+      "id": 103,
+      "label": "Frictional Unemployment",
+      "group": "MACRO"
+    },
+    {
+      "id": 104,
+      "label": "Structural Unemployment",
+      "group": "MACRO"
+    },
+    {
+      "id": 105,
+      "label": "Cyclical Unemployment",
+      "group": "MACRO"
+    },
+    {
+      "id": 106,
+      "label": "Inflation",
+      "group": "MACRO"
+    },
+    {
+      "id": 107,
+      "label": "Consumer Price Index",
+      "group": "MACRO"
+    },
+    {
+      "id": 108,
+      "label": "Inflation Rate",
+      "group": "MACRO"
+    },
+    {
+      "id": 109,
+      "label": "Deflation",
+      "group": "MACRO"
+    },
+    {
+      "id": 110,
+      "label": "Purchasing Power",
+      "group": "MACRO"
+    },
+    {
+      "id": 111,
+      "label": "Business Cycle",
+      "group": "MACRO"
+    },
+    {
+      "id": 112,
+      "label": "Recession",
+      "group": "MACRO"
+    },
+    {
+      "id": 113,
+      "label": "Money",
+      "group": "MONEY"
+    },
+    {
+      "id": 114,
+      "label": "Functions of Money",
+      "group": "MONEY"
+    },
+    {
+      "id": 115,
+      "label": "Medium of Exchange",
+      "group": "MONEY"
+    },
+    {
+      "id": 116,
+      "label": "Store of Value",
+      "group": "MONEY"
+    },
+    {
+      "id": 117,
+      "label": "Fiat Money",
+      "group": "MONEY"
+    },
+    {
+      "id": 118,
+      "label": "Money Supply",
+      "group": "MONEY"
+    },
+    {
+      "id": 119,
+      "label": "Banks",
+      "group": "MONEY"
+    },
+    {
+      "id": 120,
+      "label": "Fractional Reserve Banking",
+      "group": "MONEY"
+    },
+    {
+      "id": 121,
+      "label": "Federal Reserve",
+      "group": "MONEY"
+    },
+    {
+      "id": 122,
+      "label": "Central Bank",
+      "group": "MONEY"
+    },
+    {
+      "id": 123,
+      "label": "Interest Rates",
+      "group": "MONEY"
+    },
+    {
+      "id": 124,
+      "label": "Open Market Operations",
+      "group": "MONEY"
+    },
+    {
+      "id": 125,
+      "label": "Quantitative Easing",
+      "group": "MONEY"
+    },
+    {
+      "id": 126,
+      "label": "Fiscal Policy",
+      "group": "POLICY"
+    },
+    {
+      "id": 127,
+      "label": "Government Spending",
+      "group": "POLICY"
+    },
+    {
+      "id": 128,
+      "label": "Taxation",
+      "group": "POLICY"
+    },
+    {
+      "id": 129,
+      "label": "Budget Deficit",
+      "group": "POLICY"
+    },
+    {
+      "id": 130,
+      "label": "National Debt",
+      "group": "POLICY"
+    },
+    {
+      "id": 131,
+      "label": "Expansionary Fiscal Policy",
+      "group": "POLICY"
+    },
+    {
+      "id": 132,
+      "label": "Contractionary Fiscal Policy",
+      "group": "POLICY"
+    },
+    {
+      "id": 133,
+      "label": "Monetary Policy",
+      "group": "POLICY"
+    },
+    {
+      "id": 134,
+      "label": "Expansionary Monetary Policy",
+      "group": "POLICY"
+    },
+    {
+      "id": 135,
+      "label": "Contractionary Monetary Policy",
+      "group": "POLICY"
+    },
+    {
+      "id": 136,
+      "label": "Aggregate Demand",
+      "group": "POLICY"
+    },
+    {
+      "id": 137,
+      "label": "Aggregate Supply",
+      "group": "POLICY"
+    },
+    {
+      "id": 138,
+      "label": "Multiplier Effect",
+      "group": "POLICY"
+    },
+    {
+      "id": 139,
+      "label": "Crowding Out",
+      "group": "POLICY"
+    },
+    {
+      "id": 140,
+      "label": "Stagflation",
+      "group": "POLICY"
+    },
+    {
+      "id": 141,
+      "label": "Phillips Curve",
+      "group": "POLICY"
+    },
+    {
+      "id": 142,
+      "label": "Policy Trade-offs",
+      "group": "POLICY"
+    },
+    {
+      "id": 143,
+      "label": "International Trade",
+      "group": "INTL"
+    },
+    {
+      "id": 144,
+      "label": "Exports",
+      "group": "INTL"
+    },
+    {
+      "id": 145,
+      "label": "Imports",
+      "group": "INTL"
+    },
+    {
+      "id": 146,
+      "label": "Trade Balance",
+      "group": "INTL"
+    },
+    {
+      "id": 147,
+      "label": "Absolute Advantage",
+      "group": "INTL"
+    },
+    {
+      "id": 148,
+      "label": "Comparative Advantage",
+      "group": "INTL"
+    },
+    {
+      "id": 149,
+      "label": "Specialization",
+      "group": "INTL"
+    },
+    {
+      "id": 150,
+      "label": "Tariffs",
+      "group": "INTL"
+    },
+    {
+      "id": 151,
+      "label": "Free Trade",
+      "group": "INTL"
+    },
+    {
+      "id": 152,
+      "label": "Protectionism",
+      "group": "INTL"
+    },
+    {
+      "id": 153,
+      "label": "Exchange Rates",
+      "group": "INTL"
+    },
+    {
+      "id": 154,
+      "label": "Currency Appreciation",
+      "group": "INTL"
+    },
+    {
+      "id": 155,
+      "label": "Globalization",
+      "group": "INTL"
+    },
+    {
+      "id": 156,
+      "label": "Personal Budget",
+      "group": "PFIN"
+    },
+    {
+      "id": 157,
+      "label": "Income",
+      "group": "PFIN"
+    },
+    {
+      "id": 158,
+      "label": "Saving",
+      "group": "PFIN"
+    },
+    {
+      "id": 159,
+      "label": "Compound Interest",
+      "group": "PFIN"
+    },
+    {
+      "id": 160,
+      "label": "Time Value of Money",
+      "group": "PFIN"
+    },
+    {
+      "id": 161,
+      "label": "Present Value",
+      "group": "PFIN"
+    },
+    {
+      "id": 162,
+      "label": "Rule of 72",
+      "group": "PFIN"
+    },
+    {
+      "id": 163,
+      "label": "Credit",
+      "group": "PFIN"
+    },
+    {
+      "id": 164,
+      "label": "Credit Score",
+      "group": "PFIN"
+    },
+    {
+      "id": 165,
+      "label": "Debt",
+      "group": "PFIN"
+    },
+    {
+      "id": 166,
+      "label": "Loans",
+      "group": "PFIN"
+    },
+    {
+      "id": 167,
+      "label": "Mortgages",
+      "group": "PFIN"
+    },
+    {
+      "id": 168,
+      "label": "Financial Literacy",
+      "group": "PFIN"
+    },
+    {
+      "id": 169,
+      "label": "Emergency Fund",
+      "group": "PFIN"
+    },
+    {
+      "id": 170,
+      "label": "Financial Goals",
+      "group": "PFIN"
+    },
+    {
+      "id": 171,
+      "label": "Human Capital",
+      "group": "PFIN"
+    },
+    {
+      "id": 172,
+      "label": "Career Economics",
+      "group": "PFIN"
+    },
+    {
+      "id": 173,
+      "label": "Investment",
+      "group": "INVEST"
+    },
+    {
+      "id": 174,
+      "label": "Stocks",
+      "group": "INVEST"
+    },
+    {
+      "id": 175,
+      "label": "Bonds",
+      "group": "INVEST"
+    },
+    {
+      "id": 176,
+      "label": "Mutual Funds",
+      "group": "INVEST"
+    },
+    {
+      "id": 177,
+      "label": "Diversification",
+      "group": "INVEST"
+    },
+    {
+      "id": 178,
+      "label": "Risk",
+      "group": "INVEST"
+    },
+    {
+      "id": 179,
+      "label": "Return",
+      "group": "INVEST"
+    },
+    {
+      "id": 180,
+      "label": "Risk-Return Trade-off",
+      "group": "INVEST"
+    },
+    {
+      "id": 181,
+      "label": "Stock Market",
+      "group": "INVEST"
+    },
+    {
+      "id": 182,
+      "label": "Retirement Savings",
+      "group": "INVEST"
+    },
+    {
+      "id": 183,
+      "label": "Digital Economy",
+      "group": "DIGITAL"
+    },
+    {
+      "id": 184,
+      "label": "Network Effects",
+      "group": "DIGITAL"
+    },
+    {
+      "id": 185,
+      "label": "Platform Economics",
+      "group": "DIGITAL"
+    },
+    {
+      "id": 186,
+      "label": "Two-Sided Markets",
+      "group": "DIGITAL"
+    },
+    {
+      "id": 187,
+      "label": "Winner-Take-All Markets",
+      "group": "DIGITAL"
+    },
+    {
+      "id": 188,
+      "label": "Information Goods",
+      "group": "DIGITAL"
+    },
+    {
+      "id": 189,
+      "label": "Marginal Cost of Digital",
+      "group": "DIGITAL"
+    },
+    {
+      "id": 190,
+      "label": "Attention Economy",
+      "group": "DIGITAL"
+    },
+    {
+      "id": 191,
+      "label": "Sharing Economy",
+      "group": "DIGITAL"
+    },
+    {
+      "id": 192,
+      "label": "Gig Economy",
+      "group": "DIGITAL"
+    },
+    {
+      "id": 193,
+      "label": "E-commerce",
+      "group": "DIGITAL"
+    },
+    {
+      "id": 194,
+      "label": "Cryptocurrency",
+      "group": "DIGITAL"
+    },
+    {
+      "id": 195,
+      "label": "Blockchain",
+      "group": "DIGITAL"
+    },
+    {
+      "id": 196,
+      "label": "Economic Misinformation",
+      "group": "THINK"
+    },
+    {
+      "id": 197,
+      "label": "Correlation vs Causation",
+      "group": "THINK"
+    },
+    {
+      "id": 198,
+      "label": "Data Interpretation",
+      "group": "THINK"
+    },
+    {
+      "id": 199,
+      "label": "Cost-Benefit Analysis",
+      "group": "THINK"
+    },
+    {
+      "id": 200,
+      "label": "Systems Thinking",
+      "group": "THINK"
+    },
+    {
+      "id": 201,
+      "label": "Working in Teams",
+      "group": "CAPSTONE",
+      "shape": "box"
+    },
+    {
+      "id": 202,
+      "label": "Selecting a Project",
+      "group": "CAPSTONE"
+    },
+    {
+      "id": 203,
+      "label": "Dividing the Work",
+      "group": "CAPSTONE"
+    },
+    {
+      "id": 204,
+      "label": "Integrating the Findings",
+      "group": "CAPSTONE"
+    },
+    {
+      "id": 205,
+      "label": "Presenting Findings",
+      "group": "CAPSTONE"
+    },
+    {
+      "id": 206,
+      "label": "Using AI",
+      "group": "CAPSTONE"
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 2
+    },
+    {
+      "from": 4,
+      "to": 2
+    },
+    {
+      "from": 4,
+      "to": 3
+    },
+    {
+      "from": 5,
+      "to": 3
+    },
+    {
+      "from": 5,
+      "to": 4
+    },
+    {
+      "from": 6,
+      "to": 1
+    },
+    {
+      "from": 6,
+      "to": 3
+    },
+    {
+      "from": 7,
+      "to": 3
+    },
+    {
+      "from": 7,
+      "to": 5
+    },
+    {
+      "from": 7,
+      "to": 6
+    },
+    {
+      "from": 8,
+      "to": 1
+    },
+    {
+      "from": 8,
+      "to": 7
+    },
+    {
+      "from": 9,
+      "to": 1
+    },
+    {
+      "from": 9,
+      "to": 8
+    },
+    {
+      "from": 10,
+      "to": 1
+    },
+    {
+      "from": 10,
+      "to": 8
+    },
+    {
+      "from": 10,
+      "to": 9
+    },
+    {
+      "from": 11,
+      "to": 1
+    },
+    {
+      "from": 11,
+      "to": 8
+    },
+    {
+      "from": 12,
+      "to": 1
+    },
+    {
+      "from": 12,
+      "to": 8
+    },
+    {
+      "from": 13,
+      "to": 1
+    },
+    {
+      "from": 13,
+      "to": 6
+    },
+    {
+      "from": 14,
+      "to": 1
+    },
+    {
+      "from": 15,
+      "to": 13
+    },
+    {
+      "from": 15,
+      "to": 14
+    },
+    {
+      "from": 16,
+      "to": 1
+    },
+    {
+      "from": 17,
+      "to": 2
+    },
+    {
+      "from": 17,
+      "to": 16
+    },
+    {
+      "from": 18,
+      "to": 3
+    },
+    {
+      "from": 18,
+      "to": 17
+    },
+    {
+      "from": 19,
+      "to": 1
+    },
+    {
+      "from": 19,
+      "to": 11
+    },
+    {
+      "from": 20,
+      "to": 19
+    },
+    {
+      "from": 21,
+      "to": 19
+    },
+    {
+      "from": 21,
+      "to": 20
+    },
+    {
+      "from": 22,
+      "to": 19
+    },
+    {
+      "from": 22,
+      "to": 21
+    },
+    {
+      "from": 23,
+      "to": 19
+    },
+    {
+      "from": 23,
+      "to": 22
+    },
+    {
+      "from": 24,
+      "to": 19
+    },
+    {
+      "from": 24,
+      "to": 23
+    },
+    {
+      "from": 25,
+      "to": 19
+    },
+    {
+      "from": 25,
+      "to": 23
+    },
+    {
+      "from": 25,
+      "to": 24
+    },
+    {
+      "from": 26,
+      "to": 19
+    },
+    {
+      "from": 26,
+      "to": 23
+    },
+    {
+      "from": 27,
+      "to": 19
+    },
+    {
+      "from": 27,
+      "to": 23
+    },
+    {
+      "from": 27,
+      "to": 26
+    },
+    {
+      "from": 28,
+      "to": 1
+    },
+    {
+      "from": 28,
+      "to": 11
+    },
+    {
+      "from": 28,
+      "to": 16
+    },
+    {
+      "from": 29,
+      "to": 28
+    },
+    {
+      "from": 30,
+      "to": 28
+    },
+    {
+      "from": 30,
+      "to": 29
+    },
+    {
+      "from": 31,
+      "to": 28
+    },
+    {
+      "from": 31,
+      "to": 30
+    },
+    {
+      "from": 32,
+      "to": 28
+    },
+    {
+      "from": 32,
+      "to": 31
+    },
+    {
+      "from": 33,
+      "to": 21
+    },
+    {
+      "from": 33,
+      "to": 30
+    },
+    {
+      "from": 34,
+      "to": 33
+    },
+    {
+      "from": 35,
+      "to": 33
+    },
+    {
+      "from": 35,
+      "to": 34
+    },
+    {
+      "from": 36,
+      "to": 33
+    },
+    {
+      "from": 36,
+      "to": 34
+    },
+    {
+      "from": 36,
+      "to": 35
+    },
+    {
+      "from": 37,
+      "to": 6
+    },
+    {
+      "from": 37,
+      "to": 33
+    },
+    {
+      "from": 37,
+      "to": 34
+    },
+    {
+      "from": 38,
+      "to": 34
+    },
+    {
+      "from": 38,
+      "to": 36
+    },
+    {
+      "from": 39,
+      "to": 34
+    },
+    {
+      "from": 39,
+      "to": 35
+    },
+    {
+      "from": 40,
+      "to": 20
+    },
+    {
+      "from": 40,
+      "to": 21
+    },
+    {
+      "from": 40,
+      "to": 29
+    },
+    {
+      "from": 40,
+      "to": 30
+    },
+    {
+      "from": 41,
+      "to": 40
+    },
+    {
+      "from": 42,
+      "to": 41
+    },
+    {
+      "from": 43,
+      "to": 41
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 44,
+      "to": 21
+    },
+    {
+      "from": 44,
+      "to": 34
+    },
+    {
+      "from": 45,
+      "to": 30
+    },
+    {
+      "from": 45,
+      "to": 34
+    },
+    {
+      "from": 46,
+      "to": 7
+    },
+    {
+      "from": 46,
+      "to": 19
+    },
+    {
+      "from": 47,
+      "to": 5
+    },
+    {
+      "from": 47,
+      "to": 46
+    },
+    {
+      "from": 48,
+      "to": 47
+    },
+    {
+      "from": 49,
+      "to": 7
+    },
+    {
+      "from": 49,
+      "to": 46
+    },
+    {
+      "from": 49,
+      "to": 48
+    },
+    {
+      "from": 50,
+      "to": 3
+    },
+    {
+      "from": 50,
+      "to": 49
+    },
+    {
+      "from": 51,
+      "to": 16
+    },
+    {
+      "from": 51,
+      "to": 28
+    },
+    {
+      "from": 52,
+      "to": 5
+    },
+    {
+      "from": 52,
+      "to": 51
+    },
+    {
+      "from": 53,
+      "to": 52
+    },
+    {
+      "from": 54,
+      "to": 5
+    },
+    {
+      "from": 54,
+      "to": 28
+    },
+    {
+      "from": 55,
+      "to": 5
+    },
+    {
+      "from": 55,
+      "to": 51
+    },
+    {
+      "from": 55,
+      "to": 54
+    },
+    {
+      "from": 56,
+      "to": 55
+    },
+    {
+      "from": 57,
+      "to": 51
+    },
+    {
+      "from": 57,
+      "to": 56
+    },
+    {
+      "from": 58,
+      "to": 51
+    },
+    {
+      "from": 58,
+      "to": 56
+    },
+    {
+      "from": 58,
+      "to": 57
+    },
+    {
+      "from": 59,
+      "to": 56
+    },
+    {
+      "from": 59,
+      "to": 58
+    },
+    {
+      "from": 60,
+      "to": 5
+    },
+    {
+      "from": 60,
+      "to": 54
+    },
+    {
+      "from": 60,
+      "to": 55
+    },
+    {
+      "from": 61,
+      "to": 11
+    },
+    {
+      "from": 61,
+      "to": 33
+    },
+    {
+      "from": 62,
+      "to": 61
+    },
+    {
+      "from": 63,
+      "to": 62
+    },
+    {
+      "from": 64,
+      "to": 61
+    },
+    {
+      "from": 64,
+      "to": 62
+    },
+    {
+      "from": 65,
+      "to": 59
+    },
+    {
+      "from": 65,
+      "to": 64
+    },
+    {
+      "from": 66,
+      "to": 64
+    },
+    {
+      "from": 67,
+      "to": 61
+    },
+    {
+      "from": 67,
+      "to": 64
+    },
+    {
+      "from": 68,
+      "to": 61
+    },
+    {
+      "from": 68,
+      "to": 62
+    },
+    {
+      "from": 68,
+      "to": 64
+    },
+    {
+      "from": 69,
+      "to": 68
+    },
+    {
+      "from": 70,
+      "to": 64
+    },
+    {
+      "from": 70,
+      "to": 67
+    },
+    {
+      "from": 71,
+      "to": 64
+    },
+    {
+      "from": 71,
+      "to": 66
+    },
+    {
+      "from": 71,
+      "to": 70
+    },
+    {
+      "from": 72,
+      "to": 18
+    },
+    {
+      "from": 72,
+      "to": 61
+    },
+    {
+      "from": 73,
+      "to": 72
+    },
+    {
+      "from": 74,
+      "to": 73
+    },
+    {
+      "from": 75,
+      "to": 73
+    },
+    {
+      "from": 75,
+      "to": 74
+    },
+    {
+      "from": 76,
+      "to": 72
+    },
+    {
+      "from": 77,
+      "to": 76
+    },
+    {
+      "from": 78,
+      "to": 72
+    },
+    {
+      "from": 78,
+      "to": 76
+    },
+    {
+      "from": 79,
+      "to": 78
+    },
+    {
+      "from": 80,
+      "to": 44
+    },
+    {
+      "from": 80,
+      "to": 45
+    },
+    {
+      "from": 80,
+      "to": 72
+    },
+    {
+      "from": 81,
+      "to": 72
+    },
+    {
+      "from": 81,
+      "to": 80
+    },
+    {
+      "from": 82,
+      "to": 81
+    },
+    {
+      "from": 83,
+      "to": 81
+    },
+    {
+      "from": 83,
+      "to": 82
+    },
+    {
+      "from": 84,
+      "to": 74
+    },
+    {
+      "from": 84,
+      "to": 82
+    },
+    {
+      "from": 85,
+      "to": 81
+    },
+    {
+      "from": 86,
+      "to": 71
+    },
+    {
+      "from": 86,
+      "to": 85
+    },
+    {
+      "from": 87,
+      "to": 1
+    },
+    {
+      "from": 87,
+      "to": 78
+    },
+    {
+      "from": 88,
+      "to": 18
+    },
+    {
+      "from": 88,
+      "to": 33
+    },
+    {
+      "from": 88,
+      "to": 44
+    },
+    {
+      "from": 88,
+      "to": 45
+    },
+    {
+      "from": 89,
+      "to": 1
+    },
+    {
+      "from": 89,
+      "to": 10
+    },
+    {
+      "from": 90,
+      "to": 88
+    },
+    {
+      "from": 90,
+      "to": 89
+    },
+    {
+      "from": 91,
+      "to": 40
+    },
+    {
+      "from": 91,
+      "to": 82
+    },
+    {
+      "from": 92,
+      "to": 44
+    },
+    {
+      "from": 92,
+      "to": 45
+    },
+    {
+      "from": 92,
+      "to": 88
+    },
+    {
+      "from": 92,
+      "to": 89
+    },
+    {
+      "from": 93,
+      "to": 12
+    },
+    {
+      "from": 94,
+      "to": 93
+    },
+    {
+      "from": 95,
+      "to": 93
+    },
+    {
+      "from": 95,
+      "to": 94
+    },
+    {
+      "from": 96,
+      "to": 95
+    },
+    {
+      "from": 97,
+      "to": 96
+    },
+    {
+      "from": 98,
+      "to": 96
+    },
+    {
+      "from": 98,
+      "to": 97
+    },
+    {
+      "from": 99,
+      "to": 97
+    },
+    {
+      "from": 99,
+      "to": 98
+    },
+    {
+      "from": 100,
+      "to": 12
+    },
+    {
+      "from": 100,
+      "to": 102
+    },
+    {
+      "from": 101,
+      "to": 100
+    },
+    {
+      "from": 102,
+      "to": 16
+    },
+    {
+      "from": 103,
+      "to": 100
+    },
+    {
+      "from": 104,
+      "to": 100
+    },
+    {
+      "from": 104,
+      "to": 103
+    },
+    {
+      "from": 105,
+      "to": 100
+    },
+    {
+      "from": 105,
+      "to": 111
+    },
+    {
+      "from": 106,
+      "to": 12
+    },
+    {
+      "from": 107,
+      "to": 106
+    },
+    {
+      "from": 108,
+      "to": 106
+    },
+    {
+      "from": 108,
+      "to": 107
+    },
+    {
+      "from": 109,
+      "to": 106
+    },
+    {
+      "from": 109,
+      "to": 108
+    },
+    {
+      "from": 110,
+      "to": 106
+    },
+    {
+      "from": 110,
+      "to": 108
+    },
+    {
+      "from": 111,
+      "to": 12
+    },
+    {
+      "from": 111,
+      "to": 98
+    },
+    {
+      "from": 112,
+      "to": 111
+    },
+    {
+      "from": 113,
+      "to": 1
+    },
+    {
+      "from": 114,
+      "to": 113
+    },
+    {
+      "from": 115,
+      "to": 114
+    },
+    {
+      "from": 116,
+      "to": 114
+    },
+    {
+      "from": 116,
+      "to": 115
+    },
+    {
+      "from": 117,
+      "to": 113
+    },
+    {
+      "from": 117,
+      "to": 114
+    },
+    {
+      "from": 118,
+      "to": 113
+    },
+    {
+      "from": 118,
+      "to": 117
+    },
+    {
+      "from": 119,
+      "to": 113
+    },
+    {
+      "from": 119,
+      "to": 118
+    },
+    {
+      "from": 120,
+      "to": 119
+    },
+    {
+      "from": 121,
+      "to": 119
+    },
+    {
+      "from": 121,
+      "to": 122
+    },
+    {
+      "from": 122,
+      "to": 119
+    },
+    {
+      "from": 123,
+      "to": 118
+    },
+    {
+      "from": 123,
+      "to": 119
+    },
+    {
+      "from": 124,
+      "to": 121
+    },
+    {
+      "from": 124,
+      "to": 123
+    },
+    {
+      "from": 125,
+      "to": 121
+    },
+    {
+      "from": 125,
+      "to": 124
+    },
+    {
+      "from": 126,
+      "to": 12
+    },
+    {
+      "from": 126,
+      "to": 81
+    },
+    {
+      "from": 127,
+      "to": 126
+    },
+    {
+      "from": 128,
+      "to": 82
+    },
+    {
+      "from": 128,
+      "to": 126
+    },
+    {
+      "from": 129,
+      "to": 127
+    },
+    {
+      "from": 129,
+      "to": 128
+    },
+    {
+      "from": 130,
+      "to": 129
+    },
+    {
+      "from": 131,
+      "to": 126
+    },
+    {
+      "from": 131,
+      "to": 127
+    },
+    {
+      "from": 132,
+      "to": 126
+    },
+    {
+      "from": 132,
+      "to": 128
+    },
+    {
+      "from": 133,
+      "to": 12
+    },
+    {
+      "from": 133,
+      "to": 121
+    },
+    {
+      "from": 133,
+      "to": 123
+    },
+    {
+      "from": 134,
+      "to": 133
+    },
+    {
+      "from": 135,
+      "to": 133
+    },
+    {
+      "from": 135,
+      "to": 134
+    },
+    {
+      "from": 136,
+      "to": 12
+    },
+    {
+      "from": 136,
+      "to": 19
+    },
+    {
+      "from": 136,
+      "to": 93
+    },
+    {
+      "from": 137,
+      "to": 12
+    },
+    {
+      "from": 137,
+      "to": 28
+    },
+    {
+      "from": 137,
+      "to": 93
+    },
+    {
+      "from": 138,
+      "to": 127
+    },
+    {
+      "from": 138,
+      "to": 136
+    },
+    {
+      "from": 139,
+      "to": 129
+    },
+    {
+      "from": 139,
+      "to": 138
+    },
+    {
+      "from": 140,
+      "to": 106
+    },
+    {
+      "from": 140,
+      "to": 112
+    },
+    {
+      "from": 141,
+      "to": 100
+    },
+    {
+      "from": 141,
+      "to": 106
+    },
+    {
+      "from": 142,
+      "to": 126
+    },
+    {
+      "from": 142,
+      "to": 133
+    },
+    {
+      "from": 142,
+      "to": 141
+    },
+    {
+      "from": 143,
+      "to": 1
+    },
+    {
+      "from": 143,
+      "to": 13
+    },
+    {
+      "from": 144,
+      "to": 143
+    },
+    {
+      "from": 145,
+      "to": 143
+    },
+    {
+      "from": 145,
+      "to": 144
+    },
+    {
+      "from": 146,
+      "to": 144
+    },
+    {
+      "from": 146,
+      "to": 145
+    },
+    {
+      "from": 147,
+      "to": 17
+    },
+    {
+      "from": 147,
+      "to": 143
+    },
+    {
+      "from": 148,
+      "to": 3
+    },
+    {
+      "from": 148,
+      "to": 147
+    },
+    {
+      "from": 149,
+      "to": 148
+    },
+    {
+      "from": 150,
+      "to": 81
+    },
+    {
+      "from": 150,
+      "to": 145
+    },
+    {
+      "from": 151,
+      "to": 143
+    },
+    {
+      "from": 151,
+      "to": 150
+    },
+    {
+      "from": 152,
+      "to": 150
+    },
+    {
+      "from": 152,
+      "to": 151
+    },
+    {
+      "from": 153,
+      "to": 113
+    },
+    {
+      "from": 153,
+      "to": 143
+    },
+    {
+      "from": 154,
+      "to": 153
+    },
+    {
+      "from": 155,
+      "to": 143
+    },
+    {
+      "from": 155,
+      "to": 149
+    },
+    {
+      "from": 155,
+      "to": 151
+    },
+    {
+      "from": 156,
+      "to": 3
+    },
+    {
+      "from": 156,
+      "to": 4
+    },
+    {
+      "from": 157,
+      "to": 16
+    },
+    {
+      "from": 157,
+      "to": 102
+    },
+    {
+      "from": 158,
+      "to": 156
+    },
+    {
+      "from": 158,
+      "to": 157
+    },
+    {
+      "from": 159,
+      "to": 123
+    },
+    {
+      "from": 159,
+      "to": 158
+    },
+    {
+      "from": 160,
+      "to": 159
+    },
+    {
+      "from": 161,
+      "to": 160
+    },
+    {
+      "from": 162,
+      "to": 159
+    },
+    {
+      "from": 163,
+      "to": 119
+    },
+    {
+      "from": 163,
+      "to": 123
+    },
+    {
+      "from": 164,
+      "to": 163
+    },
+    {
+      "from": 165,
+      "to": 163
+    },
+    {
+      "from": 166,
+      "to": 119
+    },
+    {
+      "from": 166,
+      "to": 163
+    },
+    {
+      "from": 166,
+      "to": 165
+    },
+    {
+      "from": 167,
+      "to": 166
+    },
+    {
+      "from": 168,
+      "to": 156
+    },
+    {
+      "from": 168,
+      "to": 163
+    },
+    {
+      "from": 169,
+      "to": 158
+    },
+    {
+      "from": 169,
+      "to": 168
+    },
+    {
+      "from": 170,
+      "to": 156
+    },
+    {
+      "from": 170,
+      "to": 168
+    },
+    {
+      "from": 171,
+      "to": 16
+    },
+    {
+      "from": 171,
+      "to": 102
+    },
+    {
+      "from": 172,
+      "to": 3
+    },
+    {
+      "from": 172,
+      "to": 157
+    },
+    {
+      "from": 172,
+      "to": 171
+    },
+    {
+      "from": 173,
+      "to": 158
+    },
+    {
+      "from": 173,
+      "to": 178
+    },
+    {
+      "from": 174,
+      "to": 173
+    },
+    {
+      "from": 175,
+      "to": 173
+    },
+    {
+      "from": 175,
+      "to": 174
+    },
+    {
+      "from": 176,
+      "to": 174
+    },
+    {
+      "from": 176,
+      "to": 175
+    },
+    {
+      "from": 176,
+      "to": 177
+    },
+    {
+      "from": 177,
+      "to": 173
+    },
+    {
+      "from": 177,
+      "to": 178
+    },
+    {
+      "from": 178,
+      "to": 3
+    },
+    {
+      "from": 179,
+      "to": 173
+    },
+    {
+      "from": 179,
+      "to": 178
+    },
+    {
+      "from": 180,
+      "to": 178
+    },
+    {
+      "from": 180,
+      "to": 179
+    },
+    {
+      "from": 181,
+      "to": 174
+    },
+    {
+      "from": 182,
+      "to": 159
+    },
+    {
+      "from": 182,
+      "to": 170
+    },
+    {
+      "from": 182,
+      "to": 173
+    },
+    {
+      "from": 183,
+      "to": 1
+    },
+    {
+      "from": 183,
+      "to": 13
+    },
+    {
+      "from": 184,
+      "to": 183
+    },
+    {
+      "from": 185,
+      "to": 183
+    },
+    {
+      "from": 185,
+      "to": 184
+    },
+    {
+      "from": 186,
+      "to": 185
+    },
+    {
+      "from": 187,
+      "to": 184
+    },
+    {
+      "from": 187,
+      "to": 186
+    },
+    {
+      "from": 188,
+      "to": 183
+    },
+    {
+      "from": 189,
+      "to": 55
+    },
+    {
+      "from": 189,
+      "to": 188
+    },
+    {
+      "from": 190,
+      "to": 183
+    },
+    {
+      "from": 190,
+      "to": 188
+    },
+    {
+      "from": 191,
+      "to": 183
+    },
+    {
+      "from": 191,
+      "to": 185
+    },
+    {
+      "from": 192,
+      "to": 102
+    },
+    {
+      "from": 192,
+      "to": 191
+    },
+    {
+      "from": 193,
+      "to": 143
+    },
+    {
+      "from": 193,
+      "to": 183
+    },
+    {
+      "from": 194,
+      "to": 113
+    },
+    {
+      "from": 194,
+      "to": 195
+    },
+    {
+      "from": 195,
+      "to": 183
+    },
+    {
+      "from": 196,
+      "to": 8
+    },
+    {
+      "from": 196,
+      "to": 198
+    },
+    {
+      "from": 197,
+      "to": 8
+    },
+    {
+      "from": 197,
+      "to": 198
+    },
+    {
+      "from": 198,
+      "to": 8
+    },
+    {
+      "from": 199,
+      "to": 3
+    },
+    {
+      "from": 199,
+      "to": 5
+    },
+    {
+      "from": 199,
+      "to": 92
+    },
+    {
+      "from": 200,
+      "to": 8
+    },
+    {
+      "from": 200,
+      "to": 73
+    },
+    {
+      "from": 202,
+      "to": 1
+    },
+    {
+      "from": 202,
+      "to": 201
+    },
+    {
+      "from": 203,
+      "to": 201
+    },
+    {
+      "from": 203,
+      "to": 202
+    },
+    {
+      "from": 204,
+      "to": 198
+    },
+    {
+      "from": 204,
+      "to": 203
+    },
+    {
+      "from": 205,
+      "to": 204
+    },
+    {
+      "from": 206,
+      "to": 8
+    },
+    {
+      "from": 206,
+      "to": 198
+    },
+    {
+      "from": 206,
+      "to": 205
+    }
+  ]
+}

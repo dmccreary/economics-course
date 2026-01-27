@@ -1,0 +1,10 @@
+{
+  "title": "Introduction to Economics",
+  "description": "An interactive intelligent textbook for high school students covering microeconomics, macroeconomics, personal finance, and the digital economy through hands-on simulations.",
+  "creator": "Dan McCreary",
+  "date": "2026-01-27",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}
