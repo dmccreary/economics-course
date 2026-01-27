@@ -1,0 +1,2912 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Understand how inflation is measured, why prices rise, and how economic cycles create recessions and recoveries">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/economics-course/chapters/09-inflation-business-cycle/">
+      
+      
+        <link rel="prev" href="../08-employment-unemployment/">
+      
+      
+        <link rel="next" href="../10-money-banking/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Inflation and the Business Cycle - Introduction to Economics</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#inflation-and-the-business-cycle" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Introduction to Economics" class="md-header__button md-logo" aria-label="Introduction to Economics" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Introduction to Economics
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Inflation and the Business Cycle
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/economics-course" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    dmccreary/economics-course
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Introduction to Economics" class="md-nav__button md-logo" aria-label="Introduction to Economics" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Introduction to Economics
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/economics-course" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    dmccreary/economics-course
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    List of Chapters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-what-is-economics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. What is Economics?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-demand-consumer-behavior/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Demand and Consumer Behavior
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-supply-production/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Supply and Production
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-market-equilibrium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Market Equilibrium
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-market-structures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Market Structures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-market-failures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Market Failures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-measuring-economy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. Measuring the Economy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-employment-unemployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8. Employment and Unemployment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9. Inflation and Business Cycle
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9. Inflation and Business Cycle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Concepts Covered
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#your-money-is-shrinking-sort-of" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Your Money Is Shrinking (Sort Of)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-inflation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Is Inflation?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What Is Inflation?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-does-inflation-happen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Does Inflation Happen?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-consumer-price-index-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Consumer Price Index (CPI)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Consumer Price Index (CPI)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#whats-in-the-basket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What's in the Basket?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What&#39;s in the Basket?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-cpi-market-basket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: CPI Market Basket
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculating-the-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Calculating the CPI
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-inflation-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Inflation Rate
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Inflation Rate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#whats-a-normal-inflation-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What's a "Normal" Inflation Rate?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-inflation-vs-headline-inflation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Inflation vs. Headline Inflation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#purchasing-power-what-your-money-actually-buys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purchasing Power: What Your Money Actually Buys
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Purchasing Power: What Your Money Actually Buys">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-erosion-of-savings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Erosion of Savings
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Erosion of Savings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-inflation-impact-calculator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Inflation Impact Calculator
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#winners-and-losers-from-inflation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Winners and Losers from Inflation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deflation-when-prices-fall-and-why-thats-bad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deflation: When Prices Fall (And Why That's Bad)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Deflation: When Prices Fall (And Why That&#39;s Bad)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-deflation-spiral" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Deflation Spiral
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#real-debt-burden-increases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Real Debt Burden Increases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historical-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Historical Examples
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recession-when-the-economy-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recession: When the Economy Contracts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recession: When the Economy Contracts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-do-we-know-were-in-a-recession" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How Do We Know We're in a Recession?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-causes-recessions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Causes Recessions?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recent-us-recessions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recent US Recessions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-human-cost" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Human Cost
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Human Cost">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-recession-indicators-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Recession Indicators Dashboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stagflation-the-worst-of-both-worlds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stagflation: The Worst of Both Worlds
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stagflation: The Worst of Both Worlds">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-1970s-stagflation-in-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The 1970s: Stagflation in Action
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-stagflation-is-rare" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Stagflation Is Rare
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hidden-inflation-shrinkflation-and-quality-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hidden Inflation: Shrinkflation and Quality Changes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#critical-thinking-inflation-in-the-wild" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Critical Thinking: Inflation in the Wild
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Critical Thinking: Inflation in the Wild">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#red-flag-1-cherry-picking-the-measure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Flag #1: Cherry-Picking the Measure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#red-flag-2-year-over-year-vs-month-over-month" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Flag #2: Year-Over-Year vs. Month-Over-Month
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#red-flag-3-inflation-is-destroying-the-economy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Flag #3: "Inflation Is Destroying the Economy!"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#red-flag-4-ignoring-wage-growth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Flag #4: Ignoring Wage Growth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#red-flag-5-blaming-the-wrong-cause" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Flag #5: Blaming the Wrong Cause
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Questions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next Steps
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-money-banking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. Money and Banking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-fiscal-monetary-policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11. Fiscal and Monetary Policy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-international-trade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12. International Trade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-personal-finance-investment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    13. Personal Finance and Investment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-digital-economy-capstone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    14. Digital Economy and Capstone
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Graph
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Learning Graph
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/graph-viewer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Graph Viewer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-taxonomy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept Taxonomy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/quality-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quality Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/taxonomy-distribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Taxonomy Distribution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/course-description-assessment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description Assessment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Concepts Covered
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#your-money-is-shrinking-sort-of" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Your Money Is Shrinking (Sort Of)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-inflation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Is Inflation?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What Is Inflation?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-does-inflation-happen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Does Inflation Happen?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-consumer-price-index-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Consumer Price Index (CPI)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Consumer Price Index (CPI)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#whats-in-the-basket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What's in the Basket?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What&#39;s in the Basket?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-cpi-market-basket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: CPI Market Basket
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculating-the-cpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Calculating the CPI
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-inflation-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Inflation Rate
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Inflation Rate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#whats-a-normal-inflation-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What's a "Normal" Inflation Rate?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-inflation-vs-headline-inflation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Inflation vs. Headline Inflation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#purchasing-power-what-your-money-actually-buys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purchasing Power: What Your Money Actually Buys
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Purchasing Power: What Your Money Actually Buys">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-erosion-of-savings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Erosion of Savings
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Erosion of Savings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-inflation-impact-calculator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Inflation Impact Calculator
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#winners-and-losers-from-inflation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Winners and Losers from Inflation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deflation-when-prices-fall-and-why-thats-bad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deflation: When Prices Fall (And Why That's Bad)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Deflation: When Prices Fall (And Why That&#39;s Bad)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-deflation-spiral" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Deflation Spiral
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#real-debt-burden-increases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Real Debt Burden Increases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historical-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Historical Examples
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recession-when-the-economy-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recession: When the Economy Contracts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recession: When the Economy Contracts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-do-we-know-were-in-a-recession" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How Do We Know We're in a Recession?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-causes-recessions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Causes Recessions?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recent-us-recessions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recent US Recessions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-human-cost" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Human Cost
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Human Cost">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-recession-indicators-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Recession Indicators Dashboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stagflation-the-worst-of-both-worlds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stagflation: The Worst of Both Worlds
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stagflation: The Worst of Both Worlds">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-1970s-stagflation-in-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The 1970s: Stagflation in Action
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-stagflation-is-rare" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Stagflation Is Rare
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hidden-inflation-shrinkflation-and-quality-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hidden Inflation: Shrinkflation and Quality Changes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#critical-thinking-inflation-in-the-wild" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Critical Thinking: Inflation in the Wild
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Critical Thinking: Inflation in the Wild">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#red-flag-1-cherry-picking-the-measure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Flag #1: Cherry-Picking the Measure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#red-flag-2-year-over-year-vs-month-over-month" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Flag #2: Year-Over-Year vs. Month-Over-Month
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#red-flag-3-inflation-is-destroying-the-economy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Flag #3: "Inflation Is Destroying the Economy!"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#red-flag-4-ignoring-wage-growth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Flag #4: Ignoring Wage Growth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#red-flag-5-blaming-the-wrong-cause" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Flag #5: Blaming the Wrong Cause
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Questions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next Steps
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="inflation-and-the-business-cycle">Inflation and the Business Cycle<a class="headerlink" href="#inflation-and-the-business-cycle" title="Permanent link">&para;</a></h1>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>This chapter explores price level changes and economic fluctuations. Students will learn how inflation is measured using the Consumer Price Index, why moderate inflation occurs, and the economic problems caused by high inflation or deflation. The chapter also covers the business cycle and recessions.</p>
+<p>After completing this chapter, students will be able to interpret inflation data and understand how economic cycles affect jobs, prices, and growth.</p>
+<h2 id="concepts-covered">Concepts Covered<a class="headerlink" href="#concepts-covered" title="Permanent link">&para;</a></h2>
+<p>This chapter covers the following 7 concepts from the learning graph:</p>
+<ol>
+<li>Inflation</li>
+<li>Consumer Price Index</li>
+<li>Inflation Rate</li>
+<li>Deflation</li>
+<li>Purchasing Power</li>
+<li>Recession</li>
+<li>Stagflation</li>
+</ol>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
+<p>This chapter builds on concepts from:</p>
+<ul>
+<li><a href="../07-measuring-economy/">Chapter 7: Measuring the Economy</a></li>
+<li><a href="../08-employment-unemployment/">Chapter 8: Employment and Unemployment</a></li>
+</ul>
+<hr />
+<h2 id="your-money-is-shrinking-sort-of">Your Money Is Shrinking (Sort Of)<a class="headerlink" href="#your-money-is-shrinking-sort-of" title="Permanent link">&para;</a></h2>
+<p>Here's something that might blow your mind: a dollar today is worth less than a dollar was when your parents were your age. Not because someone physically changed the bills—but because prices have risen. The same piece of paper buys less stuff.</p>
+<p>This is <strong>inflation</strong>, and understanding it is one of the most practical economic superpowers you can have. You've probably noticed it yourself: remember when your favorite snack cost less? Or when streaming services didn't raise their prices every year?</p>
+<p>By the end of this chapter, you'll understand why prices generally rise over time, how economists measure it, and why a little inflation is actually considered healthy. You'll also learn about the scary scenarios—what happens when inflation goes crazy, or when the opposite happens and prices start falling.</p>
+<p>Most importantly, you'll be able to see through the hype. Every time inflation ticks up, headlines scream about economic disaster. Every election, politicians blame each other for rising prices. With your new knowledge, you'll be able to separate legitimate concerns from manufactured panic.</p>
+<p>Let's dive in.</p>
+<h2 id="what-is-inflation">What Is Inflation?<a class="headerlink" href="#what-is-inflation" title="Permanent link">&para;</a></h2>
+<p><strong>Inflation</strong> is a sustained increase in the general price level of goods and services in an economy over time.</p>
+<p>Let's unpack that definition:</p>
+<ul>
+<li><strong>Sustained</strong>: Not a one-time price spike, but ongoing increases</li>
+<li><strong>General price level</strong>: Most prices rising, not just a few items</li>
+<li><strong>Over time</strong>: Measured month-to-month or year-to-year</li>
+</ul>
+<p>When inflation occurs, each unit of currency (like a dollar) buys fewer goods and services than before. Your money doesn't literally shrink—but its purchasing power does.</p>
+<div class="admonition note">
+<p class="admonition-title">Not All Price Increases Are Inflation</p>
+<p>If gas prices spike because of a hurricane hitting oil refineries, that's not really "inflation"—it's a supply shock to one product. Inflation means the overall price level is rising. Economists look at broad measures, not individual items.</p>
+</div>
+<h3 id="why-does-inflation-happen">Why Does Inflation Happen?<a class="headerlink" href="#why-does-inflation-happen" title="Permanent link">&para;</a></h3>
+<p>Economists identify two main causes:</p>
+<p><strong>1. Demand-Pull Inflation</strong> ("Too much money chasing too few goods")</p>
+<p>When consumers and businesses want to buy more stuff than the economy can produce, prices get bid up. This often happens when:</p>
+<ul>
+<li>The economy is booming and everyone has jobs</li>
+<li>Government pumps money into the economy (stimulus checks, etc.)</li>
+<li>Interest rates are very low, making borrowing cheap</li>
+</ul>
+<p>Think of it like an auction: if more bidders show up with more money, prices rise.</p>
+<p><strong>2. Cost-Push Inflation</strong> (Rising production costs)</p>
+<p>When it becomes more expensive to make things, producers raise prices to maintain their profits. Causes include:</p>
+<ul>
+<li>Rising wages (workers demand more pay)</li>
+<li>Higher energy costs (oil price spikes)</li>
+<li>Supply chain problems (can't get materials)</li>
+<li>Higher raw material costs</li>
+</ul>
+<p>This is like the restaurant raising menu prices because their food suppliers increased prices.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Cause</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Demand-Pull</td>
+<td>Too much spending</td>
+<td>Economic boom, stimulus payments</td>
+</tr>
+<tr>
+<td>Cost-Push</td>
+<td>Higher production costs</td>
+<td>Oil crisis, supply chain disruption</td>
+</tr>
+</tbody>
+</table>
+<p>In reality, both types often occur together, making it hard to pinpoint exact causes.</p>
+<h2 id="the-consumer-price-index-cpi">The Consumer Price Index (CPI)<a class="headerlink" href="#the-consumer-price-index-cpi" title="Permanent link">&para;</a></h2>
+<p>How do we actually measure inflation? We can't check the price of every product in the economy. Instead, economists use the <strong>Consumer Price Index (CPI)</strong>.</p>
+<p>The <strong>CPI</strong> measures the average change in prices paid by urban consumers for a "basket" of goods and services over time.</p>
+<p>Here's how it works:</p>
+<ol>
+<li><strong>Define a "market basket"</strong>: A representative collection of goods and services that typical consumers buy</li>
+<li><strong>Track prices</strong>: Check the prices of everything in the basket regularly</li>
+<li><strong>Calculate the index</strong>: Compare current prices to a base year</li>
+<li><strong>Report changes</strong>: Express how much prices have risen or fallen</li>
+</ol>
+<h3 id="whats-in-the-basket">What's in the Basket?<a class="headerlink" href="#whats-in-the-basket" title="Permanent link">&para;</a></h3>
+<p>The Bureau of Labor Statistics (BLS) surveys thousands of households to determine what Americans actually buy. The basket includes:</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Weight (approx.)</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Housing</td>
+<td>33%</td>
+<td>Rent, utilities, furniture</td>
+</tr>
+<tr>
+<td>Transportation</td>
+<td>15%</td>
+<td>Cars, gas, insurance, public transit</td>
+</tr>
+<tr>
+<td>Food &amp; Beverages</td>
+<td>14%</td>
+<td>Groceries, restaurants</td>
+</tr>
+<tr>
+<td>Medical Care</td>
+<td>9%</td>
+<td>Insurance, doctors, prescriptions</td>
+</tr>
+<tr>
+<td>Education &amp; Communication</td>
+<td>7%</td>
+<td>Tuition, phones, internet</td>
+</tr>
+<tr>
+<td>Recreation</td>
+<td>5%</td>
+<td>Entertainment, sports, hobbies</td>
+</tr>
+<tr>
+<td>Apparel</td>
+<td>3%</td>
+<td>Clothing, shoes</td>
+</tr>
+<tr>
+<td>Other</td>
+<td>14%</td>
+<td>Personal care, miscellaneous</td>
+</tr>
+</tbody>
+</table>
+<p>The "weight" matters because not all spending is equal. Housing takes a bigger chunk of most budgets than clothing, so housing price changes affect the CPI more.</p>
+<h4 id="diagram-cpi-market-basket">Diagram: CPI Market Basket<a class="headerlink" href="#diagram-cpi-market-basket" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/cpi-basket-explorer/main.html" width="100%" height="500px" scrolling="no"></iframe>
+
+<details>
+<summary>CPI Market Basket Explorer MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Understand (L2)
+Bloom Verb: explain, interpret, demonstrate</p>
+<p>Learning Objective: Students will explain how the CPI is constructed from weighted categories and interpret how price changes in different categories affect the overall index.</p>
+<p>Purpose: Make the abstract CPI calculation concrete by letting students manipulate prices and see the effects.</p>
+<p>Canvas Layout:
+- Left side (400px): Visual basket with category icons and price displays
+- Right side (250px): CPI calculation and index display</p>
+<p>Visual Elements:
+- Shopping basket graphic divided into weighted sections
+- Category icons (house, car, food, medicine, etc.)
+- Size of section represents weight in index
+- Price tags showing current prices
+- CPI dial or gauge showing current index value
+- Base year comparison (100 = base year)</p>
+<p>Interactive Controls:
+- Slider for each category: price change % (-10% to +20%)
+- Preset scenarios:
+  - "Oil Crisis" (transportation +30%, others moderate)
+  - "Housing Boom" (housing +15%)
+  - "Tech Deflation" (electronics -10%)
+  - "Stable Economy" (all +2-3%)
+- "Reset to Baseline" button
+- Toggle: "Show my spending" (adjust weights to personal budget)</p>
+<p>Data Visibility Requirements:
+- Stage 1: Show baseline basket with all prices at 100
+- Stage 2: Adjust one category - show contribution to total CPI
+- Stage 3: Show formula: CPI = Σ(Category Price Change × Weight)
+- Stage 4: Compare weighted vs unweighted average</p>
+<p>Behavior:
+- Moving category sliders updates CPI in real-time
+- Visual shows categories expanding/shrinking based on price changes
+- Display: "Overall CPI: X" and "Inflation Rate: Y%"
+- When "my spending" toggled:
+  - Adjust weights to personal patterns
+  - Show "Your personal inflation rate: Z%"
+  - Compare to official CPI</p>
+<p>Critical Thinking Feature:
+- "Why might your inflation feel different than the official rate?"
+- Shows how personal spending patterns create different experiences</p>
+<p>Instructional Rationale: Interactive weight manipulation helps students understand why the CPI might not match their personal experience. Seeing how different categories contribute makes the index construction transparent.</p>
+<p>Implementation: p5.js with visual basket, sliders, and real-time calculation</p>
+</details>
+<h3 id="calculating-the-cpi">Calculating the CPI<a class="headerlink" href="#calculating-the-cpi" title="Permanent link">&para;</a></h3>
+<p>The CPI is expressed as an index number relative to a base period (currently 1982-1984 = 100).</p>
+<div class="arithmatex">\[\text{CPI} = \frac{\text{Cost of basket in current year}}{\text{Cost of basket in base year}} \times 100\]</div>
+<p>If the CPI is 310, that means prices are 3.1 times higher than in the base period. A basket that cost $100 in 1982-1984 now costs $310.</p>
+<h2 id="the-inflation-rate">The Inflation Rate<a class="headerlink" href="#the-inflation-rate" title="Permanent link">&para;</a></h2>
+<p>The <strong>inflation rate</strong> is the percentage change in the price level from one period to another.</p>
+<div class="arithmatex">\[\text{Inflation Rate} = \frac{\text{CPI}_{\text{current}} - \text{CPI}_{\text{previous}}}{\text{CPI}_{\text{previous}}} \times 100\]</div>
+<p>If the CPI was 300 last year and is 310 this year:</p>
+<div class="arithmatex">\[\text{Inflation Rate} = \frac{310 - 300}{300} \times 100 = 3.3\%\]</div>
+<p>This means prices rose by 3.3% over the year.</p>
+<h3 id="whats-a-normal-inflation-rate">What's a "Normal" Inflation Rate?<a class="headerlink" href="#whats-a-normal-inflation-rate" title="Permanent link">&para;</a></h3>
+<p>In most developed economies, central banks target around <strong>2% annual inflation</strong>. Why not 0%?</p>
+<ul>
+<li><strong>Some inflation is healthy</strong>: It encourages spending and investment (why hold cash if it loses value?)</li>
+<li><strong>It provides wiggle room</strong>: Central banks can cut interest rates during recessions</li>
+<li><strong>It's hard to hit exactly 0%</strong>: Small positive target is more achievable</li>
+<li><strong>Deflation is worse</strong>: As we'll see, falling prices cause serious problems</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Inflation Rate</th>
+<th>Description</th>
+<th>Typical Concern</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0% or negative</td>
+<td>Deflation</td>
+<td>Serious concern</td>
+</tr>
+<tr>
+<td>1-3%</td>
+<td>Low/moderate</td>
+<td>Target range</td>
+</tr>
+<tr>
+<td>4-6%</td>
+<td>Elevated</td>
+<td>Causes concern</td>
+</tr>
+<tr>
+<td>7-10%</td>
+<td>High</td>
+<td>Significant problem</td>
+</tr>
+<tr>
+<td>10%+</td>
+<td>Very high</td>
+<td>Economic distress</td>
+</tr>
+<tr>
+<td>50%+ monthly</td>
+<td>Hyperinflation</td>
+<td>Economic collapse</td>
+</tr>
+</tbody>
+</table>
+<h3 id="core-inflation-vs-headline-inflation">Core Inflation vs. Headline Inflation<a class="headerlink" href="#core-inflation-vs-headline-inflation" title="Permanent link">&para;</a></h3>
+<p>You'll often hear about "core inflation" in the news. What's the difference?</p>
+<ul>
+<li><strong>Headline inflation</strong>: The full CPI, including everything</li>
+<li><strong>Core inflation</strong>: CPI excluding food and energy prices</li>
+</ul>
+<p>Why exclude food and energy? Because they're volatile—they bounce up and down a lot based on weather, geopolitics, and other short-term factors. Core inflation gives a cleaner picture of underlying price trends.</p>
+<div class="admonition warning">
+<p class="admonition-title">Critical Thinking Alert</p>
+<p>When politicians cite inflation numbers, check whether they're using headline or core. During an oil price spike, headline inflation looks scary while core might be calm. Someone could choose whichever number supports their argument.</p>
+</div>
+<h2 id="purchasing-power-what-your-money-actually-buys">Purchasing Power: What Your Money Actually Buys<a class="headerlink" href="#purchasing-power-what-your-money-actually-buys" title="Permanent link">&para;</a></h2>
+<p><strong>Purchasing power</strong> is the quantity of goods and services that a unit of currency can buy.</p>
+<p>When inflation rises, purchasing power falls. Your $20 bill hasn't changed, but it buys fewer tacos, fewer gallons of gas, fewer movie tickets.</p>
+<p>This is why we distinguish between:</p>
+<ul>
+<li><strong>Nominal values</strong>: The actual dollar amount (what the price tag says)</li>
+<li><strong>Real values</strong>: Adjusted for inflation (actual purchasing power)</li>
+</ul>
+<p>Remember from Chapter 7 how we talked about nominal vs. real GDP? Same concept applies here to wages, savings, and prices.</p>
+<h3 id="the-erosion-of-savings">The Erosion of Savings<a class="headerlink" href="#the-erosion-of-savings" title="Permanent link">&para;</a></h3>
+<p>Here's where inflation gets personal. If you have $1,000 in savings earning 1% interest, but inflation is 4%, you're actually losing purchasing power:</p>
+<ul>
+<li>Nominal gain: $1,000 × 1% = $10</li>
+<li>Real loss: <span class="arithmatex">\(1,000 × (1% - 4%) = -\)</span>30 in purchasing power</li>
+</ul>
+<p>Your bank account shows more dollars, but those dollars buy less. You've effectively lost money in real terms.</p>
+<p>This is why financial advisors emphasize <strong>real returns</strong> (return after inflation), not just nominal returns.</p>
+<h4 id="diagram-inflation-impact-calculator">Diagram: Inflation Impact Calculator<a class="headerlink" href="#diagram-inflation-impact-calculator" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/inflation-calculator/main.html" width="100%" height="450px" scrolling="no"></iframe>
+
+<details>
+<summary>Inflation Impact Calculator MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Apply (L3)
+Bloom Verb: calculate, apply, demonstrate</p>
+<p>Learning Objective: Students will calculate how inflation erodes purchasing power over time and compare nominal vs. real values.</p>
+<p>Purpose: Make the abstract concept of purchasing power loss concrete with personal numbers.</p>
+<p>Canvas Layout:
+- Left side (350px): Input panel
+- Right side (350px): Results visualization</p>
+<p>Visual Elements:
+- Input fields for:
+  - Starting amount ($100 - $10,000)
+  - Years (1-50)
+  - Annual inflation rate (0-15%)
+  - Interest/return rate (0-15%)
+- Two visual representations:
+  - Stack of dollar bills shrinking over time
+  - Line graph showing nominal vs real value
+- Final comparison: "Your $X will be worth $Y in purchasing power"</p>
+<p>Interactive Controls:
+- Sliders for all input values
+- "Show historical scenario" presets:
+  - "1970s High Inflation" (10% average)
+  - "2010s Low Inflation" (2% average)
+  - "Normal Conditions" (3% average)
+- Toggle: "Add returns" to see if investments beat inflation
+- "Calculate" button (auto-updates)</p>
+<p>Data Visibility Requirements:
+- Stage 1: Show starting amount
+- Stage 2: Apply inflation year by year
+- Stage 3: Show nominal amount unchanged (or growing with interest)
+- Stage 4: Show real purchasing power declining
+- Stage 5: Final comparison with equivalent goods</p>
+<p>Behavior:
+- Real-time calculation as sliders move
+- Dollar stack visual shrinks proportionally
+- Graph shows diverging lines (nominal vs real)
+- "In X years, your $1,000 will buy what $Y buys today"
+- If returns &gt; inflation: "You're beating inflation!"
+- If returns &lt; inflation: "Inflation is winning—your money is shrinking"</p>
+<p>Instructional Rationale: Visualizing the erosion of purchasing power makes the urgency of inflation clear. Students see why savings accounts earning less than inflation mean losing money in real terms.</p>
+<p>Implementation: p5.js with inputs, animated dollar visual, and dual-line chart</p>
+</details>
+<h3 id="winners-and-losers-from-inflation">Winners and Losers from Inflation<a class="headerlink" href="#winners-and-losers-from-inflation" title="Permanent link">&para;</a></h3>
+<p>Inflation doesn't affect everyone equally. Some people benefit, while others suffer:</p>
+<p><strong>Losers from Inflation:</strong></p>
+<ul>
+<li><strong>Savers</strong>: Money in savings accounts loses purchasing power</li>
+<li><strong>People on fixed incomes</strong>: Retirees with set pensions see their buying power decline</li>
+<li><strong>Lenders</strong>: If you lent money at 5% interest and inflation jumps to 8%, you're losing in real terms</li>
+<li><strong>Workers without raises</strong>: If wages don't keep up with inflation, real pay falls</li>
+</ul>
+<p><strong>Winners from Inflation:</strong></p>
+<ul>
+<li><strong>Borrowers</strong>: If you borrowed at fixed rates, you repay with "cheaper" dollars</li>
+<li><strong>Homeowners with mortgages</strong>: Your debt becomes easier to pay in real terms</li>
+<li><strong>Asset owners</strong>: Real estate, stocks often rise with or faster than inflation</li>
+<li><strong>Government</strong>: Tax brackets and debt become relatively smaller</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Group</th>
+<th>Effect of Inflation</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Savers</td>
+<td>Negative</td>
+<td>Purchasing power erodes</td>
+</tr>
+<tr>
+<td>Fixed-income retirees</td>
+<td>Negative</td>
+<td>Benefits don't adjust fast enough</td>
+</tr>
+<tr>
+<td>Borrowers (fixed rate)</td>
+<td>Positive</td>
+<td>Repay with "cheaper" dollars</td>
+</tr>
+<tr>
+<td>Homeowners (mortgage)</td>
+<td>Positive</td>
+<td>Debt shrinks in real terms</td>
+</tr>
+<tr>
+<td>Workers without raises</td>
+<td>Negative</td>
+<td>Real wages fall</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Inflation and Student Loans</p>
+<p>Here's a silver lining for future you: if you have fixed-rate student loans, inflation actually helps you. You'll repay those loans with dollars that are worth less than when you borrowed them. (This doesn't mean high inflation is good—just that there's one small consolation!)</p>
+</div>
+<h2 id="deflation-when-prices-fall-and-why-thats-bad">Deflation: When Prices Fall (And Why That's Bad)<a class="headerlink" href="#deflation-when-prices-fall-and-why-thats-bad" title="Permanent link">&para;</a></h2>
+<p>Wait—if rising prices are bad, wouldn't falling prices be good? Surprisingly, <strong>deflation</strong> (a sustained decrease in the general price level) is often worse than moderate inflation.</p>
+<p><strong>Deflation</strong> seems great at first: your money buys more! But here's the problem:</p>
+<h3 id="the-deflation-spiral">The Deflation Spiral<a class="headerlink" href="#the-deflation-spiral" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Consumers delay purchases</strong>: "Why buy a TV today if it'll be cheaper next month?" This reduces spending.</li>
+<li><strong>Businesses cut production</strong>: Less demand means less production needed.</li>
+<li><strong>Workers get laid off</strong>: Lower production means fewer jobs.</li>
+<li><strong>Spending falls further</strong>: Unemployed people spend less.</li>
+<li><strong>Prices fall more</strong>: The cycle continues.</li>
+</ol>
+<p>This is a <strong>deflationary spiral</strong>, and it can be incredibly hard to escape.</p>
+<h3 id="real-debt-burden-increases">Real Debt Burden Increases<a class="headerlink" href="#real-debt-burden-increases" title="Permanent link">&para;</a></h3>
+<p>During deflation, debts become harder to repay. If you owe $100,000 on a mortgage and prices fall 10%, you still owe $100,000—but your income probably fell too, while the debt didn't.</p>
+<p>In inflation, debts shrink in real terms. In deflation, debts grow in real terms. This can crush borrowers and cause widespread defaults.</p>
+<h3 id="historical-examples">Historical Examples<a class="headerlink" href="#historical-examples" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>The Great Depression (1930s)</strong>: Prices fell dramatically, unemployment hit 25%, and the economy collapsed</li>
+<li><strong>Japan (1990s-2010s)</strong>: Decades of near-zero or negative inflation led to economic stagnation</li>
+</ul>
+<p>This is why central banks really, really want to avoid deflation—even if it means accepting some inflation.</p>
+<h2 id="recession-when-the-economy-contracts">Recession: When the Economy Contracts<a class="headerlink" href="#recession-when-the-economy-contracts" title="Permanent link">&para;</a></h2>
+<p>A <strong>recession</strong> is a significant decline in economic activity spread across the economy, lasting more than a few months.</p>
+<p>You encountered recessions briefly in Chapter 7 when we discussed the business cycle. Let's go deeper.</p>
+<h3 id="how-do-we-know-were-in-a-recession">How Do We Know We're in a Recession?<a class="headerlink" href="#how-do-we-know-were-in-a-recession" title="Permanent link">&para;</a></h3>
+<p>The National Bureau of Economic Research (NBER) officially declares recessions based on several indicators:</p>
+<ul>
+<li><strong>Real GDP decline</strong>: The economy is producing less</li>
+<li><strong>Rising unemployment</strong>: Businesses are laying off workers</li>
+<li><strong>Falling income</strong>: People are earning less</li>
+<li><strong>Declining retail sales</strong>: Consumers are spending less</li>
+<li><strong>Falling industrial production</strong>: Factories are producing less</li>
+</ul>
+<p>The old rule of thumb—"two consecutive quarters of declining GDP"—is a simplification. The NBER looks at a broader picture.</p>
+<h3 id="what-causes-recessions">What Causes Recessions?<a class="headerlink" href="#what-causes-recessions" title="Permanent link">&para;</a></h3>
+<p>Recessions can be triggered by various factors:</p>
+<ul>
+<li><strong>Financial crises</strong>: Bank failures, credit crunches (2008)</li>
+<li><strong>External shocks</strong>: Pandemics (2020), oil embargoes (1973)</li>
+<li><strong>Bursting bubbles</strong>: Housing bubble (2008), dot-com bubble (2001)</li>
+<li><strong>Policy mistakes</strong>: Central banks raising rates too aggressively</li>
+<li><strong>Declining confidence</strong>: Businesses and consumers become pessimistic and cut spending</li>
+</ul>
+<p>Often, multiple factors combine. The 2008 recession involved a housing bubble, financial crisis, and credit crunch all at once.</p>
+<h3 id="recent-us-recessions">Recent US Recessions<a class="headerlink" href="#recent-us-recessions" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Recession</th>
+<th>Duration</th>
+<th>Cause</th>
+<th>Peak Unemployment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2020 (COVID)</td>
+<td>2 months</td>
+<td>Pandemic lockdowns</td>
+<td>14.7%</td>
+</tr>
+<tr>
+<td>2007-2009</td>
+<td>18 months</td>
+<td>Financial crisis, housing bubble</td>
+<td>10.0%</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>8 months</td>
+<td>Dot-com bubble, 9/11</td>
+<td>6.3%</td>
+</tr>
+<tr>
+<td>1990-1991</td>
+<td>8 months</td>
+<td>Oil shock, credit crunch</td>
+<td>7.8%</td>
+</tr>
+<tr>
+<td>1981-1982</td>
+<td>16 months</td>
+<td>Fed fighting inflation</td>
+<td>10.8%</td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-human-cost">The Human Cost<a class="headerlink" href="#the-human-cost" title="Permanent link">&para;</a></h3>
+<p>Statistics don't capture how recessions feel. During recessions:</p>
+<ul>
+<li>People lose jobs and struggle to find new ones</li>
+<li>Families lose homes to foreclosure</li>
+<li>Businesses that people spent years building close permanently</li>
+<li>Recent graduates enter a terrible job market</li>
+<li>Stress and uncertainty affect mental health</li>
+</ul>
+<p>Understanding recessions isn't just academic—it helps you prepare for economic hard times and understand what policy responses might help.</p>
+<h4 id="diagram-recession-indicators-dashboard">Diagram: Recession Indicators Dashboard<a class="headerlink" href="#diagram-recession-indicators-dashboard" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/recession-dashboard/main.html" width="100%" height="500px" scrolling="no"></iframe>
+
+<details>
+<summary>Recession Indicators Dashboard MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Analyze (L4)
+Bloom Verb: analyze, examine, compare</p>
+<p>Learning Objective: Students will analyze multiple economic indicators to assess whether the economy is heading toward, in, or recovering from a recession.</p>
+<p>Purpose: Show how economists use multiple data points to identify recessions, not just GDP.</p>
+<p>Canvas Layout:
+- Main area (500px): Dashboard with multiple indicator panels
+- Right side (150px): Overall assessment and controls</p>
+<p>Visual Elements:
+- Six indicator mini-panels:
+  1. Real GDP growth (line chart)
+  2. Unemployment rate (line chart)
+  3. Consumer confidence (gauge)
+  4. Retail sales (bar chart)
+  5. Industrial production (line chart)
+  6. Leading indicators (composite)
+- Color coding: Green (healthy), Yellow (warning), Red (recession)
+- Overall "Economy Status" indicator
+- Timeline selector for historical periods</p>
+<p>Interactive Controls:
+- Time period selector: 2000-2025
+- Preset buttons:
+  - "2008 Financial Crisis"
+  - "2020 COVID Recession"
+  - "2010-2019 Expansion"
+  - "Current"
+- Animation: "Watch the recession unfold" (time-lapse through recession)
+- Individual indicator deep-dive on click</p>
+<p>Behavior:
+- Selecting time period updates all indicators simultaneously
+- Colors change to reflect economic conditions
+- "Overall Assessment" updates: "Expansion," "Warning Signs," "Recession," "Recovery"
+- Clicking indicator shows larger view with more detail
+- Animation shows how indicators change through recession cycle</p>
+<p>Data (historical US data):
+- GDP growth turning negative
+- Unemployment rising from ~4% to 10%+
+- Confidence plummeting
+- Retail sales dropping
+- Industrial production falling</p>
+<p>Instructional Rationale: Analyzing multiple indicators simultaneously shows that recessions are complex economic events, not just a single number. Students learn to see patterns and leading indicators.</p>
+<p>Implementation: p5.js with multiple mini-charts and time-synchronized data</p>
+</details>
+<h2 id="stagflation-the-worst-of-both-worlds">Stagflation: The Worst of Both Worlds<a class="headerlink" href="#stagflation-the-worst-of-both-worlds" title="Permanent link">&para;</a></h2>
+<p><strong>Stagflation</strong> is the unfortunate combination of stagnant economic growth, high unemployment, AND high inflation occurring simultaneously.</p>
+<p>This is the economic nightmare scenario because the usual policy tools don't work well:</p>
+<ul>
+<li><strong>To fight inflation</strong>: Raise interest rates, reduce spending → But this worsens unemployment</li>
+<li><strong>To fight unemployment</strong>: Lower interest rates, increase spending → But this worsens inflation</li>
+</ul>
+<p>You're trapped: every solution makes one problem worse.</p>
+<h3 id="the-1970s-stagflation-in-action">The 1970s: Stagflation in Action<a class="headerlink" href="#the-1970s-stagflation-in-action" title="Permanent link">&para;</a></h3>
+<p>The classic example is the United States in the 1970s:</p>
+<ul>
+<li><strong>Oil shocks</strong> (1973 and 1979): OPEC oil embargoes caused energy prices to skyrocket</li>
+<li><strong>Cost-push inflation</strong>: Higher energy costs pushed up prices across the economy</li>
+<li><strong>Slowing growth</strong>: High energy costs hurt businesses, causing layoffs</li>
+<li><strong>Result</strong>: High inflation (10-13%) AND high unemployment (7-9%) at the same time</li>
+</ul>
+<p>The standard playbook didn't work. It took aggressive Federal Reserve action in the early 1980s (raising interest rates dramatically) to finally break the inflation—but it caused a severe recession first.</p>
+<h3 id="why-stagflation-is-rare">Why Stagflation Is Rare<a class="headerlink" href="#why-stagflation-is-rare" title="Permanent link">&para;</a></h3>
+<p>Stagflation typically requires a specific type of shock—usually a supply-side shock that raises costs while reducing output (like an oil embargo). Normally:</p>
+<ul>
+<li>High inflation occurs during economic booms (demand-pull)</li>
+<li>High unemployment occurs during recessions (weak demand)</li>
+</ul>
+<p>They don't usually happen together, which is why stagflation is so disorienting when it occurs.</p>
+<h2 id="hidden-inflation-shrinkflation-and-quality-changes">Hidden Inflation: Shrinkflation and Quality Changes<a class="headerlink" href="#hidden-inflation-shrinkflation-and-quality-changes" title="Permanent link">&para;</a></h2>
+<p>Here's something the official CPI might not fully capture: <strong>shrinkflation</strong>.</p>
+<p><strong>Shrinkflation</strong> occurs when products get smaller while prices stay the same. That candy bar that used to be 3.5 oz is now 3.0 oz—same price! Technically not inflation (price didn't rise), but you're getting less for your money.</p>
+<p>Companies love shrinkflation because:</p>
+<ul>
+<li>Consumers notice price increases</li>
+<li>Consumers often don't notice size decreases</li>
+<li>The per-unit price rises without changing the sticker price</li>
+</ul>
+<p><strong>Quality changes</strong> work similarly but in both directions:</p>
+<ul>
+<li>Your phone might cost the same as five years ago, but it's WAY more powerful (quality improved)</li>
+<li>Your airline ticket might cost the same, but now you pay extra for bags, food, and seat selection (quality declined)</li>
+</ul>
+<p>The BLS tries to adjust for these changes, but it's imperfect. Your personal experience of inflation might differ from the official number.</p>
+<div class="admonition tip">
+<p class="admonition-title">Spot the Shrinkflation</p>
+<p>Next time you're at the store, check the "unit price" (price per ounce, per pound, etc.) on the shelf tag. This reveals shrinkflation because even if the package price stays the same, the unit price rises when the product shrinks.</p>
+</div>
+<h2 id="critical-thinking-inflation-in-the-wild">Critical Thinking: Inflation in the Wild<a class="headerlink" href="#critical-thinking-inflation-in-the-wild" title="Permanent link">&para;</a></h2>
+<p>Let's apply your critical thinking skills to how inflation data gets used in public debate.</p>
+<h3 id="red-flag-1-cherry-picking-the-measure">Red Flag #1: Cherry-Picking the Measure<a class="headerlink" href="#red-flag-1-cherry-picking-the-measure" title="Permanent link">&para;</a></h3>
+<p>Headline vs. core inflation can tell very different stories. Food and energy spiking? Headline inflation looks scary while core stays calm. Check which measure is being cited.</p>
+<h3 id="red-flag-2-year-over-year-vs-month-over-month">Red Flag #2: Year-Over-Year vs. Month-Over-Month<a class="headerlink" href="#red-flag-2-year-over-year-vs-month-over-month" title="Permanent link">&para;</a></h3>
+<p>Monthly inflation can be volatile. Year-over-year comparisons are more stable but can be distorted by what happened 12 months ago. If prices spiked last year then stabilized, year-over-year will look bad even if current conditions are fine.</p>
+<h3 id="red-flag-3-inflation-is-destroying-the-economy">Red Flag #3: "Inflation Is Destroying the Economy!"<a class="headerlink" href="#red-flag-3-inflation-is-destroying-the-economy" title="Permanent link">&para;</a></h3>
+<p>Some inflation (2-3%) is normal and even healthy. Headlines often treat any inflation as a crisis. Ask: What's the actual number? How does it compare to historical norms?</p>
+<h3 id="red-flag-4-ignoring-wage-growth">Red Flag #4: Ignoring Wage Growth<a class="headerlink" href="#red-flag-4-ignoring-wage-growth" title="Permanent link">&para;</a></h3>
+<p>If inflation is 4% but wages grew 5%, workers are actually better off in real terms. Always compare inflation to wage growth to get the full picture.</p>
+<h3 id="red-flag-5-blaming-the-wrong-cause">Red Flag #5: Blaming the Wrong Cause<a class="headerlink" href="#red-flag-5-blaming-the-wrong-cause" title="Permanent link">&para;</a></h3>
+<p>Inflation has many causes—supply chains, energy costs, monetary policy, consumer demand. Politicians often blame whatever supports their narrative and ignore other factors.</p>
+<details class="question">
+<summary>Practice: Analyzing Inflation Claims</summary>
+<p>A headline screams: "Inflation SOARS to 7%—Highest in 40 Years!" What questions should you ask before panicking?</p>
+<p>You should ask:
+1. Is this headline or core inflation?
+2. What's driving it? (Supply shocks? Demand? Both?)
+3. What's the monthly trend? (Still rising, or stabilizing?)
+4. How do wages compare? Are real wages falling?
+5. What's the comparison period? (Year-over-year from a weird base?)
+6. What are other developed countries experiencing? (Global vs. local issue?)
+7. What are inflation expectations? (Temporary or becoming entrenched?)</p>
+</details>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">&para;</a></h2>
+<p>You've unlocked crucial inflation superpowers:</p>
+<ol>
+<li><strong>Inflation</strong> is a sustained increase in the general price level—moderate inflation is normal</li>
+<li>The <strong>CPI</strong> measures inflation using a weighted basket of goods and services</li>
+<li>The <strong>inflation rate</strong> is the percentage change in prices over time—target is around 2%</li>
+<li><strong>Purchasing power</strong> is what your money actually buys—it falls when inflation rises</li>
+<li><strong>Deflation</strong> (falling prices) is often worse than inflation—it can create vicious spirals</li>
+<li><strong>Recessions</strong> are broad economic contractions with falling output and rising unemployment</li>
+<li><strong>Stagflation</strong> is the nightmare combo of high inflation AND high unemployment</li>
+<li>Your <strong>personal inflation</strong> may differ from official CPI based on your spending patterns</li>
+<li><strong>Shrinkflation</strong> is hidden inflation—same price, smaller package</li>
+<li>Always check <strong>nominal vs. real</strong> values and <strong>headline vs. core</strong> inflation</li>
+</ol>
+<h2 id="practice-questions">Practice Questions<a class="headerlink" href="#practice-questions" title="Permanent link">&para;</a></h2>
+<p>Test your understanding:</p>
+<ol>
+<li>
+<p>If the CPI was 280 last year and is 294 this year, what is the inflation rate?</p>
+</li>
+<li>
+<p>Why do economists consider 2% inflation healthy, rather than targeting 0%?</p>
+</li>
+<li>
+<p>You have $5,000 in savings earning 2% interest. Inflation is 5%. Are you gaining or losing purchasing power? By how much?</p>
+</li>
+<li>
+<p>Your favorite cereal costs the same as last year, but the box went from 18 oz to 15 oz. What's happening, and what's the effective price increase?</p>
+</li>
+<li>
+<p>During the 1970s oil crisis, the US experienced stagflation. Why couldn't the government simply lower interest rates to reduce unemployment?</p>
+</li>
+</ol>
+<hr />
+<h2 id="next-steps">Next Steps<a class="headerlink" href="#next-steps" title="Permanent link">&para;</a></h2>
+<p>Now that you understand how inflation affects prices and purchasing power, you're ready to explore the tools governments use to manage the economy. In the next chapter, we'll examine <strong>Money, Banking, and the Federal Reserve</strong>—how the financial system works and how the Fed tries to keep inflation and unemployment in balance.</p>
+<p>Your economic superpower now includes seeing through inflation hype and understanding what those price changes actually mean for your wallet. That's knowledge you'll use for the rest of your life!</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tracking", "content.code.copy"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../../javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>

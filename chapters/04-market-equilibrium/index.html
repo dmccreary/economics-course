@@ -1,0 +1,2849 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="How markets find the "just right" price where supply meets demand, and what happens when governments intervene">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/economics-course/chapters/04-market-equilibrium/">
+      
+      
+        <link rel="prev" href="../03-supply-production/">
+      
+      
+        <link rel="next" href="../05-market-structures/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Market Equilibrium and Price Mechanisms - Introduction to Economics</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#market-equilibrium-and-price-mechanisms" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Introduction to Economics" class="md-header__button md-logo" aria-label="Introduction to Economics" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Introduction to Economics
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Market Equilibrium and Price Mechanisms
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/economics-course" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    dmccreary/economics-course
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Introduction to Economics" class="md-nav__button md-logo" aria-label="Introduction to Economics" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Introduction to Economics
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/economics-course" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    dmccreary/economics-course
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    List of Chapters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-what-is-economics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. What is Economics?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-demand-consumer-behavior/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Demand and Consumer Behavior
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-supply-production/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Supply and Production
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Market Equilibrium
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Market Equilibrium
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Concepts Covered
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-supply-meets-demand-the-sweet-spot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where Supply Meets Demand: The Sweet Spot
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#market-equilibrium-the-goldilocks-price" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Market Equilibrium: The Goldilocks Price
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Market Equilibrium: The Goldilocks Price">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-equilibrium-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Equilibrium Matters
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why Equilibrium Matters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-market-equilibrium-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Market Equilibrium Explorer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#surplus-too-much-of-a-good-thing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Surplus: Too Much of a Good Thing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shortage-not-enough-to-go-around" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shortage: Not Enough to Go Around
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Shortage: Not Enough to Go Around">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-surplus-and-shortage-dance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Surplus and Shortage Dance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-price-mechanism-the-invisible-coordinator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Price Mechanism: The Invisible Coordinator
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Price Mechanism: The Invisible Coordinator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-price-mechanism-feedback-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Price Mechanism Feedback Loop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-the-price-mechanism-is-amazing-and-underappreciated" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why the Price Mechanism is Amazing (and Underappreciated)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#market-efficiency-when-markets-work-well" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Market Efficiency: When Markets Work Well
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#price-ceilings-good-intentions-unintended-consequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Price Ceilings: Good Intentions, Unintended Consequences
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Price Ceilings: Good Intentions, Unintended Consequences">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-price-ceiling-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Price Ceiling Simulator
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#critical-thinking-rent-control-in-social-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Critical Thinking: Rent Control in Social Media
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#price-floors-helping-workers-or-hurting-them" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Price Floors: Helping Workers or Hurting Them?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Price Floors: Helping Workers or Hurting Them?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-price-floor-visualizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Price Floor Visualizer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-minimum-wage-debate-its-complicated" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Minimum Wage Debate: It's Complicated
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tax-incidence-who-really-pays" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tax Incidence: Who Really Pays?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tax Incidence: Who Really Pays?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-tax-incidence-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Tax Incidence Explorer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#critical-thinking-tax-the-corporations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Critical Thinking: "Tax the Corporations!"
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equity-is-the-outcome-fair" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Equity: Is the Outcome Fair?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#efficiency-vs-equity-the-great-trade-off" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Efficiency vs. Equity: The Great Trade-off
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Efficiency vs. Equity: The Great Trade-off">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-efficiency-equity-spectrum" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Efficiency-Equity Spectrum
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-do-you-stand" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where Do You Stand?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cost-benefit-analysis-making-smart-decisions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cost-Benefit Analysis: Making Smart Decisions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-interpretation-your-misinformation-shield" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Interpretation: Your Misinformation Shield
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Interpretation: Your Misinformation Shield">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#red-flags-in-economic-claims" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Flags in Economic Claims
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Questions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next Steps
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-market-structures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Market Structures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-market-failures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Market Failures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-measuring-economy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. Measuring the Economy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-employment-unemployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8. Employment and Unemployment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-inflation-business-cycle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9. Inflation and Business Cycle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-money-banking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. Money and Banking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-fiscal-monetary-policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11. Fiscal and Monetary Policy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-international-trade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12. International Trade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-personal-finance-investment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    13. Personal Finance and Investment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-digital-economy-capstone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    14. Digital Economy and Capstone
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Graph
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Learning Graph
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/graph-viewer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Graph Viewer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-taxonomy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept Taxonomy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/quality-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quality Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/taxonomy-distribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Taxonomy Distribution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/course-description-assessment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description Assessment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Concepts Covered
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-supply-meets-demand-the-sweet-spot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where Supply Meets Demand: The Sweet Spot
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#market-equilibrium-the-goldilocks-price" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Market Equilibrium: The Goldilocks Price
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Market Equilibrium: The Goldilocks Price">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-equilibrium-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Equilibrium Matters
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why Equilibrium Matters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-market-equilibrium-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Market Equilibrium Explorer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#surplus-too-much-of-a-good-thing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Surplus: Too Much of a Good Thing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shortage-not-enough-to-go-around" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shortage: Not Enough to Go Around
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Shortage: Not Enough to Go Around">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-surplus-and-shortage-dance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Surplus and Shortage Dance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-price-mechanism-the-invisible-coordinator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Price Mechanism: The Invisible Coordinator
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Price Mechanism: The Invisible Coordinator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-price-mechanism-feedback-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Price Mechanism Feedback Loop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-the-price-mechanism-is-amazing-and-underappreciated" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why the Price Mechanism is Amazing (and Underappreciated)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#market-efficiency-when-markets-work-well" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Market Efficiency: When Markets Work Well
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#price-ceilings-good-intentions-unintended-consequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Price Ceilings: Good Intentions, Unintended Consequences
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Price Ceilings: Good Intentions, Unintended Consequences">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-price-ceiling-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Price Ceiling Simulator
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#critical-thinking-rent-control-in-social-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Critical Thinking: Rent Control in Social Media
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#price-floors-helping-workers-or-hurting-them" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Price Floors: Helping Workers or Hurting Them?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Price Floors: Helping Workers or Hurting Them?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-price-floor-visualizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Price Floor Visualizer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-minimum-wage-debate-its-complicated" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Minimum Wage Debate: It's Complicated
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tax-incidence-who-really-pays" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tax Incidence: Who Really Pays?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tax Incidence: Who Really Pays?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-tax-incidence-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Tax Incidence Explorer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#critical-thinking-tax-the-corporations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Critical Thinking: "Tax the Corporations!"
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equity-is-the-outcome-fair" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Equity: Is the Outcome Fair?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#efficiency-vs-equity-the-great-trade-off" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Efficiency vs. Equity: The Great Trade-off
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Efficiency vs. Equity: The Great Trade-off">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-efficiency-equity-spectrum" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Efficiency-Equity Spectrum
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-do-you-stand" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where Do You Stand?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cost-benefit-analysis-making-smart-decisions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cost-Benefit Analysis: Making Smart Decisions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-interpretation-your-misinformation-shield" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Interpretation: Your Misinformation Shield
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Interpretation: Your Misinformation Shield">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#red-flags-in-economic-claims" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Flags in Economic Claims
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Questions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next Steps
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="market-equilibrium-and-price-mechanisms">Market Equilibrium and Price Mechanisms<a class="headerlink" href="#market-equilibrium-and-price-mechanisms" title="Permanent link">&para;</a></h1>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>This chapter brings together supply and demand to explain how markets determine prices and quantities. Students will learn about market equilibrium, how prices adjust to eliminate surpluses and shortages, and the role of the price mechanism in allocating resources. The chapter also examines government interventions like price ceilings and price floors.</p>
+<p>After completing this chapter, students will be able to analyze market outcomes and predict the effects of various market interventions.</p>
+<h2 id="concepts-covered">Concepts Covered<a class="headerlink" href="#concepts-covered" title="Permanent link">&para;</a></h2>
+<p>This chapter covers the following 14 concepts from the learning graph:</p>
+<ol>
+<li>Market Equilibrium</li>
+<li>Equilibrium Price</li>
+<li>Surplus</li>
+<li>Shortage</li>
+<li>Price Mechanism</li>
+<li>Price Ceiling</li>
+<li>Price Floor</li>
+<li>Tax Incidence</li>
+<li>Market Efficiency</li>
+<li>Equity</li>
+<li>Efficiency vs Equity</li>
+<li>Welfare Economics</li>
+<li>Cost-Benefit Analysis</li>
+<li>Data Interpretation</li>
+</ol>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
+<p>This chapter builds on concepts from:</p>
+<ul>
+<li><a href="../02-demand-consumer-behavior/">Chapter 2: Demand and Consumer Behavior</a></li>
+<li><a href="../03-supply-production/">Chapter 3: Supply and Production</a></li>
+</ul>
+<hr />
+<h2 id="where-supply-meets-demand-the-sweet-spot">Where Supply Meets Demand: The Sweet Spot<a class="headerlink" href="#where-supply-meets-demand-the-sweet-spot" title="Permanent link">&para;</a></h2>
+<p>You've learned about demand (what buyers want) and supply (what sellers offer). Now comes the magic moment when they collide. Think of it like a negotiation at a yard sale—buyers want low prices, sellers want high prices, and somehow they have to agree on something. That "something" is what this chapter is all about.</p>
+<p>Here's your economic superpower for this chapter: <strong>the ability to predict prices</strong>. By the end, you'll understand why your favorite concert tickets cost what they do, why gas prices bounce around, and why some government policies that <em>sound</em> helpful actually make things worse.</p>
+<p>Ready to see how the invisible hand actually works? Let's find the sweet spot.</p>
+<h2 id="market-equilibrium-the-goldilocks-price">Market Equilibrium: The Goldilocks Price<a class="headerlink" href="#market-equilibrium-the-goldilocks-price" title="Permanent link">&para;</a></h2>
+<p><strong>Market equilibrium</strong> is the point where the quantity buyers want to purchase exactly equals the quantity sellers want to sell. It's the "Goldilocks" point—not too high, not too low, but just right.</p>
+<p>At equilibrium:</p>
+<ul>
+<li>Buyers get everything they want to buy at that price</li>
+<li>Sellers sell everything they want to sell at that price</li>
+<li>There's no pressure for the price to change</li>
+</ul>
+<p>Think about it: if you're selling lemonade and you've sold exactly the amount you made—no cups left over, no disappointed customers walking away—you've found equilibrium. Life is good.</p>
+<p>The <strong>equilibrium price</strong> is the specific price where this balance happens. It's also called the "market-clearing price" because it clears out both excess supply and unsatisfied demand.</p>
+<table>
+<thead>
+<tr>
+<th>Condition</th>
+<th>What's Happening</th>
+<th>Price Pressure</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>At Equilibrium</td>
+<td>Quantity supplied = Quantity demanded</td>
+<td>Price stays stable</td>
+</tr>
+<tr>
+<td>Above Equilibrium</td>
+<td>Surplus (too much stuff)</td>
+<td>Price falls</td>
+</tr>
+<tr>
+<td>Below Equilibrium</td>
+<td>Shortage (not enough stuff)</td>
+<td>Price rises</td>
+</tr>
+</tbody>
+</table>
+<h3 id="why-equilibrium-matters">Why Equilibrium Matters<a class="headerlink" href="#why-equilibrium-matters" title="Permanent link">&para;</a></h3>
+<p>Equilibrium isn't just some abstract concept—it's what's happening right now in millions of markets around the world. The price of gasoline, the cost of streaming subscriptions, the wage for summer jobs—they're all being pushed toward equilibrium by the constant back-and-forth between buyers and sellers.</p>
+<p>When you understand equilibrium, you gain X-ray vision for prices. You can see past "greedy corporations" and "unfair markets" to understand what's actually driving prices up or down.</p>
+<h4 id="diagram-market-equilibrium-explorer">Diagram: Market Equilibrium Explorer<a class="headerlink" href="#diagram-market-equilibrium-explorer" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/market-equilibrium-explorer/main.html" width="100%" height="500px" scrolling="no"></iframe>
+
+<details>
+<summary>Market Equilibrium Explorer MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Apply (L3)
+Bloom Verb: demonstrate, use, calculate</p>
+<p>Learning Objective: Students will use supply and demand curves to find the equilibrium price and quantity, observing how changes create surpluses or shortages.</p>
+<p>Purpose: Interactive exploration of market equilibrium with draggable price line showing resulting surplus or shortage.</p>
+<p>Canvas Layout:
+- Left side (450px): Supply and demand graph with interactive price line
+- Right side (200px): Market status display and controls</p>
+<p>Visual Elements:
+- X-axis: "Quantity (units)" (0-100)
+- Y-axis: "Price ($)" (0-50)
+- Downward-sloping demand curve (blue)
+- Upward-sloping supply curve (orange)
+- Horizontal draggable price line (green when at equilibrium, red otherwise)
+- Shaded areas showing surplus (above equilibrium) or shortage (below equilibrium)
+- Equilibrium point marked with star</p>
+<p>Interactive Controls:
+- Draggable horizontal price line
+- "Find Equilibrium" button (snaps to equilibrium)
+- "Random Price" button (for practice)
+- Toggle to show/hide surplus/shortage shading
+- Display: Current Price, Quantity Demanded, Quantity Supplied, Market Status</p>
+<p>Default Parameters:
+- Equilibrium price: $25
+- Equilibrium quantity: 50 units
+- Starting price: $30 (creating surplus for discovery)</p>
+<p>Behavior:
+- When price above equilibrium: Show surplus area, display "SURPLUS: X units unsold"
+- When price below equilibrium: Show shortage area, display "SHORTAGE: X units of unmet demand"
+- When price at equilibrium: Show green highlight, display "EQUILIBRIUM! Market clears!"
+- Animate arrows showing pressure direction (price falls if surplus, rises if shortage)</p>
+<p>Data Visibility Requirements:
+- Stage 1: Show current price and resulting Qd and Qs
+- Stage 2: Calculate and display difference (surplus or shortage amount)
+- Stage 3: Show directional arrow indicating price pressure
+- Stage 4: At equilibrium, show checkmark and "balanced" indicator</p>
+<p>Instructional Rationale: Dragging the price line makes the relationship between price and quantity immediate and concrete. Students discover equilibrium rather than being told it, reinforcing understanding through exploration.</p>
+<p>Implementation: p5.js with mouse interaction, curves drawn as functions, real-time calculation of Qd and Qs at any price level</p>
+</details>
+<h2 id="surplus-too-much-of-a-good-thing">Surplus: Too Much of a Good Thing<a class="headerlink" href="#surplus-too-much-of-a-good-thing" title="Permanent link">&para;</a></h2>
+<p>A <strong>surplus</strong> (also called "excess supply") occurs when the quantity supplied exceeds the quantity demanded at the current price. In plain English: there's more stuff than people want to buy at that price.</p>
+<p>What causes surplus? <strong>The price is too high.</strong></p>
+<p>When sellers can't move their inventory, they start competing for buyers. How? By lowering prices. Those "SALE!" signs at stores? That's surplus in action. The business made too much (or priced too high) and now needs to get rid of it.</p>
+<p>Examples of surplus:</p>
+<ul>
+<li>Day-old bread at the bakery (price was too high for how much was made)</li>
+<li>Cars sitting on dealer lots at the end of the model year</li>
+<li>Unsold Halloween costumes on November 1st</li>
+<li>Empty seats at a movie theater (ticket price too high for that particular film)</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Surplus Shrinks Itself</p>
+<p>Here's the beautiful thing about markets: surpluses don't last forever. The pressure to lower prices eventually brings the market back toward equilibrium. Sellers who won't lower prices get stuck with unsold inventory. Those who adapt, survive.</p>
+</div>
+<h2 id="shortage-not-enough-to-go-around">Shortage: Not Enough to Go Around<a class="headerlink" href="#shortage-not-enough-to-go-around" title="Permanent link">&para;</a></h2>
+<p>A <strong>shortage</strong> (also called "excess demand") occurs when the quantity demanded exceeds the quantity supplied at the current price. Translation: more people want the thing than can actually get it.</p>
+<p>What causes shortage? <strong>The price is too low.</strong></p>
+<p>When there's a shortage, buyers compete for limited supply. Some people are willing to pay more. Sellers notice this and... you guessed it... raise prices. The price increase continues until the shortage disappears.</p>
+<p>Examples of shortage:</p>
+<ul>
+<li>Sold-out concert tickets (face value was too low for demand)</li>
+<li>Empty shelves after a hurricane warning</li>
+<li>The latest iPhone on launch day</li>
+<li>Popular restaurant with hour-long waits (meal prices don't reflect true demand)</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Shortages Create Problems</p>
+<p>Unlike surplus (where sellers just have extra inventory), shortages force painful decisions about who gets the limited goods. First-come-first-served? Lottery? Connections? When prices can't adjust, other—often unfair—allocation methods take over.</p>
+</div>
+<h3 id="the-surplus-and-shortage-dance">The Surplus and Shortage Dance<a class="headerlink" href="#the-surplus-and-shortage-dance" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>Price vs. Equilibrium</th>
+<th>Market Pressure</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Surplus</td>
+<td>Price too high</td>
+<td>Sellers compete, lower prices</td>
+<td>Price falls toward equilibrium</td>
+</tr>
+<tr>
+<td>Shortage</td>
+<td>Price too low</td>
+<td>Buyers compete, bid up prices</td>
+<td>Price rises toward equilibrium</td>
+</tr>
+<tr>
+<td>Equilibrium</td>
+<td>Price just right</td>
+<td>No pressure</td>
+<td>Price stable</td>
+</tr>
+</tbody>
+</table>
+<p>This constant adjustment is like a thermostat for the economy. Too hot (surplus)? Cool it down (lower prices). Too cold (shortage)? Heat it up (raise prices). The market naturally moves toward that comfortable equilibrium temperature.</p>
+<h2 id="the-price-mechanism-the-invisible-coordinator">The Price Mechanism: The Invisible Coordinator<a class="headerlink" href="#the-price-mechanism-the-invisible-coordinator" title="Permanent link">&para;</a></h2>
+<p>The <strong>price mechanism</strong> is the system by which prices coordinate economic activity in a market economy. It's what Adam Smith famously called the "invisible hand"—nobody plans it, nobody controls it, but it somehow organizes billions of decisions.</p>
+<p>Here's how the price mechanism works:</p>
+<ol>
+<li>
+<p><strong>Prices signal information</strong>: A rising price tells producers "make more!" and consumers "buy less!" A falling price signals the opposite.</p>
+</li>
+<li>
+<p><strong>Prices create incentives</strong>: Higher prices give sellers incentive to produce more. Lower prices give buyers incentive to consume more.</p>
+</li>
+<li>
+<p><strong>Prices allocate resources</strong>: Goods flow to whoever values them most (as measured by willingness to pay).</p>
+</li>
+</ol>
+<p>Think about the miracle that happens every day: millions of people wake up and want breakfast. Nobody commands farmers to grow wheat, truckers to deliver it, bakeries to make bread, and stores to stock it. Yet somehow, bread appears on shelves everywhere. The price mechanism coordinates all of this without a single meeting or email chain.</p>
+<h4 id="diagram-price-mechanism-feedback-loop">Diagram: Price Mechanism Feedback Loop<a class="headerlink" href="#diagram-price-mechanism-feedback-loop" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/price-mechanism-loop/main.html" width="100%" height="400px" scrolling="no"></iframe>
+
+<details>
+<summary>Price Mechanism Feedback Loop Workflow</summary>
+<p>Type: workflow</p>
+<p>Bloom Taxonomy Level: Understand (L2)
+Bloom Verb: explain, describe</p>
+<p>Learning Objective: Students will explain how the price mechanism creates a self-correcting feedback loop that moves markets toward equilibrium.</p>
+<p>Purpose: Visualize the cyclical process of price adjustment as an automated feedback system.</p>
+<p>Visual Style: Circular workflow diagram with animated arrows</p>
+<p>Components:
+1. "Price Above Equilibrium" (top, red box)
+   - Hover text: "Sellers want to sell more than buyers want to buy"</p>
+<ol>
+<li>"Surplus Develops" (right, orange box)</li>
+<li>
+<p>Hover text: "Unsold inventory piles up, sellers get nervous"</p>
+</li>
+<li>
+<p>"Sellers Lower Prices" (bottom-right, yellow box)</p>
+</li>
+<li>
+<p>Hover text: "To attract buyers and clear inventory"</p>
+</li>
+<li>
+<p>"Equilibrium" (center, green star)</p>
+</li>
+<li>
+<p>Hover text: "Supply equals demand - the market clears"</p>
+</li>
+<li>
+<p>"Price Below Equilibrium" (bottom, red box)</p>
+</li>
+<li>
+<p>Hover text: "Buyers want to buy more than sellers want to sell"</p>
+</li>
+<li>
+<p>"Shortage Develops" (left, orange box)</p>
+</li>
+<li>
+<p>Hover text: "Empty shelves, frustrated customers, long lines"</p>
+</li>
+<li>
+<p>"Sellers Raise Prices" (top-left, yellow box)</p>
+</li>
+<li>Hover text: "To take advantage of high demand"</li>
+</ol>
+<p>Connections (animated arrows):
+- Box 1 → Box 2 → Box 3 → Equilibrium (surplus correction path)
+- Box 5 → Box 6 → Box 7 → Equilibrium (shortage correction path)
+- All paths converge on Equilibrium in center</p>
+<p>Color Coding:
+- Red: Disequilibrium states
+- Orange: Problem manifestation
+- Yellow: Market response
+- Green: Equilibrium (goal state)</p>
+<p>Interactive Features:
+- Hover to see detailed explanation of each stage
+- Click to animate the adjustment process step-by-step
+- Toggle between "surplus correction" and "shortage correction" paths</p>
+<p>Instructional Rationale: Showing the price mechanism as a feedback loop helps students see markets as dynamic systems that self-correct, not static snapshots.</p>
+<p>Implementation: HTML/CSS/JavaScript with SVG diagram and CSS animations</p>
+</details>
+<h3 id="why-the-price-mechanism-is-amazing-and-underappreciated">Why the Price Mechanism is Amazing (and Underappreciated)<a class="headerlink" href="#why-the-price-mechanism-is-amazing-and-underappreciated" title="Permanent link">&para;</a></h3>
+<p>Most people take the price mechanism for granted. But consider the alternative: in command economies, government planners tried to coordinate production without market prices. The result? Constant shortages of things people wanted and surpluses of things they didn't. Soviet citizens waited in line for hours to buy basic necessities while warehouses filled with unwanted goods.</p>
+<p>Prices solve the information problem. No central planner can know what millions of people want, when they want it, and how much. But prices aggregate all that information automatically.</p>
+<h2 id="market-efficiency-when-markets-work-well">Market Efficiency: When Markets Work Well<a class="headerlink" href="#market-efficiency-when-markets-work-well" title="Permanent link">&para;</a></h2>
+<p><strong>Market efficiency</strong> means resources are allocated to their highest-valued uses. In an efficient market:</p>
+<ul>
+<li>Goods go to the buyers who value them most</li>
+<li>Production goes to the sellers who can produce most cheaply</li>
+<li>No "better" allocation exists that could make someone better off without making someone else worse off</li>
+</ul>
+<p>When a market reaches equilibrium without any external interference, it generally achieves efficiency. The total benefit to society (what economists call <strong>welfare</strong>) is maximized.</p>
+<p>This is where <strong>welfare economics</strong> comes in—it's the branch of economics that studies how well markets serve society's interests. Welfare economists measure things like:</p>
+<ul>
+<li><strong>Consumer surplus</strong>: The extra value buyers get (what they were willing to pay minus what they actually paid)</li>
+<li><strong>Producer surplus</strong>: The extra value sellers get (what they received minus their minimum acceptable price)</li>
+<li><strong>Total surplus</strong>: Consumer surplus + Producer surplus = Total benefit to society</li>
+</ul>
+<p>When markets are efficient, total surplus is maximized. When markets are distorted (by price controls, taxes, or other interventions), total surplus shrinks.</p>
+<div class="admonition note">
+<p class="admonition-title">Efficiency Isn't Everything</p>
+<p>Market efficiency maximizes the total pie, but it doesn't say anything about how the pie is divided. A market can be perfectly efficient and still leave some people with nothing. That's where equity comes in.</p>
+</div>
+<h2 id="price-ceilings-good-intentions-unintended-consequences">Price Ceilings: Good Intentions, Unintended Consequences<a class="headerlink" href="#price-ceilings-good-intentions-unintended-consequences" title="Permanent link">&para;</a></h2>
+<p>A <strong>price ceiling</strong> is a legal maximum price that sellers can charge. If the ceiling is set below the equilibrium price, it creates a shortage.</p>
+<p>The most famous example? <strong>Rent control</strong>.</p>
+<p>Here's how it works: The city government says landlords can't charge more than $1,000/month for an apartment. Sounds great for renters, right? Let's look closer:</p>
+<ul>
+<li>At $1,000/month, lots of people want apartments (high quantity demanded)</li>
+<li>At $1,000/month, fewer landlords want to rent out apartments (low quantity supplied)</li>
+<li>Result: More people want apartments than apartments are available = <strong>shortage</strong></li>
+</ul>
+<p>But wait—it gets worse. When landlords can't raise prices, they:</p>
+<ul>
+<li>Stop maintaining buildings (why invest in something you can't profit from?)</li>
+<li>Convert apartments to condos (which aren't rent-controlled)</li>
+<li>Leave the rental market entirely</li>
+<li>Discriminate among applicants using criteria other than price</li>
+</ul>
+<p>Meanwhile, the people who <em>do</em> get rent-controlled apartments never want to leave, even if the apartment no longer fits their needs. This reduces turnover and makes the shortage even worse.</p>
+<table>
+<thead>
+<tr>
+<th>Without Rent Control</th>
+<th>With Rent Control</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Price: $1,500/month</td>
+<td>Price: $1,000/month (ceiling)</td>
+</tr>
+<tr>
+<td>Quantity supplied: 1,000 units</td>
+<td>Quantity supplied: 700 units</td>
+</tr>
+<tr>
+<td>Quantity demanded: 1,000 units</td>
+<td>Quantity demanded: 1,400 units</td>
+</tr>
+<tr>
+<td>Market status: Equilibrium</td>
+<td>Market status: Shortage of 700 units</td>
+</tr>
+</tbody>
+</table>
+<h4 id="diagram-price-ceiling-simulator">Diagram: Price Ceiling Simulator<a class="headerlink" href="#diagram-price-ceiling-simulator" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/price-ceiling-simulator/main.html" width="100%" height="500px" scrolling="no"></iframe>
+
+<details>
+<summary>Price Ceiling Effects Simulator MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Analyze (L4)
+Bloom Verb: analyze, examine, differentiate</p>
+<p>Learning Objective: Students will analyze how price ceilings create shortages and unintended consequences in rental markets.</p>
+<p>Purpose: Show the effects of rent control by allowing students to set ceiling price and observe resulting shortage.</p>
+<p>Canvas Layout:
+- Left side (450px): Supply and demand graph with ceiling line
+- Right side (200px): Market outcomes and consequences panel</p>
+<p>Visual Elements:
+- Standard supply and demand curves
+- Horizontal price ceiling line (red dashed, draggable)
+- Shaded shortage area (when ceiling below equilibrium)
+- Icons representing: apartments, people searching, frustrated landlords
+- "Dead weight loss" triangle highlighted</p>
+<p>Interactive Controls:
+- Slider: "Set Price Ceiling" ($500 - $2,000)
+- Toggle: "Show Equilibrium Comparison"
+- Toggle: "Show Unintended Consequences"
+- Button: "Reset to No Ceiling"</p>
+<p>Default Parameters:
+- Equilibrium rent: $1,500/month
+- Equilibrium quantity: 1,000 apartments
+- Starting ceiling: $1,000 (creating shortage for discovery)</p>
+<p>Behavior:
+- When ceiling below equilibrium: Show shortage, animate searching icons
+- Show calculation: "Shortage = Qd - Qs = X apartments"
+- When ceiling above equilibrium: Show "Not binding - no effect"
+- "Unintended Consequences" panel shows:
+  - Reduced housing quality
+  - Long waiting lists
+  - Black market/under-the-table payments
+  - Reduced new construction</p>
+<p>Data Visibility Requirements:
+- Stage 1: Show ceiling price and resulting Qd and Qs
+- Stage 2: Calculate shortage amount
+- Stage 3: Show who benefits (lucky renters) and who loses (unlucky renters, landlords, society)
+- Stage 4: Display deadweight loss calculation</p>
+<p>Instructional Rationale: Letting students set their own price ceiling and observe consequences helps them discover why economists largely oppose rent control, rather than being told.</p>
+<p>Implementation: p5.js with draggable ceiling line, real-time calculation, and consequence display panel</p>
+</details>
+<h3 id="critical-thinking-rent-control-in-social-media">Critical Thinking: Rent Control in Social Media<a class="headerlink" href="#critical-thinking-rent-control-in-social-media" title="Permanent link">&para;</a></h3>
+<p>You'll see people on social media say things like "rent control keeps housing affordable." Now you can respond with economic thinking:</p>
+<ul>
+<li>Rent control makes housing affordable <em>for the people who already have it</em></li>
+<li>It makes housing <em>less available</em> for everyone else</li>
+<li>It reduces housing <em>quality</em> over time</li>
+<li>It's a policy that helps current renters at the expense of future renters</li>
+</ul>
+<p>This doesn't mean rent is fine as-is or that renters don't deserve help. But price ceilings treat the symptom (high prices) rather than the cause (insufficient supply). If you want more affordable housing, you need more housing.</p>
+<h2 id="price-floors-helping-workers-or-hurting-them">Price Floors: Helping Workers or Hurting Them?<a class="headerlink" href="#price-floors-helping-workers-or-hurting-them" title="Permanent link">&para;</a></h2>
+<p>A <strong>price floor</strong> is a legal minimum price that buyers must pay. If the floor is set above the equilibrium price, it creates a surplus.</p>
+<p>The most debated example? <strong>Minimum wage</strong>.</p>
+<p>Here's the logic: The government says employers must pay at least $15/hour. At this wage:</p>
+<ul>
+<li>Lots of workers want jobs at $15/hour (high quantity supplied of labor)</li>
+<li>Fewer employers want to hire at $15/hour (low quantity demanded for labor)</li>
+<li>Result: More workers want jobs than jobs are available = <strong>surplus of labor = unemployment</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Without Minimum Wage</th>
+<th>With Minimum Wage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wage: $12/hour</td>
+<td>Wage: $15/hour (floor)</td>
+</tr>
+<tr>
+<td>Workers wanting jobs: 1,000</td>
+<td>Workers wanting jobs: 1,200</td>
+</tr>
+<tr>
+<td>Jobs available: 1,000</td>
+<td>Jobs available: 800</td>
+</tr>
+<tr>
+<td>Market status: Equilibrium</td>
+<td>Market status: Unemployment of 400 workers</td>
+</tr>
+</tbody>
+</table>
+<h4 id="diagram-price-floor-visualizer">Diagram: Price Floor Visualizer<a class="headerlink" href="#diagram-price-floor-visualizer" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/price-floor-visualizer/main.html" width="100%" height="500px" scrolling="no"></iframe>
+
+<details>
+<summary>Price Floor Effects MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Analyze (L4)
+Bloom Verb: analyze, compare, examine</p>
+<p>Learning Objective: Students will analyze how price floors create surpluses in labor markets and examine trade-offs in minimum wage policy.</p>
+<p>Purpose: Show the effects of minimum wage by allowing students to set floor price and observe resulting surplus (unemployment).</p>
+<p>Canvas Layout:
+- Left side (450px): Labor supply and demand graph with floor line
+- Right side (200px): Employment outcomes and trade-offs panel</p>
+<p>Visual Elements:
+- Labor supply curve (upward sloping - workers)
+- Labor demand curve (downward sloping - employers)
+- Horizontal price floor line (red dashed, draggable)
+- Shaded surplus area representing unemployment
+- Worker icons showing employed vs. job-seeking</p>
+<p>Interactive Controls:
+- Slider: "Set Minimum Wage" ($8 - $20/hour)
+- Toggle: "Show Equilibrium Comparison"
+- Toggle: "Show Winners and Losers"
+- Button: "Reset to No Floor"</p>
+<p>Default Parameters:
+- Equilibrium wage: $12/hour
+- Equilibrium employment: 1,000 workers
+- Starting floor: $15/hour (creating surplus for discovery)</p>
+<p>Behavior:
+- When floor above equilibrium: Show surplus (unemployment), animate job-seeking icons
+- Show calculation: "Unemployment = Ls - Ld = X workers"
+- When floor below equilibrium: Show "Not binding - no effect"
+- "Winners and Losers" panel shows:
+  - Winners: Workers who keep jobs at higher wage
+  - Losers: Workers who lose jobs or can't find them
+  - Trade-off: Higher wages for some vs. fewer jobs for others</p>
+<p>Data Visibility Requirements:
+- Stage 1: Show floor wage and resulting labor supply and demand
+- Stage 2: Calculate unemployment amount
+- Stage 3: Identify winners (employed at higher wage) and losers (unemployed)
+- Stage 4: Show that total worker income could go up or down depending on elasticity</p>
+<p>Instructional Rationale: This helps students see minimum wage as a trade-off, not a free lunch. Some workers gain, others lose, and the net effect depends on specific market conditions.</p>
+<p>Implementation: p5.js with draggable floor line, worker icons, and trade-off calculation</p>
+</details>
+<h3 id="the-minimum-wage-debate-its-complicated">The Minimum Wage Debate: It's Complicated<a class="headerlink" href="#the-minimum-wage-debate-its-complicated" title="Permanent link">&para;</a></h3>
+<p>Wait—if minimum wage causes unemployment, why do we have it? And why do economists disagree about it?</p>
+<p>Here's where the simple supply-demand model has limits:</p>
+<ol>
+<li>
+<p><strong>Small increases may have small effects</strong>: If minimum wage is only slightly above equilibrium, the surplus may be tiny.</p>
+</li>
+<li>
+<p><strong>Employers have market power</strong>: In some areas, there's only one major employer. They might be paying below equilibrium and getting away with it. A minimum wage could push wages toward equilibrium rather than above it.</p>
+</li>
+<li>
+<p><strong>Higher wages can reduce turnover</strong>: Paying more might make workers stay longer and work harder, partially offsetting the higher cost.</p>
+</li>
+<li>
+<p><strong>The evidence is mixed</strong>: Some studies find job losses, others don't. The effects likely depend on how big the increase is and local market conditions.</p>
+</li>
+</ol>
+<p>The honest answer? Minimum wage involves trade-offs. Higher wages for some workers vs. fewer jobs for others. The "right" answer depends on values and local conditions, not just economics.</p>
+<h2 id="tax-incidence-who-really-pays">Tax Incidence: Who Really Pays?<a class="headerlink" href="#tax-incidence-who-really-pays" title="Permanent link">&para;</a></h2>
+<p>When the government puts a tax on a product, who actually pays—the buyer or the seller? The answer might surprise you.</p>
+<p><strong>Tax incidence</strong> is the study of who bears the economic burden of a tax. Here's the key insight: <strong>the legal incidence (who writes the check) can differ from the economic incidence (who actually pays).</strong></p>
+<p>Imagine the government puts a $1 tax on every pizza, and legally the seller must pay it. What happens?</p>
+<ul>
+<li>Sellers' costs go up by $1 per pizza</li>
+<li>Supply curve shifts up by $1</li>
+<li>New equilibrium has a higher price and lower quantity</li>
+<li>Buyers pay part of the tax through the higher price</li>
+<li>Sellers pay part of the tax through their reduced profit</li>
+</ul>
+<p>The split depends on elasticity (how sensitive buyers and sellers are to price changes):</p>
+<ul>
+<li>If demand is inelastic (buyers really want pizza no matter what), buyers pay more of the tax</li>
+<li>If supply is inelastic (sellers can't easily produce other things), sellers pay more of the tax</li>
+</ul>
+<h4 id="diagram-tax-incidence-explorer">Diagram: Tax Incidence Explorer<a class="headerlink" href="#diagram-tax-incidence-explorer" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/tax-incidence-explorer/main.html" width="100%" height="500px" scrolling="no"></iframe>
+
+<details>
+<summary>Tax Incidence Explorer MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Analyze (L4)
+Bloom Verb: analyze, differentiate, attribute</p>
+<p>Learning Objective: Students will analyze how the burden of a tax is split between buyers and sellers based on relative elasticities.</p>
+<p>Purpose: Show that legal incidence (who writes the check) differs from economic incidence (who bears the burden).</p>
+<p>Canvas Layout:
+- Left side (450px): Supply and demand graph showing tax wedge
+- Right side (200px): Tax burden calculation panel</p>
+<p>Visual Elements:
+- Original supply and demand curves
+- "Supply + Tax" curve shifted up by tax amount
+- Tax wedge shown as vertical distance between buyer price and seller price
+- Shaded areas showing buyer burden vs. seller burden
+- Deadweight loss triangle</p>
+<p>Interactive Controls:
+- Slider: "Tax Amount" ($0 - $5)
+- Slider: "Demand Elasticity" (very inelastic to very elastic)
+- Slider: "Supply Elasticity" (very inelastic to very elastic)
+- Toggle: "Legal tax on buyers vs. sellers" (shows same outcome)
+- Display: Buyer burden %, Seller burden %, Government revenue, Deadweight loss</p>
+<p>Default Parameters:
+- Tax: $2
+- Medium elasticity on both curves
+- Starting comparison: legal tax on sellers</p>
+<p>Behavior:
+- As tax increases, wedge grows, quantity shrinks
+- As demand becomes more elastic, buyer burden decreases
+- As supply becomes more elastic, seller burden decreases
+- Toggle shows that legal incidence doesn't change economic incidence
+- Show: "It doesn't matter who writes the check - burden depends on elasticity"</p>
+<p>Data Visibility Requirements:
+- Stage 1: Show original equilibrium price and quantity
+- Stage 2: Show tax wedge: buyer pays $X, seller receives $Y
+- Stage 3: Calculate percentage split: "Buyers bear X%, Sellers bear Y%"
+- Stage 4: Show deadweight loss (transactions that no longer happen)</p>
+<p>Instructional Rationale: Students often believe taxes fall on whoever the law says pays them. This simulation reveals the deeper truth about economic incidence.</p>
+<p>Implementation: p5.js with adjustable elasticity curves and real-time burden calculation</p>
+</details>
+<h3 id="critical-thinking-tax-the-corporations">Critical Thinking: "Tax the Corporations!"<a class="headerlink" href="#critical-thinking-tax-the-corporations" title="Permanent link">&para;</a></h3>
+<p>When politicians say "we'll tax corporations, not people," now you know to be skeptical. Corporations don't exist in a vacuum—they have customers, workers, and shareholders. A corporate tax ultimately falls on:</p>
+<ul>
+<li>Customers (through higher prices)</li>
+<li>Workers (through lower wages)</li>
+<li>Shareholders (through lower profits)</li>
+</ul>
+<p>The split depends on market conditions. "Tax the corporations" often means "tax some combination of people in a way that's hard to see."</p>
+<h2 id="equity-is-the-outcome-fair">Equity: Is the Outcome Fair?<a class="headerlink" href="#equity-is-the-outcome-fair" title="Permanent link">&para;</a></h2>
+<p><strong>Equity</strong> refers to fairness in the distribution of economic outcomes. Unlike efficiency (which is about the total size of the pie), equity is about how the pie is divided.</p>
+<p>Here's the thing: markets don't care about fairness. A market efficiently allocates goods to those willing and able to pay the most. But "willing and able" is a huge deal:</p>
+<ul>
+<li>A billionaire is "willing and able" to outbid you for almost anything</li>
+<li>Someone without money can't participate in markets at all</li>
+<li>Health care, education, and housing go to those who can afford them</li>
+</ul>
+<p>This is why many people want the government to intervene—not for efficiency, but for equity.</p>
+<h2 id="efficiency-vs-equity-the-great-trade-off">Efficiency vs. Equity: The Great Trade-off<a class="headerlink" href="#efficiency-vs-equity-the-great-trade-off" title="Permanent link">&para;</a></h2>
+<p>Here's one of the most important ideas in economics: <strong>there's often a trade-off between efficiency and equity</strong>.</p>
+<p>Policies that increase fairness often reduce efficiency:</p>
+<ul>
+<li>Progressive taxes (where the rich pay more) might reduce incentives to work and invest</li>
+<li>Welfare programs might reduce incentives to find employment</li>
+<li>Price controls (like rent control) reduce efficiency but might help some people afford housing</li>
+</ul>
+<p>Policies that maximize efficiency might increase unfairness:</p>
+<ul>
+<li>Pure free markets allocate everything to the highest bidder</li>
+<li>No safety net means people who fail have no second chance</li>
+<li>"Survival of the fittest" economics can be brutal</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Approach</th>
+<th>Efficiency</th>
+<th>Equity</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pure free market</td>
+<td>High</td>
+<td>Low</td>
+<td>No minimum wage, no welfare</td>
+</tr>
+<tr>
+<td>Heavy redistribution</td>
+<td>Low</td>
+<td>High</td>
+<td>High taxes funding universal programs</td>
+</tr>
+<tr>
+<td>Mixed approach</td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Minimum wage + earned income tax credit</td>
+</tr>
+</tbody>
+</table>
+<h4 id="diagram-efficiency-equity-spectrum">Diagram: Efficiency-Equity Spectrum<a class="headerlink" href="#diagram-efficiency-equity-spectrum" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/efficiency-equity-spectrum/main.html" width="100%" height="400px" scrolling="no"></iframe>
+
+<details>
+<summary>Efficiency-Equity Trade-off Spectrum Infographic</summary>
+<p>Type: infographic</p>
+<p>Bloom Taxonomy Level: Evaluate (L5)
+Bloom Verb: assess, evaluate, judge</p>
+<p>Learning Objective: Students will evaluate where different policies and countries fall on the efficiency-equity spectrum and recognize that "right" answers depend on values.</p>
+<p>Purpose: Visualize the trade-off between efficiency and equity as a spectrum with real policy examples.</p>
+<p>Layout: Horizontal spectrum with positioned policy/country markers</p>
+<p>Visual Elements:
+- Horizontal axis: "Pure Efficiency" (left) to "Pure Equity" (right)
+- Vertical axis or size: Economic outcomes (GDP per capita, inequality measures)
+- Policy markers positioned along spectrum
+- Country markers positioned based on their economic systems
+- Trade-off zone highlighted in center</p>
+<p>Policies to Position:
+- Far left: No taxes, no regulation (theoretical)
+- Left: Flat tax, minimal welfare state
+- Center-left: Progressive income tax, limited social programs (US)
+- Center: Universal healthcare, moderate taxes (UK, Canada)
+- Center-right: High taxes, comprehensive welfare state (Sweden, Denmark)
+- Right: Maximum redistribution (theoretical)</p>
+<p>Countries to Position:
+- United States: More efficiency-focused
+- United Kingdom: Balanced
+- Germany: Slightly more equity-focused
+- Sweden: More equity-focused
+- Singapore: More efficiency-focused</p>
+<p>Interactive Elements:
+- Hover over each marker to see:
+  - Policy/country details
+  - Gini coefficient (inequality measure)
+  - GDP per capita
+  - Key trade-offs involved
+- Slider: "Where would YOU set policy?" - helps students reflect on their own values</p>
+<p>Data to display:
+- Current position and its implications
+- What's gained and lost at each position
+- "No free lunch" reminder</p>
+<p>Instructional Rationale: This helps students see policy debates as fundamentally about values and trade-offs, not just facts. There's no objectively "correct" spot on the spectrum.</p>
+<p>Implementation: HTML/CSS/JavaScript with interactive hover cards and value-exploration slider</p>
+</details>
+<h3 id="where-do-you-stand">Where Do You Stand?<a class="headerlink" href="#where-do-you-stand" title="Permanent link">&para;</a></h3>
+<p>This is where economics ends and politics begins. Economics can tell you the trade-offs, but it can't tell you how much efficiency you should sacrifice for equity (or vice versa). That's a value judgment.</p>
+<p>When someone claims their policy is "obviously right," ask: What trade-offs are they ignoring? If they say there are no trade-offs, they're probably selling something.</p>
+<h2 id="cost-benefit-analysis-making-smart-decisions">Cost-Benefit Analysis: Making Smart Decisions<a class="headerlink" href="#cost-benefit-analysis-making-smart-decisions" title="Permanent link">&para;</a></h2>
+<p><strong>Cost-benefit analysis</strong> is a framework for making decisions by comparing total costs and total benefits. It's how economists (and smart decision-makers) evaluate policies and projects.</p>
+<p>The basic steps:</p>
+<ol>
+<li>Identify all costs (direct, indirect, opportunity costs)</li>
+<li>Identify all benefits (direct, indirect)</li>
+<li>Measure or estimate each in common units (usually dollars)</li>
+<li>Compare: Do benefits exceed costs?</li>
+<li>Consider: Who bears the costs? Who receives the benefits?</li>
+</ol>
+<p>Example: Should your city build a new stadium?</p>
+<p><strong>Costs:</strong>
+- $500 million construction cost
+- Opportunity cost (what else could that money do?)
+- Traffic congestion during events
+- Displaced businesses in construction zone</p>
+<p><strong>Benefits:</strong>
+- Entertainment value for fans
+- Jobs during construction and operation
+- Potential tourism boost
+- Civic pride (hard to measure!)</p>
+<p>If benefits exceed costs, the project <em>might</em> be worthwhile—but you also have to ask about distribution. If costs fall on taxpayers and benefits go mainly to wealthy team owners, even a positive cost-benefit ratio might feel unfair.</p>
+<div class="admonition tip">
+<p class="admonition-title">Beware of Biased Analysis</p>
+<p>Whoever commissions a cost-benefit analysis often wants a particular answer. Stadium proponents hire analysts who find huge benefits. Opponents hire analysts who find minimal benefits. Always ask: Who paid for this study?</p>
+</div>
+<h2 id="data-interpretation-your-misinformation-shield">Data Interpretation: Your Misinformation Shield<a class="headerlink" href="#data-interpretation-your-misinformation-shield" title="Permanent link">&para;</a></h2>
+<p>The final concept—and maybe the most important for real life—is <strong>data interpretation</strong>. Being able to read, understand, and critique economic data is your shield against manipulation.</p>
+<p>When you see economic claims, ask:</p>
+<ol>
+<li>
+<p><strong>What's the source?</strong> Is it a credible organization or someone with an agenda?</p>
+</li>
+<li>
+<p><strong>What's being measured?</strong> "Unemployment" can be defined many ways. "Average income" hides inequality.</p>
+</li>
+<li>
+<p><strong>What's the time frame?</strong> Cherry-picking start and end dates can make any trend look good or bad.</p>
+</li>
+<li>
+<p><strong>What's the comparison?</strong> "Crime is up 50%!" Compared to when? Up from 2 incidents to 3 is technically "up 50%."</p>
+</li>
+<li>
+<p><strong>Correlation or causation?</strong> Just because two things move together doesn't mean one causes the other.</p>
+</li>
+<li>
+<p><strong>What's missing?</strong> What data are they <em>not</em> showing you?</p>
+</li>
+</ol>
+<h3 id="red-flags-in-economic-claims">Red Flags in Economic Claims<a class="headerlink" href="#red-flags-in-economic-claims" title="Permanent link">&para;</a></h3>
+<details class="question">
+<summary>Red Flag #1: 'Prices should be controlled'</summary>
+<p>Now you know what happens when prices are controlled below equilibrium: shortages. Ask: What's causing the high prices? Is the problem supply or demand?</p>
+</details>
+<details class="question">
+<summary>Red Flag #2: 'This policy has no trade-offs'</summary>
+<p>Every policy involves trade-offs between efficiency and equity. If someone claims their policy is all benefit, they're hiding something.</p>
+</details>
+<details class="question">
+<summary>Red Flag #3: 'The market is manipulated'</summary>
+<p>Markets can be manipulated, but most price changes reflect genuine supply and demand shifts. Before blaming manipulation, ask: What changed in supply or demand?</p>
+</details>
+<details class="question">
+<summary>Red Flag #4: 'Just raise the minimum wage' (or 'never raise it')</summary>
+<p>Minimum wage involves complex trade-offs. Anyone claiming the answer is simple isn't being honest about the economics.</p>
+</details>
+<details class="question">
+<summary>Red Flag #5: 'The data clearly shows...'</summary>
+<p>Data rarely "clearly shows" anything in economics. There's usually legitimate debate about what data means. Be suspicious of certainty.</p>
+</details>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">&para;</a></h2>
+<p>You've leveled up your economic superpowers significantly. Here's what you can now do:</p>
+<ol>
+<li><strong>Find equilibrium</strong>: Identify where supply meets demand and predict market outcomes</li>
+<li><strong>Explain surpluses and shortages</strong>: Understand why they occur and how markets self-correct</li>
+<li><strong>See the invisible hand</strong>: Understand how the price mechanism coordinates economic activity</li>
+<li><strong>Predict price control effects</strong>: Anticipate shortages from ceilings and surpluses from floors</li>
+<li><strong>Analyze tax incidence</strong>: Understand who really bears the burden of taxes</li>
+<li><strong>Evaluate efficiency</strong>: Measure whether resources are allocated optimally</li>
+<li><strong>Consider equity</strong>: Think about fairness and distribution</li>
+<li><strong>Navigate trade-offs</strong>: Recognize that efficiency and equity often conflict</li>
+<li><strong>Apply cost-benefit analysis</strong>: Systematically evaluate decisions</li>
+<li><strong>Interpret data critically</strong>: Shield yourself from manipulation and misinformation</li>
+</ol>
+<h2 id="practice-questions">Practice Questions<a class="headerlink" href="#practice-questions" title="Permanent link">&para;</a></h2>
+<p>Test your new superpowers:</p>
+<ol>
+<li>
+<p>If a city puts a price ceiling on rideshare services (like Uber), what do you predict will happen to availability during peak hours?</p>
+</li>
+<li>
+<p>A politician promises to "eliminate price gouging" after natural disasters. Using your understanding of markets, what are the potential unintended consequences?</p>
+</li>
+<li>
+<p>The government puts a $2 tax on every gallon of gasoline. If demand for gas is relatively inelastic, who bears most of the tax burden—drivers or gas stations?</p>
+</li>
+<li>
+<p>A social media post claims "rent control works in my city—my rent hasn't gone up in 5 years!" What's missing from this analysis?</p>
+</li>
+<li>
+<p>A stadium proposal claims $200 million in economic benefits. What questions should you ask before accepting this number?</p>
+</li>
+</ol>
+<hr />
+<h2 id="next-steps">Next Steps<a class="headerlink" href="#next-steps" title="Permanent link">&para;</a></h2>
+<p>You now understand how individual markets work—how prices coordinate supply and demand, how government interventions can help or hurt, and how to think critically about economic claims.</p>
+<p>In the next chapter, we'll explore <strong>Market Structures</strong>—what happens when there isn't perfect competition. What if there's only one seller (monopoly)? Or just a few (oligopoly)? How does that change everything we've learned?</p>
+<p>Your economic superpower is getting stronger. Keep asking "What are the trade-offs?" and "Who benefits, who loses?" These questions will serve you well in economics class—and in life.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tracking", "content.code.copy"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../../javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>
