@@ -43,6 +43,8 @@ nav:
 # Theme Configuration
 theme:
   name: material
+  logo: img/logo.png
+  favicon: img/favicon.ico
   palette:
     - scheme: default
       primary: green
