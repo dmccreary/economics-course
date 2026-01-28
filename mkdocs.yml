@@ -38,6 +38,8 @@ markdown_extensions:
 # Plugins
 plugins:
   - search
+  - social
+  - social_override
 
 # Navigation Structure
 nav:

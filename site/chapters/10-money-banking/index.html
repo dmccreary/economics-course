@@ -1,0 +1,2521 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Understand what money is, how banks create money through fractional reserve banking, and how the Federal Reserve manages the economy">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/economics-course/chapters/10-money-banking/">
+      
+      
+        <link rel="prev" href="../09-inflation-business-cycle/">
+      
+      
+        <link rel="next" href="../11-fiscal-monetary-policy/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Money and Banking - Introduction to Economics</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#money-and-banking" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Introduction to Economics" class="md-header__button md-logo" aria-label="Introduction to Economics" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Introduction to Economics
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Money and Banking
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/economics-course" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    dmccreary/economics-course
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Introduction to Economics" class="md-nav__button md-logo" aria-label="Introduction to Economics" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Introduction to Economics
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/economics-course" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    dmccreary/economics-course
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    List of Chapters
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-what-is-economics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. What is Economics?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-demand-consumer-behavior/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Demand and Consumer Behavior
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-supply-production/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Supply and Production
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-market-equilibrium/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Market Equilibrium
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-market-structures/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5. Market Structures
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-market-failures/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6. Market Failures
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-measuring-economy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7. Measuring the Economy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-employment-unemployment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    8. Employment and Unemployment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-inflation-business-cycle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    9. Inflation and Business Cycle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    10. Money and Banking
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    10. Money and Banking
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concepts Covered
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-even-is-money" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Even IS Money?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-money" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Money?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#functions-of-money" class="md-nav__link">
+    <span class="md-ellipsis">
+      Functions of Money
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Functions of Money">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-medium-of-exchange" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Medium of Exchange
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-store-of-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Store of Value
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-unit-of-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Unit of Account
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-makes-good-money" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Makes GOOD Money?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What Makes GOOD Money?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-money-characteristics-evaluator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Money Characteristics Evaluator
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fiat-money-money-by-decree" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fiat Money: Money by Decree
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fiat Money: Money by Decree">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-about-cryptocurrency" class="md-nav__link">
+    <span class="md-ellipsis">
+      What About Cryptocurrency?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-money-supply" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Money Supply
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Money Supply">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#m1-the-narrow-measure" class="md-nav__link">
+    <span class="md-ellipsis">
+      M1: The Narrow Measure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#m2-the-broader-measure" class="md-nav__link">
+    <span class="md-ellipsis">
+      M2: The Broader Measure
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#banks-more-than-just-vaults" class="md-nav__link">
+    <span class="md-ellipsis">
+      Banks: More Than Just Vaults
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fractional-reserve-banking-how-banks-create-money" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fractional Reserve Banking: How Banks Create Money
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fractional Reserve Banking: How Banks Create Money">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-money-multiplier" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Money Multiplier
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Money Multiplier">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-fractional-reserve-money-multiplier" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Fractional Reserve Money Multiplier
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is-this-a-scam" class="md-nav__link">
+    <span class="md-ellipsis">
+      Is This a Scam?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-federal-reserve-americas-central-bank" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Federal Reserve: America's Central Bank
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Federal Reserve: America's Central Bank">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-does-the-fed-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Does the Fed Do?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-feds-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Fed's Structure
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interest-rates-the-feds-main-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interest Rates: The Fed's Main Tool
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interest Rates: The Fed's Main Tool">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-interest-rates-affect-the-economy" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Interest Rates Affect the Economy
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How Interest Rates Affect the Economy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-fed-interest-rate-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Fed Interest Rate Simulator
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-feds-dual-mandate" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Fed's Dual Mandate
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-market-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Open Market Operations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quantitative-easing-the-unconventional-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quantitative Easing: The Unconventional Tool
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quantitative Easing: The Unconventional Tool">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-qe-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How QE Works
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qe-controversies" class="md-nav__link">
+    <span class="md-ellipsis">
+      QE Controversies
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#critical-thinking-money-and-banking-myths" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critical Thinking: Money and Banking Myths
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Critical Thinking: Money and Banking Myths">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#myth-1-banks-lend-out-your-deposits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Myth #1: "Banks Lend Out Your Deposits"
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#myth-2-the-fed-is-printing-money-recklessly" class="md-nav__link">
+    <span class="md-ellipsis">
+      Myth #2: "The Fed Is Printing Money Recklessly"
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#myth-3-we-should-return-to-the-gold-standard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Myth #3: "We Should Return to the Gold Standard"
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#myth-4-cryptocurrency-will-replace-the-dollar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Myth #4: "Cryptocurrency Will Replace the Dollar"
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Practice Questions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Next Steps
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-fiscal-monetary-policy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    11. Fiscal and Monetary Policy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-international-trade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12. International Trade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-personal-finance-investment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    13. Personal Finance and Investment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-digital-economy-capstone/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    14. Digital Economy and Capstone
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Learning Graph
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/graph-viewer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Graph Viewer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Concept List
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-taxonomy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Concept Taxonomy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/quality-metrics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quality Metrics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/taxonomy-distribution/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Taxonomy Distribution
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/course-description-assessment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description Assessment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concepts Covered
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-even-is-money" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Even IS Money?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-money" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Money?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#functions-of-money" class="md-nav__link">
+    <span class="md-ellipsis">
+      Functions of Money
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Functions of Money">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-medium-of-exchange" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Medium of Exchange
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-store-of-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Store of Value
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-unit-of-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Unit of Account
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-makes-good-money" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Makes GOOD Money?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What Makes GOOD Money?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-money-characteristics-evaluator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Money Characteristics Evaluator
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fiat-money-money-by-decree" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fiat Money: Money by Decree
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fiat Money: Money by Decree">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-about-cryptocurrency" class="md-nav__link">
+    <span class="md-ellipsis">
+      What About Cryptocurrency?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-money-supply" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Money Supply
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Money Supply">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#m1-the-narrow-measure" class="md-nav__link">
+    <span class="md-ellipsis">
+      M1: The Narrow Measure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#m2-the-broader-measure" class="md-nav__link">
+    <span class="md-ellipsis">
+      M2: The Broader Measure
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#banks-more-than-just-vaults" class="md-nav__link">
+    <span class="md-ellipsis">
+      Banks: More Than Just Vaults
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fractional-reserve-banking-how-banks-create-money" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fractional Reserve Banking: How Banks Create Money
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fractional Reserve Banking: How Banks Create Money">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-money-multiplier" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Money Multiplier
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Money Multiplier">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-fractional-reserve-money-multiplier" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Fractional Reserve Money Multiplier
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is-this-a-scam" class="md-nav__link">
+    <span class="md-ellipsis">
+      Is This a Scam?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-federal-reserve-americas-central-bank" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Federal Reserve: America's Central Bank
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Federal Reserve: America's Central Bank">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-does-the-fed-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Does the Fed Do?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-feds-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Fed's Structure
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interest-rates-the-feds-main-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interest Rates: The Fed's Main Tool
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interest Rates: The Fed's Main Tool">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-interest-rates-affect-the-economy" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Interest Rates Affect the Economy
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How Interest Rates Affect the Economy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-fed-interest-rate-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Fed Interest Rate Simulator
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-feds-dual-mandate" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Fed's Dual Mandate
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-market-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Open Market Operations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quantitative-easing-the-unconventional-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quantitative Easing: The Unconventional Tool
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quantitative Easing: The Unconventional Tool">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-qe-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How QE Works
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qe-controversies" class="md-nav__link">
+    <span class="md-ellipsis">
+      QE Controversies
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#critical-thinking-money-and-banking-myths" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critical Thinking: Money and Banking Myths
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Critical Thinking: Money and Banking Myths">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#myth-1-banks-lend-out-your-deposits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Myth #1: "Banks Lend Out Your Deposits"
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#myth-2-the-fed-is-printing-money-recklessly" class="md-nav__link">
+    <span class="md-ellipsis">
+      Myth #2: "The Fed Is Printing Money Recklessly"
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#myth-3-we-should-return-to-the-gold-standard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Myth #3: "We Should Return to the Gold Standard"
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#myth-4-cryptocurrency-will-replace-the-dollar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Myth #4: "Cryptocurrency Will Replace the Dollar"
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Practice Questions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Next Steps
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="money-and-banking">Money and Banking<a class="headerlink" href="#money-and-banking" title="Permanent link">&para;</a></h1>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>This chapter introduces the monetary system and financial institutions. Students will learn what makes something money, the functions money serves, and how banks create money through fractional reserve banking. The chapter examines the role of the Federal Reserve as the central bank of the United States.</p>
+<p>After completing this chapter, students will understand how the banking system works and how monetary policy tools affect the economy.</p>
+<h2 id="concepts-covered">Concepts Covered<a class="headerlink" href="#concepts-covered" title="Permanent link">&para;</a></h2>
+<p>This chapter covers the following 13 concepts from the learning graph:</p>
+<ol>
+<li>Money</li>
+<li>Functions of Money</li>
+<li>Medium of Exchange</li>
+<li>Store of Value</li>
+<li>Fiat Money</li>
+<li>Money Supply</li>
+<li>Banks</li>
+<li>Fractional Reserve Banking</li>
+<li>Federal Reserve</li>
+<li>Central Bank</li>
+<li>Interest Rates</li>
+<li>Open Market Operations</li>
+<li>Quantitative Easing</li>
+</ol>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
+<p>This chapter builds on concepts from:</p>
+<ul>
+<li><a href="../01-what-is-economics/">Chapter 1: What is Economics?</a></li>
+<li><a href="../09-inflation-business-cycle/">Chapter 9: Inflation and the Business Cycle</a></li>
+</ul>
+<hr />
+<h2 id="what-even-is-money">What Even IS Money?<a class="headerlink" href="#what-even-is-money" title="Permanent link">&para;</a></h2>
+<p>Here's a question that sounds simple but gets weird fast: <strong>What is money?</strong></p>
+<p>You probably have some in your pocket or bank account right now. But have you ever really thought about what makes those pieces of paper (or numbers on a screen) valuable? Why can you trade them for pizza, but you can't trade a random rock for pizza?</p>
+<p>This chapter will bend your brain a little. You'll discover that money is stranger than you think, that banks do something surprising with your deposits, and that a group of people in Washington DC have enormous influence over the economy through decisions most people don't understand.</p>
+<p>By the end, you'll have a superpower that most adults lack: actually understanding how the monetary system works. This matters because interest rates affect your future mortgage, student loans, car payments, and job prospects. The more you understand, the better financial decisions you'll make.</p>
+<p>Let's start with the basics—which turn out to be not so basic at all.</p>
+<h2 id="what-is-money">What Is Money?<a class="headerlink" href="#what-is-money" title="Permanent link">&para;</a></h2>
+<p><strong>Money</strong> is anything that is widely accepted as payment for goods and services and repayment of debts.</p>
+<p>Read that again: <em>anything</em> that is <em>widely accepted</em>. Money isn't inherently valuable—it's valuable because everyone agrees it's valuable. This is a wild concept when you really think about it.</p>
+<p>Throughout history, people have used many things as money:</p>
+<ul>
+<li><strong>Shells</strong>: Cowrie shells in Africa and Asia</li>
+<li><strong>Salt</strong>: So valuable that Roman soldiers were sometimes paid in it (the word "salary" comes from salt!)</li>
+<li><strong>Cigarettes</strong>: Used as money in prisons and POW camps</li>
+<li><strong>Gold and silver</strong>: The classics</li>
+<li><strong>Paper notes</strong>: Promises to pay, eventually became money themselves</li>
+<li><strong>Digital entries</strong>: Most money today is just numbers in computers</li>
+</ul>
+<p>What do all these have in common? People agreed to accept them in exchange for other things. That's it. Money is a social agreement.</p>
+<div class="admonition note">
+<p class="admonition-title">Money vs. Currency vs. Wealth</p>
+<p>These terms are related but different:
+- <strong>Money</strong>: Anything accepted as payment (includes digital balances)
+- <strong>Currency</strong>: Physical money (coins and bills)
+- <strong>Wealth</strong>: Total value of everything you own (house, car, investments, etc.)</p>
+<p>Most "money" today isn't physical currency—it's digital records in bank computers.</p>
+</div>
+<h2 id="functions-of-money">Functions of Money<a class="headerlink" href="#functions-of-money" title="Permanent link">&para;</a></h2>
+<p>For something to work well as money, it needs to perform three key <strong>functions of money</strong>:</p>
+<h3 id="1-medium-of-exchange">1. Medium of Exchange<a class="headerlink" href="#1-medium-of-exchange" title="Permanent link">&para;</a></h3>
+<p>A <strong>medium of exchange</strong> is something people accept as payment in transactions.</p>
+<p>This is money's primary job. Without it, you'd need <strong>barter</strong>—directly trading goods for goods. Want pizza? Hope you have something the pizza shop wants!</p>
+<p>Barter has a huge problem: the <strong>double coincidence of wants</strong>. You need to find someone who:
+1. Has what you want, AND
+2. Wants what you have</p>
+<p>Good luck with that. Money solves this by being something everyone accepts.</p>
+<h3 id="2-store-of-value">2. Store of Value<a class="headerlink" href="#2-store-of-value" title="Permanent link">&para;</a></h3>
+<p>A <strong>store of value</strong> is something that maintains its purchasing power over time.</p>
+<p>You can earn money today and spend it next month (or next year). The money "stores" your value until you need it. This only works if money maintains relatively stable value—which is why high inflation is so damaging. If prices double every month, money is a terrible store of value.</p>
+<h3 id="3-unit-of-account">3. Unit of Account<a class="headerlink" href="#3-unit-of-account" title="Permanent link">&para;</a></h3>
+<p>Money provides a common measure for comparing the value of different goods and services.</p>
+<p>Instead of knowing that one chicken equals three loaves of bread equals half a pair of shoes, we just price everything in dollars. Chicken: $8. Bread: $3. Shoes: $60. Much simpler!</p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>What It Means</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Medium of Exchange</td>
+<td>Accepted as payment</td>
+<td>You pay $20 for a shirt</td>
+</tr>
+<tr>
+<td>Store of Value</td>
+<td>Holds value over time</td>
+<td>You save $100 for next month</td>
+</tr>
+<tr>
+<td>Unit of Account</td>
+<td>Common measuring stick</td>
+<td>"This costs $50, that costs $30"</td>
+</tr>
+</tbody>
+</table>
+<h2 id="what-makes-good-money">What Makes GOOD Money?<a class="headerlink" href="#what-makes-good-money" title="Permanent link">&para;</a></h2>
+<p>Not everything works well as money. Good money has these characteristics:</p>
+<ul>
+<li><strong>Durability</strong>: Doesn't fall apart (tomatoes = bad money)</li>
+<li><strong>Portability</strong>: Easy to carry (giant stones = bad money)</li>
+<li><strong>Divisibility</strong>: Can be split into smaller units (diamonds = bad money—can't cut them easily)</li>
+<li><strong>Uniformity</strong>: Every unit is the same (artwork = bad money—each piece is different)</li>
+<li><strong>Limited Supply</strong>: Scarce enough to maintain value (seawater = bad money)</li>
+<li><strong>Acceptability</strong>: People actually want it (random rocks = bad money)</li>
+</ul>
+<h4 id="diagram-money-characteristics-evaluator">Diagram: Money Characteristics Evaluator<a class="headerlink" href="#diagram-money-characteristics-evaluator" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/money-evaluator/main.html" width="100%" height="500px" scrolling="no"></iframe>
+
+<details>
+<summary>Money Characteristics Evaluator MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Understand (L2)
+Bloom Verb: classify, compare, evaluate</p>
+<p>Learning Objective: Students will evaluate different items as potential money by assessing their characteristics against the requirements for good money.</p>
+<p>Purpose: Make abstract money characteristics concrete by applying them to specific items.</p>
+<p>Canvas Layout:
+- Left side (350px): Item selector and display
+- Right side (350px): Characteristics rating and verdict</p>
+<p>Visual Elements:
+- Item cards to select from:
+  - Gold coins
+  - Paper dollars
+  - Cigarettes (prison money)
+  - Seashells
+  - Cattle
+  - Bitcoin
+  - Salt
+  - Giant stone discs (Yap Island)
+- Six characteristic meters (0-10 scale):
+  - Durability
+  - Portability
+  - Divisibility
+  - Uniformity
+  - Limited Supply
+  - Acceptability
+- Overall "Money Score" gauge
+- Historical context blurb for each item</p>
+<p>Interactive Controls:
+- Click item to select
+- "Rate This Item" mode: students rate characteristics before reveal
+- "Show Actual Ratings" button
+- "Compare Two Items" toggle
+- "Why did this work historically?" info popup</p>
+<p>Behavior:
+- Selecting item shows it with historical context
+- Meters fill to show characteristic ratings
+- Overall score calculated from weighted characteristics
+- Comparison mode shows two items side by side
+- Discussion prompts: "Why might cigarettes work as money in prison but not outside?"</p>
+<p>Data for items:
+- Gold: High on most except portability
+- Paper dollars: High on all (with government backing for acceptability)
+- Bitcoin: Mixed (high divisibility, low acceptability currently, limited supply)
+- Cattle: Low on divisibility, portability; high on acceptability historically</p>
+<p>Instructional Rationale: Evaluating specific items makes abstract characteristics concrete. Students discover why modern money evolved to have specific features and why historical money forms eventually failed.</p>
+<p>Implementation: p5.js with item cards, animated meters, and comparison mode</p>
+</details>
+<h2 id="fiat-money-money-by-decree">Fiat Money: Money by Decree<a class="headerlink" href="#fiat-money-money-by-decree" title="Permanent link">&para;</a></h2>
+<p>Here's the part where money gets really interesting (and a little unsettling).</p>
+<p><strong>Fiat money</strong> is money that has value because a government declares it has value, not because it's backed by a physical commodity like gold.</p>
+<p>The US dollar used to be backed by gold—you could literally exchange dollars for gold at a fixed rate. But that ended in 1971. Now, dollars are fiat money. They have value because:</p>
+<ol>
+<li>The government says they're legal tender (must be accepted for debts)</li>
+<li>You have to pay taxes in dollars (creates demand)</li>
+<li>Everyone agrees to accept them (social convention)</li>
+</ol>
+<p>That's it. There's no gold in Fort Knox backing your dollars. The Federal Reserve can create new dollars essentially out of thin air.</p>
+<p>This sounds scary, but it actually gives the government flexibility to manage the economy. The gold standard had major problems—it limited the money supply and made recessions worse because the government couldn't respond.</p>
+<div class="admonition warning">
+<p class="admonition-title">Critical Thinking: Gold Standard Nostalgia</p>
+<p>You'll sometimes hear people say we should return to the gold standard. Before agreeing, consider:
+- Gold supply is fixed—economy can't grow faster than gold mining
+- Gold standard countries had MORE frequent and severe recessions
+- Countries on the gold standard suffered worse during the Great Depression
+- Gold's value fluctuates based on jewelry demand and mining output</p>
+<p>The gold standard wasn't a golden age. It had serious problems that fiat money solved.</p>
+</div>
+<h3 id="what-about-cryptocurrency">What About Cryptocurrency?<a class="headerlink" href="#what-about-cryptocurrency" title="Permanent link">&para;</a></h3>
+<p>Cryptocurrencies like Bitcoin are an interesting experiment in money. Let's evaluate them:</p>
+<table>
+<thead>
+<tr>
+<th>Characteristic</th>
+<th>Bitcoin</th>
+<th>Analysis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Durability</td>
+<td>High</td>
+<td>Digital, doesn't degrade</td>
+</tr>
+<tr>
+<td>Portability</td>
+<td>High</td>
+<td>Send anywhere instantly</td>
+</tr>
+<tr>
+<td>Divisibility</td>
+<td>High</td>
+<td>Can divide to tiny fractions</td>
+</tr>
+<tr>
+<td>Uniformity</td>
+<td>High</td>
+<td>Every Bitcoin is identical</td>
+</tr>
+<tr>
+<td>Limited Supply</td>
+<td>High</td>
+<td>Capped at 21 million</td>
+</tr>
+<tr>
+<td>Acceptability</td>
+<td>Low</td>
+<td>Few places accept it</td>
+</tr>
+</tbody>
+</table>
+<p>Bitcoin scores well on most characteristics except the most important one: acceptability. You can't pay rent, buy groceries, or pay taxes with Bitcoin in most places. For now, it's more of a speculative investment than practical money.</p>
+<h2 id="the-money-supply">The Money Supply<a class="headerlink" href="#the-money-supply" title="Permanent link">&para;</a></h2>
+<p>The <strong>money supply</strong> is the total amount of money in circulation in an economy.</p>
+<p>But what counts as "money"? Economists use different measures:</p>
+<h3 id="m1-the-narrow-measure">M1: The Narrow Measure<a class="headerlink" href="#m1-the-narrow-measure" title="Permanent link">&para;</a></h3>
+<p>M1 includes the most liquid forms of money—things you can spend immediately:</p>
+<ul>
+<li>Currency (coins and paper money)</li>
+<li>Checking account deposits</li>
+<li>Traveler's checks</li>
+</ul>
+<h3 id="m2-the-broader-measure">M2: The Broader Measure<a class="headerlink" href="#m2-the-broader-measure" title="Permanent link">&para;</a></h3>
+<p>M2 includes M1 plus less liquid forms:</p>
+<ul>
+<li>Savings accounts</li>
+<li>Money market accounts</li>
+<li>Small time deposits (CDs under $100,000)</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Measure</th>
+<th>What's Included</th>
+<th>Liquidity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M1</td>
+<td>Currency + Checking</td>
+<td>Highest</td>
+</tr>
+<tr>
+<td>M2</td>
+<td>M1 + Savings + Money Markets</td>
+<td>High</td>
+</tr>
+</tbody>
+</table>
+<p>Why does this matter? The money supply affects inflation, interest rates, and economic activity. Too much money chasing too few goods = inflation. Too little money = recession risk.</p>
+<h2 id="banks-more-than-just-vaults">Banks: More Than Just Vaults<a class="headerlink" href="#banks-more-than-just-vaults" title="Permanent link">&para;</a></h2>
+<p>When you think of a <strong>bank</strong>, you might imagine a vault full of cash. But modern banks are much more interesting (and important) than that.</p>
+<p>Banks perform several critical functions:</p>
+<ol>
+<li><strong>Accept deposits</strong>: Hold your money safely</li>
+<li><strong>Make loans</strong>: Lend money to borrowers</li>
+<li><strong>Process payments</strong>: Move money between accounts</li>
+<li><strong>Create money</strong>: Wait, what?!</li>
+</ol>
+<p>Yes, banks create money. This is where things get wild.</p>
+<h2 id="fractional-reserve-banking-how-banks-create-money">Fractional Reserve Banking: How Banks Create Money<a class="headerlink" href="#fractional-reserve-banking-how-banks-create-money" title="Permanent link">&para;</a></h2>
+<p><strong>Fractional reserve banking</strong> is a system where banks keep only a fraction of deposits as reserves and lend out the rest.</p>
+<p>Here's how it works:</p>
+<ol>
+<li>You deposit $1,000 in your bank account</li>
+<li>The bank is required to keep some as reserves (say, 10%)</li>
+<li>The bank keeps $100 in reserves and lends $900 to someone else</li>
+<li>That person deposits the $900 in their bank</li>
+<li>Their bank keeps $90 and lends $810</li>
+<li>And so on...</li>
+</ol>
+<p>Your original $1,000 becomes much more money in the system!</p>
+<h3 id="the-money-multiplier">The Money Multiplier<a class="headerlink" href="#the-money-multiplier" title="Permanent link">&para;</a></h3>
+<p>The <strong>money multiplier</strong> shows how much money the banking system creates from an initial deposit:</p>
+<p>$$\text{Money Multiplier} = \frac{1}{\text{Reserve Ratio}}$$</p>
+<p>With a 10% reserve ratio:</p>
+<p>$$\text{Money Multiplier} = \frac{1}{0.10} = 10$$</p>
+<p>Your $1,000 deposit could create up to $10,000 in the banking system!</p>
+<table>
+<thead>
+<tr>
+<th>Round</th>
+<th>Deposit</th>
+<th>Reserves (10%)</th>
+<th>Amount Lent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>$1,000</td>
+<td>$100</td>
+<td>$900</td>
+</tr>
+<tr>
+<td>2</td>
+<td>$900</td>
+<td>$90</td>
+<td>$810</td>
+</tr>
+<tr>
+<td>3</td>
+<td>$810</td>
+<td>$81</td>
+<td>$729</td>
+</tr>
+<tr>
+<td>4</td>
+<td>$729</td>
+<td>$73</td>
+<td>$656</td>
+</tr>
+<tr>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>$10,000</td>
+<td>$1,000</td>
+<td>$9,000</td>
+</tr>
+</tbody>
+</table>
+<h4 id="diagram-fractional-reserve-money-multiplier">Diagram: Fractional Reserve Money Multiplier<a class="headerlink" href="#diagram-fractional-reserve-money-multiplier" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/money-multiplier/main.html" width="100%" height="550px" scrolling="no"></iframe>
+
+<details>
+<summary>Fractional Reserve Money Multiplier MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Apply (L3)
+Bloom Verb: calculate, demonstrate, apply</p>
+<p>Learning Objective: Students will demonstrate how fractional reserve banking creates money by tracing deposits through multiple rounds of lending.</p>
+<p>Purpose: Visualize the "magic" of money creation that most people don't understand.</p>
+<p>Canvas Layout:
+- Left side (450px): Animated flow diagram showing money multiplying
+- Right side (250px): Controls and running totals</p>
+<p>Visual Elements:
+- Bank buildings in a row (Bank A, B, C, D, E...)
+- Animated money/coin icons flowing between banks
+- For each round:
+  - Deposit arrives (green arrow in)
+  - Reserve kept (stays in vault)
+  - Loan made (blue arrow out)
+  - Deposit at next bank (cycle continues)
+- Running totals panel:
+  - Total Deposits Created
+  - Total Reserves Held
+  - Total Loans Made
+  - Money Multiplier achieved</p>
+<p>Interactive Controls:
+- Initial deposit amount slider ($100 - $10,000)
+- Reserve ratio slider (5% - 25%)
+- "Step Through" button (one round at a time)
+- "Auto-Play" button (watch it all unfold)
+- Speed control
+- "Reset" button
+- "Show Formula" toggle</p>
+<p>Data Visibility Requirements:
+- Stage 1: Initial deposit enters Bank A
+- Stage 2: Bank A keeps reserves, lends remainder
+- Stage 3: Loan becomes deposit at Bank B
+- Stage 4: Process repeats through multiple banks
+- Stage 5: Show diminishing amounts until negligible
+- Final: Display total money created vs initial deposit</p>
+<p>Behavior:
+- Money icons visually flow between banks
+- Each bank shows: Deposit received, Reserves kept, Loan made
+- Running total updates in real-time
+- Multiplier display: "Your $1,000 became $X in the banking system!"
+- Lower reserve ratio = higher multiplier (more money created)
+- Higher reserve ratio = lower multiplier (less money created)</p>
+<p>Edge cases:
+- At very low reserve ratios, show money creation is very high
+- At 100% reserve ratio, no money multiplication (show this case)</p>
+<p>Instructional Rationale: Visualizing money flowing through the banking system makes the abstract money multiplier concrete. Students see that banks don't just store money—they create it through lending.</p>
+<p>Implementation: p5.js with animated money flow, bank icons, and real-time calculation</p>
+</details>
+<h3 id="is-this-a-scam">Is This a Scam?<a class="headerlink" href="#is-this-a-scam" title="Permanent link">&para;</a></h3>
+<p>When people first learn about fractional reserve banking, they often feel alarmed. "Banks lend out my money? They only keep 10%?!"</p>
+<p>Here's the thing: this system has worked for centuries and enables economic growth. Without it, banks couldn't make loans, businesses couldn't borrow to expand, and you couldn't get a mortgage or car loan.</p>
+<p>The system works because:</p>
+<ul>
+<li>Not everyone withdraws all their money at once (usually)</li>
+<li>Banks are regulated and insured (FDIC insurance up to $250,000)</li>
+<li>The Federal Reserve acts as lender of last resort</li>
+</ul>
+<p>When the system breaks down (bank runs), it's very bad. But with proper regulation, fractional reserve banking enables the credit that modern economies depend on.</p>
+<h2 id="the-federal-reserve-americas-central-bank">The Federal Reserve: America's Central Bank<a class="headerlink" href="#the-federal-reserve-americas-central-bank" title="Permanent link">&para;</a></h2>
+<p>The <strong>Federal Reserve</strong> (the "Fed") is the <strong>central bank</strong> of the United States.</p>
+<p>A <strong>central bank</strong> is a government institution that manages a nation's money supply and oversees the banking system.</p>
+<p>The Fed was created in 1913 after a series of banking panics convinced lawmakers that the US needed a central authority to stabilize the financial system.</p>
+<h3 id="what-does-the-fed-do">What Does the Fed Do?<a class="headerlink" href="#what-does-the-fed-do" title="Permanent link">&para;</a></h3>
+<p>The Federal Reserve has several key responsibilities:</p>
+<ol>
+<li><strong>Conducts monetary policy</strong>: Influences interest rates and money supply</li>
+<li><strong>Supervises banks</strong>: Ensures they're operating safely</li>
+<li><strong>Maintains financial stability</strong>: Prevents and responds to crises</li>
+<li><strong>Provides banking services</strong>: Processes payments, holds reserves</li>
+</ol>
+<h3 id="the-feds-structure">The Fed's Structure<a class="headerlink" href="#the-feds-structure" title="Permanent link">&para;</a></h3>
+<p>The Fed isn't a single institution—it's a system:</p>
+<ul>
+<li><strong>Board of Governors</strong>: 7 members appointed by the President, confirmed by Senate</li>
+<li><strong>Federal Open Market Committee (FOMC)</strong>: Makes monetary policy decisions</li>
+<li><strong>12 Regional Federal Reserve Banks</strong>: Located across the country</li>
+</ul>
+<p>The Chair of the Fed (currently a presidential appointee) is one of the most powerful economic positions in the world. Their words can move markets.</p>
+<div class="admonition note">
+<p class="admonition-title">Is the Fed Part of the Government?</p>
+<p>Sort of. The Fed is independent within the government—it makes monetary policy decisions without direct political control. This independence is designed to prevent politicians from manipulating money supply for short-term electoral gains. But the President appoints Fed leaders, and Congress created and oversees the Fed.</p>
+</div>
+<h2 id="interest-rates-the-feds-main-tool">Interest Rates: The Fed's Main Tool<a class="headerlink" href="#interest-rates-the-feds-main-tool" title="Permanent link">&para;</a></h2>
+<p><strong>Interest rates</strong> are the price of borrowing money, expressed as a percentage of the loan amount.</p>
+<p>When you borrow $10,000 at 5% interest, you pay back $10,500 over time. The $500 is the interest—the price you pay for using someone else's money.</p>
+<p>The Fed influences interest rates throughout the economy by setting the <strong>federal funds rate</strong>—the rate banks charge each other for overnight loans.</p>
+<h3 id="how-interest-rates-affect-the-economy">How Interest Rates Affect the Economy<a class="headerlink" href="#how-interest-rates-affect-the-economy" title="Permanent link">&para;</a></h3>
+<p>When the Fed changes rates, it ripples through the entire economy:</p>
+<p><strong>Lower Interest Rates:</strong>
+- Borrowing becomes cheaper
+- People buy more houses, cars, and stuff (on credit)
+- Businesses invest more (cheaper to borrow for expansion)
+- Economy speeds up
+- Risk: Can cause inflation if too much spending</p>
+<p><strong>Higher Interest Rates:</strong>
+- Borrowing becomes expensive
+- People buy less (especially big purchases requiring loans)
+- Businesses invest less (expensive to borrow)
+- Economy slows down
+- Risk: Can cause recession if raised too much</p>
+<table>
+<thead>
+<tr>
+<th>Fed Action</th>
+<th>Borrowing Cost</th>
+<th>Spending</th>
+<th>Economic Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lower Rates</td>
+<td>Cheaper</td>
+<td>Increases</td>
+<td>Stimulates growth</td>
+</tr>
+<tr>
+<td>Raise Rates</td>
+<td>More expensive</td>
+<td>Decreases</td>
+<td>Slows growth</td>
+</tr>
+</tbody>
+</table>
+<h4 id="diagram-fed-interest-rate-simulator">Diagram: Fed Interest Rate Simulator<a class="headerlink" href="#diagram-fed-interest-rate-simulator" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/fed-rate-simulator/main.html" width="100%" height="500px" scrolling="no"></iframe>
+
+<details>
+<summary>Fed Interest Rate Simulator MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Apply (L3)
+Bloom Verb: demonstrate, apply, predict</p>
+<p>Learning Objective: Students will demonstrate how changes in the federal funds rate affect different interest rates throughout the economy and predict impacts on economic activity.</p>
+<p>Purpose: Show the ripple effects of Fed policy decisions on real-world rates that affect people's lives.</p>
+<p>Canvas Layout:
+- Left side (400px): Fed rate control and cascading effects display
+- Right side (300px): Economic impact indicators</p>
+<p>Visual Elements:
+- Central "Fed Funds Rate" dial (0% - 10%)
+- Cascading rate displays branching from fed rate:
+  - Prime rate (Fed + 3%)
+  - Mortgage rates (Fed + spread)
+  - Auto loan rates
+  - Credit card rates
+  - Savings account rates
+- Economic indicator gauges:
+  - Consumer spending
+  - Business investment
+  - Housing market activity
+  - Inflation pressure
+  - Unemployment trend</p>
+<p>Interactive Controls:
+- Fed rate slider (0% - 10%)
+- "Raise 0.25%" and "Lower 0.25%" buttons
+- Time lag toggle (show immediate vs delayed effects)
+- Historical presets:
+  - "2008 Crisis Response" (rates near 0%)
+  - "1980s Inflation Fight" (rates at 20%)
+  - "Normal Times" (rates at 2-3%)
+- "Show Who Wins/Loses" toggle</p>
+<p>Data Visibility Requirements:
+- Stage 1: Show current fed rate
+- Stage 2: Show how other rates follow (with spreads)
+- Stage 3: Show economic indicators responding
+- Stage 4: Show time lag effects (economy responds slowly)</p>
+<p>Behavior:
+- Moving fed rate slider updates all cascading rates
+- Economic indicators shift with rate changes
+- Time lag mode shows: "Rates changed now, economy responds in 6-18 months"
+- Winners/losers panel:
+  - Lower rates: "Winners: Borrowers, homebuyers, businesses. Losers: Savers, retirees."
+  - Higher rates: "Winners: Savers, bond investors. Losers: Borrowers, homebuyers."
+- Historical presets show extreme scenarios with context</p>
+<p>Instructional Rationale: Visualizing the cascade from Fed policy to real-world rates makes monetary policy tangible. Students see how Fed decisions affect mortgage rates, car loans, and savings—things that will matter in their lives.</p>
+<p>Implementation: p5.js with central dial, branching rate displays, and economic gauges</p>
+</details>
+<h3 id="the-feds-dual-mandate">The Fed's Dual Mandate<a class="headerlink" href="#the-feds-dual-mandate" title="Permanent link">&para;</a></h3>
+<p>Congress has given the Fed two main goals:</p>
+<ol>
+<li><strong>Maximum employment</strong>: Keep unemployment low</li>
+<li><strong>Price stability</strong>: Keep inflation low (around 2%)</li>
+</ol>
+<p>These goals sometimes conflict. To fight inflation, the Fed raises rates, which can increase unemployment. To fight unemployment, the Fed lowers rates, which can increase inflation.</p>
+<p>The Fed constantly balances these competing objectives. There's no perfect answer—just difficult trade-offs.</p>
+<h2 id="open-market-operations">Open Market Operations<a class="headerlink" href="#open-market-operations" title="Permanent link">&para;</a></h2>
+<p><strong>Open market operations</strong> are the Fed's primary tool for implementing monetary policy. The Fed buys and sells government bonds to influence the money supply and interest rates.</p>
+<p>Here's how it works:</p>
+<p><strong>To Lower Interest Rates (Stimulate Economy):</strong>
+1. Fed buys government bonds from banks
+2. Banks receive cash (reserves increase)
+3. More reserves = banks can lend more
+4. More lending = lower interest rates</p>
+<p><strong>To Raise Interest Rates (Slow Economy):</strong>
+1. Fed sells government bonds to banks
+2. Banks pay cash (reserves decrease)
+3. Fewer reserves = banks lend less
+4. Less lending = higher interest rates</p>
+<p>The Fed does this regularly through the Federal Open Market Committee (FOMC), which meets about 8 times per year.</p>
+<h2 id="quantitative-easing-the-unconventional-tool">Quantitative Easing: The Unconventional Tool<a class="headerlink" href="#quantitative-easing-the-unconventional-tool" title="Permanent link">&para;</a></h2>
+<p><strong>Quantitative easing (QE)</strong> is an unconventional monetary policy where the central bank purchases large amounts of securities to inject money into the economy.</p>
+<p>Normal open market operations involve short-term government bonds. QE goes further—buying long-term bonds, mortgage-backed securities, and sometimes other assets.</p>
+<p>The Fed used QE massively during:</p>
+<ul>
+<li><strong>2008-2014</strong>: Response to financial crisis</li>
+<li><strong>2020-2022</strong>: Response to COVID-19 pandemic</li>
+</ul>
+<h3 id="how-qe-works">How QE Works<a class="headerlink" href="#how-qe-works" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Fed creates new money (digitally)</li>
+<li>Uses it to buy bonds from banks and investors</li>
+<li>Sellers now have cash instead of bonds</li>
+<li>They deposit cash in banks or invest elsewhere</li>
+<li>This pushes down long-term interest rates</li>
+<li>Cheaper borrowing (hopefully) stimulates economy</li>
+</ol>
+<h3 id="qe-controversies">QE Controversies<a class="headerlink" href="#qe-controversies" title="Permanent link">&para;</a></h3>
+<p>QE is controversial for several reasons:</p>
+<p><strong>Critics say:</strong>
+- It could cause inflation (though this hasn't happened much)
+- It benefits wealthy asset owners (stock and bond prices rise)
+- It creates market distortions (artificially low rates)
+- It's "printing money" (sort of, but not exactly)</p>
+<p><strong>Supporters say:</strong>
+- It prevented worse recessions
+- Inflation stayed controlled despite QE
+- It's better than doing nothing during crises
+- All major central banks used it successfully</p>
+<div class="admonition tip">
+<p class="admonition-title">Critical Thinking: 'Printing Money' Claims</p>
+<p>You'll hear people say the Fed is "printing money," implying imminent hyperinflation. The reality is more nuanced:
+- QE creates bank reserves, not cash in circulation
+- Banks don't automatically lend more (they might hold reserves)
+- Inflation depends on spending, not just money supply
+- The Fed has tools to reverse QE if needed</p>
+<p>Massive QE after 2008 and 2020 didn't cause hyperinflation. The relationship between money supply and inflation is more complex than "more money = more inflation."</p>
+</div>
+<h2 id="critical-thinking-money-and-banking-myths">Critical Thinking: Money and Banking Myths<a class="headerlink" href="#critical-thinking-money-and-banking-myths" title="Permanent link">&para;</a></h2>
+<p>Let's address some common misconceptions:</p>
+<h3 id="myth-1-banks-lend-out-your-deposits">Myth #1: "Banks Lend Out Your Deposits"<a class="headerlink" href="#myth-1-banks-lend-out-your-deposits" title="Permanent link">&para;</a></h3>
+<p>Partially true. Banks lend based on deposits, but your specific dollars aren't sitting in a vault waiting for you. Banking is a flow, not a storage system.</p>
+<h3 id="myth-2-the-fed-is-printing-money-recklessly">Myth #2: "The Fed Is Printing Money Recklessly"<a class="headerlink" href="#myth-2-the-fed-is-printing-money-recklessly" title="Permanent link">&para;</a></h3>
+<p>The Fed creates reserves, not physical cash. This affects the economy through complex channels, not by directly inflating prices. Central bankers are professionals trying to balance difficult trade-offs, not reckless money-printers.</p>
+<h3 id="myth-3-we-should-return-to-the-gold-standard">Myth #3: "We Should Return to the Gold Standard"<a class="headerlink" href="#myth-3-we-should-return-to-the-gold-standard" title="Permanent link">&para;</a></h3>
+<p>The gold standard had serious problems: more frequent recessions, inability to respond to crises, and deflation that hurt debtors. Modern monetary policy has problems too, but the gold standard wasn't a paradise.</p>
+<h3 id="myth-4-cryptocurrency-will-replace-the-dollar">Myth #4: "Cryptocurrency Will Replace the Dollar"<a class="headerlink" href="#myth-4-cryptocurrency-will-replace-the-dollar" title="Permanent link">&para;</a></h3>
+<p>Cryptocurrencies are interesting innovations, but they currently lack the key feature money needs: widespread acceptability. You can't pay taxes, rent, or most businesses with Bitcoin. This may change, but it hasn't happened yet.</p>
+<details class="question">
+<summary>Practice: Analyzing Monetary Policy Claims</summary>
+<p>A social media post says: "The Fed printed $5 trillion during COVID! No wonder inflation is skyrocketing—it's all the Fed's fault!" What questions should you ask before sharing this?</p>
+<p>You should ask:
+1. What exactly did the Fed "print"? (Reserves vs. cash in circulation?)
+2. What was the alternative? (Let the economy collapse?)
+3. What caused the inflation? (Supply chains? Energy? Demand? All of these?)
+4. How does US inflation compare to other countries? (They had inflation too, despite different policies)
+5. What's the lag between Fed actions and economic effects?
+6. Is the Fed actually able to control inflation perfectly?</p>
+</details>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">&para;</a></h2>
+<p>You've unlocked powerful monetary superpowers:</p>
+<ol>
+<li><strong>Money</strong> is anything widely accepted as payment—it's a social agreement</li>
+<li>Money serves as a <strong>medium of exchange</strong>, <strong>store of value</strong>, and <strong>unit of account</strong></li>
+<li><strong>Fiat money</strong> has value because of government decree and social acceptance, not physical backing</li>
+<li>The <strong>money supply</strong> (M1, M2) measures how much money exists in the economy</li>
+<li><strong>Banks</strong> don't just store money—they create it through lending</li>
+<li><strong>Fractional reserve banking</strong> multiplies deposits into more money through the lending process</li>
+<li>The <strong>Federal Reserve</strong> is the US central bank that manages monetary policy</li>
+<li><strong>Interest rates</strong> are the Fed's main tool—lower rates stimulate, higher rates slow the economy</li>
+<li><strong>Open market operations</strong> involve buying/selling bonds to influence rates and money supply</li>
+<li><strong>Quantitative easing</strong> is the Fed's unconventional tool for crises—buying assets to inject money</li>
+<li>The Fed balances <strong>dual mandate</strong>: maximum employment AND price stability</li>
+<li>Most "money printing" claims oversimplify a complex system</li>
+<li>Modern money is strange but works better than historical alternatives</li>
+</ol>
+<h2 id="practice-questions">Practice Questions<a class="headerlink" href="#practice-questions" title="Permanent link">&para;</a></h2>
+<p>Test your understanding:</p>
+<ol>
+<li>
+<p>Why is money valuable if it's just paper (or digital numbers)?</p>
+</li>
+<li>
+<p>If the reserve ratio is 20%, what is the money multiplier? If someone deposits $5,000, how much total money could be created in the banking system?</p>
+</li>
+<li>
+<p>The Fed wants to slow down an overheating economy with rising inflation. Should it raise or lower interest rates? Why?</p>
+</li>
+<li>
+<p>What's the difference between open market operations and quantitative easing?</p>
+</li>
+<li>
+<p>Your friend says, "We should go back to the gold standard so the government can't manipulate the money supply." What are some counterarguments?</p>
+</li>
+</ol>
+<hr />
+<h2 id="next-steps">Next Steps<a class="headerlink" href="#next-steps" title="Permanent link">&para;</a></h2>
+<p>Now that you understand how money works and how the Fed manages the economy, you're ready to explore the other major tool governments have: spending and taxes. In the next chapter, we'll examine <strong>Fiscal Policy</strong>—how government budgets, taxation, and spending affect economic growth and stability.</p>
+<p>Your economic superpower now includes understanding the mysterious world of money and banking. When you hear about the Fed raising rates or debates about monetary policy, you'll actually know what's happening—and that's more than most adults can say!</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tracking", "content.code.copy"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

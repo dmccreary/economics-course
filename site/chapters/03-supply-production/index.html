@@ -1,0 +1,2875 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Understanding how producers make decisions about what and how much to produce, costs, and profit maximization">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/economics-course/chapters/03-supply-production/">
+      
+      
+        <link rel="prev" href="../02-demand-consumer-behavior/">
+      
+      
+        <link rel="next" href="../04-market-equilibrium/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Supply and Production - Introduction to Economics</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#supply-and-production" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Introduction to Economics" class="md-header__button md-logo" aria-label="Introduction to Economics" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Introduction to Economics
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Supply and Production
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/economics-course" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    dmccreary/economics-course
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Introduction to Economics" class="md-nav__button md-logo" aria-label="Introduction to Economics" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Introduction to Economics
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/economics-course" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    dmccreary/economics-course
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    List of Chapters
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-what-is-economics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. What is Economics?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-demand-consumer-behavior/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Demand and Consumer Behavior
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    3. Supply and Production
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    3. Supply and Production
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concepts Covered
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-other-half-of-the-story" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Other Half of the Story
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-supply" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is Supply?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-law-of-supply-higher-prices-more-production" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Law of Supply: Higher Prices = More Production
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-supply-curve-visualizing-producer-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Supply Curve: Visualizing Producer Behavior
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Supply Curve: Visualizing Producer Behavior">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-supply-curve-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Supply Curve Explorer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-does-supply-slope-upward" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Does Supply Slope Upward?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-production-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Production Actually Works
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How Production Actually Works">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-production-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Production Function
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marginal-product-what-one-more-worker-adds" class="md-nav__link">
+    <span class="md-ellipsis">
+      Marginal Product: What One More Worker Adds
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diminishing-returns-why-more-isnt-always-better" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diminishing Returns: Why More Isn't Always Better
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Diminishing Returns: Why More Isn't Always Better">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-production-function-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Production Function Explorer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-diminishing-returns-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Diminishing Returns Matters
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-cost-side-what-it-takes-to-produce" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Cost Side: What It Takes to Produce
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Cost Side: What It Takes to Produce">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed-costs-they-dont-budge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fixed Costs: They Don't Budge
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable-costs-they-move-with-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variable Costs: They Move with Output
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#total-cost-and-average-total-cost" class="md-nav__link">
+    <span class="md-ellipsis">
+      Total Cost and Average Total Cost
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marginal-cost-the-cost-of-one-more" class="md-nav__link">
+    <span class="md-ellipsis">
+      Marginal Cost: The Cost of One More
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Marginal Cost: The Cost of One More">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-cost-curves-visualizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Cost Curves Visualizer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-shape-of-cost-curves" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Shape of Cost Curves
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#revenue-and-profit-why-businesses-exist" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revenue and Profit: Why Businesses Exist
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Revenue and Profit: Why Businesses Exist">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#marginal-revenue" class="md-nav__link">
+    <span class="md-ellipsis">
+      Marginal Revenue
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#profit-maximization-the-golden-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      Profit Maximization: The Golden Rule
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Profit Maximization: The Golden Rule">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-profit-maximization-finder" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Profit Maximization Finder
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-causes-supply-to-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Causes Supply to Change?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#determinants-of-supply-the-shift-factors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Determinants of Supply: The Shift Factors
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Determinants of Supply: The Shift Factors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resource-prices-input-costs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resource Prices (Input Costs)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-goods-prices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Goods' Prices
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technology" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technology
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#taxes-and-subsidies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Taxes and Subsidies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expectations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expectations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#number-of-sellers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Number of Sellers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Number of Sellers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-supply-shifters-interactive-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Supply Shifters Interactive Map
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#economies-of-scale-why-big-can-be-cheaper" class="md-nav__link">
+    <span class="md-ellipsis">
+      Economies of Scale: Why Big Can Be Cheaper
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Economies of Scale: Why Big Can Be Cheaper">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-economies-of-scale-visualizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Economies of Scale Visualizer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diseconomies-of-scale-when-bigger-isnt-better" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diseconomies of Scale: When Bigger Isn't Better
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consumer-surplus-and-producer-surplus-who-benefits-from-trade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consumer Surplus and Producer Surplus: Who Benefits from Trade?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Consumer Surplus and Producer Surplus: Who Benefits from Trade?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#consumer-surplus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consumer Surplus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#producer-surplus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Producer Surplus
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Producer Surplus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-surplus-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Surplus Explorer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-surplus-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Surplus Matters
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deadweight-loss-when-markets-fail-to-maximize-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deadweight Loss: When Markets Fail to Maximize Value
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bringing-it-all-together-the-producers-mindset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bringing It All Together: The Producer's Mindset
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-understanding-supply-defeats-misinformation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Understanding Supply Defeats Misinformation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#critical-thinking-challenge-spotting-supply-misinformation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critical Thinking Challenge: Spotting Supply Misinformation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Practice Questions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Next Steps
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-market-equilibrium/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Market Equilibrium
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-market-structures/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5. Market Structures
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-market-failures/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6. Market Failures
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-measuring-economy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7. Measuring the Economy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-employment-unemployment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    8. Employment and Unemployment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-inflation-business-cycle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    9. Inflation and Business Cycle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-money-banking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10. Money and Banking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-fiscal-monetary-policy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    11. Fiscal and Monetary Policy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-international-trade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12. International Trade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-personal-finance-investment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    13. Personal Finance and Investment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-digital-economy-capstone/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    14. Digital Economy and Capstone
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Learning Graph
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/graph-viewer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Graph Viewer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Concept List
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-taxonomy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Concept Taxonomy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/quality-metrics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quality Metrics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/taxonomy-distribution/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Taxonomy Distribution
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/course-description-assessment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description Assessment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concepts Covered
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-other-half-of-the-story" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Other Half of the Story
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-supply" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is Supply?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-law-of-supply-higher-prices-more-production" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Law of Supply: Higher Prices = More Production
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-supply-curve-visualizing-producer-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Supply Curve: Visualizing Producer Behavior
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Supply Curve: Visualizing Producer Behavior">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-supply-curve-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Supply Curve Explorer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-does-supply-slope-upward" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Does Supply Slope Upward?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-production-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Production Actually Works
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How Production Actually Works">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-production-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Production Function
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marginal-product-what-one-more-worker-adds" class="md-nav__link">
+    <span class="md-ellipsis">
+      Marginal Product: What One More Worker Adds
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diminishing-returns-why-more-isnt-always-better" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diminishing Returns: Why More Isn't Always Better
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Diminishing Returns: Why More Isn't Always Better">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-production-function-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Production Function Explorer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-diminishing-returns-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Diminishing Returns Matters
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-cost-side-what-it-takes-to-produce" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Cost Side: What It Takes to Produce
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Cost Side: What It Takes to Produce">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed-costs-they-dont-budge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fixed Costs: They Don't Budge
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable-costs-they-move-with-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variable Costs: They Move with Output
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#total-cost-and-average-total-cost" class="md-nav__link">
+    <span class="md-ellipsis">
+      Total Cost and Average Total Cost
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marginal-cost-the-cost-of-one-more" class="md-nav__link">
+    <span class="md-ellipsis">
+      Marginal Cost: The Cost of One More
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Marginal Cost: The Cost of One More">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-cost-curves-visualizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Cost Curves Visualizer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-shape-of-cost-curves" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Shape of Cost Curves
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#revenue-and-profit-why-businesses-exist" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revenue and Profit: Why Businesses Exist
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Revenue and Profit: Why Businesses Exist">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#marginal-revenue" class="md-nav__link">
+    <span class="md-ellipsis">
+      Marginal Revenue
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#profit-maximization-the-golden-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      Profit Maximization: The Golden Rule
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Profit Maximization: The Golden Rule">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-profit-maximization-finder" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Profit Maximization Finder
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-causes-supply-to-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Causes Supply to Change?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#determinants-of-supply-the-shift-factors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Determinants of Supply: The Shift Factors
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Determinants of Supply: The Shift Factors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resource-prices-input-costs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resource Prices (Input Costs)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-goods-prices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Goods' Prices
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technology" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technology
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#taxes-and-subsidies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Taxes and Subsidies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expectations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expectations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#number-of-sellers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Number of Sellers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Number of Sellers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-supply-shifters-interactive-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Supply Shifters Interactive Map
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#economies-of-scale-why-big-can-be-cheaper" class="md-nav__link">
+    <span class="md-ellipsis">
+      Economies of Scale: Why Big Can Be Cheaper
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Economies of Scale: Why Big Can Be Cheaper">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-economies-of-scale-visualizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Economies of Scale Visualizer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diseconomies-of-scale-when-bigger-isnt-better" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diseconomies of Scale: When Bigger Isn't Better
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consumer-surplus-and-producer-surplus-who-benefits-from-trade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consumer Surplus and Producer Surplus: Who Benefits from Trade?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Consumer Surplus and Producer Surplus: Who Benefits from Trade?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#consumer-surplus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consumer Surplus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#producer-surplus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Producer Surplus
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Producer Surplus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-surplus-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Surplus Explorer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-surplus-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Surplus Matters
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deadweight-loss-when-markets-fail-to-maximize-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deadweight Loss: When Markets Fail to Maximize Value
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bringing-it-all-together-the-producers-mindset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bringing It All Together: The Producer's Mindset
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-understanding-supply-defeats-misinformation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Understanding Supply Defeats Misinformation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#critical-thinking-challenge-spotting-supply-misinformation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critical Thinking Challenge: Spotting Supply Misinformation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Practice Questions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Next Steps
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="supply-and-production">Supply and Production<a class="headerlink" href="#supply-and-production" title="Permanent link">&para;</a></h1>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>This chapter examines the supply side of markets, focusing on how producers make decisions about what and how much to produce. Students will learn the law of supply, production functions, and the various costs firms face. The chapter explains how firms determine their optimal output level to maximize profits.</p>
+<p>After completing this chapter, students will understand producer behavior and be able to analyze how changes in costs, technology, and other factors affect supply decisions.</p>
+<h2 id="concepts-covered">Concepts Covered<a class="headerlink" href="#concepts-covered" title="Permanent link">&para;</a></h2>
+<p>This chapter covers the following 18 concepts from the learning graph:</p>
+<ol>
+<li>Supply</li>
+<li>Law of Supply</li>
+<li>Supply Curve</li>
+<li>Change in Supply</li>
+<li>Determinants of Supply</li>
+<li>Production Function</li>
+<li>Marginal Product</li>
+<li>Diminishing Returns</li>
+<li>Marginal Revenue</li>
+<li>Marginal Cost</li>
+<li>Average Total Cost</li>
+<li>Fixed Costs</li>
+<li>Variable Costs</li>
+<li>Economies of Scale</li>
+<li>Profit Maximization</li>
+<li>Consumer Surplus</li>
+<li>Producer Surplus</li>
+<li>Deadweight Loss</li>
+</ol>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
+<p>This chapter builds on concepts from:</p>
+<ul>
+<li><a href="../01-what-is-economics/">Chapter 1: What is Economics?</a></li>
+<li><a href="../02-demand-consumer-behavior/">Chapter 2: Demand and Consumer Behavior</a></li>
+</ul>
+<hr />
+<h2 id="the-other-half-of-the-story">The Other Half of the Story<a class="headerlink" href="#the-other-half-of-the-story" title="Permanent link">&para;</a></h2>
+<p>In Chapter 2, you learned how consumers think—why they buy, what affects their decisions, and how they respond to price changes. But every purchase has two sides: someone buying AND someone selling.</p>
+<p>Now it's time to flip the script. <strong>Welcome to the seller's perspective.</strong></p>
+<p>This chapter is about supply—how businesses decide what to produce, how much to make, and what prices to charge. Understanding supply completes your economic superpower. When you understand BOTH sides of every transaction, you can see through claims that only tell half the story.</p>
+<p>You've probably seen social media posts claiming that companies charge "whatever they want" or that profits are "unfair." By the end of this chapter, you'll understand the actual economics behind pricing decisions. Spoiler: it's more complicated (and more interesting) than "corporations are greedy."</p>
+<p>Ready to see the world from the producer's side? Let's go.</p>
+<h2 id="what-is-supply">What is Supply?<a class="headerlink" href="#what-is-supply" title="Permanent link">&para;</a></h2>
+<p><strong>Supply</strong> is the quantity of a good or service that producers are willing and able to sell at various prices during a specific time period.</p>
+<p>Sound familiar? It should—it mirrors the definition of demand, but from the seller's perspective:</p>
+<ul>
+<li><strong>Willing</strong>: Producers want to sell at that price</li>
+<li><strong>Able</strong>: Producers can actually produce the good</li>
+<li><strong>At various prices</strong>: The amount they'll sell depends on the price</li>
+<li><strong>Specific time period</strong>: Per day, per week, per year</li>
+</ul>
+<p>Just like demand requires both desire AND ability, supply requires both willingness AND capability. A farmer might be willing to sell wheat at $10 per bushel, but if drought destroyed the crop, they're not able to supply it.</p>
+<table>
+<thead>
+<tr>
+<th>Demand (Buyers)</th>
+<th>Supply (Sellers)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quantity consumers want to buy</td>
+<td>Quantity producers want to sell</td>
+</tr>
+<tr>
+<td>At each price</td>
+<td>At each price</td>
+</tr>
+<tr>
+<td>Higher price → buy less</td>
+<td>Higher price → sell more</td>
+</tr>
+<tr>
+<td>Driven by utility (satisfaction)</td>
+<td>Driven by profit</td>
+</tr>
+</tbody>
+</table>
+<h2 id="the-law-of-supply-higher-prices-more-production">The Law of Supply: Higher Prices = More Production<a class="headerlink" href="#the-law-of-supply-higher-prices-more-production" title="Permanent link">&para;</a></h2>
+<p>Here's the flip side of the law of demand: <strong>The Law of Supply</strong> states that, all else being equal, as the price of a good rises, the quantity supplied rises. As the price falls, the quantity supplied falls.</p>
+<p>In other words: higher prices → producers make more. Lower prices → producers make less.</p>
+<p>This makes intuitive sense:</p>
+<ul>
+<li>At higher prices, production becomes more profitable</li>
+<li>Higher profits attract new producers to the market</li>
+<li>Existing producers have incentive to expand</li>
+<li>At lower prices, some producers can't cover their costs and drop out</li>
+</ul>
+<p>Think about it from a producer's view. If you run a lemonade stand and lemonade suddenly sells for $10 per cup instead of $2, you'd want to make MORE lemonade, right? You'd work longer hours, buy more supplies, maybe hire help. That's the law of supply in action.</p>
+<h2 id="the-supply-curve-visualizing-producer-behavior">The Supply Curve: Visualizing Producer Behavior<a class="headerlink" href="#the-supply-curve-visualizing-producer-behavior" title="Permanent link">&para;</a></h2>
+<p>A <strong>supply curve</strong> is a graph that shows the relationship between price and quantity supplied. Like the demand curve, it's one of the foundational tools in economics.</p>
+<p>Here's how to read it:</p>
+<ul>
+<li><strong>Vertical axis (Y)</strong>: Price</li>
+<li><strong>Horizontal axis (X)</strong>: Quantity supplied</li>
+<li><strong>The curve itself</strong>: Shows how much producers will sell at each price</li>
+</ul>
+<p>The supply curve slopes <strong>upward</strong> from left to right. This is the opposite of the demand curve! Higher prices are associated with higher quantities supplied.</p>
+<h4 id="diagram-supply-curve-explorer">Diagram: Supply Curve Explorer<a class="headerlink" href="#diagram-supply-curve-explorer" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/supply-curve-explorer/main.html" width="100%" height="450px" scrolling="no"></iframe>
+
+<details>
+<summary>Supply Curve Explorer MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Apply (L3)
+Bloom Verb: demonstrate, use</p>
+<p>Learning Objective: Students will demonstrate how price changes affect quantity supplied by interacting with a supply curve and observing the positive relationship.</p>
+<p>Purpose: Allow students to manipulate price and see the corresponding change in quantity supplied, reinforcing the law of supply visually.</p>
+<p>Canvas Layout:
+- Left side (450px): Supply curve graph with interactive elements
+- Right side (150px): Data display panel and explanations</p>
+<p>Visual Elements:
+- Coordinate axes with labeled Price (Y) and Quantity (Q) on X
+- Upward-sloping supply curve (orange line, contrasting with blue demand)
+- Draggable price indicator on Y-axis
+- Corresponding quantity point that moves along the curve
+- Dotted lines showing current price→quantity relationship
+- Producer icons that appear/disappear based on quantity</p>
+<p>Interactive Controls:
+- Vertical slider for price ($1-$10 range)
+- Display showing: Current Price, Quantity Supplied
+- "Show Movement" toggle that animates the relationship
+- Reset button
+- Pre-set scenario buttons: "Pizza at $8", "Pizza at $15", "Pizza at $25"</p>
+<p>Default Parameters:
+- Product: Pizza (relatable example)
+- Price range: $5-$30
+- Quantity range: 0-100 pizzas per day (for a pizza shop)
+- Starting price: $12</p>
+<p>Data Visibility Requirements:
+- Stage 1: Show initial price point on curve
+- Stage 2: As price slider moves, show quantity changing in real-time
+- Stage 3: Display text explanation: "At $X, producers supply Y pizzas"
+- Stage 4: When price increases, highlight "Price up → Quantity up"
+- Stage 5: When price decreases, highlight "Price down → Quantity down"</p>
+<p>Behavior:
+- Dragging price up moves point up and right along curve (more quantity)
+- Dragging price down moves point down and left along curve (less quantity)
+- Smooth animation shows the relationship
+- Text updates explain what's happening
+- At very low prices: "Some producers can't cover costs and exit the market"</p>
+<p>Instructional Rationale: Direct manipulation of price with immediate visual feedback helps learners internalize the positive relationship between price and quantity supplied. The pizza example is relatable and contrasts with Chapter 2's coffee demand example.</p>
+<p>Implementation: p5.js with draggable slider and animated curve point</p>
+</details>
+<h3 id="why-does-supply-slope-upward">Why Does Supply Slope Upward?<a class="headerlink" href="#why-does-supply-slope-upward" title="Permanent link">&para;</a></h3>
+<p>The upward slope reflects two key realities:</p>
+<ol>
+<li><strong>Higher prices make production more profitable</strong>, so existing producers want to make more</li>
+<li><strong>Higher prices attract new producers</strong> who couldn't profit at lower prices</li>
+</ol>
+<p>Imagine you make custom phone cases. At $5 each, it's barely worth your time. At $20 each, you're very motivated. At $50 each, you might quit your day job and make phone cases full-time. Higher prices = more supply.</p>
+<h2 id="how-production-actually-works">How Production Actually Works<a class="headerlink" href="#how-production-actually-works" title="Permanent link">&para;</a></h2>
+<p>Before we go deeper into supply, let's understand HOW businesses actually produce things. This is where it gets interesting.</p>
+<h3 id="the-production-function">The Production Function<a class="headerlink" href="#the-production-function" title="Permanent link">&para;</a></h3>
+<p>A <strong>production function</strong> shows the relationship between inputs (like workers and machines) and outputs (the actual products made).</p>
+<p>Inputs → Production Process → Outputs</p>
+<p>The key inputs are the factors of production you learned about in Chapter 1:</p>
+<ul>
+<li><strong>Land</strong> (natural resources)</li>
+<li><strong>Labor</strong> (workers)</li>
+<li><strong>Capital</strong> (machines, equipment, buildings)</li>
+<li><strong>Entrepreneurship</strong> (organizing it all)</li>
+</ul>
+<p>A simple production function might look like: "With 3 workers and 1 pizza oven, we can make 50 pizzas per day."</p>
+<p>But here's the interesting question: what happens when you add MORE workers?</p>
+<h3 id="marginal-product-what-one-more-worker-adds">Marginal Product: What One More Worker Adds<a class="headerlink" href="#marginal-product-what-one-more-worker-adds" title="Permanent link">&para;</a></h3>
+<p><strong>Marginal product</strong> is the additional output produced when you add one more unit of input (usually one more worker).</p>
+<p>If your pizza shop makes 50 pizzas with 3 workers, and 65 pizzas with 4 workers, the marginal product of the 4th worker is 15 pizzas.</p>
+<p>$$\text{Marginal Product} = \frac{\text{Change in Output}}{\text{Change in Input}}$$</p>
+<p>This matters because it tells you whether hiring another worker is worth the cost.</p>
+<h3 id="diminishing-returns-why-more-isnt-always-better">Diminishing Returns: Why More Isn't Always Better<a class="headerlink" href="#diminishing-returns-why-more-isnt-always-better" title="Permanent link">&para;</a></h3>
+<p>Here's one of the most important concepts in production: <strong>Diminishing Returns</strong> (also called the Law of Diminishing Marginal Product).</p>
+<p>As you add more of one input while keeping others constant, eventually each additional unit of input produces less additional output than the one before.</p>
+<p>Let's see this in action at our pizza shop:</p>
+<table>
+<thead>
+<tr>
+<th>Workers</th>
+<th>Total Pizzas</th>
+<th>Marginal Product</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>20</td>
+<td>20</td>
+</tr>
+<tr>
+<td>2</td>
+<td>45</td>
+<td>25</td>
+</tr>
+<tr>
+<td>3</td>
+<td>65</td>
+<td>20</td>
+</tr>
+<tr>
+<td>4</td>
+<td>80</td>
+<td>15</td>
+</tr>
+<tr>
+<td>5</td>
+<td>90</td>
+<td>10</td>
+</tr>
+<tr>
+<td>6</td>
+<td>95</td>
+<td>5</td>
+</tr>
+<tr>
+<td>7</td>
+<td>96</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Notice how the marginal product rises at first (workers can specialize and help each other), but then falls. Why? Because you only have one oven! Eventually, workers are bumping into each other, waiting for the oven, and getting in the way.</p>
+<p>This isn't about workers being lazy—it's about the mismatch between one input (workers) and another input (equipment). To really increase output, you'd need more ovens too.</p>
+<h4 id="diagram-production-function-explorer">Diagram: Production Function Explorer<a class="headerlink" href="#diagram-production-function-explorer" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/production-function-explorer/main.html" width="100%" height="450px" scrolling="no"></iframe>
+
+<details>
+<summary>Production Function Explorer MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Understand (L2)
+Bloom Verb: explain, interpret</p>
+<p>Learning Objective: Students will explain how adding workers affects total output and interpret the pattern of diminishing marginal returns.</p>
+<p>Purpose: Visualize the production function and diminishing returns by adding workers to a pizza shop.</p>
+<p>Canvas Layout:
+- Left side (400px): Visual pizza shop with workers and output display
+- Right side (200px): Data table and marginal product bar chart</p>
+<p>Visual Elements:
+- Pizza shop scene with oven(s)
+- Worker icons that can be added (up to 8)
+- Pizza output counter
+- Dual chart: Total output line + Marginal product bars
+- Visual crowding effect as workers increase
+- Speech bubbles showing worker comments ("Lots of space!" → "Getting crowded" → "Too many cooks!")</p>
+<p>Data Visibility Requirements:
+- Stage 1 (0 workers): Output = 0, empty shop
+- Stage 2 (1 worker): Output = 20, worker has room
+- Stage 3 (2 workers): Output = 45, MP = 25 (specialization helps!)
+- Stage 4 (3 workers): Output = 65, MP = 20
+- Stage 5 (4 workers): Output = 80, MP = 15, starting to crowd
+- Stage 6 (5+ workers): Diminishing returns clearly visible</p>
+<p>Interactive Controls:
+- "Add Worker" button
+- "Remove Worker" button
+- "Add Second Oven" button (to show how capital changes the function)
+- Display showing: Workers, Total Output, Marginal Product of Last Worker
+- Reset button</p>
+<p>Behavior:
+- Each click adds a worker and updates all displays
+- Visual crowding increases as workers are added
+- Bar chart shows declining marginal product
+- When second oven added, marginal product curve shifts up
+- Text explanation: "Worker #X added Y more pizzas"
+- At high worker counts: "Diminishing returns: the shop is getting crowded!"</p>
+<p>Instructional Rationale: Visual representation of worker crowding makes diminishing returns intuitive. Students see that the problem isn't lazy workers—it's the mismatch between inputs. Adding capital (the second oven) demonstrates how to overcome diminishing returns.</p>
+<p>Implementation: p5.js with click interactions, animated worker sprites, and dynamic charts</p>
+</details>
+<h3 id="why-diminishing-returns-matters">Why Diminishing Returns Matters<a class="headerlink" href="#why-diminishing-returns-matters" title="Permanent link">&para;</a></h3>
+<p>Understanding diminishing returns is a critical thinking superpower. When someone says "just throw more resources at the problem," you know that doesn't always work.</p>
+<ul>
+<li>Adding more programmers doesn't always speed up software development</li>
+<li>More students in a classroom doesn't improve learning after a point</li>
+<li>More advertising doesn't keep increasing sales proportionally</li>
+<li>More workers on a construction site can actually slow things down</li>
+</ul>
+<h2 id="the-cost-side-what-it-takes-to-produce">The Cost Side: What It Takes to Produce<a class="headerlink" href="#the-cost-side-what-it-takes-to-produce" title="Permanent link">&para;</a></h2>
+<p>Now let's talk about what every business obsesses over: <strong>costs</strong>.</p>
+<p>Understanding costs is essential because:</p>
+<ul>
+<li>Costs determine whether production is profitable</li>
+<li>Costs affect how much producers are willing to supply</li>
+<li>Costs explain why prices can't always "just be lower"</li>
+</ul>
+<h3 id="fixed-costs-they-dont-budge">Fixed Costs: They Don't Budge<a class="headerlink" href="#fixed-costs-they-dont-budge" title="Permanent link">&para;</a></h3>
+<p><strong>Fixed costs</strong> are expenses that don't change regardless of how much you produce. You pay them whether you make 1 unit or 1,000 units.</p>
+<p>Examples of fixed costs:</p>
+<ul>
+<li>Rent for your store or factory</li>
+<li>Insurance payments</li>
+<li>Salaries of permanent staff</li>
+<li>Loan payments on equipment</li>
+<li>Property taxes</li>
+</ul>
+<p>If you run a pizza shop, your monthly rent is $2,000 whether you sell 100 pizzas or 1,000 pizzas. That's a fixed cost.</p>
+<h3 id="variable-costs-they-move-with-output">Variable Costs: They Move with Output<a class="headerlink" href="#variable-costs-they-move-with-output" title="Permanent link">&para;</a></h3>
+<p><strong>Variable costs</strong> are expenses that change depending on how much you produce. Make more stuff, pay more in variable costs.</p>
+<p>Examples of variable costs:</p>
+<ul>
+<li>Raw materials (flour, cheese, sauce for pizzas)</li>
+<li>Electricity (more production = more power use)</li>
+<li>Hourly wages (more production = more hours worked)</li>
+<li>Packaging</li>
+<li>Shipping costs</li>
+</ul>
+<p>If you make more pizzas, you need more cheese. That's a variable cost.</p>
+<table>
+<thead>
+<tr>
+<th>Cost Type</th>
+<th>Changes with Output?</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fixed</td>
+<td>No</td>
+<td>Rent, insurance, equipment loans</td>
+</tr>
+<tr>
+<td>Variable</td>
+<td>Yes</td>
+<td>Materials, hourly labor, utilities</td>
+</tr>
+</tbody>
+</table>
+<h3 id="total-cost-and-average-total-cost">Total Cost and Average Total Cost<a class="headerlink" href="#total-cost-and-average-total-cost" title="Permanent link">&para;</a></h3>
+<p><strong>Total Cost</strong> = Fixed Costs + Variable Costs</p>
+<p>Pretty simple, right? But here's where it gets interesting.</p>
+<p><strong>Average Total Cost (ATC)</strong> is the total cost divided by the quantity produced:</p>
+<p>$$ATC = \frac{\text{Total Cost}}{\text{Quantity}} = \frac{FC + VC}{Q}$$</p>
+<p>Average total cost tells you: "On average, what does it cost to make one unit?"</p>
+<p>Here's the key insight: <strong>ATC typically falls at first, then rises</strong>.</p>
+<p>Why does it fall? Because fixed costs get spread over more units. If your rent is $2,000 and you make 100 pizzas, that's $20 per pizza in fixed cost. If you make 1,000 pizzas, that's only $2 per pizza.</p>
+<p>Why does it eventually rise? Because of diminishing returns! Eventually, variable costs per unit start climbing as you push production too high.</p>
+<h3 id="marginal-cost-the-cost-of-one-more">Marginal Cost: The Cost of One More<a class="headerlink" href="#marginal-cost-the-cost-of-one-more" title="Permanent link">&para;</a></h3>
+<p><strong>Marginal cost</strong> is the additional cost of producing one more unit.</p>
+<p>$$MC = \frac{\text{Change in Total Cost}}{\text{Change in Quantity}}$$</p>
+<p>If making 99 pizzas costs $1,000 total and making 100 pizzas costs $1,012 total, the marginal cost of pizza #100 is $12.</p>
+<p>Marginal cost is THE most important cost concept for decision-making. Every time a business asks "should we make one more?" they're comparing marginal cost to marginal revenue.</p>
+<h4 id="diagram-cost-curves-visualizer">Diagram: Cost Curves Visualizer<a class="headerlink" href="#diagram-cost-curves-visualizer" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/cost-curves-visualizer/main.html" width="100%" height="450px" scrolling="no"></iframe>
+
+<details>
+<summary>Cost Curves Visualizer MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Understand (L2)
+Bloom Verb: interpret, explain</p>
+<p>Learning Objective: Students will interpret the relationships between different cost curves (MC, ATC, AVC, AFC) and explain why they have their characteristic shapes.</p>
+<p>Purpose: Interactive visualization of how cost curves relate to each other as quantity changes.</p>
+<p>Canvas Layout:
+- Left side (450px): Cost curves graph with multiple lines
+- Right side (150px): Data display and cost breakdown panel</p>
+<p>Visual Elements:
+- Coordinate axes: Quantity on X, Cost per unit on Y
+- Four curves with different colors:
+  - Marginal Cost (MC): Red, U-shaped
+  - Average Total Cost (ATC): Blue, U-shaped
+  - Average Variable Cost (AVC): Green, U-shaped
+  - Average Fixed Cost (AFC): Gray, declining
+- Vertical line showing selected quantity
+- Shaded areas showing profit/loss at market price
+- Key intersection point where MC crosses ATC (minimum ATC)</p>
+<p>Interactive Controls:
+- Quantity slider (1-100 units)
+- Price line that can be adjusted to show profit/loss
+- Toggle checkboxes to show/hide each curve
+- "Show Fixed Costs," "Show Variable Costs" breakdowns
+- Hover over any point for detailed explanation
+- Reset button</p>
+<p>Default Parameters:
+- Fixed cost: $100
+- Variable cost follows diminishing returns pattern
+- Initial quantity: 50 units
+- Market price: $15</p>
+<p>Data Visibility Requirements:
+- At each quantity, show:
+  - Total Cost breakdown (FC + VC)
+  - ATC, AVC, AFC values
+  - MC for the next unit
+- Special highlight when MC = ATC (minimum ATC point)
+- When price line is below ATC: show loss area
+- When price line is above ATC: show profit area</p>
+<p>Behavior:
+- Moving quantity slider updates all cost values
+- Curves animate smoothly
+- At low quantity: "Fixed costs are spread over few units—ATC is high"
+- At middle quantity: "Efficiency improving as fixed costs spread"
+- At high quantity: "Diminishing returns causing costs to rise"
+- MC crosses ATC at minimum ATC point (important!)</p>
+<p>Instructional Rationale: Seeing all cost curves together helps learners understand their relationships. The interactive quantity slider makes abstract curves concrete. The profit/loss visualization connects costs to business decisions.</p>
+<p>Implementation: p5.js with multiple animated curves and interactive elements</p>
+</details>
+<h3 id="the-shape-of-cost-curves">The Shape of Cost Curves<a class="headerlink" href="#the-shape-of-cost-curves" title="Permanent link">&para;</a></h3>
+<p>Here's what you need to know about cost curve shapes:</p>
+<ul>
+<li><strong>AFC</strong> (Average Fixed Cost): Always declining—fixed costs spread over more units</li>
+<li><strong>AVC</strong> (Average Variable Cost): U-shaped due to diminishing returns</li>
+<li><strong>ATC</strong> (Average Total Cost): U-shaped (AFC + AVC)</li>
+<li><strong>MC</strong> (Marginal Cost): U-shaped, and it intersects ATC at ATC's minimum point</li>
+</ul>
+<p>That last point is important: <strong>MC always intersects ATC at the minimum of ATC</strong>. This is like how your GPA works—if your next test score (marginal) is below your average, it pulls your average down. If it's above your average, it pulls your average up. Only when they're equal does your average stay the same.</p>
+<h2 id="revenue-and-profit-why-businesses-exist">Revenue and Profit: Why Businesses Exist<a class="headerlink" href="#revenue-and-profit-why-businesses-exist" title="Permanent link">&para;</a></h2>
+<p>Now let's talk about the fun part—money coming IN.</p>
+<h3 id="marginal-revenue">Marginal Revenue<a class="headerlink" href="#marginal-revenue" title="Permanent link">&para;</a></h3>
+<p><strong>Marginal revenue</strong> is the additional revenue from selling one more unit.</p>
+<p>$$MR = \frac{\text{Change in Total Revenue}}{\text{Change in Quantity}}$$</p>
+<p>For a small business in a competitive market (where you can't affect the market price), marginal revenue equals the price. If you sell pizzas for $15 each, your marginal revenue is $15 for each additional pizza sold.</p>
+<h3 id="profit-maximization-the-golden-rule">Profit Maximization: The Golden Rule<a class="headerlink" href="#profit-maximization-the-golden-rule" title="Permanent link">&para;</a></h3>
+<p>Here it is—the most important rule in microeconomics for producers:</p>
+<p><strong>Profit is maximized when Marginal Revenue equals Marginal Cost (MR = MC)</strong></p>
+<p>Why? Let's think it through:</p>
+<ul>
+<li>If MR &gt; MC: You should make more! Each additional unit adds more revenue than cost.</li>
+<li>If MR &lt; MC: You're making too much! Each additional unit costs more than it brings in.</li>
+<li>If MR = MC: You're at the sweet spot. Producing one more would hurt; producing one less would leave money on the table.</li>
+</ul>
+<p>This is marginal analysis in action—the same "one more" thinking from Chapters 1 and 2, applied to production.</p>
+<h4 id="diagram-profit-maximization-finder">Diagram: Profit Maximization Finder<a class="headerlink" href="#diagram-profit-maximization-finder" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/profit-maximization-finder/main.html" width="100%" height="450px" scrolling="no"></iframe>
+
+<details>
+<summary>Profit Maximization Finder MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Apply (L3)
+Bloom Verb: calculate, solve</p>
+<p>Learning Objective: Students will calculate the profit-maximizing output level by finding where MR = MC and solve for maximum profit.</p>
+<p>Purpose: Interactive tool for finding the profit-maximizing quantity using the MR = MC rule.</p>
+<p>Canvas Layout:
+- Left side (400px): MC and MR curves with adjustable output level
+- Right side (200px): Profit calculation breakdown</p>
+<p>Visual Elements:
+- MC curve (rising portion) in red
+- MR line (horizontal for competitive firm) in green
+- Draggable vertical line for choosing quantity
+- Profit area shaded (green if positive, red if negative)
+- Total Revenue, Total Cost, and Profit displays
+- "Sweet spot" indicator at MR = MC intersection</p>
+<p>Interactive Controls:
+- Draggable quantity selector (vertical line)
+- Price slider (adjusts MR line position)
+- "Find Optimal" button that animates to MR = MC
+- Display showing: Quantity, MR, MC, Total Revenue, Total Cost, Profit
+- "Step Through" mode showing one unit at a time
+- Reset button</p>
+<p>Default Parameters:
+- Market price: $20
+- MC curve rising from $8
+- Starting quantity: 30 units (not optimal)</p>
+<p>Data Visibility Requirements:
+- At selected quantity:
+  - MR value (= price in competitive market)
+  - MC value at that quantity
+  - Comparison: MR vs MC
+  - Running profit total
+- When Q is below optimal: "MR &gt; MC: Produce more for more profit!"
+- When Q is above optimal: "MC &gt; MR: Producing too much—profit is falling"
+- At optimal: "MR = MC: Maximum profit achieved!"</p>
+<p>Behavior:
+- Dragging quantity updates all calculations in real-time
+- Profit area grows/shrinks visually
+- Guidance text helps students find optimal
+- Step-through mode shows marginal decisions one unit at a time
+- Clear visualization of why MR = MC is the answer</p>
+<p>Instructional Rationale: Interactive searching for the optimal quantity reinforces the MR = MC logic. Students discover the rule rather than just being told it. The visual profit area makes the abstract concept concrete.</p>
+<p>Implementation: p5.js with draggable elements and animated profit calculation</p>
+</details>
+<div class="admonition tip">
+<p class="admonition-title">The MR = MC Rule Applies Everywhere</p>
+<p>The MR = MC rule isn't just for businesses. Athletes decide how hard to train (MR = extra wins, MC = injury risk). Students decide how much to study (MR = grade improvement, MC = time lost). This is marginal analysis applied to optimization.</p>
+</div>
+<h2 id="what-causes-supply-to-change">What Causes Supply to Change?<a class="headerlink" href="#what-causes-supply-to-change" title="Permanent link">&para;</a></h2>
+<p>Just like demand, we need to distinguish between:</p>
+<ul>
+<li><strong>Movement along the curve</strong>: When price changes</li>
+<li><strong>Shift of the curve</strong>: When something other than price changes</li>
+</ul>
+<p>A <strong>change in supply</strong> is a shift of the entire supply curve—either right (increase in supply) or left (decrease in supply).</p>
+<h2 id="determinants-of-supply-the-shift-factors">Determinants of Supply: The Shift Factors<a class="headerlink" href="#determinants-of-supply-the-shift-factors" title="Permanent link">&para;</a></h2>
+<p>The <strong>determinants of supply</strong> are factors OTHER than price that affect how much producers are willing to supply. These cause the curve to shift.</p>
+<p>Memory trick: <strong>ROTTEN</strong> (not the nicest acronym, but it sticks!)</p>
+<ul>
+<li><strong>R</strong>esource prices (input costs)</li>
+<li><strong>O</strong>ther goods' prices (alternatives producers could make)</li>
+<li><strong>T</strong>echnology</li>
+<li><strong>T</strong>axes and subsidies</li>
+<li><strong>E</strong>xpectations</li>
+<li><strong>N</strong>umber of sellers</li>
+</ul>
+<p>Let's explore each one:</p>
+<h3 id="resource-prices-input-costs">Resource Prices (Input Costs)<a class="headerlink" href="#resource-prices-input-costs" title="Permanent link">&para;</a></h3>
+<p>If the cost of inputs rises, supply decreases (shifts left). If input costs fall, supply increases (shifts right).</p>
+<p>Examples:</p>
+<ul>
+<li>Oil prices rise → transportation costs rise → supply of shipped goods decreases</li>
+<li>Minimum wage increases → labor costs rise → supply may decrease</li>
+<li>New cheap material found → costs fall → supply increases</li>
+</ul>
+<h3 id="other-goods-prices">Other Goods' Prices<a class="headerlink" href="#other-goods-prices" title="Permanent link">&para;</a></h3>
+<p>Producers can often switch what they make. If another product becomes more profitable, they might shift production away from the current product.</p>
+<ul>
+<li>If wheat prices soar, farmers might grow wheat instead of corn → corn supply decreases</li>
+<li>If streaming revenue increases, studios might make shows instead of movies → movie supply decreases</li>
+</ul>
+<h3 id="technology">Technology<a class="headerlink" href="#technology" title="Permanent link">&para;</a></h3>
+<p>Better technology = more output from same inputs = supply increases.</p>
+<ul>
+<li>Assembly lines increased car supply</li>
+<li>GPS and apps increased ride-sharing supply</li>
+<li>Cloud computing increased software supply</li>
+</ul>
+<p>Technology almost always shifts supply RIGHT (more supply at every price).</p>
+<h3 id="taxes-and-subsidies">Taxes and Subsidies<a class="headerlink" href="#taxes-and-subsidies" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Taxes</strong> on producers increase costs → supply decreases (shifts left)</li>
+<li><strong>Subsidies</strong> (government payments to producers) decrease effective costs → supply increases (shifts right)</li>
+</ul>
+<p>This is how governments can influence what gets produced.</p>
+<h3 id="expectations">Expectations<a class="headerlink" href="#expectations" title="Permanent link">&para;</a></h3>
+<p>What producers expect about future prices affects current supply:</p>
+<ul>
+<li>If you expect prices to rise next month, you might hold back supply now</li>
+<li>If you expect prices to fall, you might sell more now</li>
+</ul>
+<h3 id="number-of-sellers">Number of Sellers<a class="headerlink" href="#number-of-sellers" title="Permanent link">&para;</a></h3>
+<p>More sellers = more supply. Fewer sellers = less supply.</p>
+<ul>
+<li>New companies entering a market → supply increases</li>
+<li>Companies going bankrupt → supply decreases</li>
+<li>International trade opens → supply from foreign producers adds to domestic supply</li>
+</ul>
+<h4 id="diagram-supply-shifters-interactive-map">Diagram: Supply Shifters Interactive Map<a class="headerlink" href="#diagram-supply-shifters-interactive-map" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/supply-shifters/main.html" width="100%" height="450px" scrolling="no"></iframe>
+
+<details>
+<summary>Supply Shifters Interactive Diagram</summary>
+<p>Type: infographic</p>
+<p>Bloom Taxonomy Level: Analyze (L4)
+Bloom Verb: differentiate, organize</p>
+<p>Learning Objective: Students will differentiate between factors that cause movement along the supply curve versus shifts of the entire curve, and organize the determinants of supply.</p>
+<p>Purpose: Interactive cause-effect diagram showing how each determinant affects the supply curve.</p>
+<p>Layout: Central supply curve with surrounding factor cards</p>
+<p>Visual Elements:
+- Central: Animated supply curve that can shift left/right
+- Surrounding: Six cards for each ROTTEN factor
+- Color coding: Factors that increase supply (green), decrease supply (red)
+- Arrows showing direction of curve shift
+- Before/after comparison view
+- Producer icons reacting to changes</p>
+<p>Interactive Elements:
+- Click on any factor card to see its effect on the supply curve
+- Toggle between "Increase" and "Decrease" for each factor
+- Animated curve shift with explanation
+- "Reset" to return to original position
+- Quiz mode: "What would happen if..." scenarios</p>
+<p>Factor Cards:
+1. Resource Prices: "Input costs fall" / "Input costs rise"
+2. Other Goods: "Alternative product more profitable" / "Alternative less profitable"
+3. Technology: "New technology discovered" / "Technology breakdown"
+4. Taxes/Subsidies: "Government subsidy" / "New tax imposed"
+5. Expectations: "Expect higher future prices" / "Expect lower future prices"
+6. Number of Sellers: "New firms enter market" / "Firms exit market"</p>
+<p>Behavior:
+- Each click shows animated shift with narration
+- Comparison panel shows: "Before: At $15, supply was 100. After: At $15, supply is 150"
+- Text explains: "This is a SHIFT because the WHOLE curve moved"
+- Connects to real-world examples</p>
+<p>Instructional Rationale: Organizing all supply determinants visually with immediate feedback helps learners build a mental model of what causes supply changes. The mirror structure to Chapter 2's demand shifters creates consistency.</p>
+<p>Implementation: p5.js with animated curve and clickable interface</p>
+</details>
+<h2 id="economies-of-scale-why-big-can-be-cheaper">Economies of Scale: Why Big Can Be Cheaper<a class="headerlink" href="#economies-of-scale-why-big-can-be-cheaper" title="Permanent link">&para;</a></h2>
+<p>Here's a concept that explains a lot about the modern economy: <strong>Economies of Scale</strong>.</p>
+<p><strong>Economies of scale</strong> exist when the average cost of production falls as the quantity produced increases.</p>
+<p>Why does this happen?</p>
+<ol>
+<li>
+<p><strong>Spreading fixed costs</strong>: A factory that costs $1 million spreads that cost over 1 million units = $1 each. Over 10 million units = $0.10 each.</p>
+</li>
+<li>
+<p><strong>Specialization</strong>: Large operations can have specialized workers and equipment. A small restaurant has one cook who does everything. A large one has specialized prep cooks, line cooks, pastry chefs.</p>
+</li>
+<li>
+<p><strong>Bulk purchasing</strong>: Buy more inputs = get volume discounts.</p>
+</li>
+<li>
+<p><strong>Better technology</strong>: Expensive equipment only makes sense at high volumes.</p>
+</li>
+</ol>
+<p>This explains why:</p>
+<ul>
+<li>Mass-produced goods are often cheaper than handmade goods</li>
+<li>Big companies can often undercut small competitors on price</li>
+<li>Industries tend to consolidate over time</li>
+<li>It's hard for new competitors to enter some markets</li>
+</ul>
+<h4 id="diagram-economies-of-scale-visualizer">Diagram: Economies of Scale Visualizer<a class="headerlink" href="#diagram-economies-of-scale-visualizer" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/economies-of-scale/main.html" width="100%" height="400px" scrolling="no"></iframe>
+
+<details>
+<summary>Economies of Scale Infographic</summary>
+<p>Type: infographic</p>
+<p>Bloom Taxonomy Level: Understand (L2)
+Bloom Verb: explain, compare</p>
+<p>Learning Objective: Students will explain how economies of scale reduce average costs and compare production at different scales.</p>
+<p>Purpose: Visualize how cost per unit changes with production scale.</p>
+<p>Layout: Split view comparing small, medium, and large producers</p>
+<p>Visual Elements:
+- Three factory representations: small (cottage), medium (workshop), large (factory)
+- Cost per unit displayed prominently for each
+- Breakdown showing:
+  - Fixed costs spread over units
+  - Variable costs per unit
+  - Total ATC
+- Graph showing declining ATC curve with three points marked
+- Real company examples (local bakery vs. commercial bakery vs. industrial bakery)</p>
+<p>Interactive Elements:
+- Slider to adjust production scale
+- Show/hide cost breakdown
+- Compare mode: side-by-side cost analysis
+- Hover for explanations of why costs differ
+- "Add machinery" option showing how capital affects scale</p>
+<p>Data Display:
+- Small scale: High ATC, flexible, personal
+- Medium scale: Moderate ATC, some specialization
+- Large scale: Low ATC, specialized, efficient</p>
+<p>Sample Numbers:
+- Small bakery (100 loaves/day): $3.50 per loaf
+- Medium bakery (1,000 loaves/day): $1.75 per loaf
+- Large bakery (10,000 loaves/day): $0.80 per loaf</p>
+<p>Instructional Rationale: Visual comparison makes the abstract concept of economies of scale concrete. Real-world bakery example is relatable. The slider allows exploration of the continuous relationship between scale and cost.</p>
+<p>Implementation: HTML/CSS/JavaScript with animated transitions between scales</p>
+</details>
+<h3 id="diseconomies-of-scale-when-bigger-isnt-better">Diseconomies of Scale: When Bigger Isn't Better<a class="headerlink" href="#diseconomies-of-scale-when-bigger-isnt-better" title="Permanent link">&para;</a></h3>
+<p>At some point, bigger stops being better. <strong>Diseconomies of scale</strong> happen when average costs start rising as production increases.</p>
+<p>Why does this happen?</p>
+<ul>
+<li><strong>Coordination problems</strong>: Huge organizations are hard to manage</li>
+<li><strong>Communication breakdowns</strong>: Information gets lost in big bureaucracies</li>
+<li><strong>Worker motivation</strong>: People feel like just a number in giant companies</li>
+<li><strong>Complexity</strong>: More things can go wrong</li>
+</ul>
+<p>This is why we don't have one giant company making everything. At some point, the diseconomies outweigh the economies.</p>
+<h2 id="consumer-surplus-and-producer-surplus-who-benefits-from-trade">Consumer Surplus and Producer Surplus: Who Benefits from Trade?<a class="headerlink" href="#consumer-surplus-and-producer-surplus-who-benefits-from-trade" title="Permanent link">&para;</a></h2>
+<p>Now let's look at who actually benefits when buyers and sellers trade.</p>
+<h3 id="consumer-surplus">Consumer Surplus<a class="headerlink" href="#consumer-surplus" title="Permanent link">&para;</a></h3>
+<p><strong>Consumer surplus</strong> is the difference between what consumers are willing to pay and what they actually pay.</p>
+<p>If you'd pay up to $50 for concert tickets, but they only cost $30, your consumer surplus is $20. You got a "deal" relative to your maximum willingness to pay.</p>
+<p>On a graph, consumer surplus is the area BELOW the demand curve and ABOVE the market price.</p>
+<h3 id="producer-surplus">Producer Surplus<a class="headerlink" href="#producer-surplus" title="Permanent link">&para;</a></h3>
+<p><strong>Producer surplus</strong> is the difference between what producers receive and the minimum they'd be willing to accept.</p>
+<p>If a pizza shop would sell a pizza for as low as $8 (their cost), but the market price is $15, their producer surplus is $7 per pizza.</p>
+<p>On a graph, producer surplus is the area ABOVE the supply curve and BELOW the market price.</p>
+<h4 id="diagram-surplus-explorer">Diagram: Surplus Explorer<a class="headerlink" href="#diagram-surplus-explorer" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/surplus-explorer/main.html" width="100%" height="450px" scrolling="no"></iframe>
+
+<details>
+<summary>Consumer and Producer Surplus Explorer MicroSim</summary>
+<p>Type: microsim</p>
+<p>Bloom Taxonomy Level: Understand (L2)
+Bloom Verb: interpret, explain</p>
+<p>Learning Objective: Students will interpret consumer and producer surplus on a supply and demand graph and explain how market transactions create value for both buyers and sellers.</p>
+<p>Purpose: Interactive visualization of surplus areas and how they change with price.</p>
+<p>Canvas Layout:
+- Left side (450px): Supply and demand graph with surplus areas
+- Right side (150px): Surplus calculations and explanations</p>
+<p>Visual Elements:
+- Downward-sloping demand curve (blue)
+- Upward-sloping supply curve (orange)
+- Equilibrium point marked clearly
+- Consumer surplus shaded (light blue area above price, below demand)
+- Producer surplus shaded (light orange area below price, above supply)
+- Total surplus = sum of both areas
+- Price line that can be moved</p>
+<p>Interactive Controls:
+- Draggable price line (to show what happens away from equilibrium)
+- Toggle to show/hide each surplus area
+- "Go to Equilibrium" button
+- Display showing: Price, Quantity, Consumer Surplus ($), Producer Surplus ($), Total Surplus ($)
+- Reset button</p>
+<p>Default Parameters:
+- Equilibrium price: $15
+- Equilibrium quantity: 50 units
+- Starting at equilibrium</p>
+<p>Data Visibility Requirements:
+- At equilibrium: Both surpluses at maximum, total surplus maximized
+- Above equilibrium: Some consumer surplus becomes "lost," quantity falls
+- Below equilibrium: Some producer surplus becomes "lost," quantity falls</p>
+<p>Behavior:
+- When price moves above equilibrium:
+  - Consumer surplus shrinks (fewer buyers, less benefit)
+  - Some transactions don't happen
+  - Show deadweight loss triangle
+- When price moves below equilibrium:
+  - Producer surplus shrinks (some producers exit)
+  - Some transactions don't happen
+  - Show deadweight loss triangle
+- At equilibrium: "Total surplus is maximized!"</p>
+<p>Instructional Rationale: Visualizing surplus as areas makes the abstract concept concrete. Moving the price away from equilibrium shows why markets tend toward equilibrium and introduces deadweight loss visually.</p>
+<p>Implementation: p5.js with draggable price line and animated surplus areas</p>
+</details>
+<h3 id="why-surplus-matters">Why Surplus Matters<a class="headerlink" href="#why-surplus-matters" title="Permanent link">&para;</a></h3>
+<p>Understanding surplus helps you see that trade creates value for BOTH sides:</p>
+<ul>
+<li>Buyers get things for less than their maximum willingness to pay</li>
+<li>Sellers get paid more than their minimum acceptable price</li>
+<li>Both are better off than if the trade hadn't happened</li>
+</ul>
+<p>This is why voluntary exchange is generally positive-sum—both parties benefit, or they wouldn't trade.</p>
+<h2 id="deadweight-loss-when-markets-fail-to-maximize-value">Deadweight Loss: When Markets Fail to Maximize Value<a class="headerlink" href="#deadweight-loss-when-markets-fail-to-maximize-value" title="Permanent link">&para;</a></h2>
+<p><strong>Deadweight loss</strong> is the loss of total surplus that occurs when the market doesn't produce the efficient quantity.</p>
+<p>What causes deadweight loss?</p>
+<ul>
+<li><strong>Price controls</strong> (price ceilings or floors)</li>
+<li><strong>Taxes</strong> (create a wedge between buyer and seller)</li>
+<li><strong>Monopolies</strong> (restrict output to raise prices)</li>
+<li><strong>Externalities</strong> (costs or benefits not reflected in prices)</li>
+</ul>
+<p>Deadweight loss represents transactions that WOULD have benefited both buyer and seller, but didn't happen because of market distortion.</p>
+<p>On a graph, deadweight loss is typically shown as a triangle—the surplus that nobody gets.</p>
+<div class="admonition warning">
+<p class="admonition-title">Misinformation Alert: 'Just Set the Price Lower'</p>
+<p>When people say "prices should just be lower" without understanding the economics, they might be advocating for price controls. Price ceilings can create deadweight loss—fewer products available, shortages, and lost surplus for both consumers and producers. Understanding supply helps you see the unintended consequences.</p>
+</div>
+<h2 id="bringing-it-all-together-the-producers-mindset">Bringing It All Together: The Producer's Mindset<a class="headerlink" href="#bringing-it-all-together-the-producers-mindset" title="Permanent link">&para;</a></h2>
+<p>Now you can think like a producer. Here's how they make decisions:</p>
+<ol>
+<li><strong>What to produce?</strong> Look for products where price exceeds average cost</li>
+<li><strong>How much to produce?</strong> Produce until MR = MC</li>
+<li><strong>What to charge?</strong> In competitive markets, take the market price. In less competitive markets, that's a whole other chapter...</li>
+<li><strong>When to enter/exit?</strong> Enter when profit is possible, exit when price falls below average cost long-term</li>
+</ol>
+<p>This is rational decision-making applied to business. Same principles from Chapter 1!</p>
+<h2 id="why-understanding-supply-defeats-misinformation">Why Understanding Supply Defeats Misinformation<a class="headerlink" href="#why-understanding-supply-defeats-misinformation" title="Permanent link">&para;</a></h2>
+<p>Here's your critical thinking upgrade for supply:</p>
+<p><strong>Claim: "Companies charge whatever they want"</strong>
+Reality: Companies face costs. If price is below average cost, they lose money and eventually exit. Competition limits pricing power. Even monopolies face demand constraints—charge too much and nobody buys.</p>
+<p><strong>Claim: "Higher prices mean higher profits"</strong>
+Reality: Depends on elasticity (from Chapter 2) and costs. Higher prices might drive away customers, leaving you with less profit. And even if revenue increases, profits only increase if costs don't rise more.</p>
+<p><strong>Claim: "If companies just cut their profits, prices would be lower"</strong>
+Reality: Many companies operate on thin profit margins. Grocery stores average 1-3% profit margins. Airlines lose money some years. Assuming huge profits exist to be cut is often wrong.</p>
+<p><strong>Claim: "Technology should make everything cheaper"</strong>
+Reality: Technology often DOES reduce costs (shifting supply right). But some costs are resistant to technology—personal services, land, some raw materials. Not everything can be mass-produced cheaply.</p>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">&para;</a></h2>
+<p>Your economic superpower now includes the producer's perspective. Here's what you've learned:</p>
+<ol>
+<li><strong>Supply</strong> is the quantity producers are willing and able to sell at various prices</li>
+<li><strong>Law of Supply</strong>: Higher prices → higher quantity supplied</li>
+<li><strong>Supply curves</strong> slope upward (opposite of demand curves)</li>
+<li><strong>Production function</strong> shows how inputs become outputs</li>
+<li><strong>Marginal product</strong> is the output from one more unit of input</li>
+<li><strong>Diminishing returns</strong>: Eventually, more input means less additional output</li>
+<li><strong>Fixed costs</strong> don't change with output; <strong>variable costs</strong> do</li>
+<li><strong>Average Total Cost</strong> typically has a U-shape due to spreading fixed costs, then diminishing returns</li>
+<li><strong>Marginal cost</strong> is the cost of one more unit—crucial for decisions</li>
+<li><strong>Profit maximization</strong> occurs where <strong>MR = MC</strong></li>
+<li><strong>Determinants of supply</strong> (ROTTEN): Resources, Other goods, Technology, Taxes/subsidies, Expectations, Number of sellers</li>
+<li><strong>Economies of scale</strong> reduce costs as production increases (up to a point)</li>
+<li><strong>Consumer surplus</strong> = benefit buyers get above what they pay</li>
+<li><strong>Producer surplus</strong> = benefit sellers get above their minimum price</li>
+<li><strong>Deadweight loss</strong> = lost surplus from market distortions</li>
+</ol>
+<h2 id="critical-thinking-challenge-spotting-supply-misinformation">Critical Thinking Challenge: Spotting Supply Misinformation<a class="headerlink" href="#critical-thinking-challenge-spotting-supply-misinformation" title="Permanent link">&para;</a></h2>
+<p>Now that you understand supply, watch for these misleading claims:</p>
+<details class="question">
+<summary>Red Flag #1: 'Companies are just being greedy with their prices'</summary>
+<p>Prices reflect costs, competition, and demand—not just greed. A company can want to charge $1,000, but if their costs are $800 and competitors charge $850, they'll be out of business fast. Understanding supply shows why prices aren't arbitrary.</p>
+</details>
+<details class="question">
+<summary>Red Flag #2: 'Technology will make this free soon'</summary>
+<p>Technology reduces some costs dramatically but not others. Digital products have near-zero marginal cost once created (download another copy for free), but physical products still need materials, labor, and transportation. Don't assume all costs will vanish.</p>
+</details>
+<details class="question">
+<summary>Red Flag #3: 'Small businesses can compete if they just work harder'</summary>
+<p>Economies of scale are real. Sometimes small businesses can compete on quality, service, or niche markets, but they often can't match large companies' costs. Working harder doesn't overcome structural cost disadvantages.</p>
+</details>
+<details class="question">
+<summary>Red Flag #4: 'Profits are unfair—producers should just cover their costs'</summary>
+<p>Profit provides the incentive for risk-taking and innovation. Without potential profit, why would anyone start a business? And "cost" includes a normal return on investment—zero profit means below-normal returns, which means capital flows elsewhere.</p>
+</details>
+<h2 id="practice-questions">Practice Questions<a class="headerlink" href="#practice-questions" title="Permanent link">&para;</a></h2>
+<p>Test your understanding:</p>
+<ol>
+<li>
+<p>A pizza shop's rent increases. Does this affect the supply curve? If so, which direction does it shift?</p>
+</li>
+<li>
+<p>Explain why the supply curve slopes upward using the concept of marginal cost.</p>
+</li>
+<li>
+<p>A company currently produces where MC &gt; MR. What should they do to maximize profit?</p>
+</li>
+<li>
+<p>Give an example of economies of scale in an industry you're familiar with.</p>
+</li>
+<li>
+<p>If the government subsidizes electric vehicles, what happens to the supply curve for electric vehicles?</p>
+</li>
+<li>
+<p>A new technology reduces production costs by 20%. Draw before and after supply curves and explain the change.</p>
+</li>
+</ol>
+<hr />
+<h2 id="next-steps">Next Steps<a class="headerlink" href="#next-steps" title="Permanent link">&para;</a></h2>
+<p>You now understand both sides of the market—demand (consumers) and supply (producers). But how do these two forces interact?</p>
+<p>In the next chapter, we'll bring supply and demand together to explore <strong>Market Equilibrium</strong>—how prices are actually determined, what happens when markets are out of balance, and why markets have a natural tendency to reach equilibrium.</p>
+<p>When you understand equilibrium, you'll see how millions of individual decisions by buyers and sellers coordinate to determine prices and quantities across the entire economy. It's one of the most elegant ideas in all of social science.</p>
+<p>Your economic superpower is almost complete. Let's finish the picture!</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tracking", "content.code.copy"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
