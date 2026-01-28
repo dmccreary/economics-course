@@ -8,39 +8,6 @@ site_url: "https://dmccreary.github.io/economics-course/"
 repo_url: "https://github.com/dmccreary/economics-course"
 repo_name: "dmccreary/economics-course"
 
-# Theme Configuration
-theme:
-  name: material
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-  font:
-    text: Roboto
-    code: Roboto Mono
-  features:
-    - navigation.instant
-    - navigation.instant.progress
-    - navigation.tracking
-    - content.code.copy
-
-# Minimal Markdown Extensions
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - attr_list
-  - md_in_html
-  - meta
-  - toc:
-      permalink: true
-
-# Plugins
-plugins:
-  - search
-  - social
-  - social_override
-
 # Navigation Structure
 nav:
   - Home: index.md
@@ -72,3 +39,48 @@ nav:
     - Course Description Assessment: learning-graph/course-description-assessment.md
   - Contact: contact.md
   - License: license.md
+
+# Theme Configuration
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: green
+      accent: yellow
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - content.code.copy
+
+# Minimal Markdown Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - meta
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search
+  - social
+  - social_override
+
+# Extra Configuration
+extra_css:
+   - css/extra.css
+extra_javascript: 
+   - js/extra.js
+copyright: Copyright &copy; 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+extra:
+  generator: false
+  analytics:
+    provider: google
+    property: G-4GQR1L5GH6
