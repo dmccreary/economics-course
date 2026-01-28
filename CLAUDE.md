@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an **Intelligent Interactive Textbook** for Introduction to Economics, built with MkDocs Material. Target audience is high school students (Grade 11+, post-Algebra 1). The project uses a learning graph approach with 206 concepts across 14 chapters.
+This is an **Level-2 Intelligent Interactive Textbook** for Introduction to Economics, built with MkDocs Material. Target audience is high school students (Grade 11+, post-Algebra 1). The project uses a learning graph approach with 206 concepts across 14 chapters.
 
 **Published Site:** https://dmccreary.github.io/economics-course/
 
@@ -35,6 +35,7 @@ mkdocs gh-deploy
 - `logs/` - AI generation session logs and decisions
 
 ### Learning Graph
+- The Learning Graph is a DAG that is used to generate content and predict learning paths for students
 - `docs/learning-graph/learning-graph.json` - vis-network format with 206 nodes, 381 edges
 - 13 taxonomy categories (FOUND, MICRO, MKSTR, MKFAIL, MACRO, EMPL, MONEY, POLICY, INTL, PERSONAL, DIGITAL, SYSTEMS, CRITICAL)
 - DAG structure with longest dependency chain of 20 concepts
@@ -50,11 +51,12 @@ Each chapter `index.md` contains:
 ## Critical Conventions
 
 ### MkDocs Configuration
-Never add `navigation.tabs` to mkdocs.yml - this project deliberately excludes top navigation tabs.
+Never add `navigation.tabs` to mkdocs.yml - this project deliberately excludes top navigation tabs
+since the target use is wide-landscape desktop monitors.
 
 ### MicroSims
 - Local test URL format: `http://127.0.0.1:8000/economics-course/sims/[sim-name]/main.html`
-- Always call `updateCanvasSize();` as the first step in p5.js `setup()` to get container width
+- When using p5.js, always call `updateCanvasSize();` as the first step in p5.js `setup()` to get container width
 - vis-network has a rendering bug with edge labels on horizontal edges - apply slight y-offset (e.g., 480 to 490)
 
 ### Content Style
@@ -70,3 +72,12 @@ This project uses Claude AI skills:
 - `chapter-content-generator` - Generates chapter content from structure
 - `learning-graph-generator` - Creates learning graphs from course descriptions
 - `book-chapter-generator` - Generates chapter structure and outline
+
+A complete list of intelligent textbook generation Claude Code skills is described on the website:
+
+`https://github.com/dmccreary/claude-skills/tree/main/skills`
+
+## Supporting Shell Scripts
+
+The ~/.local/bin/bk program will generate a list of supporting shell scripts for doing
+things such as screen capture and resize of images.
