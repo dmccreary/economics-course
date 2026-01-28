@@ -16,4 +16,4 @@ This book is designed for students beginning their study of economics.
 
 ## Author
 
-Dan McCreary
+
