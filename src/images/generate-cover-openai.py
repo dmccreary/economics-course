@@ -67,6 +67,17 @@ def safe_filename(s: str) -> str:
     return s[:120] if s else "cover"
 
 
+def strip_markdown_code_fences(text: str) -> str:
+    """Remove markdown code fences (```json ... ```) if present."""
+    text = text.strip()
+    # Match ```json or ``` at start and ``` at end
+    pattern = r"^```(?:json)?\s*\n?(.*?)\n?```$"
+    match = re.match(pattern, text, flags=re.DOTALL)
+    if match:
+        return match.group(1).strip()
+    return text
+
+
 def center_crop_to_aspect(img: Image.Image, target_aspect: float) -> Image.Image:
     """Center-crop PIL image to target aspect ratio (w/h)."""
     w, h = img.size
@@ -159,7 +170,8 @@ def build_cover_plan(
             raise RuntimeError("Could not extract text output from Responses API response.")
 
     try:
-        data = json.loads(output_text)
+        clean_text = strip_markdown_code_fences(output_text)
+        data = json.loads(clean_text)
     except json.JSONDecodeError as e:
         raise RuntimeError(
             "Model did not return valid JSON. "
@@ -215,25 +227,13 @@ def postprocess_to_og(
     """
     Crop to 1.91:1 and resize to 1200x630.
     """
-    with Image.open(io_bytes(png_bytes)) as im:
+    import io
+    with Image.open(io.BytesIO(png_bytes)) as im:
         im = im.convert("RGBA")
         cropped = center_crop_to_aspect(im, target_aspect=target_aspect)
         resized = cropped.resize(target_size, resample=Image.LANCZOS)
         # Save as PNG (keeps crisp title text)
         resized.save(out_path, format="PNG")
-
-
-class io_bytes:
-    """Tiny bytes->file-like wrapper for PIL without importing io everywhere."""
-    def __init__(self, b: bytes):
-        import io
-        self._bio = io.BytesIO(b)
-
-    def __enter__(self):
-        return self._bio
-
-    def __exit__(self, exc_type, exc, tb):
-        self._bio.close()
 
 
 # ----------------------------

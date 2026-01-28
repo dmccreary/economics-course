@@ -1,4 +1,12 @@
+---
+title: Introduction to Economics
+description: An interactive intelligent textbook for learning economics fundamentals, covering microeconomics, macroeconomics, personal finance, and the digital economy.
+image: img/cover.png
+---
+
 # Welcome to Introduction to Economics
+
+![](./img/cover.png)
 
 An intelligent textbook for learning economics fundamentals.
 
