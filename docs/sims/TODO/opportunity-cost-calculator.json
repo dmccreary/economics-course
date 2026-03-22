@@ -1,0 +1,14 @@
+{
+  "sim_id": "opportunity-cost-calculator",
+  "diagram_name": "Opportunity Cost Calculator",
+  "chapter_number": 1,
+  "chapter_title": "What is Economics?",
+  "chapter_dir": "01-what-is-economics",
+  "library": "p5.js with form inputs and animated calculation reveal",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "calculate, demonstrate",
+  "learning_objective": "Students will calculate the true opportunity cost of decisions by identifying what they give up when making a choice.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: calculate, demonstrate\n\nLearning Objective: Students will calculate the true opportunity cost of decisions by identifying what they give up when making a choice.\n\nPurpose: Allow students to input different choices and see the full opportunity cost revealed, including both direct costs and foregone alternatives.\n\nCanvas Layout:\n- Main area (500px): Interactive choice comparison\n- Right panel (150px): Running total and explanation\n\nVisual Elements:\n- Two choice cards side by side\n- Input fields for: time required, money cost, money could earn, enjoyment rating\n- Animated calculation showing opportunity cost building up\n- Final comparison showing \"true cost\" of each option\n\nInteractive Controls:\n- Input fields for Choice A and Choice B details\n- \"Calculate Opportunity Cost\" button\n- Reset button\n- Slider for hourly wage rate (to calculate time value)\n\nDefault Parameters:\n- Choice A: \"Go to movie\" - 3 hours, $15 ticket\n- Choice B: \"Work extra shift\" - 3 hours, earn $45\n- Hourly wage assumption: $15/hour\n\nBehavior:\n- When calculate button pressed, show step-by-step breakdown\n- Highlight that opportunity cost = direct cost + best alternative foregone\n- Show comparison of both choices with true costs revealed\n\nInstructional Rationale: The Apply/calculate objective requires learners to work through the opportunity cost formula with their own inputs. Interactive calculation reinforces that opportunity cost includes foregone alternatives, not just money spent.\n\nImplementation: p5.js with form inputs and animated calculation reveal"
+}

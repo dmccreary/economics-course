@@ -1,0 +1,14 @@
+{
+  "sim_id": "budget-builder",
+  "diagram_name": "Budget Builder Tool",
+  "chapter_number": 13,
+  "chapter_title": "Personal Finance and Investment",
+  "chapter_dir": "13-personal-finance-investment",
+  "library": "p5.js with input sliders, pie chart visualization, and analysis feedback",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "construct, organize, allocate",
+  "learning_objective": "Students will construct a realistic personal budget by allocating income across categories and identifying areas for potential savings.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: construct, organize, allocate\n\nLearning Objective: Students will construct a realistic personal budget by allocating income across categories and identifying areas for potential savings.\n\nPurpose: Make budgeting concrete with realistic entry-level income scenarios.\n\nCanvas Layout:\n- Left side (350px): Income and expense inputs\n- Right side (350px): Budget visualization and analysis\n\nVisual Elements:\n- Income input (annual salary converted to monthly)\n- Expense category sliders:\n  - Housing/rent\n  - Utilities\n  - Food (groceries + dining)\n  - Transportation\n  - Insurance\n  - Entertainment\n  - Shopping\n  - Subscriptions\n  - Other\n- 50/30/20 guideline overlay\n- Remaining for savings display\n- Monthly cash flow visualization (money in vs. money out)\n- \"What's left for savings\" prominently displayed\n\nInteractive Controls:\n- Income level selector: \"$30,000,\" \"$40,000,\" \"$50,000,\" \"$75,000\"\n- Location cost adjuster: \"Low cost,\" \"Average,\" \"High cost\" city\n- Expense sliders for each category\n- \"Show 50/30/20 Guidelines\" toggle\n- \"Find Savings\" suggestions button\n- Preset scenarios:\n  - \"Just graduated, entry-level job\"\n  - \"Living with roommates\"\n  - \"Living alone in expensive city\"\n\nBehavior:\n- Adjusting income updates available funds\n- Expense sliders show immediate impact on savings\n- Warning when expenses exceed income\n- Highlight categories over typical percentages\n- \"Find Savings\" identifies top 3 potential cuts\n\nKey Insights:\n- \"Housing is usually the biggest lever for saving\"\n- \"Small subscription cuts add up over a year\"\n- \"Emergency fund first, then other savings\"\n\nInstructional Rationale: Hands-on budget creation makes abstract financial planning concrete. Seeing trade-offs in real-time builds intuition about financial choices.\n\nImplementation: p5.js with input sliders, pie chart visualization, and analysis feedback"
+}

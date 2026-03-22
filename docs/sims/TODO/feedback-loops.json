@@ -1,0 +1,14 @@
+{
+  "sim_id": "feedback-loops",
+  "diagram_name": "Systems Thinking Feedback Loops",
+  "chapter_number": 6,
+  "chapter_title": "Market Failures and Public Economics",
+  "chapter_dir": "06-market-failures",
+  "library": "vis-network or custom SVG with animated arrows",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "distinguish, examine",
+  "learning_objective": "Students will distinguish between positive and negative feedback loops and examine how policy interventions can create ripple effects through economic systems.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: workflow\n\nBloom Taxonomy Level: Analyze (L4)\nBloom Verb: distinguish, examine\n\nLearning Objective: Students will distinguish between positive and negative feedback loops and examine how policy interventions can create ripple effects through economic systems.\n\nPurpose: Visualize how economic variables connect in feedback loops and how policy changes propagate through the system.\n\nLayout: Interactive causal loop diagram with policy intervention points\n\nVisual Elements:\n- Circular arrangement of connected variables\n- Arrows showing causal relationships\n- + and - signs on arrows showing direction of effect\n- Loop indicators showing positive or negative feedback\n- Policy intervention buttons at key points\n- Animation showing propagation of changes\n\nExample System: Carbon Tax Impact\nVariables:\n- Carbon tax rate\n- Fossil fuel price\n- Fossil fuel consumption\n- Carbon emissions\n- Climate damage\n- Public pressure for action\n\nFeedback loops to show:\n1. Tax → Higher fuel price → Less consumption → Lower emissions (intended effect)\n2. Higher fuel price → Economic burden → Political opposition → Tax reduction (political feedback)\n3. Lower emissions → Less climate damage → Less pressure for action → Tax reduction (success feedback)\n4. Investment in alternatives → Lower clean energy costs → More adoption → Less emissions (reinforcing loop)\n\nInteractive Controls:\n- \"Increase Carbon Tax\" button\n- \"Reduce Carbon Tax\" button\n- Speed control for animation\n- Toggle different feedback loops visible\n- Reset button\n\nBehavior:\n- When tax is increased, show ripple of effects through the system\n- Highlight different feedback loops in different colors\n- Show short-run vs. long-run effects\n- Display \"unintended consequence\" warnings at certain points\n\nInstructional Rationale: Causal loop diagrams reveal the interconnected nature of economic systems. Watching effects propagate helps students understand why simple interventions have complex outcomes.\n\nImplementation: vis-network or custom SVG with animated arrows"
+}

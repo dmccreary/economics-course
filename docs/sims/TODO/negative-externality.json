@@ -1,0 +1,14 @@
+{
+  "sim_id": "negative-externality",
+  "diagram_name": "Negative Externality Visualizer",
+  "chapter_number": 6,
+  "chapter_title": "Market Failures and Public Economics",
+  "chapter_dir": "06-market-failures",
+  "library": "p5.js with animated pollution spread and reactive characters",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "explain, visualize",
+  "learning_objective": "Students will explain how negative externalities create costs that spread beyond the original transaction and understand why this leads to overproduction.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: explain, visualize\n\nLearning Objective: Students will explain how negative externalities create costs that spread beyond the original transaction and understand why this leads to overproduction.\n\nPurpose: Visualize how costs from a transaction \"spill over\" to affect third parties, and show the gap between private and social costs.\n\nCanvas Layout:\n- Main area (450px): Visual scene with factory, neighborhood, and people\n- Right panel (200px): Cost breakdown and controls\n\nVisual Elements:\n- Central factory producing goods\n- Buyers purchasing from factory (happy faces, getting products)\n- Pollution cloud spreading outward from factory\n- Surrounding houses and people affected by pollution\n- Color gradient showing pollution intensity (fades with distance)\n- Affected people change expression (neutral to unhappy as pollution reaches them)\n- Cost counters showing: Private Cost, External Cost, True Social Cost\n\nInteractive Controls:\n- Production slider: Adjust how much the factory produces (0-100 units)\n- \"Show Social Cost\" toggle: Reveals the full cost including externalities\n- \"Show Optimal Level\" button: Highlights where production should be if externalities were priced\n- Externality type dropdown: Pollution, Noise, Traffic\n\nData Visibility Requirements:\n- At low production: Small pollution cloud, few affected people, small external cost\n- At medium production: Larger cloud, more affected, external costs growing\n- At high production: Massive cloud, many affected, external costs dominating\n- Show comparison: \"Factory pays: $X, Society pays: $Y, Gap: $Z\"\n\nBehavior:\n- As production increases, pollution cloud expands\n- More people become \"affected\" (change color/expression)\n- External cost counter rises faster than production\n- Gap between private and social cost becomes visually obvious\n- \"Optimal\" marker shows where society would want production to stop\n\nInstructional Rationale: Visual representation of spreading externalities makes the abstract concept concrete. Seeing the gap between private and social costs helps students understand why markets overproduce goods with negative externalities.\n\nImplementation: p5.js with animated pollution spread and reactive characters"
+}

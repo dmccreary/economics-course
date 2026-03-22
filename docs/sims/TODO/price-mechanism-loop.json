@@ -1,0 +1,14 @@
+{
+  "sim_id": "price-mechanism-loop",
+  "diagram_name": "Price Mechanism Feedback Loop",
+  "chapter_number": 4,
+  "chapter_title": "Market Equilibrium and Price Mechanisms",
+  "chapter_dir": "04-market-equilibrium",
+  "library": "HTML/CSS/JavaScript with SVG diagram and CSS animations",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "explain, describe",
+  "learning_objective": "Students will explain how the price mechanism creates a self-correcting feedback loop that moves markets toward equilibrium.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: workflow\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: explain, describe\n\nLearning Objective: Students will explain how the price mechanism creates a self-correcting feedback loop that moves markets toward equilibrium.\n\nPurpose: Visualize the cyclical process of price adjustment as an automated feedback system.\n\nVisual Style: Circular workflow diagram with animated arrows\n\nComponents:\n1. \"Price Above Equilibrium\" (top, red box)\n   - Hover text: \"Sellers want to sell more than buyers want to buy\"\n\n2. \"Surplus Develops\" (right, orange box)\n   - Hover text: \"Unsold inventory piles up, sellers get nervous\"\n\n3. \"Sellers Lower Prices\" (bottom-right, yellow box)\n   - Hover text: \"To attract buyers and clear inventory\"\n\n4. \"Equilibrium\" (center, green star)\n   - Hover text: \"Supply equals demand - the market clears\"\n\n5. \"Price Below Equilibrium\" (bottom, red box)\n   - Hover text: \"Buyers want to buy more than sellers want to sell\"\n\n6. \"Shortage Develops\" (left, orange box)\n   - Hover text: \"Empty shelves, frustrated customers, long lines\"\n\n7. \"Sellers Raise Prices\" (top-left, yellow box)\n   - Hover text: \"To take advantage of high demand\"\n\nConnections (animated arrows):\n- Box 1 → Box 2 → Box 3 → Equilibrium (surplus correction path)\n- Box 5 → Box 6 → Box 7 → Equilibrium (shortage correction path)\n- All paths converge on Equilibrium in center\n\nColor Coding:\n- Red: Disequilibrium states\n- Orange: Problem manifestation\n- Yellow: Market response\n- Green: Equilibrium (goal state)\n\nInteractive Features:\n- Hover to see detailed explanation of each stage\n- Click to animate the adjustment process step-by-step\n- Toggle between \"surplus correction\" and \"shortage correction\" paths\n\nInstructional Rationale: Showing the price mechanism as a feedback loop helps students see markets as dynamic systems that self-correct, not static snapshots.\n\nImplementation: HTML/CSS/JavaScript with SVG diagram and CSS animations"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "recession-dashboard",
+  "diagram_name": "Recession Indicators Dashboard",
+  "chapter_number": 9,
+  "chapter_title": "Inflation and the Business Cycle",
+  "chapter_dir": "09-inflation-business-cycle",
+  "library": "p5.js with multiple mini-charts and time-synchronized data",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "analyze, examine, compare",
+  "learning_objective": "Students will analyze multiple economic indicators to assess whether the economy is heading toward, in, or recovering from a recession.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Analyze (L4)\nBloom Verb: analyze, examine, compare\n\nLearning Objective: Students will analyze multiple economic indicators to assess whether the economy is heading toward, in, or recovering from a recession.\n\nPurpose: Show how economists use multiple data points to identify recessions, not just GDP.\n\nCanvas Layout:\n- Main area (500px): Dashboard with multiple indicator panels\n- Right side (150px): Overall assessment and controls\n\nVisual Elements:\n- Six indicator mini-panels:\n  1. Real GDP growth (line chart)\n  2. Unemployment rate (line chart)\n  3. Consumer confidence (gauge)\n  4. Retail sales (bar chart)\n  5. Industrial production (line chart)\n  6. Leading indicators (composite)\n- Color coding: Green (healthy), Yellow (warning), Red (recession)\n- Overall \"Economy Status\" indicator\n- Timeline selector for historical periods\n\nInteractive Controls:\n- Time period selector: 2000-2025\n- Preset buttons:\n  - \"2008 Financial Crisis\"\n  - \"2020 COVID Recession\"\n  - \"2010-2019 Expansion\"\n  - \"Current\"\n- Animation: \"Watch the recession unfold\" (time-lapse through recession)\n- Individual indicator deep-dive on click\n\nBehavior:\n- Selecting time period updates all indicators simultaneously\n- Colors change to reflect economic conditions\n- \"Overall Assessment\" updates: \"Expansion,\" \"Warning Signs,\" \"Recession,\" \"Recovery\"\n- Clicking indicator shows larger view with more detail\n- Animation shows how indicators change through recession cycle\n\nData (historical US data):\n- GDP growth turning negative\n- Unemployment rising from ~4% to 10%+\n- Confidence plummeting\n- Retail sales dropping\n- Industrial production falling\n\nInstructional Rationale: Analyzing multiple indicators simultaneously shows that recessions are complex economic events, not just a single number. Students learn to see patterns and leading indicators.\n\nImplementation: p5.js with multiple mini-charts and time-synchronized data"
+}

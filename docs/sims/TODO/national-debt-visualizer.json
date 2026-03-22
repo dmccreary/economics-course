@@ -1,0 +1,14 @@
+{
+  "sim_id": "national-debt-visualizer",
+  "diagram_name": "National Debt Visualizer",
+  "chapter_number": 11,
+  "chapter_title": "Fiscal and Monetary Policy",
+  "chapter_dir": "11-fiscal-monetary-policy",
+  "library": "Chart.js with multiple data series and toggle controls",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "interpret, explain, contextualize",
+  "learning_objective": "Students will interpret national debt data in proper context, understanding the difference between absolute numbers and meaningful ratios.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: chart\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: interpret, explain, contextualize\n\nLearning Objective: Students will interpret national debt data in proper context, understanding the difference between absolute numbers and meaningful ratios.\n\nPurpose: Combat misinformation by showing debt in multiple ways—absolute, per capita, and as percentage of GDP.\n\nCanvas Layout:\n- Main area (500px): Time series chart with toggle options\n- Right panel (200px): Context information and controls\n\nVisual Elements:\n- Line chart showing debt over time (1940-present)\n- Three view toggles:\n  1. Absolute dollars (the scary big numbers)\n  2. Per capita (debt per person)\n  3. Debt-to-GDP ratio (most meaningful)\n- Historical event markers (WWII, Reagan tax cuts, 2008 crisis, COVID)\n- \"Who holds the debt\" pie chart\n- Interest payments as % of budget\n\nInteractive Controls:\n- View selector: \"Absolute,\" \"Per Capita,\" \"% of GDP\"\n- Time range slider (1940-2030 projections)\n- \"Show Historical Events\" toggle\n- \"Compare to Other Countries\" toggle\n- Inflation adjustment toggle (real vs nominal)\n\nData Points:\n- WWII debt peak (~120% GDP, then declined)\n- 1980s: Debt rose under Reagan (tax cuts + defense spending)\n- 1990s: Budget surpluses briefly reduced debt\n- 2008: Debt jumped (financial crisis response)\n- 2020: Massive jump (COVID response)\n- Projections: Where debt is headed\n\nKey Insights to Display:\n- \"Debt looks scarier in absolute dollars than as % of GDP\"\n- \"The economy grew faster than the debt after WWII—that's one way to reduce the burden\"\n- \"Interest rates matter: Low rates make debt more manageable\"\n\nInstructional Rationale: Showing debt in multiple formats helps students understand why context matters. The absolute number is often used to scare people, but the ratio tells a more complete story.\n\nImplementation: Chart.js with multiple data series and toggle controls"
+}

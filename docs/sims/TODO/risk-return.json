@@ -1,0 +1,14 @@
+{
+  "sim_id": "risk-return",
+  "diagram_name": "Investment Risk-Return Explorer",
+  "chapter_number": 13,
+  "chapter_title": "Personal Finance and Investment",
+  "chapter_dir": "13-personal-finance-investment",
+  "library": "p5.js with historical data, Monte Carlo simulation, and comparison tools",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "compare, examine, differentiate",
+  "learning_objective": "Students will compare different investment types and examine the relationship between risk and expected return over various time horizons.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Analyze (L4)\nBloom Verb: compare, examine, differentiate\n\nLearning Objective: Students will compare different investment types and examine the relationship between risk and expected return over various time horizons.\n\nPurpose: Visualize the risk-return trade-off with real historical data.\n\nCanvas Layout:\n- Main area (450px): Investment growth comparison chart\n- Right panel (250px): Controls and statistics\n\nVisual Elements:\n- Multi-line chart showing growth of $10,000 over time\n- Investment options with different risk levels:\n  - Savings account\n  - Bonds\n  - Balanced portfolio (60/40)\n  - Stock index fund\n  - Individual high-growth stock\n- Volatility visualization (how much each bounces around)\n- Best/worst case scenarios\n- Final value comparison\n\nInteractive Controls:\n- Time horizon selector: 1 year, 5 years, 10 years, 20 years, 30 years\n- Investment selector (toggle on/off)\n- \"Show Historical Example\" dropdown:\n  - \"2008 Financial Crisis\"\n  - \"2020 COVID Crash\"\n  - \"1990s Bull Market\"\n  - \"Full Historical (1990-2024)\"\n- \"Monte Carlo Simulation\" toggle (show range of possible outcomes)\n- Initial investment slider\n\nBehavior:\n- Short time horizons: High-risk investments show potential for loss\n- Long time horizons: Risk investments show higher growth\n- Show: \"Best case: $X, Worst case: $Y, Average: $Z\"\n- Historical examples show real market events\n- Monte Carlo shows probability distribution of outcomes\n\nKey Insights:\n- \"Higher expected return = more volatility\"\n- \"Time reduces the chance of loss for stocks\"\n- \"Diversified portfolios offer middle ground\"\n- \"Past performance doesn't guarantee future results\"\n\nStatistics Panel:\n- Average annual return\n- Standard deviation (volatility)\n- Worst year\n- Best year\n- Probability of loss over selected time horizon\n\nInstructional Rationale: Seeing risk and return together over different time horizons builds intuition about investment choices. Historical examples make abstract concepts real.\n\nImplementation: p5.js with historical data, Monte Carlo simulation, and comparison tools"
+}

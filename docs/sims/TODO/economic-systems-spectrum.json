@@ -1,0 +1,14 @@
+{
+  "sim_id": "economic-systems-spectrum",
+  "diagram_name": "Economic Systems Comparison",
+  "chapter_number": 1,
+  "chapter_title": "What is Economics?",
+  "chapter_dir": "01-what-is-economics",
+  "library": "HTML/CSS/JavaScript with SVG spectrum and positioned elements",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "compare, classify",
+  "learning_objective": "Students will compare and contrast the three economic systems and understand that most real economies are mixed.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: infographic\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: compare, classify\n\nLearning Objective: Students will compare and contrast the three economic systems and understand that most real economies are mixed.\n\nPurpose: Visualize where different countries fall on the market-command spectrum.\n\nLayout: Horizontal spectrum with interactive country markers\n\nVisual Elements:\n- Horizontal spectrum bar: \"Pure Market\" (left) to \"Pure Command\" (right)\n- Center labeled \"Mixed Economy\"\n- Country flags/icons positioned along spectrum\n- Color gradient: Blue (market) → Purple (mixed) → Red (command)\n- Three boxes at bottom explaining each system\n\nCountries to position:\n- Far left: None (pure market is theoretical)\n- Left-center: United States, Hong Kong\n- Center: United Kingdom, Germany, Japan\n- Right-center: Sweden, France\n- Right: China (market-command hybrid)\n- Far right: North Korea, Cuba\n\nInteractive Elements:\n- Hover over country to see popup with:\n  - Country name\n  - Key characteristics\n  - Examples of market elements\n  - Examples of government control\n- Click to \"pin\" comparison between two countries\n\nData to show on hover:\n- Government spending as % of GDP\n- State ownership level\n- Market freedom score\n- Social safety net strength\n\nInstructional Rationale: Visual comparison helps learners see that economic systems exist on a spectrum rather than as pure types. Hovering reveals concrete data that supports the classification.\n\nImplementation: HTML/CSS/JavaScript with SVG spectrum and positioned elements"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "market-power-map",
+  "diagram_name": "Market Power in Real Industries",
+  "chapter_number": 5,
+  "chapter_title": "Market Structures and Competition",
+  "chapter_dir": "05-market-structures",
+  "library": "HTML/CSS/JavaScript with SVG positioning and hover interactions",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "classify, compare",
+  "learning_objective": "Students will classify real industries into market structure categories and analyze the sources of market power in each.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: infographic\n\nBloom Taxonomy Level: Analyze (L4)\nBloom Verb: classify, compare\n\nLearning Objective: Students will classify real industries into market structure categories and analyze the sources of market power in each.\n\nPurpose: Show where real companies and industries fall on the market structure spectrum with data-backed positioning.\n\nLayout: Visual map with industry bubbles positioned by competition level\n\nVisual Elements:\n- Horizontal axis: Level of competition (high to low)\n- Vertical axis: Product differentiation (identical to unique)\n- Industry bubbles of different sizes (size = market size)\n- Color coding by market structure type\n- Lines connecting related industries\n\nIndustries to Include:\nPerfect Competition Zone (few examples):\n- Commodity wheat: Many farmers, identical product\n- Basic web hosting: Many providers, standard service\n\nMonopolistic Competition Zone:\n- Restaurants: Bubble showing many chains and independents\n- Clothing retail: Many brands, differentiated styles\n- Streaming (content): Netflix, Disney+, etc.—many options, differentiated content\n\nOligopoly Zone:\n- Cell carriers: Show AT&T, Verizon, T-Mobile sizes\n- Airlines: Show major carriers\n- Streaming (platforms): The services themselves\n- Search engines: Google dominant, others small\n- Social media: Major platforms\n\nMonopoly/Near-Monopoly Zone:\n- Local utilities: Water, electric\n- Operating systems: Windows and Mac (duopoly, but with dominant shares)\n- App stores: Apple (iOS), Google (Android)\n\nInteractive Elements:\n- Hover over any bubble to see:\n  - Industry name\n  - Approximate CR4 ratio\n  - Main barrier types\n  - Example companies\n  - Why it's positioned here\n- Click to \"pin\" and compare two industries\n\nData Display:\n- CR4 concentration ratio\n- Number of major players\n- Entry barrier types (icons)\n- Consumer impact score\n\nInstructional Rationale: Mapping real industries helps learners apply abstract market structure concepts to their daily experiences. The spatial layout reinforces that market structure is multidimensional (competition AND differentiation matter).\n\nImplementation: HTML/CSS/JavaScript with SVG positioning and hover interactions"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "fed-rate-simulator",
+  "diagram_name": "Fed Interest Rate Simulator",
+  "chapter_number": 10,
+  "chapter_title": "Money and Banking",
+  "chapter_dir": "10-money-banking",
+  "library": "p5.js with central dial, branching rate displays, and economic gauges",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "demonstrate, apply, predict",
+  "learning_objective": "Students will demonstrate how changes in the federal funds rate affect different interest rates throughout the economy and predict impacts on economic activity.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: demonstrate, apply, predict\n\nLearning Objective: Students will demonstrate how changes in the federal funds rate affect different interest rates throughout the economy and predict impacts on economic activity.\n\nPurpose: Show the ripple effects of Fed policy decisions on real-world rates that affect people's lives.\n\nCanvas Layout:\n- Left side (400px): Fed rate control and cascading effects display\n- Right side (300px): Economic impact indicators\n\nVisual Elements:\n- Central \"Fed Funds Rate\" dial (0% - 10%)\n- Cascading rate displays branching from fed rate:\n  - Prime rate (Fed + 3%)\n  - Mortgage rates (Fed + spread)\n  - Auto loan rates\n  - Credit card rates\n  - Savings account rates\n- Economic indicator gauges:\n  - Consumer spending\n  - Business investment\n  - Housing market activity\n  - Inflation pressure\n  - Unemployment trend\n\nInteractive Controls:\n- Fed rate slider (0% - 10%)\n- \"Raise 0.25%\" and \"Lower 0.25%\" buttons\n- Time lag toggle (show immediate vs delayed effects)\n- Historical presets:\n  - \"2008 Crisis Response\" (rates near 0%)\n  - \"1980s Inflation Fight\" (rates at 20%)\n  - \"Normal Times\" (rates at 2-3%)\n- \"Show Who Wins/Loses\" toggle\n\nData Visibility Requirements:\n- Stage 1: Show current fed rate\n- Stage 2: Show how other rates follow (with spreads)\n- Stage 3: Show economic indicators responding\n- Stage 4: Show time lag effects (economy responds slowly)\n\nBehavior:\n- Moving fed rate slider updates all cascading rates\n- Economic indicators shift with rate changes\n- Time lag mode shows: \"Rates changed now, economy responds in 6-18 months\"\n- Winners/losers panel:\n  - Lower rates: \"Winners: Borrowers, homebuyers, businesses. Losers: Savers, retirees.\"\n  - Higher rates: \"Winners: Savers, bond investors. Losers: Borrowers, homebuyers.\"\n- Historical presets show extreme scenarios with context\n\nInstructional Rationale: Visualizing the cascade from Fed policy to real-world rates makes monetary policy tangible. Students see how Fed decisions affect mortgage rates, car loans, and savings—things that will matter in their lives.\n\nImplementation: p5.js with central dial, branching rate displays, and economic gauges"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "surplus-explorer",
+  "diagram_name": "Surplus Explorer",
+  "chapter_number": 3,
+  "chapter_title": "Supply and Production",
+  "chapter_dir": "03-supply-production",
+  "library": "p5.js with draggable price line and animated surplus areas",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "interpret, explain",
+  "learning_objective": "Students will interpret consumer and producer surplus on a supply and demand graph and explain how market transactions create value for both buyers and sellers.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: interpret, explain\n\nLearning Objective: Students will interpret consumer and producer surplus on a supply and demand graph and explain how market transactions create value for both buyers and sellers.\n\nPurpose: Interactive visualization of surplus areas and how they change with price.\n\nCanvas Layout:\n- Left side (450px): Supply and demand graph with surplus areas\n- Right side (150px): Surplus calculations and explanations\n\nVisual Elements:\n- Downward-sloping demand curve (blue)\n- Upward-sloping supply curve (orange)\n- Equilibrium point marked clearly\n- Consumer surplus shaded (light blue area above price, below demand)\n- Producer surplus shaded (light orange area below price, above supply)\n- Total surplus = sum of both areas\n- Price line that can be moved\n\nInteractive Controls:\n- Draggable price line (to show what happens away from equilibrium)\n- Toggle to show/hide each surplus area\n- \"Go to Equilibrium\" button\n- Display showing: Price, Quantity, Consumer Surplus ($), Producer Surplus ($), Total Surplus ($)\n- Reset button\n\nDefault Parameters:\n- Equilibrium price: $15\n- Equilibrium quantity: 50 units\n- Starting at equilibrium\n\nData Visibility Requirements:\n- At equilibrium: Both surpluses at maximum, total surplus maximized\n- Above equilibrium: Some consumer surplus becomes \"lost,\" quantity falls\n- Below equilibrium: Some producer surplus becomes \"lost,\" quantity falls\n\nBehavior:\n- When price moves above equilibrium:\n  - Consumer surplus shrinks (fewer buyers, less benefit)\n  - Some transactions don't happen\n  - Show deadweight loss triangle\n- When price moves below equilibrium:\n  - Producer surplus shrinks (some producers exit)\n  - Some transactions don't happen\n  - Show deadweight loss triangle\n- At equilibrium: \"Total surplus is maximized!\"\n\nInstructional Rationale: Visualizing surplus as areas makes the abstract concept concrete. Moving the price away from equilibrium shows why markets tend toward equilibrium and introduces deadweight loss visually.\n\nImplementation: p5.js with draggable price line and animated surplus areas"
+}

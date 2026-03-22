@@ -1,0 +1,14 @@
+{
+  "sim_id": "barriers-to-entry",
+  "diagram_name": "Barriers to Entry Builder",
+  "chapter_number": 5,
+  "chapter_title": "Market Structures and Competition",
+  "chapter_dir": "05-market-structures",
+  "library": "p5.js with toggle interface and animated market simulation",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "examine, compare",
+  "learning_objective": "Students will analyze how different types and combinations of barriers to entry affect market concentration and competition levels.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Analyze (L4)\nBloom Verb: examine, compare\n\nLearning Objective: Students will analyze how different types and combinations of barriers to entry affect market concentration and competition levels.\n\nPurpose: Allow students to build different barrier combinations and see resulting market structures.\n\nCanvas Layout:\n- Left side (300px): Barrier selection panel\n- Right side (350px): Resulting market visualization\n\nVisual Elements:\n- Left panel: List of barrier types as toggleable blocks\n  - Patent protection (shield icon)\n  - High startup costs (factory icon)\n  - Network effects (connected nodes icon)\n  - Government license required (stamp icon)\n  - Economies of scale (graph icon)\n  - Control of key resource (diamond icon)\n- Right panel: Market visualization\n  - Shows firms as circles (size = market share)\n  - Barrier \"wall\" visualization around market\n  - Competition meter from \"Competitive\" to \"Monopoly\"\n\nInteractive Controls:\n- Toggle switches for each barrier type\n- \"Barrier strength\" slider (low/medium/high) for each active barrier\n- \"Simulate 10 Years\" button to show market evolution\n- Reset button\n- Example presets: \"Pharmaceutical\", \"Social Media\", \"Restaurant\", \"Utility\"\n\nBehavior:\n- As barriers are added, competition meter shifts toward monopoly\n- Number of firms decreases, remaining firms grow larger\n- With no barriers: Many equal-sized small firms\n- With maximum barriers: Single dominant firm\n\nData Visibility Requirements:\n- Show: Number of Firms, Largest Firm Share, Consumer Prices (index), Innovation Rate\n- Each barrier contributes different effects\n- Display explanation of why each barrier reduces competition\n\nIndustry Presets:\n- Restaurant: No barriers → Many firms, high competition\n- Streaming Service: Network effects, content library → Oligopoly\n- Pharmaceutical: Patents, R&D costs → Temporary monopolies\n- Electric Utility: Infrastructure, licenses → Regulated monopoly\n\nInstructional Rationale: Building barriers piece by piece helps learners see how market concentration develops over time and isn't random. The simulation aspect shows the dynamic evolution rather than just static outcomes.\n\nImplementation: p5.js with toggle interface and animated market simulation"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "price-ceiling-simulator",
+  "diagram_name": "Price Ceiling Simulator",
+  "chapter_number": 4,
+  "chapter_title": "Market Equilibrium and Price Mechanisms",
+  "chapter_dir": "04-market-equilibrium",
+  "library": "p5.js with draggable ceiling line, real-time calculation, and consequence display panel",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "analyze, examine, differentiate",
+  "learning_objective": "Students will analyze how price ceilings create shortages and unintended consequences in rental markets.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Analyze (L4)\nBloom Verb: analyze, examine, differentiate\n\nLearning Objective: Students will analyze how price ceilings create shortages and unintended consequences in rental markets.\n\nPurpose: Show the effects of rent control by allowing students to set ceiling price and observe resulting shortage.\n\nCanvas Layout:\n- Left side (450px): Supply and demand graph with ceiling line\n- Right side (200px): Market outcomes and consequences panel\n\nVisual Elements:\n- Standard supply and demand curves\n- Horizontal price ceiling line (red dashed, draggable)\n- Shaded shortage area (when ceiling below equilibrium)\n- Icons representing: apartments, people searching, frustrated landlords\n- \"Dead weight loss\" triangle highlighted\n\nInteractive Controls:\n- Slider: \"Set Price Ceiling\" ($500 - $2,000)\n- Toggle: \"Show Equilibrium Comparison\"\n- Toggle: \"Show Unintended Consequences\"\n- Button: \"Reset to No Ceiling\"\n\nDefault Parameters:\n- Equilibrium rent: $1,500/month\n- Equilibrium quantity: 1,000 apartments\n- Starting ceiling: $1,000 (creating shortage for discovery)\n\nBehavior:\n- When ceiling below equilibrium: Show shortage, animate searching icons\n- Show calculation: \"Shortage = Qd - Qs = X apartments\"\n- When ceiling above equilibrium: Show \"Not binding - no effect\"\n- \"Unintended Consequences\" panel shows:\n  - Reduced housing quality\n  - Long waiting lists\n  - Black market/under-the-table payments\n  - Reduced new construction\n\nData Visibility Requirements:\n- Stage 1: Show ceiling price and resulting Qd and Qs\n- Stage 2: Calculate shortage amount\n- Stage 3: Show who benefits (lucky renters) and who loses (unlucky renters, landlords, society)\n- Stage 4: Display deadweight loss calculation\n\nInstructional Rationale: Letting students set their own price ceiling and observe consequences helps them discover why economists largely oppose rent control, rather than being told.\n\nImplementation: p5.js with draggable ceiling line, real-time calculation, and consequence display panel"
+}

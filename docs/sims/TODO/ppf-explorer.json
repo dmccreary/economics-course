@@ -1,0 +1,14 @@
+{
+  "sim_id": "ppf-explorer",
+  "diagram_name": "Production Possibilities Frontier",
+  "chapter_number": 1,
+  "chapter_title": "What is Economics?",
+  "chapter_dir": "01-what-is-economics",
+  "library": "p5.js with mouse interaction and real-time calculation",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "demonstrate, use",
+  "learning_objective": "Students will use the PPF model to demonstrate trade-offs, efficiency, and opportunity cost visually.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: demonstrate, use\n\nLearning Objective: Students will use the PPF model to demonstrate trade-offs, efficiency, and opportunity cost visually.\n\nPurpose: Interactive exploration of the PPF showing how changing production of one good affects the other.\n\nCanvas Layout:\n- Left side (400px): PPF graph with draggable point\n- Right side (200px): Data display and explanations\n\nVisual Elements:\n- X-axis: \"Pizzas\" (0-100)\n- Y-axis: \"Robots\" (0-100)\n- Curved frontier line (showing increasing opportunity cost)\n- Draggable point that user can move\n- Three zones color-coded:\n  - Green: On the frontier (efficient)\n  - Yellow: Inside frontier (inefficient)\n  - Red: Outside frontier (impossible)\n- Current production values displayed\n\nInteractive Controls:\n- Draggable point on the graph\n- Buttons for preset positions:\n  - \"All Pizzas\" (100 pizzas, 0 robots)\n  - \"All Robots\" (0 pizzas, 100 robots)\n  - \"Balanced\" (on curve, middle)\n  - \"Inefficient\" (inside curve)\n  - \"Impossible\" (outside curve)\n- \"Show Opportunity Cost\" toggle\n\nBehavior:\n- As point moves along curve, show opportunity cost calculation\n- \"To get 10 more pizzas, you must give up X robots\"\n- When point is inside curve: \"You're not using all resources!\"\n- When point is outside curve: \"Not possible with current resources\"\n- Opportunity cost increases as you move toward extremes (curved line)\n\nData Visibility:\n- Current: X pizzas, Y robots\n- Opportunity cost of next 10 pizzas: Z robots\n- Status: Efficient / Inefficient / Impossible\n\nInstructional Rationale: Dragging a point along the PPF makes the trade-off relationship concrete and immediate. Students discover that opportunity cost isn't constant—it increases as you specialize more heavily in one good.\n\nImplementation: p5.js with mouse interaction and real-time calculation"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "efficiency-equity-spectrum",
+  "diagram_name": "Efficiency-Equity Spectrum",
+  "chapter_number": 4,
+  "chapter_title": "Market Equilibrium and Price Mechanisms",
+  "chapter_dir": "04-market-equilibrium",
+  "library": "HTML/CSS/JavaScript with interactive hover cards and value-exploration slider",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "assess, evaluate, judge",
+  "learning_objective": "Students will evaluate where different policies and countries fall on the efficiency-equity spectrum and recognize that \"right\" answers depend on values.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: infographic\n\nBloom Taxonomy Level: Evaluate (L5)\nBloom Verb: assess, evaluate, judge\n\nLearning Objective: Students will evaluate where different policies and countries fall on the efficiency-equity spectrum and recognize that \"right\" answers depend on values.\n\nPurpose: Visualize the trade-off between efficiency and equity as a spectrum with real policy examples.\n\nLayout: Horizontal spectrum with positioned policy/country markers\n\nVisual Elements:\n- Horizontal axis: \"Pure Efficiency\" (left) to \"Pure Equity\" (right)\n- Vertical axis or size: Economic outcomes (GDP per capita, inequality measures)\n- Policy markers positioned along spectrum\n- Country markers positioned based on their economic systems\n- Trade-off zone highlighted in center\n\nPolicies to Position:\n- Far left: No taxes, no regulation (theoretical)\n- Left: Flat tax, minimal welfare state\n- Center-left: Progressive income tax, limited social programs (US)\n- Center: Universal healthcare, moderate taxes (UK, Canada)\n- Center-right: High taxes, comprehensive welfare state (Sweden, Denmark)\n- Right: Maximum redistribution (theoretical)\n\nCountries to Position:\n- United States: More efficiency-focused\n- United Kingdom: Balanced\n- Germany: Slightly more equity-focused\n- Sweden: More equity-focused\n- Singapore: More efficiency-focused\n\nInteractive Elements:\n- Hover over each marker to see:\n  - Policy/country details\n  - Gini coefficient (inequality measure)\n  - GDP per capita\n  - Key trade-offs involved\n- Slider: \"Where would YOU set policy?\" - helps students reflect on their own values\n\nData to display:\n- Current position and its implications\n- What's gained and lost at each position\n- \"No free lunch\" reminder\n\nInstructional Rationale: This helps students see policy debates as fundamentally about values and trade-offs, not just facts. There's no objectively \"correct\" spot on the spectrum.\n\nImplementation: HTML/CSS/JavaScript with interactive hover cards and value-exploration slider"
+}

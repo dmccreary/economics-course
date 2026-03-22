@@ -1,0 +1,14 @@
+{
+  "sim_id": "unemployment-calculator",
+  "diagram_name": "Unemployment Rate Calculator",
+  "chapter_number": 8,
+  "chapter_title": "Employment and Unemployment",
+  "chapter_dir": "08-employment-unemployment",
+  "library": "p5.js with sliders, real-time calculation, and gauge visualization",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "calculate, use, demonstrate",
+  "learning_objective": "Students will calculate the unemployment rate by manipulating population components and observing how the rate changes.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: calculate, use, demonstrate\n\nLearning Objective: Students will calculate the unemployment rate by manipulating population components and observing how the rate changes.\n\nPurpose: Make the unemployment rate formula concrete and reveal its limitations.\n\nCanvas Layout:\n- Left side (400px): Interactive population diagram with adjustable numbers\n- Right side (250px): Calculation display and rate gauge\n\nVisual Elements:\n- Three adjustable boxes representing:\n  - Employed (green box with number)\n  - Unemployed (yellow box with number)\n  - Not in Labor Force (gray box with number)\n- Arrow flow showing: Employed + Unemployed = Labor Force\n- Circular gauge showing unemployment rate (0-15% scale)\n- Formula displayed with current values plugged in\n\nInteractive Controls:\n- Slider or input for Employed (130-170 million)\n- Slider or input for Unemployed (3-15 million)\n- Slider or input for Not in Labor Force (80-110 million)\n- \"Recession scenario\" button (increases unemployed, some drop to NILF)\n- \"Recovery scenario\" button (decreases unemployed)\n- \"Show hidden unemployment\" toggle\n\nBehavior:\n- As sliders move, rate recalculates in real-time\n- Gauge needle moves to show rate visually\n- When \"hidden unemployment\" toggled:\n  - Shows U-3 (official) vs U-6 (broader measure)\n  - Highlights discouraged workers and underemployed\n  - Displays: \"Official rate: X%, Broader rate: Y%\"\n- Recession button shows how some unemployed become \"discouraged\" and leave labor force, paradoxically lowering the rate\n\nDefault Parameters:\n- Employed: 158 million\n- Unemployed: 7 million\n- Not in Labor Force: 95 million\n- Rate: 4.2%\n\nCritical Thinking Feature:\n- \"What if 2 million discouraged workers start looking again?\"\n- Shows rate would INCREASE even though nothing bad happened\n\nInstructional Rationale: Interactive manipulation reveals how the unemployment rate can be misleading. Students discover that people leaving the labor force lowers the rate even when the job situation isn't improving.\n\nImplementation: p5.js with sliders, real-time calculation, and gauge visualization"
+}

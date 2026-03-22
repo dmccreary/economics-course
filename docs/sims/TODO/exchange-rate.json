@@ -1,0 +1,14 @@
+{
+  "sim_id": "exchange-rate",
+  "diagram_name": "Exchange Rate Explorer",
+  "chapter_number": 12,
+  "chapter_title": "International Trade and Globalization",
+  "chapter_dir": "12-international-trade",
+  "library": "p5.js with exchange rate display, calculation tools, and impact panels",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "demonstrate, calculate, apply",
+  "learning_objective": "Students will demonstrate how exchange rate changes affect different economic actors and calculate the impact on real purchases.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: demonstrate, calculate, apply\n\nLearning Objective: Students will demonstrate how exchange rate changes affect different economic actors and calculate the impact on real purchases.\n\nPurpose: Make abstract currency concepts concrete with relatable purchasing scenarios.\n\nCanvas Layout:\n- Left side (350px): Exchange rate display and history\n- Right side (350px): Impact calculator and scenarios\n\nVisual Elements:\n- Dollar strength meter (weak to strong)\n- Exchange rate display for major currencies (EUR, JPY, GBP, CNY)\n- Historical exchange rate chart (toggle: 1 year, 5 years, 20 years)\n- \"Who Wins/Loses\" indicator panel\n- Shopping comparison: Same product in dollars vs. foreign currency\n\nInteractive Controls:\n- Currency pair selector\n- \"Strengthen Dollar 10%\" / \"Weaken Dollar 10%\" buttons\n- Scenario calculator:\n  - \"Price of iPhone in Japan\"\n  - \"Price of BMW in US\"\n  - \"American tourist in Paris\"\n  - \"Japanese tourist in New York\"\n- \"Show Winners & Losers\" panel\n- Historical event markers (2008 crisis, COVID, etc.)\n\nBehavior:\n- Strengthen dollar: Imports get cheaper, exports get more expensive\n- Show specific price changes for concrete products\n- Display: \"Before: $X, After: $Y\" for various goods\n- Winners/losers panel updates in real-time\n- Historical view shows how exchange rates fluctuate\n\nExample Calculations:\n- If dollar strengthens 10% vs. yen:\n  - American buying Japanese car: 10% cheaper\n  - Japanese buying American soybeans: 10% more expensive\n  - American tourist in Tokyo: 10% more purchasing power\n\nKey Insights:\n- \"Exchange rates affect international prices\"\n- \"No currency strength is 'better'—it depends on who you are\"\n- \"Exchange rates fluctuate constantly based on many factors\"\n\nInstructional Rationale: Concrete purchasing scenarios make abstract exchange rate concepts tangible. Seeing who wins and loses reveals why currency policy is politically complex.\n\nImplementation: p5.js with exchange rate display, calculation tools, and impact panels"
+}

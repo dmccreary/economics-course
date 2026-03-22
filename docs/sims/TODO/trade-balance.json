@@ -1,0 +1,14 @@
+{
+  "sim_id": "trade-balance",
+  "diagram_name": "Trade Balance Visualizer",
+  "chapter_number": 12,
+  "chapter_title": "International Trade and Globalization",
+  "chapter_dir": "12-international-trade",
+  "library": "p5.js with world map, animated flow arrows, and data overlays",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "interpret, explain, visualize",
+  "learning_objective": "Students will interpret trade balance data and explain why trade deficits aren't necessarily harmful.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: interpret, explain, visualize\n\nLearning Objective: Students will interpret trade balance data and explain why trade deficits aren't necessarily harmful.\n\nPurpose: Combat misinformation by showing trade flows visually and connecting trade deficits to capital inflows.\n\nCanvas Layout:\n- Main area (450px): World map with trade flow arrows\n- Right panel (250px): Trade data and explanations\n\nVisual Elements:\n- US at center with trading partner countries around it\n- Animated arrows showing:\n  - Exports (blue arrows going out)\n  - Imports (red arrows coming in)\n  - Capital flows (green arrows—foreign investment coming in)\n- Size of arrows proportional to trade volume\n- Trade balance calculator showing deficit/surplus\n- Capital account showing offsetting flows\n\nInteractive Controls:\n- Trading partner selector: China, EU, Canada, Mexico, Japan, etc.\n- \"Show Capital Flows\" toggle\n- \"Historical Trend\" slider (1990-present)\n- \"What do we trade?\" detail view for each partner\n- Scenario buttons:\n  - \"If we balanced trade with China\"\n  - \"If we had no trade deficit\"\n\nData to Display:\n- US-China: Large deficit, but also large Chinese investment in US\n- US-Canada: More balanced, integrated supply chains\n- US-EU: Moderate deficit\n- Show how dollars \"come back\" as investment\n\nKey Insights:\n- \"Trade deficit = Capital surplus\"\n- \"Countries that sell us goods invest those dollars back here\"\n- \"A deficit isn't automatically bad or good—context matters\"\n\nInstructional Rationale: Seeing trade flows visually, including the return of capital, helps students understand why \"trade deficit = losing\" is an oversimplification.\n\nImplementation: p5.js with world map, animated flow arrows, and data overlays"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "correlation-causation",
+  "diagram_name": "Correlation vs Causation Detector",
+  "chapter_number": 6,
+  "chapter_title": "Market Failures and Public Economics",
+  "chapter_dir": "06-market-failures",
+  "library": "p5.js with claim database and evaluation logic",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "judge, critique",
+  "learning_objective": "Students will evaluate causal claims by identifying potential confounding variables, reverse causation, and coincidental correlations.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Evaluate (L5)\nBloom Verb: judge, critique\n\nLearning Objective: Students will evaluate causal claims by identifying potential confounding variables, reverse causation, and coincidental correlations.\n\nPurpose: Practice critically analyzing claims that confuse correlation with causation.\n\nCanvas Layout:\n- Main area (400px): Claim display and analysis interface\n- Right panel (250px): Evaluation checklist and feedback\n\nVisual Elements:\n- Claim card displaying a correlation-based statement\n- Two variables shown with visual correlation (arrows, charts)\n- Analysis buttons for different explanations\n- \"Your Verdict\" selection\n- Explanation reveal panel\n- Score tracker across multiple claims\n\nClaims to Evaluate (rotate through):\n\n1. \"Countries that eat more cheese have more Nobel Prize winners\"\n   - Correct answer: Common cause (wealth)\n\n2. \"People who own horses live longer\"\n   - Correct answer: Common cause (wealthy people can afford horses AND healthcare)\n\n3. \"Cities with more firefighters have more fires\"\n   - Correct answer: Common cause (bigger cities have both more firefighters AND more fires)\n\n4. \"Students who take more AP classes get into better colleges\"\n   - Correct answer: Could be reverse causation (motivated students do both)\n\n5. \"Organic food purchases correlate with autism rates over time\"\n   - Correct answer: Coincidence (unrelated trends both happening to increase)\n\nInteractive Controls:\n- \"Show Claim\" button\n- Analysis options: \"True Causation,\" \"Common Cause,\" \"Reverse Causation,\" \"Coincidence\"\n- \"Submit Analysis\" button\n- \"Reveal Explanation\" button\n- \"Next Claim\" button\n\nFeedback System:\n- Score correct/incorrect\n- Explain the actual relationship\n- Show diagram of true causal structure\n- Provide the \"mechanism\" that would need to exist if causation were real\n\nInstructional Rationale: Active practice evaluating claims builds lasting critical thinking skills. The quiz format with feedback reinforces learning from mistakes.\n\nImplementation: p5.js with claim database and evaluation logic"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "marginal-utility-meter",
+  "diagram_name": "Marginal Utility Satisfaction Meter",
+  "chapter_number": 2,
+  "chapter_title": "Demand and Consumer Behavior",
+  "chapter_dir": "02-demand-consumer-behavior",
+  "library": "p5.js with click-through stages, animated meter, and dynamic bar chart",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "explain, interpret",
+  "learning_objective": "Students will explain how marginal utility decreases with each additional unit consumed and interpret why consumers eventually stop buying more.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: explain, interpret\n\nLearning Objective: Students will explain how marginal utility decreases with each additional unit consumed and interpret why consumers eventually stop buying more.\n\nPurpose: Visualize diminishing marginal utility using a relatable ice cream cone scenario, showing both total and marginal utility.\n\nCanvas Layout:\n- Left side (350px): Visual representation with satisfaction meter and ice cream cones\n- Right side (250px): Bar chart showing marginal utility of each unit plus data table\n\nVisual Elements:\n- Row of ice cream cones (up to 6)\n- Large satisfaction meter (thermometer style, 0-100)\n- Emoji face that changes (very happy → happy → neutral → uncomfortable)\n- Dual bar chart: one bar for total utility, one for marginal utility of current unit\n- Running tally showing MU of each cone\n\nData Visibility Requirements:\n- Stage 1 (0 cones): Satisfaction = 0, face is neutral/hungry\n- Stage 2 (1 cone): Total utility = 50, Marginal utility = 50, very happy face\n- Stage 3 (2 cones): Total utility = 80, Marginal utility = 30, happy face\n- Stage 4 (3 cones): Total utility = 95, Marginal utility = 15, satisfied face\n- Stage 5 (4 cones): Total utility = 100, Marginal utility = 5, neutral face\n- Stage 6 (5 cones): Total utility = 98, Marginal utility = -2, uncomfortable face\n\nInteractive Controls:\n- \"Eat Another Cone\" button\n- \"Start Over\" reset button\n- Display showing: Cones Eaten, Total Satisfaction, Satisfaction from Last Cone\n- Toggle to show/hide the comparison bar chart\n\nBehavior:\n- Each click adds a cone and updates all displays\n- Bar chart clearly shows declining marginal utility\n- After cone 4, marginal utility becomes zero or negative\n- Text explanation updates: \"Cone #X added Y satisfaction points\"\n- Final message: \"You've discovered diminishing marginal utility!\"\n\nInstructional Rationale: Step-through interaction with concrete ice cream example helps learners experience the pattern of diminishing marginal utility. The dual display (meter + bar chart) reinforces that while total utility can still increase, marginal utility decreases.\n\nImplementation: p5.js with click-through stages, animated meter, and dynamic bar chart"
+}
