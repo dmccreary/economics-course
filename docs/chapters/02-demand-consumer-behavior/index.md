@@ -54,6 +54,13 @@ Every time you decide to buy something—or decide NOT to buy something—you're
 
 Even better, you'll be able to spot when someone on social media is making wild claims about prices and consumer behavior. "If we just set prices lower, everyone wins!" Really? Let's find out why that's more complicated than it sounds.
 
+!!! mascot-welcome "Think Like an Economist!"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Ferris welcomes you">
+    Welcome back! This chapter is where economics gets personal — every
+    purchase you make (or don't make) is demand in action. By the end,
+    you'll understand why sales work, why some prices never drop, and
+    how companies try to hack your buying decisions.
+
 ## What is Demand?
 
 **Demand** is the quantity of a good or service that consumers are willing and able to buy at various prices during a specific time period.
@@ -168,6 +175,12 @@ This is where many people get confused, so pay attention:
 
 Think of it this way: the demand curve shows the relationship between price and quantity. If only price changes, you're exploring different points on that same relationship. But if something else changes (like your income or preferences), the entire relationship changes—that's when the curve shifts.
 
+!!! mascot-tip "Ferris's Tip"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Ferris shares a tip">
+    Here's the #1 mistake on economics tests: confusing a shift of the
+    curve with movement along the curve. Remember — only a price change
+    moves you along the curve. Everything else shifts the whole thing.
+
 ## Why Do People Buy Things? Understanding Utility
 
 Now let's dig deeper into WHY people demand things in the first place. The answer involves a concept economists call **utility**.
@@ -265,6 +278,13 @@ Implementation: p5.js with click-through stages, animated meter, and dynamic bar
 Here's the clever connection: diminishing marginal utility explains WHY demand curves slope downward.
 
 If each additional unit gives you less satisfaction, you'll only be willing to pay less for it. You might pay $4 for that first amazing slice of pizza, but you'd only pay $2 for the third slice. This means at higher prices, you buy fewer slices—and that's exactly what the demand curve shows!
+
+!!! mascot-thinking "Key Insight"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Ferris is thinking">
+    This is one of the most elegant ideas in economics: diminishing
+    marginal utility and the downward-sloping demand curve are the
+    same thing seen from two different angles. One explains *why*
+    people behave that way; the other shows it on a graph.
 
 ## Consumer Choice: Making Decisions
 
@@ -562,6 +582,13 @@ Here's a question that matters a lot to businesses: when price changes, how MUCH
 
 Some products, people keep buying even when prices go up a lot. Other products, even a small price increase sends buyers running. This difference is elasticity.
 
+!!! mascot-encourage "You've Got This!"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Ferris encourages you">
+    Elasticity involves a little math, but don't let the formula scare
+    you. It's really just answering one question: "How much do buyers
+    care when the price changes?" You already know the answer
+    intuitively for most products — now you'll be able to measure it.
+
 ## Price Elasticity of Demand
 
 **Price Elasticity of Demand (PED)** measures how responsive quantity demanded is to price changes.
@@ -711,6 +738,13 @@ Here's where your economic superpower really pays off. Companies spend millions 
     When you understand demand from the consumer's perspective, you can recognize when companies are trying to manipulate your demand. Ask yourself: "Do I actually want this, or am I responding to artificial scarcity? Is this a genuine preference, or manufactured desire?"
 
 ## Key Takeaways
+
+!!! mascot-celebration "Excellent Work!"
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Ferris celebrates">
+    You now understand demand from the inside out — from why people buy
+    things to how sensitive they are to price changes. You can even spot
+    when companies are trying to manipulate your purchasing behavior.
+    That's a serious economic superpower upgrade!
 
 Your economic superpower just got a major upgrade. Here's what you've learned:
 

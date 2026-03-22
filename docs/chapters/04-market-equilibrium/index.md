@@ -52,6 +52,10 @@ Here's your economic superpower for this chapter: **the ability to predict price
 
 Ready to see how the invisible hand actually works? Let's find the sweet spot.
 
+!!! mascot-welcome "Think Like an Economist!"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Ferris welcomes you">
+    Welcome to the chapter where it all comes together! You already know about supply and demand separately—now let's see the fireworks when they meet. By the end, you'll be predicting prices like a pro.
+
 ## Market Equilibrium: The Goldilocks Price
 
 **Market equilibrium** is the point where the quantity buyers want to purchase exactly equals the quantity sellers want to sell. It's the "Goldilocks" point—not too high, not too low, but just right.
