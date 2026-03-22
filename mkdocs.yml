@@ -53,6 +53,16 @@ nav:
     - Compound Interest Visualizer: sims/compound-interest-visualizer/index.md
     - Correlation vs Causation Detector: sims/correlation-causation/index.md
     - Cost Curves Visualizer: sims/cost-curves-visualizer/index.md
+    - CPI Market Basket: sims/cpi-basket-explorer/index.md
+    - Credit Score Simulator: sims/credit-score/index.md
+    - Demand Curve Explorer: sims/demand-curve-explorer/index.md
+    - Demand Shifters Cause-Effect Map: sims/demand-shifters/index.md
+    - Economic Systems Comparison: sims/economic-systems-spectrum/index.md
+    - Economies of Scale Visualizer: sims/economies-of-scale/index.md
+    - Efficiency-Equity Spectrum: sims/efficiency-equity-spectrum/index.md
+    - Elasticity Calculator: sims/elasticity-calculator/index.md
+    - Exchange Rate Explorer: sims/exchange-rate/index.md
+    - Fed Interest Rate Simulator: sims/fed-rate-simulator/index.md
     - Government Budget Balancer: sims/budget-balancer/index.md
     - Historical Stock Market Returns: sims/stock-market-returns/index.md
     - Learning Graph Viewer: sims/graph-viewer/index.md
@@ -64,6 +74,9 @@ nav:
     - Web Server OS Market Share: sims/linux-marketshare/index.md
 
 
+
+
+  - Glossary: glossary.md
   - Prompts:
     - Generate Chapter Content: prompts/generate-chapter-content.md
     - Create Logo Generator: prompts/create-logo-generator.md
