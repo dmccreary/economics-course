@@ -1,0 +1,14 @@
+{
+  "sim_id": "profit-maximization-finder",
+  "diagram_name": "Profit Maximization Finder",
+  "chapter_number": 3,
+  "chapter_title": "Supply and Production",
+  "chapter_dir": "03-supply-production",
+  "library": "p5.js with draggable elements and animated profit calculation",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "calculate, solve",
+  "learning_objective": "Students will calculate the profit-maximizing output level by finding where MR = MC and solve for maximum profit.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: calculate, solve\n\nLearning Objective: Students will calculate the profit-maximizing output level by finding where MR = MC and solve for maximum profit.\n\nPurpose: Interactive tool for finding the profit-maximizing quantity using the MR = MC rule.\n\nCanvas Layout:\n- Left side (400px): MC and MR curves with adjustable output level\n- Right side (200px): Profit calculation breakdown\n\nVisual Elements:\n- MC curve (rising portion) in red\n- MR line (horizontal for competitive firm) in green\n- Draggable vertical line for choosing quantity\n- Profit area shaded (green if positive, red if negative)\n- Total Revenue, Total Cost, and Profit displays\n- \"Sweet spot\" indicator at MR = MC intersection\n\nInteractive Controls:\n- Draggable quantity selector (vertical line)\n- Price slider (adjusts MR line position)\n- \"Find Optimal\" button that animates to MR = MC\n- Display showing: Quantity, MR, MC, Total Revenue, Total Cost, Profit\n- \"Step Through\" mode showing one unit at a time\n- Reset button\n\nDefault Parameters:\n- Market price: $20\n- MC curve rising from $8\n- Starting quantity: 30 units (not optimal)\n\nData Visibility Requirements:\n- At selected quantity:\n  - MR value (= price in competitive market)\n  - MC value at that quantity\n  - Comparison: MR vs MC\n  - Running profit total\n- When Q is below optimal: \"MR > MC: Produce more for more profit!\"\n- When Q is above optimal: \"MC > MR: Producing too much—profit is falling\"\n- At optimal: \"MR = MC: Maximum profit achieved!\"\n\nBehavior:\n- Dragging quantity updates all calculations in real-time\n- Profit area grows/shrinks visually\n- Guidance text helps students find optimal\n- Step-through mode shows marginal decisions one unit at a time\n- Clear visualization of why MR = MC is the answer\n\nInstructional Rationale: Interactive searching for the optimal quantity reinforces the MR = MC logic. Students discover the rule rather than just being told it. The visual profit area makes the abstract concept concrete.\n\nImplementation: p5.js with draggable elements and animated profit calculation"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "platform-economics",
+  "diagram_name": "Platform Economics Simulator",
+  "chapter_number": 14,
+  "chapter_title": "The Digital Economy and Capstone Projects",
+  "chapter_dir": "14-digital-economy-capstone",
+  "library": "p5.js with two-sided visualization, matching animation, and growth dynamics",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "analyze, examine, differentiate",
+  "learning_objective": "Students will analyze how two-sided platforms create value and examine the chicken-and-egg problem of building a marketplace.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Analyze (L4)\nBloom Verb: analyze, examine, differentiate\n\nLearning Objective: Students will analyze how two-sided platforms create value and examine the chicken-and-egg problem of building a marketplace.\n\nPurpose: Show the dynamics of building a platform business and the strategies needed to reach critical mass.\n\nCanvas Layout:\n- Center (350px): Platform visualization with both sides\n- Side panels (150px each): Buyer/seller or user/creator metrics\n\nVisual Elements:\n- Platform in center with connections to both sides\n- Side A (e.g., Riders/Buyers/Users): Icons representing demand side\n- Side B (e.g., Drivers/Sellers/Creators): Icons representing supply side\n- Connection lines showing successful matches\n- Platform fees/revenue display\n- \"Critical mass\" threshold indicator\n- Competing platform option\n\nInteractive Controls:\n- Subsidy sliders: How much to pay Side A vs Side B\n- Fee sliders: How much to charge each side\n- \"Launch Platform\" button\n- Strategy presets:\n  - \"Uber model\" (subsidize drivers, free riders)\n  - \"Amazon model\" (seed with own inventory)\n  - \"Facebook model\" (free both sides, sell ads)\n- Time progression showing growth or failure\n\nBehavior:\n- Too few on either side → Platform fails (no matches)\n- Subsidize one side → That side grows → Attracts other side\n- Reach critical mass → Positive feedback kicks in\n- Successful platform → Can reduce subsidies, increase fees\n- Competitor shows difficulty of catching up once leader established\n\nMetrics Display:\n- Side A users\n- Side B users\n- Successful matches per period\n- Revenue per match\n- Total platform value\n\nKey Insights:\n- \"You need both sides—the chicken-and-egg problem\"\n- \"Subsidies can jumpstart growth\"\n- \"Once you hit critical mass, growth becomes self-sustaining\"\n- \"Platform power comes from controlling the connection\"\n\nInstructional Rationale: Simulating platform dynamics reveals why launching platforms is so hard and why successful ones become so dominant.\n\nImplementation: p5.js with two-sided visualization, matching animation, and growth dynamics"
+}

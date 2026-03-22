@@ -1,0 +1,66 @@
+{
+  "title": "Web Server OS Market Share",
+  "description": "Interactive visualization comparing Linux and Windows usage on web servers",
+  "subject": "Mathematics",
+  "topic": "Web Server OS Market Share",
+  "gradeLevel": "6-12",
+  "bloomsTaxonomy": [
+    "Understand",
+    "Apply"
+  ],
+  "author": "Dan McCreary",
+  "dateCreated": "2026-01-23",
+  "dateModified": "2026-01-23",
+  "version": "1.0.0",
+  "license": "MIT",
+  "language": "en",
+  "format": "text/html",
+  "type": "Interactive Simulation",
+  "framework": "chart.js",
+  "url": "https://dmccreary.github.io/learning-linux/sims/linux-marketshare/",
+  "identifier": "https://dmccreary.github.io/learning-linux/sims/linux-marketshare/",
+  "_source": {
+    "repo": "learning-linux",
+    "sim": "linux-marketshare",
+    "github_url": "https://github.com/dmccreary/learning-linux/tree/main/docs/sims/linux-marketshare",
+    "auto_generated": true,
+    "generation_date": "2026-01-23"
+  },
+  "subjects": [
+    "Mathematics",
+    "Chemistry",
+    "Statistics",
+    "Economics"
+  ],
+  "visualizationType": [
+    "simulation",
+    "chart",
+    "interactive-demo"
+  ],
+  "learningObjectives": [
+    "Understand the mathematical concept of web server os market share",
+    "Apply web server os market share to solve problems",
+    "Visualize and interpret web server os market share relationships"
+  ],
+  "pedagogical": {
+    "pattern": "reference",
+    "bloomAlignment": [
+      "understand",
+      "apply"
+    ],
+    "bloomVerbs": [
+      "compare",
+      "summarize",
+      "illustrate"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "medium",
+    "feedbackType": [
+      "immediate",
+      "corrective",
+      "explanatory"
+    ],
+    "interactionStyle": "observe"
+  }
+}

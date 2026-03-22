@@ -1,0 +1,14 @@
+{
+  "sim_id": "supply-shifters",
+  "diagram_name": "Supply Shifters Interactive Map",
+  "chapter_number": 3,
+  "chapter_title": "Supply and Production",
+  "chapter_dir": "03-supply-production",
+  "library": "p5.js with animated curve and clickable interface",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "differentiate, organize",
+  "learning_objective": "Students will differentiate between factors that cause movement along the supply curve versus shifts of the entire curve, and organize the determinants of supply.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: infographic\n\nBloom Taxonomy Level: Analyze (L4)\nBloom Verb: differentiate, organize\n\nLearning Objective: Students will differentiate between factors that cause movement along the supply curve versus shifts of the entire curve, and organize the determinants of supply.\n\nPurpose: Interactive cause-effect diagram showing how each determinant affects the supply curve.\n\nLayout: Central supply curve with surrounding factor cards\n\nVisual Elements:\n- Central: Animated supply curve that can shift left/right\n- Surrounding: Six cards for each ROTTEN factor\n- Color coding: Factors that increase supply (green), decrease supply (red)\n- Arrows showing direction of curve shift\n- Before/after comparison view\n- Producer icons reacting to changes\n\nInteractive Elements:\n- Click on any factor card to see its effect on the supply curve\n- Toggle between \"Increase\" and \"Decrease\" for each factor\n- Animated curve shift with explanation\n- \"Reset\" to return to original position\n- Quiz mode: \"What would happen if...\" scenarios\n\nFactor Cards:\n1. Resource Prices: \"Input costs fall\" / \"Input costs rise\"\n2. Other Goods: \"Alternative product more profitable\" / \"Alternative less profitable\"\n3. Technology: \"New technology discovered\" / \"Technology breakdown\"\n4. Taxes/Subsidies: \"Government subsidy\" / \"New tax imposed\"\n5. Expectations: \"Expect higher future prices\" / \"Expect lower future prices\"\n6. Number of Sellers: \"New firms enter market\" / \"Firms exit market\"\n\nBehavior:\n- Each click shows animated shift with narration\n- Comparison panel shows: \"Before: At $15, supply was 100. After: At $15, supply is 150\"\n- Text explains: \"This is a SHIFT because the WHOLE curve moved\"\n- Connects to real-world examples\n\nInstructional Rationale: Organizing all supply determinants visually with immediate feedback helps learners build a mental model of what causes supply changes. The mirror structure to Chapter 2's demand shifters creates consistency.\n\nImplementation: p5.js with animated curve and clickable interface"
+}

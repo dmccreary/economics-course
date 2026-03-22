@@ -1,0 +1,14 @@
+{
+  "sim_id": "policy-toolkit",
+  "diagram_name": "Government Policy Toolkit",
+  "chapter_number": 6,
+  "chapter_title": "Market Failures and Public Economics",
+  "chapter_dir": "06-market-failures",
+  "library": "HTML/CSS with interactive card expansion",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "compare, summarize",
+  "learning_objective": "Students will compare different government policy tools and understand when each is most appropriate for addressing market failures.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: infographic\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: compare, summarize\n\nLearning Objective: Students will compare different government policy tools and understand when each is most appropriate for addressing market failures.\n\nPurpose: Provide an overview of policy options with trade-offs for each.\n\nLayout: Grid of policy tools with expandable details\n\nVisual Elements:\n- 6 policy tool cards arranged in 2x3 grid\n- Each card shows: Icon, Name, Brief description\n- Color coding by type (fiscal = green, regulatory = blue, structural = purple)\n- Trade-off meter for each (flexibility vs. certainty)\n\nPolicy Tools to Display:\n\n1. Pigouvian Tax (icon: money with minus)\n   - Best for: Negative externalities\n   - Pros: Efficient, raises revenue, flexible\n   - Cons: Hard to set right level, politically difficult\n\n2. Subsidy (icon: money with plus)\n   - Best for: Positive externalities\n   - Pros: Encourages good behavior\n   - Cons: Costly, can be captured by special interests\n\n3. Regulation (icon: rulebook)\n   - Best for: Safety, minimum standards\n   - Pros: Certain outcomes, easy to understand\n   - Cons: Inflexible, may be inefficient\n\n4. Property Rights (icon: deed/title)\n   - Best for: Clearly defined resources\n   - Pros: Market-based, efficient\n   - Cons: Doesn't work for diffuse externalities\n\n5. Public Provision (icon: government building)\n   - Best for: Pure public goods\n   - Pros: Solves free rider problem\n   - Cons: May be inefficient, requires taxation\n\n6. Antitrust (icon: scales of justice)\n   - Best for: Market power problems\n   - Pros: Restores competition\n   - Cons: Slow, hard to prove cases\n\nInteractive Elements:\n- Hover over each card to see expanded details\n- Click to see real-world examples\n- Filter by market failure type (externality, public good, etc.)\n\nInstructional Rationale: Presenting all policy tools together helps students see that there are multiple approaches to each problem, with different trade-offs. The comparative format encourages analytical thinking about policy choices.\n\nImplementation: HTML/CSS with interactive card expansion"
+}

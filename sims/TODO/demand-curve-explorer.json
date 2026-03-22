@@ -1,0 +1,14 @@
+{
+  "sim_id": "demand-curve-explorer",
+  "diagram_name": "Demand Curve Explorer",
+  "chapter_number": 2,
+  "chapter_title": "Demand and Consumer Behavior",
+  "chapter_dir": "02-demand-consumer-behavior",
+  "library": "p5.js with draggable slider and animated curve point",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "demonstrate, use",
+  "learning_objective": "Students will demonstrate how price changes affect quantity demanded by interacting with a demand curve and observing the inverse relationship.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: demonstrate, use\n\nLearning Objective: Students will demonstrate how price changes affect quantity demanded by interacting with a demand curve and observing the inverse relationship.\n\nPurpose: Allow students to manipulate price and see the corresponding change in quantity demanded, reinforcing the law of demand visually.\n\nCanvas Layout:\n- Left side (450px): Demand curve graph with interactive elements\n- Right side (150px): Data display panel and explanations\n\nVisual Elements:\n- Coordinate axes with labeled Price (Y) and Quantity (Q) on X\n- Downward-sloping demand curve (blue line)\n- Draggable price indicator on Y-axis\n- Corresponding quantity point that moves along the curve\n- Dotted lines showing current price→quantity relationship\n- Shaded region showing consumer behavior at current price\n\nInteractive Controls:\n- Vertical slider for price ($1-$10 range)\n- Display showing: Current Price, Quantity Demanded\n- \"Show Movement\" toggle that animates the relationship\n- Reset button\n- Pre-set scenario buttons: \"Coffee at $2\", \"Coffee at $5\", \"Coffee at $8\"\n\nDefault Parameters:\n- Product: Coffee (relatable example)\n- Price range: $1-$10\n- Quantity range: 0-100 cups per day (for a coffee shop)\n- Starting price: $4\n\nData Visibility Requirements:\n- Stage 1: Show initial price point on curve\n- Stage 2: As price slider moves, show quantity changing in real-time\n- Stage 3: Display text explanation: \"At $X, consumers demand Y cups\"\n- Stage 4: When price increases, highlight \"Price up → Quantity down\"\n- Stage 5: When price decreases, highlight \"Price down → Quantity up\"\n\nBehavior:\n- Dragging price up moves point up and left along curve (less quantity)\n- Dragging price down moves point down and right along curve (more quantity)\n- Smooth animation shows the relationship\n- Text updates explain what's happening\n\nInstructional Rationale: Direct manipulation of price with immediate visual feedback helps learners internalize the inverse relationship between price and quantity demanded. The coffee example is relatable and the real-time response makes the abstract concept concrete.\n\nImplementation: p5.js with draggable slider and animated curve point"
+}

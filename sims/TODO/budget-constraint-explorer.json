@@ -1,0 +1,14 @@
+{
+  "sim_id": "budget-constraint-explorer",
+  "diagram_name": "Budget Constraint Explorer",
+  "chapter_number": 2,
+  "chapter_title": "Demand and Consumer Behavior",
+  "chapter_dir": "02-demand-consumer-behavior",
+  "library": "p5.js with draggable point and real-time calculations",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "demonstrate, solve",
+  "learning_objective": "Students will demonstrate how budget constraints limit consumer choices and solve for optimal combinations given preferences.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: demonstrate, solve\n\nLearning Objective: Students will demonstrate how budget constraints limit consumer choices and solve for optimal combinations given preferences.\n\nPurpose: Interactive exploration of budget constraints showing trade-offs between two goods.\n\nCanvas Layout:\n- Left side (400px): Budget constraint graph with draggable point\n- Right side (200px): Controls, data display, and utility feedback\n\nVisual Elements:\n- Coordinate axes: Good A (Tacos) on X, Good B (Burritos) on Y\n- Budget line showing all affordable combinations\n- Draggable point that moves along the budget line\n- Shaded \"affordable region\" below the line\n- Icons representing tacos and burritos\n- Utility score display that changes based on chosen combination\n\nInteractive Controls:\n- Draggable point on budget line\n- Sliders for: Budget amount ($10-$50), Price of Tacos ($2-$8), Price of Burritos ($3-$10)\n- \"Optimize for Tacos\" and \"Optimize for Burritos\" buttons\n- Display showing: Current combination, Money spent, Money remaining, Utility score\n- Reset button\n\nDefault Parameters:\n- Budget: $20\n- Taco price: $4\n- Burrito price: $5\n- Starting point: 2 tacos, 2 burritos ($18 spent)\n\nBehavior:\n- As point moves along line, show trade-off (\"1 more burrito = 1.25 fewer tacos\")\n- Utility score based on diminishing marginal utility for each good\n- Points inside the region show \"You have money left!\"\n- Points outside the region show \"Can't afford this!\"\n- When prices change, budget line pivots appropriately\n\nData Visibility:\n- Current: X tacos ($A), Y burritos ($B)\n- Total: $C of $D budget\n- Trade-off rate: 1 burrito costs [X] tacos worth of money\n\nInstructional Rationale: Dragging along the budget constraint makes trade-offs tangible. The utility feedback helps students understand that the \"best\" point depends on preferences. Changing prices shows how constraints shift.\n\nImplementation: p5.js with draggable point and real-time calculations"
+}

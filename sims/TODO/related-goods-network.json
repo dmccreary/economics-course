@@ -1,0 +1,14 @@
+{
+  "sim_id": "related-goods-network",
+  "diagram_name": "Substitutes and Complements Network",
+  "chapter_number": 2,
+  "chapter_title": "Demand and Consumer Behavior",
+  "chapter_dir": "02-demand-consumer-behavior",
+  "library": "vis-network JavaScript library with animated effects",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "classify, compare",
+  "learning_objective": "Students will classify goods as substitutes or complements and compare how price changes in one market affect demand in related markets.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: infographic\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: classify, compare\n\nLearning Objective: Students will classify goods as substitutes or complements and compare how price changes in one market affect demand in related markets.\n\nPurpose: Visualize the network of relationships between related goods using an interactive network diagram.\n\nLayout: Network graph with central product and connected related goods\n\nVisual Elements:\n- Central node: Selected product (e.g., \"Coffee\")\n- Connected nodes in two colors:\n  - Green connections: Substitute goods\n  - Blue connections: Complementary goods\n- Connection lines with direction arrows\n- Price change indicator on central product\n- Demand change indicators on related products\n\nSample Network (for Coffee):\n- Substitutes (green): Tea, Energy drinks, Soda\n- Complements (blue): Cream, Sugar, Pastries, Coffee mugs\n\nInteractive Elements:\n- Dropdown to select central product (Coffee, Smartphones, Movies, Pizza)\n- \"Price Up\" and \"Price Down\" buttons for central product\n- Animated arrows showing demand effects on related goods\n- Hover over any node to see detailed explanation\n\nBehavior:\n- When \"Price Up\" clicked on central product:\n  - Substitutes glow green with \"Demand ↑\" indicator\n  - Complements glow red with \"Demand ↓\" indicator\n  - Animation shows consumers moving to/from related goods\n- Explanatory text appears: \"When coffee prices rise, tea demand increases (substitute) but cream demand decreases (complement)\"\n\nInstructional Rationale: Visual network representation helps learners see how markets are interconnected. The cause-effect animation reinforces the logical relationship between related goods.\n\nImplementation: vis-network JavaScript library with animated effects"
+}

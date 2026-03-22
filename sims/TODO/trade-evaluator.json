@@ -1,0 +1,14 @@
+{
+  "sim_id": "trade-evaluator",
+  "diagram_name": "Trade Argument Evaluator",
+  "chapter_number": 12,
+  "chapter_title": "International Trade and Globalization",
+  "chapter_dir": "12-international-trade",
+  "library": "p5.js with argument database and evaluation logic",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "evaluate, critique, justify",
+  "learning_objective": "Students will evaluate common trade policy arguments and justify their assessments using economic reasoning.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Evaluate (L5)\nBloom Verb: evaluate, critique, justify\n\nLearning Objective: Students will evaluate common trade policy arguments and justify their assessments using economic reasoning.\n\nPurpose: Practice applying critical thinking to real-world trade debates.\n\nCanvas Layout:\n- Main area (400px): Argument display and evaluation interface\n- Right panel (250px): Checklist and feedback\n\nVisual Elements:\n- Argument card with trade claim\n- Source indicator (politician, economist, activist)\n- Red flag checklist items\n- \"Your Evaluation\" selection\n- Detailed analysis reveal\n- Accuracy score tracker\n\nArguments to Evaluate:\n\n1. \"The trade deficit is killing our economy\"\n   - Red flags: Correlation ≠ causation, ignores capital account\n   - Context: US economy has grown during 40 years of deficits\n\n2. \"Those tariffs will make China pay\"\n   - Red flags: Misunderstands who pays tariffs\n   - Reality: American consumers and businesses pay\n\n3. \"Free trade has only helped the rich\"\n   - Red flags: Oversimplification, ignores consumer benefits\n   - Reality: Benefits are real but unequally distributed\n\n4. \"We need tariffs to protect national security industries\"\n   - More nuanced: This can be legitimate for some industries\n   - Question: Is this industry actually critical? Is protection the best approach?\n\n5. \"Trade agreements destroy sovereignty\"\n   - Red flags: Depends on the agreement\n   - Reality: Countries voluntarily enter agreements and can exit\n\nInteractive Controls:\n- \"Show Argument\" button\n- Evaluation options: \"Accurate,\" \"Misleading,\" \"Needs Context,\" \"Valid Concern\"\n- Red flag checkboxes\n- \"Reveal Analysis\" button\n- Difficulty selector\n\nBehavior:\n- Present argument with source\n- Student selects red flags and evaluation\n- Detailed analysis compares to student answer\n- Explain what's right and wrong about the argument\n- Track performance across arguments\n\nInstructional Rationale: Active practice evaluating real arguments builds lasting analytical skills. Trade debates are an excellent domain because they're politically charged and full of misleading claims.\n\nImplementation: p5.js with argument database and evaluation logic"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "attention-economy",
+  "diagram_name": "Attention Economy Calculator",
+  "chapter_number": 14,
+  "chapter_title": "The Digital Economy and Capstone Projects",
+  "chapter_dir": "14-digital-economy-capstone",
+  "library": "p5.js with time tracking, revenue calculations, and comparison visualizations",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "calculate, demonstrate, apply",
+  "learning_objective": "Students will calculate the economic value of their attention and demonstrate how platforms monetize user engagement.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: calculate, demonstrate, apply\n\nLearning Objective: Students will calculate the economic value of their attention and demonstrate how platforms monetize user engagement.\n\nPurpose: Make the invisible economics of \"free\" platforms visible and personal.\n\nCanvas Layout:\n- Left side (350px): Time tracking inputs\n- Right side (350px): Value calculations and visualizations\n\nVisual Elements:\n- Daily time spent on different platforms (input)\n- Ad revenue generated display\n- \"Your Attention Value\" prominent display\n- Comparison: What else you could do with that time\n- Company revenue breakdown\n- Data collected visualization\n\nInteractive Controls:\n- Time spent sliders for each platform:\n  - TikTok\n  - Instagram\n  - YouTube\n  - Snapchat\n  - Other\n- \"Calculate My Value\" button\n- \"What data do they collect?\" reveal\n- \"What could I do instead?\" comparison\n- Historical tracking toggle\n\nCalculations to Display:\n- Total hours/day on \"free\" platforms\n- Estimated ad revenue generated: ~$0.01-0.05 per minute\n- Your annual attention value: Hours × Revenue\n- Data collected: Interests, location, contacts, behavior\n- Opportunity cost: What else could you learn/do?\n\nKey Insights to Display:\n- \"You spent X hours this week on social media\"\n- \"That generated approximately $Y in ad revenue\"\n- \"Companies know your interests, location, and habits\"\n- \"Time is your scarcest resource\"\n\nBehavior:\n- Higher engagement = More ads seen = More revenue\n- Show: \"TikTok makes more per minute than Instagram because...\"\n- Display: \"Your attention this year is worth $X to advertisers\"\n- Comparison: \"That's equivalent to a part-time job paying...\"\n\nInstructional Rationale: Personalizing the attention economy makes abstract economics concrete. Seeing the actual value of their attention helps students make informed choices about their time.\n\nImplementation: p5.js with time tracking, revenue calculations, and comparison visualizations"
+}

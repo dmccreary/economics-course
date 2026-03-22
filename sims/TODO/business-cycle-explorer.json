@@ -1,0 +1,14 @@
+{
+  "sim_id": "business-cycle-explorer",
+  "diagram_name": "Business Cycle Explorer",
+  "chapter_number": 7,
+  "chapter_title": "Measuring the Economy - GDP and Growth",
+  "chapter_dir": "07-measuring-economy",
+  "library": "p5.js with animated line, click regions, and data overlays",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "explain, identify, interpret",
+  "learning_objective": "Students will identify the four phases of the business cycle and explain the characteristics of each phase.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: explain, identify, interpret\n\nLearning Objective: Students will identify the four phases of the business cycle and explain the characteristics of each phase.\n\nPurpose: Visualize the business cycle with historical examples and interactive phase exploration.\n\nCanvas Layout:\n- Main area (600px): Animated line graph showing GDP over time\n- Right panel (150px): Phase information and indicators\n\nVisual Elements:\n- Wavy line showing business cycle pattern\n- Color-coded regions for each phase:\n  - Green: Expansion\n  - Yellow: Peak\n  - Red: Contraction\n  - Orange: Trough\n- Moving indicator dot showing \"current\" position\n- Historical event markers (2008 recession, COVID recession, etc.)\n- Economic indicators panel showing unemployment, confidence, stock market\n\nData Visibility Requirements:\n- Stage 1: Full cycle visible with phases labeled\n- Stage 2: Click on Expansion - show characteristics panel\n- Stage 3: Click on Recession - show what happens, historical examples\n- Stage 4: Animate through complete cycle showing how indicators change\n\nInteractive Controls:\n- Click on any phase to see detailed information\n- \"Play animation\" button to watch cycle progress\n- Speed control for animation\n- \"Show historical data\" toggle overlays real US GDP\n- Year range selector (1990-present)\n\nBehavior:\n- Clicking phase highlights that section and shows:\n  - Definition of the phase\n  - What happens to employment, prices, confidence\n  - How businesses typically respond\n  - Historical example with date\n- Animation shows dot moving through cycle with real-time indicator updates\n- Historical overlay shows actual recessions marked\n\nInstructional Rationale: Visual representation of the abstract business cycle concept, combined with historical grounding, helps students understand that cycles are normal and identify current economic conditions.\n\nImplementation: p5.js with animated line, click regions, and data overlays"
+}

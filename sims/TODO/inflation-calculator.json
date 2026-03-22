@@ -1,0 +1,14 @@
+{
+  "sim_id": "inflation-calculator",
+  "diagram_name": "Inflation Impact Calculator",
+  "chapter_number": 9,
+  "chapter_title": "Inflation and the Business Cycle",
+  "chapter_dir": "09-inflation-business-cycle",
+  "library": "p5.js with inputs, animated dollar visual, and dual-line chart",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "calculate, apply, demonstrate",
+  "learning_objective": "Students will calculate how inflation erodes purchasing power over time and compare nominal vs. real values.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: calculate, apply, demonstrate\n\nLearning Objective: Students will calculate how inflation erodes purchasing power over time and compare nominal vs. real values.\n\nPurpose: Make the abstract concept of purchasing power loss concrete with personal numbers.\n\nCanvas Layout:\n- Left side (350px): Input panel\n- Right side (350px): Results visualization\n\nVisual Elements:\n- Input fields for:\n  - Starting amount ($100 - $10,000)\n  - Years (1-50)\n  - Annual inflation rate (0-15%)\n  - Interest/return rate (0-15%)\n- Two visual representations:\n  - Stack of dollar bills shrinking over time\n  - Line graph showing nominal vs real value\n- Final comparison: \"Your $X will be worth $Y in purchasing power\"\n\nInteractive Controls:\n- Sliders for all input values\n- \"Show historical scenario\" presets:\n  - \"1970s High Inflation\" (10% average)\n  - \"2010s Low Inflation\" (2% average)\n  - \"Normal Conditions\" (3% average)\n- Toggle: \"Add returns\" to see if investments beat inflation\n- \"Calculate\" button (auto-updates)\n\nData Visibility Requirements:\n- Stage 1: Show starting amount\n- Stage 2: Apply inflation year by year\n- Stage 3: Show nominal amount unchanged (or growing with interest)\n- Stage 4: Show real purchasing power declining\n- Stage 5: Final comparison with equivalent goods\n\nBehavior:\n- Real-time calculation as sliders move\n- Dollar stack visual shrinks proportionally\n- Graph shows diverging lines (nominal vs real)\n- \"In X years, your $1,000 will buy what $Y buys today\"\n- If returns > inflation: \"You're beating inflation!\"\n- If returns < inflation: \"Inflation is winning—your money is shrinking\"\n\nInstructional Rationale: Visualizing the erosion of purchasing power makes the urgency of inflation clear. Students see why savings accounts earning less than inflation mean losing money in real terms.\n\nImplementation: p5.js with inputs, animated dollar visual, and dual-line chart"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "nominal-real-gdp",
+  "diagram_name": "Nominal vs Real GDP Comparison",
+  "chapter_number": 7,
+  "chapter_title": "Measuring the Economy - GDP and Growth",
+  "chapter_dir": "07-measuring-economy",
+  "library": "p5.js with dual bar charts and interactive controls",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "explain, interpret, compare",
+  "learning_objective": "Students will explain the difference between nominal and real GDP and interpret what economic growth figures actually mean.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: explain, interpret, compare\n\nLearning Objective: Students will explain the difference between nominal and real GDP and interpret what economic growth figures actually mean.\n\nPurpose: Visually demonstrate how inflation distorts economic measurement and why real GDP matters.\n\nCanvas Layout:\n- Top (200px): Two side-by-side bar charts (Nominal vs Real)\n- Bottom (200px): Controls and explanation panel\n\nVisual Elements:\n- Left chart: Nominal GDP over 5 years (rising steeply)\n- Right chart: Real GDP over same period (rising less steeply)\n- Difference area highlighted between the two\n- Inflation rate display for each year\n- \"Truth meter\" showing how much of nominal growth is real vs inflation\n\nData Visibility Requirements:\n- Stage 1: Show Year 1 baseline ($20 trillion, 0% inflation, same nominal and real)\n- Stage 2: Year 2 with 3% inflation - show nominal rises 5%, real rises only 2%\n- Stage 3: Continue through Year 5, gap between charts grows\n- Stage 4: Final comparison showing cumulative inflation effect\n\nInteractive Controls:\n- Year slider (2021-2025)\n- Inflation rate adjuster (0-10%)\n- \"Real growth rate\" adjuster (0-5%)\n- \"Show the math\" toggle revealing calculation\n- Reset button\n\nBehavior:\n- Moving inflation slider shows immediate impact on nominal/real gap\n- Hover over any year bar to see detailed breakdown\n- \"Show the math\" reveals: Real GDP = Nominal GDP / (1 + inflation rate)\n- Warning message appears if inflation > real growth: \"Nominal growth is mostly an illusion!\"\n\nInstructional Rationale: Side-by-side visual comparison makes the abstract concept of inflation adjustment concrete. Students see that the same economy can look very different depending on measurement choice.\n\nImplementation: p5.js with dual bar charts and interactive controls"
+}

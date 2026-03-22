@@ -1,0 +1,14 @@
+{
+  "sim_id": "market-structure-spectrum",
+  "diagram_name": "Market Structure Spectrum",
+  "chapter_number": 5,
+  "chapter_title": "Market Structures and Competition",
+  "chapter_dir": "05-market-structures",
+  "library": "p5.js with draggable slider element and dynamic text updates",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "compare, classify",
+  "learning_objective": "Students will compare the characteristics of different market structures and classify real-world markets along a competition spectrum.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: compare, classify\n\nLearning Objective: Students will compare the characteristics of different market structures and classify real-world markets along a competition spectrum.\n\nPurpose: Provide an interactive visualization showing how market characteristics change as you move from perfect competition to monopoly.\n\nCanvas Layout:\n- Main area (500px): Horizontal spectrum with slider\n- Right panel (150px): Current characteristics display\n\nVisual Elements:\n- Horizontal spectrum bar labeled \"Competition Spectrum\"\n- Left end: \"Perfect Competition\" (bright green)\n- Center-left: \"Monopolistic Competition\" (yellow-green)\n- Center-right: \"Oligopoly\" (orange)\n- Right end: \"Monopoly\" (red)\n- Draggable marker that user can slide\n- Characteristics panel showing current values\n- Icons representing firms (many dots vs. few vs. one)\n\nInteractive Controls:\n- Draggable slider on spectrum\n- \"Jump to\" buttons for each market type\n- Real-world example dropdown for each position\n\nCharacteristics to Display (update as slider moves):\n- Number of Firms: \"Many (1000s)\" → \"Few (2-10)\" → \"One\"\n- Product Type: \"Identical\" → \"Differentiated\" → \"Unique (no substitutes)\"\n- Pricing Power: \"None\" → \"Some\" → \"Complete\"\n- Entry Barriers: \"None\" → \"Moderate\" → \"Extreme\"\n- Example Industry: Updates based on position\n\nData Visibility Requirements:\n- Stage 1 (far left): Perfect competition - farmers, commodities\n- Stage 2: Monopolistic competition - restaurants, clothing stores\n- Stage 3: Oligopoly - airlines, cell carriers\n- Stage 4 (far right): Monopoly - local utilities, patented drugs\n\nInstructional Rationale: The slider interaction helps learners see market structure as a continuous spectrum rather than four discrete boxes. Moving the slider reveals how characteristics change gradually, reinforcing that most real markets fall between the extremes.\n\nImplementation: p5.js with draggable slider element and dynamic text updates"
+}

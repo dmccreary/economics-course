@@ -1,0 +1,14 @@
+{
+  "sim_id": "elasticity-calculator",
+  "diagram_name": "Elasticity Calculator",
+  "chapter_number": 2,
+  "chapter_title": "Demand and Consumer Behavior",
+  "chapter_dir": "02-demand-consumer-behavior",
+  "library": "p5.js with form inputs, animated calculation, and visual feedback",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "calculate, apply",
+  "learning_objective": "Students will calculate price elasticity of demand for different scenarios and apply the concept to classify goods as elastic or inelastic.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: calculate, apply\n\nLearning Objective: Students will calculate price elasticity of demand for different scenarios and apply the concept to classify goods as elastic or inelastic.\n\nPurpose: Interactive calculator that helps students understand elasticity through calculation and visualization.\n\nCanvas Layout:\n- Left side (350px): Input area and visual demand curve\n- Right side (250px): Results display and classification\n\nVisual Elements:\n- Demand curve visualization showing steepness\n- Two points on the curve (before and after price change)\n- Arrows showing price and quantity changes\n- Elasticity meter (like a speedometer) showing elastic-inelastic spectrum\n- Color-coded result: Green for elastic, Yellow for unit elastic, Red for inelastic\n\nInteractive Controls:\n- Input fields: Original Price, New Price, Original Quantity, New Quantity\n- Pre-set scenario buttons:\n  - \"Gasoline\" (inelastic example)\n  - \"Movie Tickets\" (elastic example)\n  - \"Insulin\" (very inelastic)\n  - \"Designer Handbag\" (very elastic)\n- Calculate button\n- \"What does this mean?\" explanation toggle\n\nDefault Parameters:\n- Original Price: $10\n- New Price: $12\n- Original Quantity: 100\n- New Quantity: 80\n\nCalculations Shown:\n- % change in price: calculated and displayed\n- % change in quantity: calculated and displayed\n- PED: calculated with formula shown\n- Classification: Elastic / Unit Elastic / Inelastic\n\nBehavior:\n- Shows step-by-step calculation as user inputs values\n- Demand curve visual adjusts to show steepness\n- Elasticity meter needle moves to show result\n- Explanation text: \"This means that a 1% price change causes a [X]% change in quantity demanded\"\n- Comparison to real-world examples\n\nInstructional Rationale: Working through calculations with immediate feedback helps learners internalize the elasticity concept. The visual meter and real-world examples connect abstract numbers to intuitive understanding.\n\nImplementation: p5.js with form inputs, animated calculation, and visual feedback"
+}

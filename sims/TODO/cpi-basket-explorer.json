@@ -1,0 +1,14 @@
+{
+  "sim_id": "cpi-basket-explorer",
+  "diagram_name": "CPI Market Basket",
+  "chapter_number": 9,
+  "chapter_title": "Inflation and the Business Cycle",
+  "chapter_dir": "09-inflation-business-cycle",
+  "library": "p5.js with visual basket, sliders, and real-time calculation",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "explain, interpret, demonstrate",
+  "learning_objective": "Students will explain how the CPI is constructed from weighted categories and interpret how price changes in different categories affect the overall index.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: explain, interpret, demonstrate\n\nLearning Objective: Students will explain how the CPI is constructed from weighted categories and interpret how price changes in different categories affect the overall index.\n\nPurpose: Make the abstract CPI calculation concrete by letting students manipulate prices and see the effects.\n\nCanvas Layout:\n- Left side (400px): Visual basket with category icons and price displays\n- Right side (250px): CPI calculation and index display\n\nVisual Elements:\n- Shopping basket graphic divided into weighted sections\n- Category icons (house, car, food, medicine, etc.)\n- Size of section represents weight in index\n- Price tags showing current prices\n- CPI dial or gauge showing current index value\n- Base year comparison (100 = base year)\n\nInteractive Controls:\n- Slider for each category: price change % (-10% to +20%)\n- Preset scenarios:\n  - \"Oil Crisis\" (transportation +30%, others moderate)\n  - \"Housing Boom\" (housing +15%)\n  - \"Tech Deflation\" (electronics -10%)\n  - \"Stable Economy\" (all +2-3%)\n- \"Reset to Baseline\" button\n- Toggle: \"Show my spending\" (adjust weights to personal budget)\n\nData Visibility Requirements:\n- Stage 1: Show baseline basket with all prices at 100\n- Stage 2: Adjust one category - show contribution to total CPI\n- Stage 3: Show formula: CPI = Σ(Category Price Change × Weight)\n- Stage 4: Compare weighted vs unweighted average\n\nBehavior:\n- Moving category sliders updates CPI in real-time\n- Visual shows categories expanding/shrinking based on price changes\n- Display: \"Overall CPI: X\" and \"Inflation Rate: Y%\"\n- When \"my spending\" toggled:\n  - Adjust weights to personal patterns\n  - Show \"Your personal inflation rate: Z%\"\n  - Compare to official CPI\n\nCritical Thinking Feature:\n- \"Why might your inflation feel different than the official rate?\"\n- Shows how personal spending patterns create different experiences\n\nInstructional Rationale: Interactive weight manipulation helps students understand why the CPI might not match their personal experience. Seeing how different categories contribute makes the index construction transparent.\n\nImplementation: p5.js with visual basket, sliders, and real-time calculation"
+}

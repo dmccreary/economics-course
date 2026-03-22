@@ -1,0 +1,14 @@
+{
+  "sim_id": "economies-of-scale",
+  "diagram_name": "Economies of Scale Visualizer",
+  "chapter_number": 3,
+  "chapter_title": "Supply and Production",
+  "chapter_dir": "03-supply-production",
+  "library": "HTML/CSS/JavaScript with animated transitions between scales",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "explain, compare",
+  "learning_objective": "Students will explain how economies of scale reduce average costs and compare production at different scales.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: infographic\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: explain, compare\n\nLearning Objective: Students will explain how economies of scale reduce average costs and compare production at different scales.\n\nPurpose: Visualize how cost per unit changes with production scale.\n\nLayout: Split view comparing small, medium, and large producers\n\nVisual Elements:\n- Three factory representations: small (cottage), medium (workshop), large (factory)\n- Cost per unit displayed prominently for each\n- Breakdown showing:\n  - Fixed costs spread over units\n  - Variable costs per unit\n  - Total ATC\n- Graph showing declining ATC curve with three points marked\n- Real company examples (local bakery vs. commercial bakery vs. industrial bakery)\n\nInteractive Elements:\n- Slider to adjust production scale\n- Show/hide cost breakdown\n- Compare mode: side-by-side cost analysis\n- Hover for explanations of why costs differ\n- \"Add machinery\" option showing how capital affects scale\n\nData Display:\n- Small scale: High ATC, flexible, personal\n- Medium scale: Moderate ATC, some specialization\n- Large scale: Low ATC, specialized, efficient\n\nSample Numbers:\n- Small bakery (100 loaves/day): $3.50 per loaf\n- Medium bakery (1,000 loaves/day): $1.75 per loaf\n- Large bakery (10,000 loaves/day): $0.80 per loaf\n\nInstructional Rationale: Visual comparison makes the abstract concept of economies of scale concrete. Real-world bakery example is relatable. The slider allows exploration of the continuous relationship between scale and cost.\n\nImplementation: HTML/CSS/JavaScript with animated transitions between scales"
+}

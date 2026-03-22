@@ -1,0 +1,14 @@
+{
+  "sim_id": "ad-as-model",
+  "diagram_name": "Aggregate Demand and Supply",
+  "chapter_number": 7,
+  "chapter_title": "Measuring the Economy - GDP and Growth",
+  "chapter_dir": "07-measuring-economy",
+  "library": "p5.js with animated curve shifts and real-time equilibrium calculation",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "demonstrate, use, apply",
+  "learning_objective": "Students will apply the AD-AS model to demonstrate how changes in aggregate demand or supply affect output and price levels.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: demonstrate, use, apply\n\nLearning Objective: Students will apply the AD-AS model to demonstrate how changes in aggregate demand or supply affect output and price levels.\n\nPurpose: Interactive exploration of how economic shocks move the whole economy.\n\nCanvas Layout:\n- Left side (450px): AD-AS graph\n- Right side (200px): Controls and outcome display\n\nVisual Elements:\n- X-axis: Real GDP (Output)\n- Y-axis: Price Level\n- Downward-sloping AD curve (blue)\n- Upward-sloping SRAS curve (red)\n- Vertical LRAS line (green, dashed)\n- Equilibrium point clearly marked\n- Shaded regions showing inflation/recession zones\n\nInteractive Controls:\n- Dropdown: Select scenario\n  - \"Consumer confidence boost\" (AD shifts right)\n  - \"Oil price shock\" (SRAS shifts left)\n  - \"Government stimulus\" (AD shifts right)\n  - \"Technology improvement\" (SRAS shifts right, LRAS shifts right)\n  - \"Pandemic lockdown\" (both AD and SRAS shift left)\n- Slider: Magnitude of shift (small/medium/large)\n- \"Apply shock\" button\n- Reset button\n\nBehavior:\n- Selecting scenario and clicking \"Apply\" animates the curve shift\n- New equilibrium point highlighted\n- Outcome panel shows:\n  - Change in output (GDP effect)\n  - Change in price level (inflation effect)\n  - Employment impact\n  - Real-world example of similar event\n- Can stack multiple shocks to see combined effects\n\nInstructional Rationale: The AD-AS model is fundamental for understanding macroeconomic policy. Interactive manipulation helps students see cause-and-effect relationships between economic shocks and outcomes.\n\nImplementation: p5.js with animated curve shifts and real-time equilibrium calculation"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "retirement-calculator",
+  "diagram_name": "Retirement Savings Calculator",
+  "chapter_number": 13,
+  "chapter_title": "Personal Finance and Investment",
+  "chapter_dir": "13-personal-finance-investment",
+  "library": "p5.js with projection calculations, chart visualization, and scenario comparison",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "calculate, project, plan",
+  "learning_objective": "Students will calculate how much they need to save for retirement and project how different savings rates affect their future.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: calculate, project, plan\n\nLearning Objective: Students will calculate how much they need to save for retirement and project how different savings rates affect their future.\n\nPurpose: Make retirement planning concrete and motivating.\n\nCanvas Layout:\n- Left side (350px): Input controls\n- Right side (350px): Projection chart and results\n\nVisual Elements:\n- Growth chart showing savings trajectory\n- Target retirement amount line\n- \"On track\" / \"Behind\" indicator\n- Age milestones on timeline\n- Final nest egg display\n- Monthly income in retirement projection\n\nInteractive Controls:\n- Current age slider (18-40)\n- Retirement age slider (55-70)\n- Starting salary slider ($30,000-$100,000)\n- Savings rate slider (5%-25%)\n- Employer match input (0%-6%)\n- Expected return selector (conservative/moderate/aggressive)\n- \"Increase salary over time\" toggle\n\nCalculations to Display:\n- Total you'll contribute\n- Total employer will contribute\n- Total investment growth\n- Monthly income in retirement\n- Comparison to target amount\n\nBehavior:\n- Show trajectory to retirement\n- Highlight gap if not on track\n- Show impact of starting earlier\n- Display: \"If you start at 22 vs 32...\"\n- Calculate inflation-adjusted amounts\n\nKey Insights:\n- \"Starting at 22 vs 32 with the same savings rate = double the retirement fund\"\n- \"Employer match is FREE money—never leave it on the table\"\n- \"Even small increases in savings rate make huge differences\"\n- \"Time is your biggest asset when young\"\n\nScenarios:\n- \"What if I start 5 years earlier?\"\n- \"What if I increase savings rate by 2%?\"\n- \"What if I get full employer match?\"\n\nInstructional Rationale: Seeing specific projections makes retirement feel achievable rather than abstract. The dramatic impact of starting early is the key insight for young people.\n\nImplementation: p5.js with projection calculations, chart visualization, and scenario comparison"
+}

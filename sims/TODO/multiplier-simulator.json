@@ -1,0 +1,14 @@
+{
+  "sim_id": "multiplier-simulator",
+  "diagram_name": "Multiplier Effect Simulator",
+  "chapter_number": 7,
+  "chapter_title": "Measuring the Economy - GDP and Growth",
+  "chapter_dir": "07-measuring-economy",
+  "library": "p5.js with particle animation and step-through capability",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "calculate, demonstrate, apply",
+  "learning_objective": "Students will calculate the multiplier effect and demonstrate how an initial spending injection ripples through the economy.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: calculate, demonstrate, apply\n\nLearning Objective: Students will calculate the multiplier effect and demonstrate how an initial spending injection ripples through the economy.\n\nPurpose: Visualize the multiplier process with step-by-step spending rounds.\n\nCanvas Layout:\n- Left side (400px): Animated visualization of money flowing through economy\n- Right side (250px): Controls and running totals\n\nVisual Elements:\n- Circular nodes representing economic actors (government, workers, businesses, consumers)\n- Animated money particles flowing between nodes\n- Shrinking money stacks showing each round's spending\n- Running total bar that grows with each round\n- Multiplier value display\n\nData Visibility Requirements:\n- Stage 1: Initial injection amount shown\n- Stage 2: First round spending (show MPC calculation)\n- Stage 3: Second round (money getting smaller)\n- Stage 4: Continue until amount becomes negligible\n- Stage 5: Final total with multiplier revealed\n\nInteractive Controls:\n- Slider: Initial spending amount ($10 million - $100 million)\n- Slider: MPC (0.5 - 0.95)\n- \"Inject spending\" button to start animation\n- \"Step through\" vs \"Auto-play\" toggle\n- \"Show formula\" button\n- Reset button\n\nDefault Parameters:\n- Initial spending: $50 million\n- MPC: 0.8\n- Multiplier: 5\n- Expected final impact: $250 million\n\nBehavior:\n- Click \"Inject spending\" to begin animation\n- Money particles flow from node to node\n- Each round shows calculation: Previous × MPC = This round\n- Cumulative total updates\n- Animation slows as amounts get small\n- Final display: \"Your $X million created $Y million in total economic activity!\"\n- Shows multiplier formula and calculation\n\nInstructional Rationale: Visualizing money flowing through multiple rounds makes the abstract multiplier concept tangible. Students can experiment with different MPC values to see how saving rates affect the multiplier.\n\nImplementation: p5.js with particle animation and step-through capability"
+}

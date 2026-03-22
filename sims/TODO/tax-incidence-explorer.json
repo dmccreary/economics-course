@@ -1,0 +1,14 @@
+{
+  "sim_id": "tax-incidence-explorer",
+  "diagram_name": "Tax Incidence Explorer",
+  "chapter_number": 4,
+  "chapter_title": "Market Equilibrium and Price Mechanisms",
+  "chapter_dir": "04-market-equilibrium",
+  "library": "p5.js with adjustable elasticity curves and real-time burden calculation",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "analyze, differentiate, attribute",
+  "learning_objective": "Students will analyze how the burden of a tax is split between buyers and sellers based on relative elasticities.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Analyze (L4)\nBloom Verb: analyze, differentiate, attribute\n\nLearning Objective: Students will analyze how the burden of a tax is split between buyers and sellers based on relative elasticities.\n\nPurpose: Show that legal incidence (who writes the check) differs from economic incidence (who bears the burden).\n\nCanvas Layout:\n- Left side (450px): Supply and demand graph showing tax wedge\n- Right side (200px): Tax burden calculation panel\n\nVisual Elements:\n- Original supply and demand curves\n- \"Supply + Tax\" curve shifted up by tax amount\n- Tax wedge shown as vertical distance between buyer price and seller price\n- Shaded areas showing buyer burden vs. seller burden\n- Deadweight loss triangle\n\nInteractive Controls:\n- Slider: \"Tax Amount\" ($0 - $5)\n- Slider: \"Demand Elasticity\" (very inelastic to very elastic)\n- Slider: \"Supply Elasticity\" (very inelastic to very elastic)\n- Toggle: \"Legal tax on buyers vs. sellers\" (shows same outcome)\n- Display: Buyer burden %, Seller burden %, Government revenue, Deadweight loss\n\nDefault Parameters:\n- Tax: $2\n- Medium elasticity on both curves\n- Starting comparison: legal tax on sellers\n\nBehavior:\n- As tax increases, wedge grows, quantity shrinks\n- As demand becomes more elastic, buyer burden decreases\n- As supply becomes more elastic, seller burden decreases\n- Toggle shows that legal incidence doesn't change economic incidence\n- Show: \"It doesn't matter who writes the check - burden depends on elasticity\"\n\nData Visibility Requirements:\n- Stage 1: Show original equilibrium price and quantity\n- Stage 2: Show tax wedge: buyer pays $X, seller receives $Y\n- Stage 3: Calculate percentage split: \"Buyers bear X%, Sellers bear Y%\"\n- Stage 4: Show deadweight loss (transactions that no longer happen)\n\nInstructional Rationale: Students often believe taxes fall on whoever the law says pays them. This simulation reveals the deeper truth about economic incidence.\n\nImplementation: p5.js with adjustable elasticity curves and real-time burden calculation"
+}
