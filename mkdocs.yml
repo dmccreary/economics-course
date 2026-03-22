@@ -79,6 +79,7 @@ nav:
     - Quality Metrics: learning-graph/quality-metrics.md
     - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
     - Course Description Assessment: learning-graph/course-description-assessment.md
+    - Mascot Test: learning-graph/mascot-test.md
   - MicroSims:
     - List of MicroSims: sims/index.md
     - Aggregate Demand and Supply: sims/ad-as-model/index.md
@@ -216,6 +217,7 @@ plugins:
 # Extra Configuration
 extra_css:
    - css/extra.css
+   - css/mascot.css
 extra_javascript: 
    - js/extra.js
 copyright: Copyright &copy; 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
