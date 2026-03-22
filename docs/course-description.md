@@ -6,8 +6,8 @@ quality_score: 100
 
 # Course Description
 
-**Title:** Introduction to Economics
-**Subtitle:** An Interactive Intelligent Textbook with Simulations
+**Title:** Introduction to Economics<br/>
+**Subtitle:** *An Interactive Intelligent Textbook with Simulations*
 
 ## Overview
 
