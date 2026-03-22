@@ -57,21 +57,73 @@ nav:
     - Credit Score Simulator: sims/credit-score/index.md
     - Demand Curve Explorer: sims/demand-curve-explorer/index.md
     - Demand Shifters Cause-Effect Map: sims/demand-shifters/index.md
+    - Diminishing Marginal Benefit: sims/marginal-benefit-pizza/index.md
     - Economic Systems Comparison: sims/economic-systems-spectrum/index.md
     - Economies of Scale Visualizer: sims/economies-of-scale/index.md
     - Efficiency-Equity Spectrum: sims/efficiency-equity-spectrum/index.md
     - Elasticity Calculator: sims/elasticity-calculator/index.md
     - Exchange Rate Explorer: sims/exchange-rate/index.md
     - Fed Interest Rate Simulator: sims/fed-rate-simulator/index.md
+    - Fiscal Policy Impact Simulator: sims/fiscal-policy-simulator/index.md
+    - Fractional Reserve Money Multiplier: sims/money-multiplier/index.md
+    - GDP Calculator: sims/gdp-calculator/index.md
+    - GDP Components Breakdown: sims/gdp-components-pie/index.md
+    - Globalization Impact Analyzer: sims/globalization-impact/index.md
     - Government Budget Balancer: sims/budget-balancer/index.md
+    - Government Policy Toolkit: sims/policy-toolkit/index.md
     - Historical Stock Market Returns: sims/stock-market-returns/index.md
+    - Human Capital ROI Calculator: sims/human-capital-roi/index.md
+    - Inflation Impact Calculator: sims/inflation-calculator/index.md
+    - Investment Risk-Return Explorer: sims/risk-return/index.md
     - Learning Graph Viewer: sims/graph-viewer/index.md
+    - Marginal Utility Satisfaction Meter: sims/marginal-utility-meter/index.md
+    - Market Equilibrium Explorer: sims/market-equilibrium-explorer/index.md
+    - Market Power in Real Industries: sims/market-power-map/index.md
+    - Market Structure Spectrum: sims/market-structure-spectrum/index.md
+    - Monetary and Fiscal Policy Dashboard: sims/policy-dashboard/index.md
+    - Money Characteristics Evaluator: sims/money-evaluator/index.md
+    - Multiplier Effect Simulator: sims/multiplier-simulator/index.md
+    - National Debt Visualizer: sims/national-debt-visualizer/index.md
+    - Negative Externality Visualizer: sims/negative-externality/index.md
+    - Network Effects Visualizer: sims/network-effects/index.md
+    - Nominal vs Real GDP Comparison: sims/nominal-real-gdp/index.md
+    - Opportunity Cost Calculator: sims/opportunity-cost-calculator/index.md
+    - Phillips Curve Explorer: sims/phillips-curve/index.md
+    - Platform Economics Simulator: sims/platform-economics/index.md
+    - Policy Claim Evaluator: sims/policy-evaluator/index.md
+    - Price Ceiling Simulator: sims/price-ceiling-simulator/index.md
+    - Price Floor Visualizer: sims/price-floor-visualizer/index.md
+    - Price Mechanism Feedback Loop: sims/price-mechanism-loop/index.md
+    - Price Taker vs Price Maker Simulator: sims/price-taker-vs-maker/index.md
+    - Production Function Explorer: sims/production-function-explorer/index.md
+    - Production Possibilities Frontier: sims/ppf-explorer/index.md
+    - Profit Maximization Finder: sims/profit-maximization-finder/index.md
     - Profit Maximum: sims/profit-maximum/index.md
+    - Public Goods Contribution Game: sims/public-goods-game/index.md
+    - Recession Indicators Dashboard: sims/recession-dashboard/index.md
+    - Retirement Savings Calculator: sims/retirement-calculator/index.md
     - Revenue Maximum: sims/revenue-maximum/index.md
+    - Substitutes and Complements Network: sims/related-goods-network/index.md
     - Supply and Demand: sims/supply-and-demand/index.md
+    - Supply Curve Explorer: sims/supply-curve-explorer/index.md
+    - Supply Shifters Interactive Map: sims/supply-shifters/index.md
+    - Surplus Explorer: sims/surplus-explorer/index.md
+    - Systems Thinking Feedback Loops: sims/feedback-loops/index.md
+    - Tariff Impact Simulator: sims/tariff-simulator/index.md
+    - Tax Incidence Explorer: sims/tax-incidence-explorer/index.md
+    - Trade Argument Evaluator: sims/trade-evaluator/index.md
+    - Trade Balance Visualizer: sims/trade-balance/index.md
+    - Tragedy of the Commons Simulator: sims/tragedy-commons/index.md
+    - Unemployment Rate Calculator: sims/unemployment-calculator/index.md
+    - Unemployment Type Classifier: sims/unemployment-classifier/index.md
     - US Treasury Bills Yield: sims/t-bills/index.md
     - US Treasury Yield Curve Spread Chart: sims/yield-curve/index.md
     - Web Server OS Market Share: sims/linux-marketshare/index.md
+    - Who's In the Labor Force?: sims/labor-force-breakdown/index.md
+
+
+
+
 
 
 

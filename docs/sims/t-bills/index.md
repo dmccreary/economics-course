@@ -6,7 +6,7 @@ quality_score: 85
 
 # US Treasury Bills Yield
 
-<iframe src="main.html" height="550px" scrolling="no"></iframe>
+<iframe src="main.html" height="552px" scrolling="no"></iframe>
 
 [Run the T-Bills MicroSim](main.html){ .md-button .md-button--primary }
 [Edit this MicroSim](https://editor.p5js.org/dmccreary/sketches/YF-jXMK2s)
@@ -14,7 +14,7 @@ quality_score: 85
 ## Sample iframe
 
 ```html
-<iframe src="https://dmccreary.github.io/personal-finance/sims/t-bills/main.html" height="550px" scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/personal-finance/sims/t-bills/main.html" height="552px" scrolling="no"></iframe>
 ```
 
 ## About This MicroSim

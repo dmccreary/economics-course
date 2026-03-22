@@ -11,7 +11,7 @@ quality_score: 0
 
 # Aggregate Demand and Supply
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="512px" width="100%" scrolling="no"></iframe>
 
 [Run the Aggregate Demand and Supply MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
@@ -31,7 +31,7 @@ You can add this MicroSim to any web page by adding this to your HTML:
 
 ```html
 <iframe src="https://dmccreary.github.io/economics-course/sims/ad-as-model/main.html"
-        height="450px"
+        height="512px"
         width="100%"
         scrolling="no"></iframe>
 ```
