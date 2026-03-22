@@ -199,6 +199,10 @@ Here's how the price mechanism works:
 
 Think about the miracle that happens every day: millions of people wake up and want breakfast. Nobody commands farmers to grow wheat, truckers to deliver it, bakeries to make bread, and stores to stock it. Yet somehow, bread appears on shelves everywhere. The price mechanism coordinates all of this without a single meeting or email chain.
 
+!!! mascot-thinking "Think Like an Economist!"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Ferris is thinking">
+    No single person knows how to make a loaf of bread from scratch—yet bread is everywhere. Prices quietly coordinate thousands of strangers into cooperation. That's the real magic of markets.
+
 #### Diagram: Price Mechanism Feedback Loop
 
 <iframe src="../../sims/price-mechanism-loop/main.html" width="100%" height="400px" scrolling="no"></iframe>
@@ -475,6 +479,10 @@ Here's where the simple supply-demand model has limits:
 
 The honest answer? Minimum wage involves trade-offs. Higher wages for some workers vs. fewer jobs for others. The "right" answer depends on values and local conditions, not just economics.
 
+!!! mascot-tip "Think Like an Economist!"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Ferris shares a tip">
+    Whenever you hear a debate about price controls, ask two questions: Who benefits, and who pays the hidden cost? The answer is almost never as simple as it first sounds.
+
 ## Tax Incidence: Who Really Pays?
 
 When the government puts a tax on a product, who actually pays—the buyer or the seller? The answer might surprise you.
@@ -657,6 +665,10 @@ This is where economics ends and politics begins. Economics can tell you the tra
 
 When someone claims their policy is "obviously right," ask: What trade-offs are they ignoring? If they say there are no trade-offs, they're probably selling something.
 
+!!! mascot-encourage "Think Like an Economist!"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Ferris encourages you">
+    The efficiency-versus-equity debate is genuinely hard—even professional economists disagree. If this section feels tricky, that's because it is! The important thing is learning to spot the trade-offs, not picking a "right" answer.
+
 ## Cost-Benefit Analysis: Making Smart Decisions
 
 **Cost-benefit analysis** is a framework for making decisions by comparing total costs and total benefits. It's how economists (and smart decision-makers) evaluate policies and projects.
@@ -724,6 +736,10 @@ When you see economic claims, ask:
     Data rarely "clearly shows" anything in economics. There's usually legitimate debate about what data means. Be suspicious of certainty.
 
 ## Key Takeaways
+
+!!! mascot-celebration "Think Like an Economist!"
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Ferris celebrates">
+    You made it through the heart of microeconomics! You can now predict prices, spot the hidden costs of government interventions, and think critically about economic claims. That's a serious superpower.
 
 You've leveled up your economic superpowers significantly. Here's what you can now do:
 

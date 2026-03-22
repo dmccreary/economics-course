@@ -59,6 +59,10 @@ You've probably seen social media posts claiming that companies charge "whatever
 
 Ready to see the world from the producer's side? Let's go.
 
+!!! mascot-welcome "Think Like an Economist!"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Ferris welcomes you">
+    Welcome to the supply side! You already know how buyers think — now let's learn how sellers make decisions. By the end of this chapter, you'll understand both halves of every market transaction.
+
 ## What is Supply?
 
 **Supply** is the quantity of a good or service that producers are willing and able to sell at various prices during a specific time period.
@@ -222,6 +226,10 @@ Let's see this in action at our pizza shop:
 | 5 | 90 | 10 |
 | 6 | 95 | 5 |
 | 7 | 96 | 1 |
+
+!!! mascot-thinking "Think Like an Economist!"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Ferris is thinking">
+    Notice the pattern in the table — output keeps growing, but each new worker adds less than the one before. The bottleneck isn't the workers; it's the oven!
 
 Notice how the marginal product rises at first (workers can specialize and help each other), but then falls. Why? Because you only have one oven! Eventually, workers are bumping into each other, waiting for the oven, and getting in the way.
 
@@ -439,6 +447,10 @@ Here's what you need to know about cost curve shapes:
 
 That last point is important: **MC always intersects ATC at the minimum of ATC**. This is like how your GPA works—if your next test score (marginal) is below your average, it pulls your average down. If it's above your average, it pulls your average up. Only when they're equal does your average stay the same.
 
+!!! mascot-encourage "You've Got This!"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Ferris encourages you">
+    Cost curves can feel overwhelming at first — that's totally normal. The GPA analogy above is the key: marginal pulls the average up or down. Once that clicks, the rest follows.
+
 ## Revenue and Profit: Why Businesses Exist
 
 Now let's talk about the fun part—money coming IN.
@@ -544,6 +556,10 @@ A **change in supply** is a shift of the entire supply curve—either right (inc
 The **determinants of supply** are factors OTHER than price that affect how much producers are willing to supply. These cause the curve to shift.
 
 Memory trick: **ROTTEN** (not the nicest acronym, but it sticks!)
+
+!!! mascot-tip "Think Like an Economist!"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Ferris shares a tip">
+    Write ROTTEN on a sticky note and keep it handy while studying. If an exam question asks "what shifts the supply curve?", run through each letter — you'll catch factors you might otherwise miss.
 
 - **R**esource prices (input costs)
 - **O**ther goods' prices (alternatives producers could make)
@@ -876,6 +892,10 @@ Reality: Many companies operate on thin profit margins. Grocery stores average 1
 Reality: Technology often DOES reduce costs (shifting supply right). But some costs are resistant to technology—personal services, land, some raw materials. Not everything can be mass-produced cheaply.
 
 ## Key Takeaways
+
+!!! mascot-celebration "Think Like an Economist!"
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Ferris celebrates">
+    You now understand both sides of the market — demand AND supply. That's a huge milestone on the road to thinking like an economist!
 
 Your economic superpower now includes the producer's perspective. Here's what you've learned:
 

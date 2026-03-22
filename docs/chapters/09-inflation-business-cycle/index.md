@@ -48,6 +48,10 @@ Most importantly, you'll be able to see through the hype. Every time inflation t
 
 Let's dive in.
 
+!!! mascot-welcome "Think Like an Economist!"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Ferris welcomes you">
+    Hey there, future inflation expert! Prices change all the time, but understanding *why* they change is what separates economists from everyone else. Let's build that superpower together!
+
 ## What Is Inflation?
 
 **Inflation** is a sustained increase in the general price level of goods and services in an economy over time.
@@ -364,6 +368,10 @@ Wait—if rising prices are bad, wouldn't falling prices be good? Surprisingly, 
 
 This is a **deflationary spiral**, and it can be incredibly hard to escape.
 
+!!! mascot-thinking "Think Like an Economist!"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Ferris is thinking">
+    Isn't it strange? Falling prices sound like a gift, but they can trap an entire economy in a downward spiral. This is one of the biggest counterintuitive ideas in economics.
+
 ### Real Debt Burden Increases
 
 During deflation, debts become harder to repay. If you owe $100,000 on a mortgage and prices fall 10%, you still owe $100,000—but your income probably fell too, while the debt didn't.
@@ -406,6 +414,10 @@ Recessions can be triggered by various factors:
 - **Declining confidence**: Businesses and consumers become pessimistic and cut spending
 
 Often, multiple factors combine. The 2008 recession involved a housing bubble, financial crisis, and credit crunch all at once.
+
+!!! mascot-encourage "You've Got This!"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Ferris encourages you">
+    Recessions can feel overwhelming to study because so many factors interact at once. Don't worry if it takes a few reads to see how the pieces connect -- that complexity is exactly why economists study this stuff for years!
 
 ### Recent US Recessions
 
@@ -520,6 +532,10 @@ Stagflation typically requires a specific type of shock—usually a supply-side 
 
 They don't usually happen together, which is why stagflation is so disorienting when it occurs.
 
+!!! mascot-tip "Think Like an Economist!"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Ferris shares a tip">
+    When you hear about economic trouble in the news, ask yourself: is the problem on the demand side, the supply side, or both? That one question tells you a lot about which policy tools might actually work.
+
 ## Hidden Inflation: Shrinkflation and Quality Changes
 
 Here's something the official CPI might not fully capture: **shrinkflation**.
@@ -579,6 +595,10 @@ Inflation has many causes—supply chains, energy costs, monetary policy, consum
     7. What are inflation expectations? (Temporary or becoming entrenched?)
 
 ## Key Takeaways
+
+!!! mascot-celebration "Congratulations!"
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Ferris celebrates">
+    You now understand inflation, deflation, recessions, and stagflation -- the big forces that shape everyone's financial life. That is a serious economic superpower!
 
 You've unlocked crucial inflation superpowers:
 
