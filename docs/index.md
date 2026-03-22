@@ -23,6 +23,7 @@ An this is an interactive intelligent textbook for learning economics fundamenta
 6. [Learning Graph](./learning-graph/index.md) with 381 concept dependency relationships
 7. 14 Chapter quizzes (one for each chapter)
 8. Over 140 annotated references
+9. Detailed [Instructors Guide](./teachers-guide/index.md) on how teachers can customize this interactive intelligent textbook for their own classroom
 
 Use the navigation menu on the left to explore chapters and content.
 
