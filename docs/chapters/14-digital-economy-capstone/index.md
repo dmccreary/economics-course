@@ -61,6 +61,10 @@ The economics of the digital world are fundamentally different from the economic
 
 Plus, this chapter will help you complete your capstone project, where you'll apply everything you've learned. Let's go.
 
+!!! mascot-welcome "Think Like an Economist!"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Ferris welcomes you">
+    Welcome to the final chapter! You already live in the digital economy every day—now let's make sure you truly understand the economics behind it. Think like an economist!
+
 ## The Digital Economy: A New Kind of Economics
 
 **The digital economy** refers to economic activity that results from billions of everyday online connections among people, businesses, devices, data, and processes.
@@ -148,6 +152,10 @@ Network effects create positive feedback loops:
 4. Repeat until market dominates
 
 This is why social networks tend toward "winner take all"—once a network gets big enough, it's almost impossible to compete with.
+
+!!! mascot-thinking "Think Like an Economist!"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Ferris is thinking">
+    Here's the key insight: a product with more users can beat a *better* product with fewer users. Network effects mean the biggest network wins, not necessarily the best technology. That's why timing and adoption matter so much in digital markets.
 
 #### Diagram: Network Effects Visualizer
 
@@ -605,11 +613,19 @@ The digital economy operates by different rules:
 
 Understanding these differences is essential for navigating the modern economy—both as a consumer and as a future worker or entrepreneur.
 
+!!! mascot-tip "Think Like an Economist!"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Ferris shares a tip">
+    Next time you use a "free" app, ask yourself: What's the real business model here? Who's paying, and what am I giving up? Training yourself to spot these trade-offs is a skill that will serve you well beyond this course.
+
 ---
 
 # Part 2: Capstone Project Guide
 
 Now let's prepare you to complete your economics capstone project. This is your chance to apply everything you've learned.
+
+!!! mascot-encourage "Think Like an Economist!"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Ferris encourages you">
+    The capstone project can feel overwhelming, but you've built up serious economic thinking skills all semester. Take it one step at a time—pick a topic you care about, and the analysis will flow naturally from what you've learned.
 
 ## Selecting a Project
 
@@ -924,6 +940,10 @@ You have a superpower most people lack. Use it wisely.
 ---
 
 ## Key Takeaways
+
+!!! mascot-celebration "Think Like an Economist!"
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Ferris celebrates">
+    You made it through the entire course! You now have a toolkit of economic concepts that most adults never learn. Go out there and use your economic superpowers wisely.
 
 **Digital Economy:**
 

@@ -57,6 +57,10 @@ This isn't markets being evil—it's markets running into situations they weren'
 
 Ready to level up your economic thinking? Let's explore what happens when markets hit their limits.
 
+!!! mascot-welcome "Think Like an Economist!"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Ferris welcomes you">
+    Hey there, future economic superpower! I'm Ferris, and this chapter is one of my favorites. Understanding market failures is the key to seeing through a LOT of bad arguments out there. Let's dig in!
+
 ## What is Market Failure?
 
 **Market failure** occurs when the free market, left on its own, fails to allocate resources efficiently, producing outcomes that don't maximize society's wellbeing.
@@ -81,6 +85,10 @@ Here's the key insight: market failure isn't about markets being "broken." It's 
 | Market power | Too few sellers | Monopoly pricing |
 
 Let's dig into each of these.
+
+!!! mascot-thinking "Think Like an Economist!"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Ferris is thinking">
+    Notice a pattern? Every type of market failure comes down to the same root problem: prices don't tell the full story. When costs or benefits are invisible to the market, bad things happen.
 
 ## Externalities: When Others Pay the Price (or Reap the Reward)
 
@@ -410,6 +418,10 @@ For example:
 
 Property rights help in some cases, but they're not a universal solution. Sometimes collective action is necessary.
 
+!!! mascot-tip "Think Like an Economist!"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Ferris shares a tip">
+    When debating solutions to market failures, always start by asking: "Can property rights fix this?" If they can, that's often the simplest answer. If they can't, then it's time to look at government tools.
+
 ## Government Intervention: The Policy Toolkit
 
 **Government intervention** refers to actions taken by government to correct market failures, redistribute resources, or achieve other social goals.
@@ -575,6 +587,10 @@ When you think in systems, you ask:
 - What feedback loops exist?
 - What might happen in the short run vs. long run?
 - What unintended consequences might occur?
+
+!!! mascot-encourage "Think Like an Economist!"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Ferris encourages you">
+    Systems thinking can feel overwhelming at first because everything connects to everything else. Don't worry! Start small: just ask "and then what happens?" after any change. That one question will take you far.
 
 ### Feedback Loops
 
@@ -834,6 +850,10 @@ You've gained powerful new tools:
 16. **Correlation vs. causation** is the critical distinction between co-occurrence and actual causal relationships
 17. **Economic misinformation** can be detected using critical thinking tools
 18. Every policy involves trade-offs—beware of claims that deny this
+
+!!! mascot-celebration "Think Like an Economist!"
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Ferris celebrates">
+    You now have one of the most powerful economic superpowers: the ability to spot when markets fail AND when someone is making bad arguments about it. That's a rare combination. I'm proud of you!
 
 ## Using Your New Superpower
 

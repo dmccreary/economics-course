@@ -172,6 +172,10 @@ But it's not all sunshine. Perfect competition can also mean:
 - **Commodity trap**: Products become boring with no differentiation
 - **Race to the bottom**: Constant pressure to cut costs (and sometimes quality)
 
+!!! mascot-thinking "Think Like an Economist!"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Ferris is thinking">
+    Here's a paradox worth pondering: perfect competition gives us the lowest prices, but it also kills the profit motive for innovation. Could it be that a little bit of market power is actually good for society? Keep that question in mind as we explore the other structures.
+
 ## Monopoly: The Opposite Extreme
 
 Now let's swing to the other end of the spectrum.
@@ -493,6 +497,10 @@ Ask yourself:
 
 Sometimes differentiation IS real value—a well-designed product, better service, a trusted brand. But sometimes it's just a way to charge more for essentially the same thing.
 
+!!! mascot-tip "Think Like an Economist!"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Ferris shares a tip">
+    Next time you're tempted by a "premium" product, try the blind test: would you pick it over the cheaper option if both had plain white labels? If not, you might be paying for branding, not quality.
+
 ## Market Power: The Ability to Control
 
 Now let's tie everything together with the capstone concept.
@@ -530,6 +538,10 @@ Economists measure market concentration (and indirectly, market power) using too
 - HHI < 1,500: Unconcentrated
 - HHI 1,500-2,500: Moderately concentrated
 - HHI > 2,500: Highly concentrated
+
+!!! mascot-encourage "Think Like an Economist!"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Ferris encourages you">
+    The HHI formula looks intimidating, but it's just squaring each firm's market share and adding them up. Don't worry if the math feels tricky at first -- the key idea is simple: bigger firms push the number higher, signaling less competition.
 
 The US government uses HHI to evaluate whether mergers should be allowed. A merger that would push HHI above 2,500 gets extra scrutiny.
 
@@ -650,6 +662,10 @@ You've now added powerful tools to your economic toolkit:
 9. **Product differentiation** creates mini-monopolies but also real consumer choices
 10. **Market power** is the ability to set prices above competitive levels
 11. Real markets exist on a spectrum—most fall between the extremes
+
+!!! mascot-celebration "Think Like an Economist!"
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Ferris celebrates">
+    You did it! You now have a complete toolkit for analyzing any market you encounter. From price takers to price makers, from perfect competition to monopoly -- you can see the forces shaping every purchase you make. Think like an economist!
 
 ## Using Your Market Structure Superpower
 

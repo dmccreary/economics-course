@@ -51,6 +51,10 @@ Think about it: when news anchors say "the economy grew 2.5% last quarter" or po
 
 By the end of this chapter, you'll know. And here's the kicker—once you understand how economic measurement works, you'll also understand how those numbers can be manipulated, misinterpreted, or cherry-picked to support almost any political argument. That's critical thinking power.
 
+!!! mascot-welcome "Think Like an Economist!"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Ferris welcomes you">
+    Welcome to the world of macroeconomics! In this chapter, you'll learn how to read the economy's vital signs like a pro. Think like an economist!
+
 ## Gross Domestic Product: The Economy's Report Card
 
 **Gross Domestic Product (GDP)** is the total market value of all final goods and services produced within a country during a specific time period (usually a year or quarter).
@@ -255,6 +259,10 @@ A politician might brag: "GDP grew from $25 trillion to $27 trillion—that's 8%
 
 **Always ask: Is this nominal or real?** It's one of the easiest ways politicians and media manipulate economic numbers.
 
+!!! mascot-thinking "Think Like an Economist!"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Ferris is thinking">
+    Here's a powerful question to keep in your back pocket: "Is that nominal or real?" Asking this one question can cut through most misleading economic claims.
+
 #### Diagram: Nominal vs Real GDP Comparison
 
 <iframe src="../../sims/nominal-real-gdp/main.html" width="100%" height="450px" scrolling="no"></iframe>
@@ -339,6 +347,10 @@ The power of compound growth is remarkable:
 - At 7% annual growth (like China recently), GDP doubles in about 10 years
 
 Small differences in growth rates lead to huge differences over time!
+
+!!! mascot-tip "Think Like an Economist!"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Ferris shares a tip">
+    Remember the "Rule of 70"—divide 70 by the growth rate to estimate how many years it takes for GDP to double. It works for savings accounts and investments too!
 
 ### What Causes Growth?
 
@@ -564,6 +576,10 @@ Where MPC = **Marginal Propensity to Consume** (the fraction of extra income tha
 
 If people spend 80% of each extra dollar (MPC = 0.8), the multiplier is 1/(1-0.8) = 1/0.2 = 5.
 
+!!! mascot-encourage "Think Like an Economist!"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Ferris encourages you">
+    The multiplier formula can feel tricky at first, but you've got this! Just remember: higher MPC means people spend more of each dollar, which means a bigger multiplier effect.
+
 #### Diagram: Multiplier Effect Simulator
 
 <iframe src="../../sims/multiplier-simulator/main.html" width="100%" height="500px" scrolling="no"></iframe>
@@ -691,6 +707,10 @@ You've now unlocked major macroeconomic superpowers:
 10. **Crowding out** can reduce effectiveness of government borrowing
 11. **GDP doesn't measure everything**—happiness, environment, inequality are separate questions
 12. **Question economic numbers**—check nominal vs. real, time periods, and per capita
+
+!!! mascot-celebration "Think Like an Economist!"
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Ferris celebrates">
+    You can now read economic headlines and know what the numbers really mean. That's a serious superpower—congratulations!
 
 ## Practice Questions
 

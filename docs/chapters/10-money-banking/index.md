@@ -54,6 +54,10 @@ By the end, you'll have a superpower that most adults lack: actually understandi
 
 Let's start with the basics—which turn out to be not so basic at all.
 
+!!! mascot-welcome "Think Like an Economist!"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Ferris welcomes you">
+    Welcome to one of my favorite chapters! By the end, you'll understand something most adults don't: how money is actually created. Think like an economist!
+
 ## What Is Money?
 
 **Money** is anything that is widely accepted as payment for goods and services and repayment of debts.
@@ -297,6 +301,10 @@ $$\text{Money Multiplier} = \frac{1}{0.10} = 10$$
 
 Your $1,000 deposit could create up to $10,000 in the banking system!
 
+!!! mascot-thinking "Think Like an Economist!"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Ferris is thinking">
+    Wait a moment -- your $1,000 turned into $10,000? Nobody counterfeited anything, yet the money supply grew by $9,000. That is the power of fractional reserve banking!
+
 | Round | Deposit | Reserves (10%) | Amount Lent |
 |-------|---------|----------------|-------------|
 | 1 | $1,000 | $100 | $900 |
@@ -523,6 +531,10 @@ These goals sometimes conflict. To fight inflation, the Fed raises rates, which 
 
 The Fed constantly balances these competing objectives. There's no perfect answer—just difficult trade-offs.
 
+!!! mascot-encourage "Think Like an Economist!"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Ferris encourages you">
+    The dual mandate is genuinely tricky -- even professional economists disagree about the right balance. If this feels confusing, you are thinking about it correctly!
+
 ## Open Market Operations
 
 **Open market operations** are the Fed's primary tool for implementing monetary policy. The Fed buys and sells government bonds to influence the money supply and interest rates.
@@ -608,6 +620,10 @@ The gold standard had serious problems: more frequent recessions, inability to r
 
 Cryptocurrencies are interesting innovations, but they currently lack the key feature money needs: widespread acceptability. You can't pay taxes, rent, or most businesses with Bitcoin. This may change, but it hasn't happened yet.
 
+!!! mascot-tip "Think Like an Economist!"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Ferris shares a tip">
+    Whenever someone makes a dramatic claim about the Fed or money printing, ask: "Compared to what?" Every policy has trade-offs, and doing nothing is also a choice with consequences.
+
 ??? question "Practice: Analyzing Monetary Policy Claims"
     A social media post says: "The Fed printed $5 trillion during COVID! No wonder inflation is skyrocketing—it's all the Fed's fault!" What questions should you ask before sharing this?
 
@@ -636,6 +652,10 @@ You've unlocked powerful monetary superpowers:
 11. The Fed balances **dual mandate**: maximum employment AND price stability
 12. Most "money printing" claims oversimplify a complex system
 13. Modern money is strange but works better than historical alternatives
+
+!!! mascot-celebration "Think Like an Economist!"
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Ferris celebrates">
+    You now understand how money is created, how banks multiply deposits, and how the Fed steers the economy. That is a genuine economic superpower -- most adults cannot explain any of this!
 
 ## Practice Questions
 

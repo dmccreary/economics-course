@@ -72,6 +72,10 @@ By the end of this chapter, you'll understand:
 
 Let's build your financial superpower.
 
+!!! mascot-welcome "Think Like an Economist!"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Ferris welcomes you">
+    Welcome to the most practical chapter in this entire course! The financial skills you learn here will pay dividends—literally—for the rest of your life. Let's get your money working for you.
+
 ## Financial Literacy: Your Secret Weapon
 
 **Financial literacy** is the knowledge and skills needed to make informed and effective decisions about money and financial resources.
@@ -285,6 +289,10 @@ At age 62, assuming 7% annual returns:
 - **Late Larry**: ~$244,000
 
 Emily invested $24,000 and ended up with more than Larry who invested $72,000. That's the power of starting early.
+
+!!! mascot-thinking "Think Like an Economist!"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Ferris is thinking">
+    Early Emily invested less money but started sooner, and she ended up wealthier. The real variable in the compound interest formula is not the rate or the amount—it is time. Your youth is your greatest financial asset!
 
 #### Diagram: Compound Interest Visualizer
 
@@ -657,6 +665,10 @@ Index funds are popular because:
 
 Warren Buffett, one of the greatest investors ever, recommends index funds for most people. If it's good enough for him...
 
+!!! mascot-tip "Think Like an Economist!"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Ferris shares a tip">
+    When you get your first job, open a brokerage account and set up an automatic monthly investment into a low-cost S&P 500 index fund. Even $50 a month adds up. Automate it and forget about it—that is how real wealth is built.
+
 ## Diversification: Don't Put All Your Eggs in One Basket
 
 **Diversification** is spreading investments across different assets to reduce risk.
@@ -771,6 +783,10 @@ Implementation: p5.js with historical data, Monte Carlo simulation, and comparis
 **Retirement savings** refers to money set aside specifically for living expenses after you stop working.
 
 Retirement seems impossibly far away when you're in high school. But here's the thing: the actions you take in your 20s determine more of your retirement wealth than anything you do in your 50s. Compound interest is that powerful.
+
+!!! mascot-encourage "Think Like an Economist!"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Ferris encourages you">
+    Retirement math can feel overwhelming, but you do not need to have it all figured out right now. The single most important step is simply to start. Even small contributions in your twenties grow into something remarkable. You have time on your side!
 
 ### Retirement Accounts
 
@@ -923,6 +939,10 @@ Reality: Real estate is a good investment for many people, but it's not magic. I
     The course seller is getting rich by selling courses, not by using the strategy they're teaching.
 
 ## Key Takeaways
+
+!!! mascot-celebration "Think Like an Economist!"
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Ferris celebrates">
+    You made it through the most practical chapter in this course! You now know more about personal finance than most adults. Use these skills early and often—your future self will be very grateful.
 
 You've gained powerful financial superpowers:
 

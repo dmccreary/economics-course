@@ -45,6 +45,10 @@ Understanding how the labor market works is like having a GPS for your career. Y
 
 Ready to unlock your career superpower? Let's dive in.
 
+!!! mascot-welcome "Think Like an Economist!"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Ferris welcomes you">
+    Welcome to the world of employment economics! Understanding how the labor market works is one of the most practical superpowers you can have — because you will be in this market very soon. Let's get you ready!
+
 ## What is Unemployment?
 
 **Unemployment** occurs when people who are willing and able to work cannot find jobs.
@@ -274,6 +278,10 @@ This is the "good" kind of unemployment—or at least the unavoidable kind. It e
 
 **Structural unemployment** occurs when workers' skills don't match the jobs available, or when jobs are in different locations than workers.
 
+!!! mascot-encourage "You've Got This!"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Ferris encourages you">
+    Structural unemployment can feel like a heavy topic — entire industries disappearing sounds scary. But remember, understanding these forces is exactly how you stay ahead of them. Knowledge is your best defense.
+
 This is more concerning because it can last a long time and requires significant adjustment.
 
 **Causes:**
@@ -400,6 +408,10 @@ When there's no cyclical unemployment (the economy isn't in recession), we're at
 
 **Full employment doesn't mean 0% unemployment.** It means we've eliminated the cyclical component—the part caused by economic downturns.
 
+!!! mascot-thinking "Think Like an Economist!"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Ferris is thinking">
+    Here is a big idea: "full employment" does not mean everyone has a job. It means the only unemployment left is the normal, healthy kind — people switching jobs and industries evolving. Zero percent unemployment would actually be a sign that something is wrong!
+
 ## Human Capital: Investing in Yourself
 
 Now let's shift to something incredibly relevant to your future. **Human capital** is the skills, knowledge, training, and abilities that make workers productive.
@@ -517,6 +529,10 @@ The shift from manufacturing to services and information has made human capital 
 This isn't about being "better" than previous generations—it's about the economy changing. The jobs that exist now require different skills than the jobs of 50 years ago.
 
 Good news: Unlike physical capital, your human capital can't be taken from you. A company can repossess a truck, but they can't repossess your education or skills.
+
+!!! mascot-tip "Ferris's Career Tip"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Ferris shares a tip">
+    Start building your human capital now — every skill you learn, every project you complete, and every challenge you push through adds to an asset that no one can ever take away from you. Your future self will thank you.
 
 ## Career Economics: Applying Economic Thinking to Your Future
 
@@ -637,6 +653,10 @@ You've unlocked essential career superpowers:
 6. **Cyclical unemployment** rises during recessions—the type policy tries to fight
 7. **Human capital** is your skills, knowledge, and abilities—invest in yourself!
 8. **Career economics** means applying economic thinking to your work life—think about supply, demand, opportunity cost, and continuous learning
+
+!!! mascot-celebration "Congratulations!"
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Ferris celebrates">
+    You now understand how the labor market works, what unemployment really means, and how to invest in your most valuable asset — yourself. These are superpowers that will serve you for the rest of your career!
 
 ## Practice Questions
 

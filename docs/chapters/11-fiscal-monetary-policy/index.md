@@ -56,6 +56,10 @@ This isn't just academic knowledge. These policies affect your future job prospe
 
 Let's dive in.
 
+!!! mascot-welcome "Think Like an Economist!"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Ferris welcomes you">
+    Hey there, future policy analyst! Fiscal and monetary policy might sound like dry government stuff, but these are the levers that shape your job prospects, your cost of living, and your financial future. Let's decode how it all works!
+
 ## Fiscal Policy: The Government's Toolkit
 
 **Fiscal policy** refers to government decisions about spending and taxation designed to influence the overall economy.
@@ -368,6 +372,10 @@ During the COVID pandemic, the U.S. government implemented massive expansionary 
 
 Did it work? Unemployment fell faster than many economists predicted. But inflation also rose significantly. This is the trade-off in action.
 
+!!! mascot-thinking "Think Like an Economist!"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Ferris is thinking">
+    Notice the pattern? The COVID stimulus helped millions of people keep their homes and businesses, but it also contributed to rising prices. In economics, there is almost always a trade-off. The real question is whether the benefits outweighed the costs.
+
 ## Contractionary Fiscal Policy: Pumping the Brakes
 
 **Contractionary fiscal policy** involves decreasing government spending and/or raising taxes to slow down an overheating economy, typically used to combat inflation.
@@ -626,6 +634,10 @@ If policymakers try to keep unemployment permanently below its "natural rate," p
 
 This is what happened in the 1970s. Policymakers tried to push unemployment down with stimulus. But inflation kept rising while unemployment stayed high. This combination—**stagflation**—challenged the simple Phillips Curve story.
 
+!!! mascot-encourage "You've Got This!"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Ferris encourages you">
+    Stagflation and the shifting Phillips Curve can feel confusing at first. The key idea is simple: when people start expecting inflation, the old trade-off breaks down. Take it one step at a time and you will get there!
+
 Modern economists believe:
 
 - **Short run**: The trade-off exists
@@ -742,6 +754,10 @@ Another challenge: policy effects take time to appear.
 **Impact Lag**: Time for the policy to affect the economy (6-18 months for full effects)
 
 By the time a policy fully works, the economic situation may have changed. The recession might be over, or a new problem might have emerged. This is why economic management is so difficult—you're steering a ship with a very slow rudder.
+
+!!! mascot-tip "Think Like an Economist!"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Ferris shares a tip">
+    Whenever you hear a policy promise, ask yourself: "What is the time lag?" A plan that sounds great today might not take effect for a year or more. Smart economists always factor in timing when evaluating whether a policy will actually help.
 
 ## Critical Thinking: Evaluating Policy Claims
 
@@ -885,6 +901,10 @@ You've gained powerful policy analysis tools:
 13. Policy works with significant **time lags**, making timing difficult
 14. Fiscal and monetary policy work best when **coordinated**
 15. Always ask about **trade-offs, context, and evidence** when evaluating claims
+
+!!! mascot-celebration "Think Like an Economist!"
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Ferris celebrates">
+    You did it! You now understand the two biggest toolkits for managing an economy. Next time you hear a policy debate on the news, you will know exactly which questions to ask. That is a real superpower!
 
 ## Using Your New Superpower
 

@@ -57,6 +57,10 @@ By the end of this chapter, you'll have the knowledge to evaluate trade claims f
 
 Let's explore the global economy.
 
+!!! mascot-welcome "Think Like an Economist!"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Ferris welcomes you">
+    Welcome to the world of international trade! By the end of this chapter, you'll be able to spot misleading trade claims from a mile away. Think like an economist!
+
 ## What Is International Trade?
 
 **International trade** is the exchange of goods, services, and capital across international borders.
@@ -239,6 +243,10 @@ Surprisingly, no! This is where comparative advantage comes in—and it's one of
 
 This is the key insight: even if one country is better at everything, both countries still benefit from specializing and trading.
 
+!!! mascot-thinking "Think Like an Economist!"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Ferris is thinking">
+    Here's one of the most counterintuitive ideas in all of economics: even if you're worse at producing everything, you still have a comparative advantage in something. The key is opportunity cost, not absolute ability.
+
 Let's use a simple example.
 
 ### The Lawyer and the Assistant
@@ -381,6 +389,10 @@ But specialization has risks:
 
 This is why trade policy is genuinely complicated. The economic benefits of specialization are real, but so are the risks of dependence.
 
+!!! mascot-encourage "Think Like an Economist!"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Ferris encourages you">
+    Trade policy involves real trade-offs with no easy answers. If this feels complicated, that's because it is! Economists disagree on the details too. Keep pushing through -- you're building the skills to navigate these debates.
+
 ## Free Trade: The Case for Open Markets
 
 **Free trade** is international trade without government-imposed barriers like tariffs, quotas, or regulations designed to restrict imports.
@@ -459,6 +471,10 @@ Here's the honest picture:
 The political asymmetry is crucial: The people who lose from free trade (factory workers whose plant closes) feel the pain intensely and know exactly who to blame. The people who gain (consumers paying slightly less for everything) barely notice and don't credit trade policy.
 
 This is why protectionism is often popular even when economists say it's costly overall.
+
+!!! mascot-tip "Think Like an Economist!"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Ferris shares a tip">
+    When evaluating any trade policy, always ask two questions: Who gets the benefits, and who pays the costs? If a politician only talks about one side, they're not giving you the full picture.
 
 ## Tariffs: The Main Tool of Protectionism
 
@@ -955,6 +971,10 @@ You've gained powerful trade analysis tools:
 12. **Globalization** has lifted billions out of poverty but has also caused real harm to some workers and communities
 13. **Trade debates** require nuanced thinking—both sides have valid points
 14. Always ask: **Who pays? Who benefits? What are the trade-offs?**
+
+!!! mascot-celebration "Think Like an Economist!"
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Ferris celebrates">
+    You did it! You now have the tools to see through misleading trade arguments that fool most adults. That's a serious economic superpower -- use it wisely!
 
 ## Using Your New Superpower
 
