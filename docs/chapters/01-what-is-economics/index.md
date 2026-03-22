@@ -54,6 +54,12 @@ Once you understand the basic principles in this chapter, you'll start noticing 
 
 Ready to unlock your economic superpower? Let's go.
 
+!!! mascot-welcome "Think Like an Economist!"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Ferris welcomes you">
+    Hey there, future economist! I'm Ferris the Fox, and I'll be your guide
+    through the world of economics. By the end of this chapter, you'll see
+    the hidden forces behind everyday decisions. Let's get started!
+
 ## What is Economics?
 
 **Economics** is the study of how individuals, businesses, and societies make choices about how to use their limited resources to satisfy their unlimited wants.
@@ -102,6 +108,12 @@ Let's say you have Saturday afternoon free. You could:
 If you choose the concert, what's the real cost? It's not just the $30 for the ticket. You also gave up the $60 you could have earned working. So the opportunity cost of the concert is actually $90 ($30 spent + $60 not earned), plus whatever grade improvement you might have gotten from studying.
 
 This is why economists say **there's no such thing as a free lunch**. Even if someone buys you lunch, you're spending time eating it instead of doing something else. Everything has an opportunity cost.
+
+!!! mascot-thinking "Key Insight"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Ferris is thinking">
+    Opportunity cost is the single most powerful idea in economics. Once you
+    start asking "what am I giving up?" before every decision, you'll never
+    look at choices the same way again.
 
 #### Diagram: Opportunity Cost Calculator
 
@@ -186,6 +198,12 @@ Here's an example: You're at an all-you-can-eat buffet. The first plate of food 
 Each additional plate gives you less satisfaction than the one before. Economists call this **diminishing marginal benefit**. And at some point, the marginal benefit (how much you enjoy the next plate) drops below the marginal cost (how uncomfortably full you'll feel).
 
 Smart decisions happen when: **Marginal Benefit = Marginal Cost**
+
+!!! mascot-encourage "You've Got This!"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Ferris encourages you">
+    Marginal analysis sounds fancy, but you already do it! Every time you
+    decide "one more episode" or "I should stop and sleep," you're weighing
+    marginal benefits against marginal costs. You're a natural.
 
 This applies everywhere:
 
@@ -344,6 +362,13 @@ On social media, you'll often see people state opinions as if they were facts:
 - "Only idiots believe Z" (personal attack instead of evidence)
 
 When someone makes a claim, ask: Is this a positive statement I can verify, or a normative statement that reflects their values? Both are valid, but they're different things.
+
+!!! mascot-tip "Ferris's Tip"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Ferris shares a tip">
+    Next time you see a heated debate online, try labeling each claim as
+    "positive" or "normative." You'll be amazed how many arguments are
+    really about values, not facts. That's not wrong — but knowing the
+    difference is a superpower.
 
 ## Microeconomics vs. Macroeconomics
 
@@ -628,6 +653,13 @@ There are two types:
 An economy can be productively efficient but allocatively inefficient. Imagine being on the frontier but making 100% robots when people actually want some pizzas too!
 
 ## Key Takeaways
+
+!!! mascot-celebration "Excellent Work!"
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Ferris celebrates">
+    You just conquered the foundations of economics! You now understand
+    scarcity, opportunity cost, trade-offs, and marginal thinking. These
+    aren't just textbook ideas — they're tools you'll use for the rest
+    of your life. Think like an economist!
 
 Congratulations! You've just learned the foundational concepts of economics. Let's recap your new superpowers:
 

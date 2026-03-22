@@ -50,6 +50,10 @@ Why does this happen? The answer lies in **market structure**—the organization
 
 And here's your superpower upgrade: once you understand these structures, you'll be much better at spotting when companies (or politicians) are making claims about "competition" that don't hold up. Ready to see how markets really work?
 
+!!! mascot-welcome "Think Like an Economist!"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Ferris welcomes you">
+    Welcome to Market Structures! By the end of this chapter, you'll have X-ray vision for understanding why some companies can charge whatever they want while others fight for every customer. Think like an economist!
+
 ## What is Market Structure?
 
 **Market structure** refers to the characteristics of a market that influence how firms behave and how prices are determined. It's the "personality" of a market.
