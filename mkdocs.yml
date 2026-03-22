@@ -18,45 +18,59 @@ nav:
     - 1. What is Economics?:
       - Content: chapters/01-what-is-economics/index.md
       - Quiz: chapters/01-what-is-economics/quiz.md
+      - References: chapters/01-what-is-economics/references.md
     - 2. Demand and Consumer Behavior:
       - Content: chapters/02-demand-consumer-behavior/index.md
       - Quiz: chapters/02-demand-consumer-behavior/quiz.md
+      - References: chapters/02-demand-consumer-behavior/references.md
     - 3. Supply and Production:
       - Content: chapters/03-supply-production/index.md
       - Quiz: chapters/03-supply-production/quiz.md
+      - References: chapters/03-supply-production/references.md
     - 4. Market Equilibrium:
       - Content: chapters/04-market-equilibrium/index.md
       - Quiz: chapters/04-market-equilibrium/quiz.md
+      - References: chapters/04-market-equilibrium/references.md
     - 5. Market Structures:
       - Content: chapters/05-market-structures/index.md
       - Quiz: chapters/05-market-structures/quiz.md
+      - References: chapters/05-market-structures/references.md
     - 6. Market Failures:
       - Content: chapters/06-market-failures/index.md
       - Quiz: chapters/06-market-failures/quiz.md
+      - References: chapters/06-market-failures/references.md
     - 7. Measuring the Economy:
       - Content: chapters/07-measuring-economy/index.md
       - Quiz: chapters/07-measuring-economy/quiz.md
+      - References: chapters/07-measuring-economy/references.md
     - 8. Employment and Unemployment:
       - Content: chapters/08-employment-unemployment/index.md
       - Quiz: chapters/08-employment-unemployment/quiz.md
+      - References: chapters/08-employment-unemployment/references.md
     - 9. Inflation and Business Cycle:
       - Content: chapters/09-inflation-business-cycle/index.md
       - Quiz: chapters/09-inflation-business-cycle/quiz.md
+      - References: chapters/09-inflation-business-cycle/references.md
     - 10. Money and Banking:
       - Content: chapters/10-money-banking/index.md
       - Quiz: chapters/10-money-banking/quiz.md
+      - References: chapters/10-money-banking/references.md
     - 11. Fiscal and Monetary Policy:
       - Content: chapters/11-fiscal-monetary-policy/index.md
       - Quiz: chapters/11-fiscal-monetary-policy/quiz.md
+      - References: chapters/11-fiscal-monetary-policy/references.md
     - 12. International Trade:
       - Content: chapters/12-international-trade/index.md
       - Quiz: chapters/12-international-trade/quiz.md
+      - References: chapters/12-international-trade/references.md
     - 13. Personal Finance and Investment:
       - Content: chapters/13-personal-finance-investment/index.md
       - Quiz: chapters/13-personal-finance-investment/quiz.md
+      - References: chapters/13-personal-finance-investment/references.md
     - 14. Digital Economy and Capstone:
       - Content: chapters/14-digital-economy-capstone/index.md
       - Quiz: chapters/14-digital-economy-capstone/quiz.md
+      - References: chapters/14-digital-economy-capstone/references.md
   - Learning Graph:
     - Introduction: learning-graph/index.md
     - Graph Viewer: sims/graph-viewer/index.md
