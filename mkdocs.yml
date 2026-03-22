@@ -37,6 +37,36 @@ nav:
     - Quality Metrics: learning-graph/quality-metrics.md
     - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
     - Course Description Assessment: learning-graph/course-description-assessment.md
+  - MicroSims:
+    - List of MicroSims: sims/index.md
+    - Aggregate Demand and Supply: sims/ad-as-model/index.md
+    - Annual US Inflation Rate: sims/inflation-rate/index.md
+    - Annual US Interest Rate for Prior 30 Years: sims/interest-rate/index.md
+    - Attention Economy Calculator: sims/attention-economy/index.md
+    - Banking Fees Impact Chart: sims/banking-fees-impact/index.md
+    - Barriers to Entry Builder: sims/barriers-to-entry/index.md
+    - Budget Builder Tool: sims/budget-builder/index.md
+    - Budget Constraint Explorer: sims/budget-constraint-explorer/index.md
+    - Business Cycle Explorer: sims/business-cycle-explorer/index.md
+    - College Loan Payback Calculator: sims/college-loan-payback/index.md
+    - Comparative Advantage Calculator: sims/comparative-advantage/index.md
+    - Compound Interest Visualizer: sims/compound-interest-visualizer/index.md
+    - Correlation vs Causation Detector: sims/correlation-causation/index.md
+    - Cost Curves Visualizer: sims/cost-curves-visualizer/index.md
+    - Government Budget Balancer: sims/budget-balancer/index.md
+    - Historical Stock Market Returns: sims/stock-market-returns/index.md
+    - Learning Graph Viewer: sims/graph-viewer/index.md
+    - Profit Maximum: sims/profit-maximum/index.md
+    - Revenue Maximum: sims/revenue-maximum/index.md
+    - Supply and Demand: sims/supply-and-demand/index.md
+    - US Treasury Bills Yield: sims/t-bills/index.md
+    - US Treasury Yield Curve Spread Chart: sims/yield-curve/index.md
+    - Web Server OS Market Share: sims/linux-marketshare/index.md
+
+
+  - Prompts:
+    - Generate Chapter Content: prompts/generate-chapter-content.md
+    - Create Logo Generator: prompts/create-logo-generator.md
   - Contact: contact.md
   - License: license.md
 

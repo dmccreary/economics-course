@@ -1,0 +1,14 @@
+{
+  "sim_id": "price-floor-visualizer",
+  "diagram_name": "Price Floor Visualizer",
+  "chapter_number": 4,
+  "chapter_title": "Market Equilibrium and Price Mechanisms",
+  "chapter_dir": "04-market-equilibrium",
+  "library": "p5.js with draggable floor line, worker icons, and trade-off calculation",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "analyze, compare, examine",
+  "learning_objective": "Students will analyze how price floors create surpluses in labor markets and examine trade-offs in minimum wage policy.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Analyze (L4)\nBloom Verb: analyze, compare, examine\n\nLearning Objective: Students will analyze how price floors create surpluses in labor markets and examine trade-offs in minimum wage policy.\n\nPurpose: Show the effects of minimum wage by allowing students to set floor price and observe resulting surplus (unemployment).\n\nCanvas Layout:\n- Left side (450px): Labor supply and demand graph with floor line\n- Right side (200px): Employment outcomes and trade-offs panel\n\nVisual Elements:\n- Labor supply curve (upward sloping - workers)\n- Labor demand curve (downward sloping - employers)\n- Horizontal price floor line (red dashed, draggable)\n- Shaded surplus area representing unemployment\n- Worker icons showing employed vs. job-seeking\n\nInteractive Controls:\n- Slider: \"Set Minimum Wage\" ($8 - $20/hour)\n- Toggle: \"Show Equilibrium Comparison\"\n- Toggle: \"Show Winners and Losers\"\n- Button: \"Reset to No Floor\"\n\nDefault Parameters:\n- Equilibrium wage: $12/hour\n- Equilibrium employment: 1,000 workers\n- Starting floor: $15/hour (creating surplus for discovery)\n\nBehavior:\n- When floor above equilibrium: Show surplus (unemployment), animate job-seeking icons\n- Show calculation: \"Unemployment = Ls - Ld = X workers\"\n- When floor below equilibrium: Show \"Not binding - no effect\"\n- \"Winners and Losers\" panel shows:\n  - Winners: Workers who keep jobs at higher wage\n  - Losers: Workers who lose jobs or can't find them\n  - Trade-off: Higher wages for some vs. fewer jobs for others\n\nData Visibility Requirements:\n- Stage 1: Show floor wage and resulting labor supply and demand\n- Stage 2: Calculate unemployment amount\n- Stage 3: Identify winners (employed at higher wage) and losers (unemployed)\n- Stage 4: Show that total worker income could go up or down depending on elasticity\n\nInstructional Rationale: This helps students see minimum wage as a trade-off, not a free lunch. Some workers gain, others lose, and the net effect depends on specific market conditions.\n\nImplementation: p5.js with draggable floor line, worker icons, and trade-off calculation"
+}

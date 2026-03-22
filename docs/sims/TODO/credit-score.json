@@ -1,0 +1,14 @@
+{
+  "sim_id": "credit-score",
+  "diagram_name": "Credit Score Simulator",
+  "chapter_number": 13,
+  "chapter_title": "Personal Finance and Investment",
+  "chapter_dir": "13-personal-finance-investment",
+  "library": "p5.js with gauge visualization and behavior impact calculations",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "explain, predict, classify",
+  "learning_objective": "Students will explain how different financial behaviors affect credit scores and predict the impact of various actions.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: explain, predict, classify\n\nLearning Objective: Students will explain how different financial behaviors affect credit scores and predict the impact of various actions.\n\nPurpose: Demystify credit scores by showing cause and effect.\n\nCanvas Layout:\n- Left side (350px): Financial behavior controls\n- Right side (350px): Credit score gauge and breakdown\n\nVisual Elements:\n- Large credit score gauge (300-850)\n- Score category label (Poor, Fair, Good, Very Good, Exceptional)\n- Five factor meters:\n  - Payment history\n  - Credit utilization\n  - Length of history\n  - Credit mix\n  - New credit\n- \"What-if\" scenario results\n- Interest rate impact display\n\nInteractive Controls:\n- Behavior toggles:\n  - \"Missed payment\" (impact: -50 to -100 points)\n  - \"Maxed out credit card\" (impact: -30 to -50 points)\n  - \"Opened new account\" (impact: -10 to -20 points)\n  - \"Paid down debt\" (impact: +20 to +40 points)\n  - \"Closed old account\" (impact: -10 to -20 points)\n- Time slider showing score recovery\n- Scenario presets:\n  - \"Perfect behavior\"\n  - \"One missed payment\"\n  - \"Maxed cards\"\n  - \"Building credit from scratch\"\n\nBehavior:\n- Selecting behaviors updates score in real-time\n- Show which factor is affected\n- Display time to recover from negative events\n- Show interest rate impact: \"With this score, a car loan would cost $X more\"\n\nKey Insights:\n- \"Payment history is the biggest factor—never miss a payment\"\n- \"One missed payment can take years to recover from\"\n- \"Low credit utilization helps more than you'd think\"\n- \"Closing old accounts can hurt your score\"\n\nInstructional Rationale: Seeing the direct impact of behaviors on credit scores builds intuition about credit management. The interest rate impact shows real-world consequences.\n\nImplementation: p5.js with gauge visualization and behavior impact calculations"
+}

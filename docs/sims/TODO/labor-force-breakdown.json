@@ -1,0 +1,14 @@
+{
+  "sim_id": "labor-force-breakdown",
+  "diagram_name": "Who's In the Labor Force?",
+  "chapter_number": 8,
+  "chapter_title": "Employment and Unemployment",
+  "chapter_dir": "08-employment-unemployment",
+  "library": "HTML/CSS/JavaScript with nested SVG boxes and hover interactions",
+  "bloom_level": "Remember (L1)",
+  "bloom_verb": "identify, recognize, classify",
+  "learning_objective": "Students will identify and classify different segments of the population in relation to the labor force.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: infographic\n\nBloom Taxonomy Level: Remember (L1)\nBloom Verb: identify, recognize, classify\n\nLearning Objective: Students will identify and classify different segments of the population in relation to the labor force.\n\nPurpose: Visualize how the population divides into labor force categories and who gets counted in unemployment statistics.\n\nLayout: Nested boxes or tree diagram showing population breakdown\n\nVisual Elements:\n- Outer box: Total US Population (~330 million)\n- Next level: Working-age population (16+, ~260 million)\n- Split into: Labor Force (~165 million) vs Not in Labor Force (~95 million)\n- Labor Force splits into: Employed (~158 million) vs Unemployed (~7 million)\n- Not in Labor Force shows subcategories with icons:\n  - Students (book icon)\n  - Retirees (rocking chair icon)\n  - Stay-at-home parents (house icon)\n  - Discouraged workers (question mark icon)\n  - Others (disabled, institutionalized)\n\nColor Coding:\n- Green: Employed\n- Yellow: Unemployed (counted)\n- Gray: Not in labor force (not counted)\n- Red highlight: Discouraged workers (lost but not counted)\n\nInteractive Features:\n- Hover over any category to see:\n  - Definition\n  - Approximate number\n  - Why they're classified this way\n- Click \"Show percentages\" to see proportions\n- Toggle to show changes during recession (labor force shrinks)\n\nData (approximate US figures):\n- Population 16+: 260 million\n- Labor force: 165 million (63% participation)\n- Employed: 158 million\n- Unemployed: 7 million\n- Not in labor force: 95 million\n\nInstructional Rationale: Visual hierarchy helps students understand that unemployment rate only captures a subset of people without jobs. The \"discouraged workers\" highlight foreshadows limitations discussion.\n\nImplementation: HTML/CSS/JavaScript with nested SVG boxes and hover interactions"
+}

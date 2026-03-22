@@ -1,0 +1,14 @@
+{
+  "sim_id": "price-taker-vs-maker",
+  "diagram_name": "Price Taker vs Price Maker Simulator",
+  "chapter_number": 5,
+  "chapter_title": "Market Structures and Competition",
+  "chapter_dir": "05-market-structures",
+  "library": "p5.js with dual interactive panels and real-time calculations",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "demonstrate, calculate",
+  "learning_objective": "Students will demonstrate the difference between price-taking and price-making behavior by experimenting with pricing decisions in each market structure.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: demonstrate, calculate\n\nLearning Objective: Students will demonstrate the difference between price-taking and price-making behavior by experimenting with pricing decisions in each market structure.\n\nPurpose: Let students experience the consequences of pricing decisions in competitive vs. monopoly markets.\n\nCanvas Layout:\n- Left side (300px): Perfect Competition scenario\n- Right side (300px): Monopoly scenario\n- Bottom (100px): Controls and comparison\n\nVisual Elements:\n- Two side-by-side market displays\n- Left: Many small firm icons, horizontal demand curve at market price\n- Right: Single large firm icon, downward-sloping demand curve\n- Price slider for each scenario\n- Revenue/Profit display for each\n- Visual feedback showing customer behavior\n\nInteractive Controls:\n- Left panel: Price slider (but shows it doesn't matter!)\n- Right panel: Price slider (shows trade-off)\n- \"Try to Beat Market Price\" button (left)\n- \"Find Profit-Maximizing Price\" button (right)\n- Reset button\n\nScenario Setup:\n- Left (Competition): Market price fixed at $10\n  - If you set price above $10: 0 customers (they go elsewhere)\n  - If you set price at $10: Normal customers\n  - If you set price below $10: Same customers but less revenue\n\n- Right (Monopoly): You control price\n  - At $20: 50 customers\n  - At $15: 100 customers\n  - At $10: 150 customers\n  - At $5: 200 customers\n  - Show profit calculation at each price point\n\nData Visibility Requirements:\n- Show demand curve responding to price changes\n- Display: Price, Quantity, Revenue, Cost, Profit\n- Highlight optimal profit point for monopolist\n\nBehavior:\n- Left side demonstrates futility of trying to be a \"price maker\" in competition\n- Right side shows monopolist's power but also the trade-off\n- Side-by-side comparison reveals the structural difference\n\nInstructional Rationale: Direct experimentation with pricing decisions makes the abstract concept concrete. Students discover for themselves why competitive firms accept market price and why monopolists have choices. The side-by-side format emphasizes the contrast.\n\nImplementation: p5.js with dual interactive panels and real-time calculations"
+}

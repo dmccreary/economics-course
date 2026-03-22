@@ -1,0 +1,14 @@
+{
+  "sim_id": "money-evaluator",
+  "diagram_name": "Money Characteristics Evaluator",
+  "chapter_number": 10,
+  "chapter_title": "Money and Banking",
+  "chapter_dir": "10-money-banking",
+  "library": "p5.js with item cards, animated meters, and comparison mode",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "classify, compare, evaluate",
+  "learning_objective": "Students will evaluate different items as potential money by assessing their characteristics against the requirements for good money.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: classify, compare, evaluate\n\nLearning Objective: Students will evaluate different items as potential money by assessing their characteristics against the requirements for good money.\n\nPurpose: Make abstract money characteristics concrete by applying them to specific items.\n\nCanvas Layout:\n- Left side (350px): Item selector and display\n- Right side (350px): Characteristics rating and verdict\n\nVisual Elements:\n- Item cards to select from:\n  - Gold coins\n  - Paper dollars\n  - Cigarettes (prison money)\n  - Seashells\n  - Cattle\n  - Bitcoin\n  - Salt\n  - Giant stone discs (Yap Island)\n- Six characteristic meters (0-10 scale):\n  - Durability\n  - Portability\n  - Divisibility\n  - Uniformity\n  - Limited Supply\n  - Acceptability\n- Overall \"Money Score\" gauge\n- Historical context blurb for each item\n\nInteractive Controls:\n- Click item to select\n- \"Rate This Item\" mode: students rate characteristics before reveal\n- \"Show Actual Ratings\" button\n- \"Compare Two Items\" toggle\n- \"Why did this work historically?\" info popup\n\nBehavior:\n- Selecting item shows it with historical context\n- Meters fill to show characteristic ratings\n- Overall score calculated from weighted characteristics\n- Comparison mode shows two items side by side\n- Discussion prompts: \"Why might cigarettes work as money in prison but not outside?\"\n\nData for items:\n- Gold: High on most except portability\n- Paper dollars: High on all (with government backing for acceptability)\n- Bitcoin: Mixed (high divisibility, low acceptability currently, limited supply)\n- Cattle: Low on divisibility, portability; high on acceptability historically\n\nInstructional Rationale: Evaluating specific items makes abstract characteristics concrete. Students discover why modern money evolved to have specific features and why historical money forms eventually failed.\n\nImplementation: p5.js with item cards, animated meters, and comparison mode"
+}

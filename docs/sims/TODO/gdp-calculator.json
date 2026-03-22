@@ -1,0 +1,14 @@
+{
+  "sim_id": "gdp-calculator",
+  "diagram_name": "GDP Calculator",
+  "chapter_number": 7,
+  "chapter_title": "Measuring the Economy - GDP and Growth",
+  "chapter_dir": "07-measuring-economy",
+  "library": "p5.js with sliders and real-time calculation",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "calculate, use",
+  "learning_objective": "Students will calculate GDP using the expenditure approach by inputting component values and seeing the formula in action.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: calculate, use\n\nLearning Objective: Students will calculate GDP using the expenditure approach by inputting component values and seeing the formula in action.\n\nPurpose: Make GDP calculation concrete and interactive.\n\nCanvas Layout:\n- Left side (400px): Input panel with sliders/fields\n- Right side (300px): Calculation display and result\n\nVisual Elements:\n- Four input sliders with dollar amounts:\n  - Consumer Spending (C): $0-20 trillion\n  - Investment (I): $0-5 trillion\n  - Government Spending (G): $0-5 trillion\n  - Net Exports (X-M): -$2 to +$2 trillion\n- Real-time equation display: GDP = C + I + G + (X-M)\n- Running total that updates as sliders move\n- Comparison bar showing result vs actual US GDP\n\nInteractive Controls:\n- Sliders for each component\n- \"Reset to US values\" button (loads current approximate values)\n- \"Try a recession scenario\" button (reduces I and C)\n- \"Try export boom\" button (increases X-M)\n- Toggle to switch between billions and trillions display\n\nDefault Parameters:\n- C = $15 trillion\n- I = $4 trillion\n- G = $4 trillion\n- X-M = -$0.7 trillion\n- Result: approximately $22.3 trillion\n\nBehavior:\n- As sliders move, total updates in real-time\n- Formula highlights which component is being adjusted\n- Shows percentage contribution of each component\n- Displays \"Your economy would be ranked #X in the world\" based on result\n\nInstructional Rationale: The Apply/calculate objective requires hands-on manipulation. Students see how changes in each component affect total GDP, making the abstract formula concrete.\n\nImplementation: p5.js with sliders and real-time calculation"
+}

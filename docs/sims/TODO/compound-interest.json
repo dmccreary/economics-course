@@ -1,0 +1,14 @@
+{
+  "sim_id": "compound-interest",
+  "diagram_name": "Compound Interest Visualizer",
+  "chapter_number": 13,
+  "chapter_title": "Personal Finance and Investment",
+  "chapter_dir": "13-personal-finance-investment",
+  "library": "p5.js with animated line chart and comparison tools",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "calculate, demonstrate, predict",
+  "learning_objective": "Students will demonstrate how compound interest grows wealth over time and predict the dramatic impact of starting early.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: calculate, demonstrate, predict\n\nLearning Objective: Students will demonstrate how compound interest grows wealth over time and predict the dramatic impact of starting early.\n\nPurpose: Make the abstract concept of compound growth visceral and motivating.\n\nCanvas Layout:\n- Main area (500px): Growth chart with multiple scenarios\n- Right panel (200px): Controls and comparison\n\nVisual Elements:\n- Line graph showing money growth over time\n- Multiple lines for comparison (different start ages, amounts, rates)\n- Animated money stack growing over time\n- Key milestone markers (house, car, retirement)\n- \"Total Contributed\" vs. \"Total Earned (Interest)\" breakdown\n- Final amount prominently displayed\n\nInteractive Controls:\n- Starting age slider (18-45)\n- Monthly contribution slider ($50-$500)\n- Expected return slider (4%-10%)\n- End age slider (55-70)\n- \"Compare Two Scenarios\" toggle\n- Preset comparisons:\n  - \"Early Emily vs Late Larry\"\n  - \"Save a little vs save a lot\"\n  - \"Conservative vs aggressive returns\"\n\nData Visibility Requirements:\n- Stage 1: Show initial investment\n- Stage 2: Animate growth year by year\n- Stage 3: Show compound effect accelerating\n- Stage 4: Highlight how much came from interest vs contributions\n- Stage 5: Compare scenarios side-by-side\n\nKey Insights:\n- \"Time is more powerful than amount\"\n- \"Interest on interest creates exponential growth\"\n- \"Starting at 22 vs 32 can double your final amount\"\n- \"Your contributed money might be less than half your final balance\"\n\nBehavior:\n- Changing start age dramatically changes final amount\n- Show: \"You contributed: $X, You earned: $Y\"\n- Animation option to watch money grow\n- Comparison mode shows two scenarios simultaneously\n\nInstructional Rationale: Visualizing compound growth makes the abstract tangible. Seeing Early Emily beat Late Larry despite investing less is the transformative insight.\n\nImplementation: p5.js with animated line chart and comparison tools"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "gdp-components-pie",
+  "diagram_name": "GDP Components Breakdown",
+  "chapter_number": 7,
+  "chapter_title": "Measuring the Economy - GDP and Growth",
+  "chapter_dir": "07-measuring-economy",
+  "library": "Chart.js or p5.js pie chart with interaction",
+  "bloom_level": "Remember (L1)",
+  "bloom_verb": "identify, recognize",
+  "learning_objective": "Students will identify the relative size of each GDP component in a typical developed economy.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: chart\n\nBloom Taxonomy Level: Remember (L1)\nBloom Verb: identify, recognize\n\nLearning Objective: Students will identify the relative size of each GDP component in a typical developed economy.\n\nPurpose: Visualize how consumer spending dominates GDP composition.\n\nChart Type: Interactive pie chart\n\nData (approximate US percentages):\n- Consumer Spending (C): 68%\n- Investment (I): 18%\n- Government Spending (G): 17%\n- Net Exports (X-M): -3% (imports exceed exports)\n\nVisual Elements:\n- Color-coded pie slices with percentages\n- Hover reveals dollar amounts (example: C = $15 trillion)\n- Legend showing component definitions\n- Note explaining why net exports can be negative\n\nInteractive Features:\n- Hover over slice to see details and examples\n- Click slice to expand showing subcategories:\n  - C expands to: Durable goods, Nondurable goods, Services\n  - I expands to: Business equipment, Structures, Inventories\n  - G expands to: Federal, State/Local\n\nImplementation: Chart.js or p5.js pie chart with interaction"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "cost-curves-visualizer",
+  "diagram_name": "Cost Curves Visualizer",
+  "chapter_number": 3,
+  "chapter_title": "Supply and Production",
+  "chapter_dir": "03-supply-production",
+  "library": "p5.js with multiple animated curves and interactive elements",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "interpret, explain",
+  "learning_objective": "Students will interpret the relationships between different cost curves (MC, ATC, AVC, AFC) and explain why they have their characteristic shapes.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: interpret, explain\n\nLearning Objective: Students will interpret the relationships between different cost curves (MC, ATC, AVC, AFC) and explain why they have their characteristic shapes.\n\nPurpose: Interactive visualization of how cost curves relate to each other as quantity changes.\n\nCanvas Layout:\n- Left side (450px): Cost curves graph with multiple lines\n- Right side (150px): Data display and cost breakdown panel\n\nVisual Elements:\n- Coordinate axes: Quantity on X, Cost per unit on Y\n- Four curves with different colors:\n  - Marginal Cost (MC): Red, U-shaped\n  - Average Total Cost (ATC): Blue, U-shaped\n  - Average Variable Cost (AVC): Green, U-shaped\n  - Average Fixed Cost (AFC): Gray, declining\n- Vertical line showing selected quantity\n- Shaded areas showing profit/loss at market price\n- Key intersection point where MC crosses ATC (minimum ATC)\n\nInteractive Controls:\n- Quantity slider (1-100 units)\n- Price line that can be adjusted to show profit/loss\n- Toggle checkboxes to show/hide each curve\n- \"Show Fixed Costs,\" \"Show Variable Costs\" breakdowns\n- Hover over any point for detailed explanation\n- Reset button\n\nDefault Parameters:\n- Fixed cost: $100\n- Variable cost follows diminishing returns pattern\n- Initial quantity: 50 units\n- Market price: $15\n\nData Visibility Requirements:\n- At each quantity, show:\n  - Total Cost breakdown (FC + VC)\n  - ATC, AVC, AFC values\n  - MC for the next unit\n- Special highlight when MC = ATC (minimum ATC point)\n- When price line is below ATC: show loss area\n- When price line is above ATC: show profit area\n\nBehavior:\n- Moving quantity slider updates all cost values\n- Curves animate smoothly\n- At low quantity: \"Fixed costs are spread over few units—ATC is high\"\n- At middle quantity: \"Efficiency improving as fixed costs spread\"\n- At high quantity: \"Diminishing returns causing costs to rise\"\n- MC crosses ATC at minimum ATC point (important!)\n\nInstructional Rationale: Seeing all cost curves together helps learners understand their relationships. The interactive quantity slider makes abstract curves concrete. The profit/loss visualization connects costs to business decisions.\n\nImplementation: p5.js with multiple animated curves and interactive elements"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "network-effects",
+  "diagram_name": "Network Effects Visualizer",
+  "chapter_number": 14,
+  "chapter_title": "The Digital Economy and Capstone Projects",
+  "chapter_dir": "14-digital-economy-capstone",
+  "library": "p5.js with force-directed graph visualization and growth animation",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "explain, illustrate, demonstrate",
+  "learning_objective": "Students will explain how network effects create increasing value and demonstrate why early adoption advantages compound over time.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: explain, illustrate, demonstrate\n\nLearning Objective: Students will explain how network effects create increasing value and demonstrate why early adoption advantages compound over time.\n\nPurpose: Visualize the positive feedback loop that makes network effects so powerful.\n\nCanvas Layout:\n- Main area (450px): Network visualization showing connections growing\n- Right panel (250px): Value metrics and controls\n\nVisual Elements:\n- Network graph with nodes (users) and edges (connections)\n- As users increase, connections multiply exponentially\n- Value meter showing network value (Metcalfe's Law: n²)\n- Growth animation showing accelerating adoption\n- Competing network comparison (shows first-mover advantage)\n\nInteractive Controls:\n- \"Add Users\" button (adds 10 users)\n- Speed slider for growth animation\n- Toggle: \"Show Competitor Network\"\n- Scenario selector:\n  - \"Early Facebook vs MySpace\"\n  - \"WhatsApp vs competitors\"\n  - \"PayPal vs other payment apps\"\n- \"Start from Scratch\" reset\n\nMathematical Display:\n- Number of users: n\n- Possible connections: n(n-1)/2\n- Network value (Metcalfe): proportional to n²\n- Show how value accelerates with each new user\n\nBehavior:\n- Small network: Few connections, low value\n- Medium network: Connections multiply, value growing fast\n- Large network: Massive connections, dominant value\n- Competitor struggles to catch up even with better product\n- Show \"tipping point\" where growth accelerates\n\nKey Insights:\n- \"Each new user makes the network more valuable for everyone\"\n- \"Early leads compound into dominance\"\n- \"A 'better' product can lose to a product with more users\"\n- \"This explains why there's usually one dominant social network\"\n\nInstructional Rationale: Visualizing network growth makes the abstract concept concrete. Seeing connections multiply shows why early leads are so hard to overcome.\n\nImplementation: p5.js with force-directed graph visualization and growth animation"
+}

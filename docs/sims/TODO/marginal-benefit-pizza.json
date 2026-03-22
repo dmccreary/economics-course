@@ -1,0 +1,14 @@
+{
+  "sim_id": "marginal-benefit-pizza",
+  "diagram_name": "Diminishing Marginal Benefit",
+  "chapter_number": 1,
+  "chapter_title": "What is Economics?",
+  "chapter_dir": "01-what-is-economics",
+  "library": "p5.js with click-through stages and animated bars",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "explain, interpret",
+  "learning_objective": "Students will understand how marginal benefit decreases with each additional unit consumed and identify the optimal stopping point.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: explain, interpret\n\nLearning Objective: Students will understand how marginal benefit decreases with each additional unit consumed and identify the optimal stopping point.\n\nPurpose: Visualize diminishing marginal benefit using a relatable pizza-eating scenario.\n\nCanvas Layout:\n- Left side (400px): Visual of pizza slices and satisfaction meter\n- Right side (200px): Data table and controls\n\nVisual Elements:\n- Pizza with numbered slices (1-8)\n- Satisfaction meter (0-100 scale)\n- Bar chart showing marginal benefit of each slice\n- \"Fullness\" indicator that increases\n- Happy/neutral/sick face emoji that changes\n\nData Visibility Requirements:\n- Stage 1: Show empty plate, hunger level high\n- Stage 2: After slice 1 - satisfaction +50, show bar\n- Stage 3: After slice 2 - satisfaction +30 (diminishing), show comparison\n- Stage 4: After slice 3 - satisfaction +15\n- Stage 5: After slice 4 - satisfaction +5, nearing full\n- Stage 6: After slice 5 - satisfaction +0, possibly negative (too full)\n\nInteractive Controls:\n- \"Eat Another Slice\" button\n- Reset button\n- Display showing: Total Satisfaction, Marginal Benefit of Last Slice, Status\n\nBehavior:\n- Each click adds a slice and shows diminishing marginal benefit\n- Face emoji changes from happy to neutral to uncomfortable\n- Bar chart builds showing declining marginal benefit\n- Clear stopping point highlighted when marginal benefit hits zero\n\nInstructional Rationale: Step-through interaction with concrete pizza example helps learners see the pattern of diminishing marginal benefit. Visual feedback (changing emoji, declining bars) reinforces the concept without requiring calculation.\n\nImplementation: p5.js with click-through stages and animated bars"
+}

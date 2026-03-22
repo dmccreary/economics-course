@@ -1,0 +1,14 @@
+{
+  "sim_id": "production-function-explorer",
+  "diagram_name": "Production Function Explorer",
+  "chapter_number": 3,
+  "chapter_title": "Supply and Production",
+  "chapter_dir": "03-supply-production",
+  "library": "p5.js with click interactions, animated worker sprites, and dynamic charts",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "explain, interpret",
+  "learning_objective": "Students will explain how adding workers affects total output and interpret the pattern of diminishing marginal returns.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: explain, interpret\n\nLearning Objective: Students will explain how adding workers affects total output and interpret the pattern of diminishing marginal returns.\n\nPurpose: Visualize the production function and diminishing returns by adding workers to a pizza shop.\n\nCanvas Layout:\n- Left side (400px): Visual pizza shop with workers and output display\n- Right side (200px): Data table and marginal product bar chart\n\nVisual Elements:\n- Pizza shop scene with oven(s)\n- Worker icons that can be added (up to 8)\n- Pizza output counter\n- Dual chart: Total output line + Marginal product bars\n- Visual crowding effect as workers increase\n- Speech bubbles showing worker comments (\"Lots of space!\" → \"Getting crowded\" → \"Too many cooks!\")\n\nData Visibility Requirements:\n- Stage 1 (0 workers): Output = 0, empty shop\n- Stage 2 (1 worker): Output = 20, worker has room\n- Stage 3 (2 workers): Output = 45, MP = 25 (specialization helps!)\n- Stage 4 (3 workers): Output = 65, MP = 20\n- Stage 5 (4 workers): Output = 80, MP = 15, starting to crowd\n- Stage 6 (5+ workers): Diminishing returns clearly visible\n\nInteractive Controls:\n- \"Add Worker\" button\n- \"Remove Worker\" button\n- \"Add Second Oven\" button (to show how capital changes the function)\n- Display showing: Workers, Total Output, Marginal Product of Last Worker\n- Reset button\n\nBehavior:\n- Each click adds a worker and updates all displays\n- Visual crowding increases as workers are added\n- Bar chart shows declining marginal product\n- When second oven added, marginal product curve shifts up\n- Text explanation: \"Worker #X added Y more pizzas\"\n- At high worker counts: \"Diminishing returns: the shop is getting crowded!\"\n\nInstructional Rationale: Visual representation of worker crowding makes diminishing returns intuitive. Students see that the problem isn't lazy workers—it's the mismatch between inputs. Adding capital (the second oven) demonstrates how to overcome diminishing returns.\n\nImplementation: p5.js with click interactions, animated worker sprites, and dynamic charts"
+}

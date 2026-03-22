@@ -1,0 +1,14 @@
+{
+  "sim_id": "tariff-simulator",
+  "diagram_name": "Tariff Impact Simulator",
+  "chapter_number": 12,
+  "chapter_title": "International Trade and Globalization",
+  "chapter_dir": "12-international-trade",
+  "library": "p5.js with supply/demand visualization and impact calculations",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "analyze, examine, differentiate",
+  "learning_objective": "Students will analyze who pays for tariffs and differentiate between political claims and economic reality.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Analyze (L4)\nBloom Verb: analyze, examine, differentiate\n\nLearning Objective: Students will analyze who pays for tariffs and differentiate between political claims and economic reality.\n\nPurpose: Combat the widespread misunderstanding that \"foreign countries pay tariffs.\"\n\nCanvas Layout:\n- Main area (400px): Supply/demand diagram with tariff effects\n- Right panel (300px): Impact breakdown by group\n\nVisual Elements:\n- Supply and demand curves for an imported good\n- World price line (before tariff)\n- Tariff wedge showing new domestic price\n- Shaded areas showing:\n  - Consumer loss (red)\n  - Producer gain (blue)\n  - Government revenue (green)\n  - Deadweight loss (gray)\n- Impact scoreboard for each affected group\n\nInteractive Controls:\n- Product selector: Steel, Washing machines, Solar panels, Clothing\n- Tariff rate slider (0% - 100%)\n- \"Who Pays?\" breakdown toggle\n- \"Before/After\" comparison\n- \"Show Deadweight Loss\" toggle\n- Real-world case studies:\n  - \"2018 Steel tariffs\"\n  - \"2019 Washing machine tariffs\"\n  - \"Solar panel tariffs\"\n\nData Visibility Requirements:\n- Stage 1: Show market without tariff (world price)\n- Stage 2: Impose tariff—show price increase for consumers\n- Stage 3: Show who gains: Domestic producers, government revenue\n- Stage 4: Show who loses: Consumers, efficiency loss\n- Stage 5: Net calculation—usually negative for economy overall\n\nKey Insights to Display:\n- \"Tariffs are paid by importers and passed to consumers\"\n- \"Domestic producers gain, but consumers lose more\"\n- \"There's a deadweight loss—value destroyed, not transferred\"\n- \"Protected workers benefit, but at high cost per job saved\"\n\nReal-World Data:\n- Show actual cost per job saved (often $200,000+/job/year for steel tariffs)\n- Compare to what could be done with that money (retraining, direct support)\n\nInstructional Rationale: Seeing the distribution of tariff costs and benefits reveals why political claims about tariffs are often misleading. The \"who pays\" breakdown directly addresses the most common misconception.\n\nImplementation: p5.js with supply/demand visualization and impact calculations"
+}

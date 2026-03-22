@@ -1,0 +1,14 @@
+{
+  "sim_id": "money-multiplier",
+  "diagram_name": "Fractional Reserve Money Multiplier",
+  "chapter_number": 10,
+  "chapter_title": "Money and Banking",
+  "chapter_dir": "10-money-banking",
+  "library": "p5.js with animated money flow, bank icons, and real-time calculation",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "calculate, demonstrate, apply",
+  "learning_objective": "Students will demonstrate how fractional reserve banking creates money by tracing deposits through multiple rounds of lending.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: microsim\n\nBloom Taxonomy Level: Apply (L3)\nBloom Verb: calculate, demonstrate, apply\n\nLearning Objective: Students will demonstrate how fractional reserve banking creates money by tracing deposits through multiple rounds of lending.\n\nPurpose: Visualize the \"magic\" of money creation that most people don't understand.\n\nCanvas Layout:\n- Left side (450px): Animated flow diagram showing money multiplying\n- Right side (250px): Controls and running totals\n\nVisual Elements:\n- Bank buildings in a row (Bank A, B, C, D, E...)\n- Animated money/coin icons flowing between banks\n- For each round:\n  - Deposit arrives (green arrow in)\n  - Reserve kept (stays in vault)\n  - Loan made (blue arrow out)\n  - Deposit at next bank (cycle continues)\n- Running totals panel:\n  - Total Deposits Created\n  - Total Reserves Held\n  - Total Loans Made\n  - Money Multiplier achieved\n\nInteractive Controls:\n- Initial deposit amount slider ($100 - $10,000)\n- Reserve ratio slider (5% - 25%)\n- \"Step Through\" button (one round at a time)\n- \"Auto-Play\" button (watch it all unfold)\n- Speed control\n- \"Reset\" button\n- \"Show Formula\" toggle\n\nData Visibility Requirements:\n- Stage 1: Initial deposit enters Bank A\n- Stage 2: Bank A keeps reserves, lends remainder\n- Stage 3: Loan becomes deposit at Bank B\n- Stage 4: Process repeats through multiple banks\n- Stage 5: Show diminishing amounts until negligible\n- Final: Display total money created vs initial deposit\n\nBehavior:\n- Money icons visually flow between banks\n- Each bank shows: Deposit received, Reserves kept, Loan made\n- Running total updates in real-time\n- Multiplier display: \"Your $1,000 became $X in the banking system!\"\n- Lower reserve ratio = higher multiplier (more money created)\n- Higher reserve ratio = lower multiplier (less money created)\n\nEdge cases:\n- At very low reserve ratios, show money creation is very high\n- At 100% reserve ratio, no money multiplication (show this case)\n\nInstructional Rationale: Visualizing money flowing through the banking system makes the abstract money multiplier concrete. Students see that banks don't just store money—they create it through lending.\n\nImplementation: p5.js with animated money flow, bank icons, and real-time calculation"
+}

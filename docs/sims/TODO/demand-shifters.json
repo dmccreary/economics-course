@@ -1,0 +1,14 @@
+{
+  "sim_id": "demand-shifters",
+  "diagram_name": "Demand Shifters Cause-Effect Map",
+  "chapter_number": 2,
+  "chapter_title": "Demand and Consumer Behavior",
+  "chapter_dir": "02-demand-consumer-behavior",
+  "library": "p5.js with animated curve and clickable interface",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "differentiate, organize",
+  "learning_objective": "Students will differentiate between factors that cause movement along the demand curve versus shifts of the entire curve, and organize the determinants of demand.",
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: infographic\n\nBloom Taxonomy Level: Analyze (L4)\nBloom Verb: differentiate, organize\n\nLearning Objective: Students will differentiate between factors that cause movement along the demand curve versus shifts of the entire curve, and organize the determinants of demand.\n\nPurpose: Interactive cause-effect diagram showing how each determinant affects the demand curve.\n\nLayout: Central demand curve with surrounding factor cards\n\nVisual Elements:\n- Central: Animated demand curve that can shift left/right\n- Surrounding: Five cards for each TRIBE factor\n- Color coding: Factors that increase demand (green), decrease demand (red)\n- Arrows showing direction of curve shift\n- Before/after comparison view\n\nInteractive Elements:\n- Click on any factor card to see its effect on the demand curve\n- Toggle between \"Increase\" and \"Decrease\" for each factor\n- Animated curve shift with explanation\n- \"Reset\" to return to original position\n- Quiz mode: \"What would happen if...\" scenarios\n\nFactor Cards:\n1. Tastes: \"Product becomes trendy\" / \"Product becomes uncool\"\n2. Related Goods: \"Substitute price rises\" / \"Complement price rises\"\n3. Income: \"Consumers get richer\" (split for normal/inferior)\n4. Expectations: \"Prices expected to rise\" / \"Prices expected to fall\"\n5. Buyers: \"More consumers enter market\" / \"Consumers leave market\"\n\nBehavior:\n- Each click shows animated shift with narration\n- Comparison panel shows: \"Before: At $5, demand was 100. After: At $5, demand is 150\"\n- Text explains: \"This is a SHIFT, not a movement, because the WHOLE curve moved\"\n\nInstructional Rationale: Organizing all determinants visually with immediate feedback on curve shifts helps learners build a mental model of what causes demand changes. The before/after comparison clarifies the difference between shifts and movements.\n\nImplementation: p5.js with animated curve and clickable interface"
+}
