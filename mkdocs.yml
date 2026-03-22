@@ -15,20 +15,48 @@ nav:
   - Course Description: course-description.md
   - Chapters:
     - List of Chapters: chapters/index.md
-    - 1. What is Economics?: chapters/01-what-is-economics/index.md
-    - 2. Demand and Consumer Behavior: chapters/02-demand-consumer-behavior/index.md
-    - 3. Supply and Production: chapters/03-supply-production/index.md
-    - 4. Market Equilibrium: chapters/04-market-equilibrium/index.md
-    - 5. Market Structures: chapters/05-market-structures/index.md
-    - 6. Market Failures: chapters/06-market-failures/index.md
-    - 7. Measuring the Economy: chapters/07-measuring-economy/index.md
-    - 8. Employment and Unemployment: chapters/08-employment-unemployment/index.md
-    - 9. Inflation and Business Cycle: chapters/09-inflation-business-cycle/index.md
-    - 10. Money and Banking: chapters/10-money-banking/index.md
-    - 11. Fiscal and Monetary Policy: chapters/11-fiscal-monetary-policy/index.md
-    - 12. International Trade: chapters/12-international-trade/index.md
-    - 13. Personal Finance and Investment: chapters/13-personal-finance-investment/index.md
-    - 14. Digital Economy and Capstone: chapters/14-digital-economy-capstone/index.md
+    - 1. What is Economics?:
+      - Content: chapters/01-what-is-economics/index.md
+      - Quiz: chapters/01-what-is-economics/quiz.md
+    - 2. Demand and Consumer Behavior:
+      - Content: chapters/02-demand-consumer-behavior/index.md
+      - Quiz: chapters/02-demand-consumer-behavior/quiz.md
+    - 3. Supply and Production:
+      - Content: chapters/03-supply-production/index.md
+      - Quiz: chapters/03-supply-production/quiz.md
+    - 4. Market Equilibrium:
+      - Content: chapters/04-market-equilibrium/index.md
+      - Quiz: chapters/04-market-equilibrium/quiz.md
+    - 5. Market Structures:
+      - Content: chapters/05-market-structures/index.md
+      - Quiz: chapters/05-market-structures/quiz.md
+    - 6. Market Failures:
+      - Content: chapters/06-market-failures/index.md
+      - Quiz: chapters/06-market-failures/quiz.md
+    - 7. Measuring the Economy:
+      - Content: chapters/07-measuring-economy/index.md
+      - Quiz: chapters/07-measuring-economy/quiz.md
+    - 8. Employment and Unemployment:
+      - Content: chapters/08-employment-unemployment/index.md
+      - Quiz: chapters/08-employment-unemployment/quiz.md
+    - 9. Inflation and Business Cycle:
+      - Content: chapters/09-inflation-business-cycle/index.md
+      - Quiz: chapters/09-inflation-business-cycle/quiz.md
+    - 10. Money and Banking:
+      - Content: chapters/10-money-banking/index.md
+      - Quiz: chapters/10-money-banking/quiz.md
+    - 11. Fiscal and Monetary Policy:
+      - Content: chapters/11-fiscal-monetary-policy/index.md
+      - Quiz: chapters/11-fiscal-monetary-policy/quiz.md
+    - 12. International Trade:
+      - Content: chapters/12-international-trade/index.md
+      - Quiz: chapters/12-international-trade/quiz.md
+    - 13. Personal Finance and Investment:
+      - Content: chapters/13-personal-finance-investment/index.md
+      - Quiz: chapters/13-personal-finance-investment/quiz.md
+    - 14. Digital Economy and Capstone:
+      - Content: chapters/14-digital-economy-capstone/index.md
+      - Quiz: chapters/14-digital-economy-capstone/quiz.md
   - Learning Graph:
     - Introduction: learning-graph/index.md
     - Graph Viewer: sims/graph-viewer/index.md
@@ -128,6 +156,7 @@ nav:
 
 
 
+  - FAQ: faq.md
   - Glossary: glossary.md
   - Prompts:
     - Generate Chapter Content: prompts/generate-chapter-content.md
