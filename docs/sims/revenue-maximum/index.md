@@ -9,10 +9,10 @@ social:
 
 # Revenue Maximum
 
-<iframe src="main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="452px" scrolling="no"></iframe>
 
 ```html
-<iframe src="https://dmccreary.github.io/microsims/sims/revenue-maximum/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/microsims/sims/revenue-maximum/main.html" width="100%" height="452px" scrolling="no"></iframe>
 ```
 
 [Run Revenue Maximum Fullscreen](main.html){ .md-button .md-button--primary }

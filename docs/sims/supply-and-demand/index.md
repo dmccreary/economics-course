@@ -10,7 +10,7 @@ social:
 ---
 # Supply and Demand
 
-<iframe src="main.html" height="450px" scrolling="no"></iframe>
+<iframe src="main.html" height="452px" scrolling="no"></iframe>
 
 [Run the Supply and Demand Demo](./main.html){.md-button .md-button--primary}
 <br/>
