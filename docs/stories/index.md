@@ -6,7 +6,7 @@ These graphic novel stories bring to life the people who shaped economics throug
 
 - **[The Muqaddimah](ibn-khaldun/index.md)**
 
-    ![Ibn Khaldun](./ibn-khaldun/cover.png)
+    ![Ibn Khaldun](./ibn-khaldun/cover.jpg)
 
     Four centuries before Adam Smith, a North African scholar named Ibn Khaldun wrote the most advanced economic theory the world had ever seen. Exiled, shipwrecked, and surviving plagues, he described supply and demand, taxation theory, and the rise and fall of civilizations.
 
@@ -36,7 +36,7 @@ These graphic novel stories bring to life the people who shaped economics throug
 
 - **[Every Block, Every Door](web-du-bois/index.md)**
 
-    ![W.E.B. Du Bois](./web-du-bois/cover.png)
+    ![W.E.B. Du Bois](./web-du-bois/cover.jpg)
 
     W.E.B. Du Bois was given an impossible task: document the economic life of Black Philadelphia. The establishment expected him to confirm racist stereotypes. Instead, he conducted the most rigorous urban economic study ever attempted and created pioneering data visualizations.
 
@@ -48,7 +48,7 @@ These graphic novel stories bring to life the people who shaped economics throug
 
 - **[Basic Economics](thomas-sowell/index.md)**
 
-    ![Thomas Sowell](./thomas-sowell/cover.png)
+    ![Thomas Sowell](./thomas-sowell/cover.jpg)
 
     From poverty in Harlem to dropping out of high school to the Marines, Thomas Sowell discovered economics as a framework for understanding the forces that shaped his own life. He became one of America's most widely read economists, cutting through complexity to reveal how incentives and trade-offs affect real people.
 
@@ -60,19 +60,19 @@ These graphic novel stories bring to life the people who shaped economics throug
 
 - **[Twenty-Seven Dollars](muhammad-yunus/index.md)**
 
-    ![Muhammad Yunus](./muhammad-yunus/cover.png)
+    ![Muhammad Yunus](./muhammad-yunus/cover.jpg)
 
     Professor Muhammad Yunus lent $27 of his own money to 42 villagers during a famine in Bangladesh. Every single one paid him back. This experiment became Grameen Bank and proved that the poorest people in the world are creditworthy — the banking system just never bothered to find out.
 
 - **[The Green Belt](wangari-maathai/index.md)**
 
-    ![Wangari Maathai](./wangari-maathai/cover.png)
+    ![Wangari Maathai](./wangari-maathai/cover.jpg)
 
     Wangari Maathai watched the streams of her childhood dry up as forests were cleared. She founded the Green Belt Movement, paying rural women to plant over 51 million trees. Beaten, jailed, and tear-gassed, she proved that environmental destruction is an economic catastrophe — and won the Nobel Peace Prize.
 
 - **[The Calmest Person in the Room](janet-yellen/index.md)**
 
-    ![Janet Yellen](./janet-yellen/cover.png)
+    ![Janet Yellen](./janet-yellen/cover.jpg)
 
     Janet Yellen spent her career studying why people lose jobs. When the 2008 financial crisis hit, she was one of the few who saw it coming. She became the first woman to chair the Federal Reserve and the first to serve as U.S. Secretary of the Treasury.
 
@@ -90,7 +90,7 @@ These graphic novel stories bring to life the people who shaped economics throug
 
 - **[The Border at Nogales](acemoglu-robinson/index.md)**
 
-    ![Acemoglu and Robinson](./acemoglu-robinson/cover.png)
+    ![Acemoglu and Robinson](./acemoglu-robinson/cover.jpg)
 
     Stand at the border fence in Nogales and look both ways: same geography, same people, radically different prosperity. Daron Acemoglu and James Robinson showed that it comes down to institutions — inclusive ones create wealth, extractive ones create poverty.
 

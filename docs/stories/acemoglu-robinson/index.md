@@ -13,6 +13,11 @@ social:
 ![Cover image](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
+
+I am about to ask you to generate a series of images for a graphic novel.
+Please make the images have a consistent style and consistent characters.
+Do not ask any clarifying questions. Just generate the image immediately when asked to do so.
+
 Please generate a new wide-landscape 16:9 cover image for a graphic novel titled "The Border at Nogales." The style should be contemporary illustration with split-screen composition, contrasting warm and cool palettes. The image is divided down the center by a tall border fence. On the left (the Arizona side), warm golden tones show a clean, prosperous street with paved roads, well-maintained buildings, and a pharmacy with stocked shelves visible through the window. On the right (the Sonora side), cooler muted tones show a dusty street with crumbling infrastructure and struggling small shops. Two figures stand at the fence looking through it from the Arizona side: Daron Acemoglu — a dark-haired man of Turkish-Armenian descent in his 40s, wearing a casual blazer and open-collar shirt — and James Robinson — a tall British man with sandy hair, wearing a field jacket. Both hold notebooks and peer through the fence with intense curiosity. The same desert mountains and sky stretch across both sides, emphasizing identical geography. The title "THE BORDER AT NOGALES" appears in bold modern sans-serif font across the top, with "The Story of Acemoglu and Robinson" in smaller text below. The mood is one of intellectual urgency and stark contrast.
 Generate the image now.
 </details>
