@@ -10,7 +10,7 @@ social:
 
 # Every Block, Every Door: W.E.B. Du Bois and the Data Revolution
 
-![Cover image](./cover.png)
+![Cover image](./cover.jpg)
 <details>
 <summary>Cover Image Prompt</summary>
 Please generate a new wide-landscape 16:9 cover image for a graphic novel titled "Every Block, Every Door." The style should be late Victorian/early Modern with rich earth tones — deep browns, warm ambers, burgundy, and forest green — accented with bold geometric data visualization elements inspired by Du Bois's famous infographics. The central figure is W.E.B. Du Bois — a young Black man in his late 20s, impeccably dressed in a dark three-piece suit with a high starched collar, neatly trimmed mustache and goatee, carrying a leather-bound notebook and pen. He stands at the entrance to a narrow Philadelphia row-house street, the Seventh Ward, in the late 1890s. Behind him, the street stretches into the distance with dozens of doors on both sides. Overlaid on the scene, translucent geometric data visualizations — spiraling bar charts, radiating pie charts, and flowing color-coded maps in Du Bois's distinctive style — float like ghostly revelations emerging from the doorways. The title "EVERY BLOCK, EVERY DOOR" appears in bold modernist serif font across the top, with "The Story of W.E.B. Du Bois" in smaller text below. The mood is one of fierce intellectual determination and the power of truth-telling through data.

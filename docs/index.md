@@ -22,15 +22,13 @@ An this is an interactive intelligent textbook for learning economics fundamenta
 5. Detailed [FAQ](./faq.md)
 6. [Learning Graph](./learning-graph/index.md) with 381 concept dependency relationships
 7. 14 Chapter quizzes (one for each chapter)
-8. Over 140 annotated references
+8. Over 140 detailed annotated references organized by each chapter
 9. Detailed [Instructors Guide](./teachers-guide/index.md) on how teachers can customize this interactive intelligent textbook for their own classroom
+10. Short graphic novel [Stories](./stories/index.md) about innovators in economics.
 
 Use the navigation menu on the left to explore chapters and content.
+Use the search form at the upper right corner to go directly to specific topics in the book.
 
-## About This Book
+Please let me know if you have any feedback.
 
-This textbook provides a comprehensive introduction to economics, covering both microeconomic and macroeconomic principles.
-
-## Chapters
-
-Explore the main content through the Chapters section in the left navigation.
+[Dan McCreary on LinkedIn](https://www.linkedin.com/in/danmccreary/)

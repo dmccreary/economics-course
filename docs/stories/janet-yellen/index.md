@@ -10,7 +10,7 @@ social:
 
 # The Calmest Person in the Room: Janet Yellen and the Crisis That Changed Everything
 
-![Cover image](./cover.png)
+![Cover image](./cover.jpg)
 <details>
 <summary>Cover Image Prompt</summary>
 Please generate a new wide-landscape 16:9 cover image for a graphic novel titled "The Calmest Person in the Room." The style should be clean modern illustration with Washington D.C. architectural elements, using professional blues and grays. The central figure is Janet Yellen — a petite woman in her early 60s with short gray-white hair and glasses, wearing a professional dark blue suit — standing calmly in the ornate boardroom of the Federal Reserve. Behind her, through tall windows, the Washington D.C. skyline is visible with the Capitol dome and monuments. Around her, other officials look anxious and distressed, papers scattered, screens showing falling stock charts. Yellen alone is composed, holding a folder of data, her expression resolute and thoughtful. The title "THE CALMEST PERSON IN THE ROOM" appears in clean modern serif font across the top, with "The Story of Janet Yellen" in smaller text below. The mood is one of quiet determination amid chaos.

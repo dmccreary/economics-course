@@ -13,6 +13,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Course Description: course-description.md
+  
   - Chapters:
     - List of Chapters: chapters/index.md
     - 1. What is Economics?:
@@ -155,11 +156,25 @@ nav:
     - US Treasury Yield Curve Spread Chart: sims/yield-curve/index.md
     - Web Server OS Market Share: sims/linux-marketshare/index.md
     - Who's In the Labor Force?: sims/labor-force-breakdown/index.md
-
+  
   - Stories:
     - List of Stories: stories/index.md
-    - Adam Smith: stories/adam-smith/index.md
-  
+    - Ibn Khaldun - The Muqaddimah: stories/ibn-khaldun/index.md
+    - Adam Smith - The Wealth of Watching: stories/adam-smith/index.md
+    - Harriet Martineau - The Woman Who Translated Wealth: stories/harriet-martineau/index.md
+    - Friedrich Hayek - The Map No One Can Draw: stories/friedrich-hayek/index.md
+    - John Maynard Keynes - The Consequences of Peace: stories/john-maynard-keynes/index.md
+    - W.E.B. Du Bois - Every Block, Every Door: stories/web-du-bois/index.md
+    - Elinor Ostrom - Governing the Commons: stories/elinor-ostrom/index.md
+    - Thomas Sowell - Basic Economics: stories/thomas-sowell/index.md
+    - Amartya Sen - The Boy Who Saw the Famine: stories/amartya-sen/index.md
+    - Muhammad Yunus - Twenty-Seven Dollars: stories/muhammad-yunus/index.md
+    - Wangari Maathai - The Green Belt: stories/wangari-maathai/index.md
+    - Janet Yellen - The Calmest Person in the Room: stories/janet-yellen/index.md
+    - Esther Duflo - What Actually Works?: stories/esther-duflo/index.md
+    - Lisa Cook - The Innovation Gap: stories/lisa-cook/index.md
+    - Acemoglu and Robinson - The Border at Nogales: stories/acemoglu-robinson/index.md
+
   - Learning Graph:
     - Introduction: learning-graph/index.md
     - Graph Viewer: sims/graph-viewer/index.md
@@ -178,25 +193,8 @@ nav:
 
   - FAQ: faq.md
   
-  - Stories:
-    - Overview: stories/index.md
-    - Ibn Khaldun - The Muqaddimah: stories/ibn-khaldun/index.md
-    - Adam Smith - The Wealth of Watching: stories/adam-smith/index.md
-    - Harriet Martineau - The Woman Who Translated Wealth: stories/harriet-martineau/index.md
-    - Friedrich Hayek - The Map No One Can Draw: stories/friedrich-hayek/index.md
-    - John Maynard Keynes - The Consequences of Peace: stories/john-maynard-keynes/index.md
-    - W.E.B. Du Bois - Every Block, Every Door: stories/web-du-bois/index.md
-    - Elinor Ostrom - Governing the Commons: stories/elinor-ostrom/index.md
-    - Thomas Sowell - Basic Economics: stories/thomas-sowell/index.md
-    - Amartya Sen - The Boy Who Saw the Famine: stories/amartya-sen/index.md
-    - Muhammad Yunus - Twenty-Seven Dollars: stories/muhammad-yunus/index.md
-    - Wangari Maathai - The Green Belt: stories/wangari-maathai/index.md
-    - Janet Yellen - The Calmest Person in the Room: stories/janet-yellen/index.md
-    - Esther Duflo - What Actually Works?: stories/esther-duflo/index.md
-    - Lisa Cook - The Innovation Gap: stories/lisa-cook/index.md
-    - Acemoglu and Robinson - The Border at Nogales: stories/acemoglu-robinson/index.md
-  - Sample Prompts:
-    - Generate Chapter Content: prompts/generate-chapter-content.md
+  #- Sample Prompts:
+  #  - Generate Chapter Content: prompts/generate-chapter-content.md
   - Teachers Guide: teachers-guide/index.md
   - Contact: contact.md
   - License: license.md

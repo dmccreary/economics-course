@@ -11,6 +11,7 @@ This free, open-source textbook covers microeconomics, macroeconomics, personal 
 Students are guided by "Ferris the Fox", a cute pedagogical agent mascot who introduces chapters, highlights key insights, and encourages students through harder concepts.
 
 By the numbers:
+• Graph-centric knowledge architecture for easy traversal of learning paths
 • 14 chapters from foundations through the digital economy
 • 206 concepts organized in a dependency learning graph with 381 concept relationships
 • 81 interactive MicroSims (p5.js, Chart.js, vis-network)
