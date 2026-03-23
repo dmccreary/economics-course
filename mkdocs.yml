@@ -6,7 +6,7 @@ site_description: "An intelligent textbook for learning economics fundamentals"
 site_author: "Dan McCreary"
 site_url: "https://dmccreary.github.io/economics-course/"
 repo_url: "https://github.com/dmccreary/economics-course"
-repo_name: "dmccreary/economics-course"
+repo_name: "Go to GitHub"
 
 # Navigation Structure
 nav:
@@ -164,6 +164,10 @@ nav:
     - Quality Metrics: learning-graph/quality-metrics.md
     - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
     - Course Description Assessment: learning-graph/course-description-assessment.md
+    - Book Metrics: learning-graph/book-metrics.md
+    - Chapter Metrics: learning-graph/chapter-metrics.md
+    - Diagram Table: learning-graph/diagram-table.md
+    - Diagram Details: learning-graph/diagram-details.md
     - Mascot Test: learning-graph/mascot-test.md
 
   - Glossary: glossary.md
