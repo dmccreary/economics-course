@@ -4,27 +4,32 @@
 
 ## Full Version
 
-Excited to share a new open educational resource: *Introduction to Economics* — an interactive intelligent textbook designed for high school students!
+Excited to share a new open educational resource: *Introduction to Economics* — an interactive intelligent textbook designed for high school students that is easy to customize!
 
-This free, open-source textbook covers microeconomics, macroeconomics, personal finance, and the digital economy. Built using MkDocs Material and AI-assisted content generation, it features interactive simulations, a concept dependency learning graph, and a critical thinking framework that teaches students to spot economic misinformation in social media and journalism.
+This free, open-source textbook covers microeconomics, macroeconomics, personal finance, and the digital economy. This textbook was created using my state-of-the-art interactive intelligent generation Claude Codes Skills. It features interactive simulations, a concept dependency learning graph, and a critical thinking framework that teaches students to spot economic misinformation in social media and journalism.
 
-Students are guided by Ferris the Fox, a pedagogical agent mascot who introduces chapters, highlights key insights, and encourages students through harder concepts.
+Students are guided by "Ferris the Fox", a cute pedagogical agent mascot who introduces chapters, highlights key insights, and encourages students through harder concepts.
 
-📊 By the numbers:
+By the numbers:
 • 14 chapters from foundations through the digital economy
-• 206 concepts organized in a dependency learning graph
+• 206 concepts organized in a dependency learning graph with 381 concept relationships
 • 81 interactive MicroSims (p5.js, Chart.js, vis-network)
 • 140 quiz questions for self-assessment
+• 140+ annotated references
 • 206 glossary terms with precise definitions
 • 86 frequently asked questions
 • 69 diagrams and 71 equations
+• Short graphic novels about pioneers in Economics
 • 151,000+ words (~665 equivalent printed pages)
 
-Generated using Claude AI skills and the intelligent textbook framework, this project demonstrates how AI can augment educational content creation while maintaining pedagogical rigor aligned to Bloom's Taxonomy.
+This 2.99 level textbook demonstrates how AI can augment educational content creation while maintaining pedagogical rigor aligned to Bloom's Taxonomy.  It also contains highly reusable MicroSims that can
+be added to any webpage of a course with a single iframe.
 
 All content is licensed CC BY-NC-SA 4.0 — free to copy, share, and adapt for non-commercial use.
 
-🌐 Explore the full textbook: https://dmccreary.github.io/economics-course/
+Explore the full textbook: https://dmccreary.github.io/economics-course/
+
+Please direct message me if you would like to learn how to build your own interactive intelligent textbooks.
 
 #AI #GenAI #GenerativeAI #Education #EdTech #OpenEducation #OER #ELearning #InteractiveTextbook #MicroSims #Economics #PersonalFinance #Macroeconomics #Microeconomics #ClaudeAI #MkDocs #CurriculumDesign #STEMeducation #CriticalThinking #FinancialLiteracy
 
