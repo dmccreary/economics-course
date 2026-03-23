@@ -10,7 +10,7 @@ social:
 
 # The Border at Nogales: Acemoglu, Robinson, and Why Nations Fail
 
-![Cover image](./cover.png)
+![Cover image](./cover.jpg)
 <details>
 <summary>Cover Image Prompt</summary>
 

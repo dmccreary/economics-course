@@ -10,7 +10,7 @@ social:
 
 # Twenty-Seven Dollars: Muhammad Yunus and the Microfinance Revolution
 
-![Cover image](./cover.png)
+![Cover image](./cover.jpg)
 <details>
 <summary>Cover Image Prompt</summary>
 Please generate a new wide-landscape 16:9 cover image for a graphic novel titled "Twenty-Seven Dollars." The style should be vibrant South Asian contemporary art with warm golden and emerald tones. The central figure is Muhammad Yunus — a slim, gentle-faced Bangladeshi man in his mid-30s with dark hair, a modest mustache, and warm brown eyes, wearing a simple white kurta — standing in a rural Bangladeshi village. He holds out a small handful of taka banknotes toward a group of village women sitting on the ground weaving bamboo stools. Behind them, lush green rice paddies stretch to the horizon under a dramatic golden sky. Thatched-roof homes and palm trees frame the scene. The title "TWENTY-SEVEN DOLLARS" appears in bold serif font across the top, with "The Story of Muhammad Yunus" in smaller text below. The mood is one of quiet revolution — a small gesture about to change the world.
