@@ -10,7 +10,7 @@ social:
 
 # The Muqaddimah: Ibn Khaldun — The First Economist
 
-![Cover image](./cover.png)
+![Cover image](./cover.jpg)
 <details>
 <summary>Cover Image Prompt</summary>
 Please generate a new wide-landscape 16:9 cover image for a graphic novel titled "The Muqaddimah." The style should be Islamic Golden Age illuminated manuscript — rich geometric patterns, arabesques, and calligraphic flourishes in deep blues, burnished golds, and burgundies. The central figure is Ibn Khaldun — a distinguished North African man in his late 40s with a neatly trimmed beard, wearing a white turban and flowing scholarly robes in deep blue and gold — seated at a writing desk in a vaulted stone chamber, quill in hand, surrounded by manuscripts and books. Behind him, through an arched Moorish window, a sweeping landscape transitions from the deserts of North Africa to the minarets of Tunis and the palaces of Al-Andalus. Geometric tile patterns frame the scene like a manuscript border. The title "THE MUQADDIMAH" appears in elegant serif font across the top, with "The Story of Ibn Khaldun — The First Economist" in smaller text below. The mood is one of solitary genius and civilizational grandeur.
