@@ -162,7 +162,7 @@ Even as World War II raged, Keynes was already working to ensure the peace would
 
 ## Panel 14: The Ideas That Outlived Him
 
-![](./panel-14.png)
+![](./panel-14.jpg)
 <details><summary>Image Prompt</summary>
 Please generate a 16:9 image in Art Deco / Modernist style blending into modern style, depicting panel 14 of 14. Make the characters and style consistent with the prior panels. The scene is a creative split with super bright colors: on the left, Keynes in 1936, sitting in his Cambridge study, writing The General Theory by lamplight, his face showing the strain of illness but illuminated by conviction. On the right, the same composition mirrored in a contemporary setting — a diverse group of young economists and policymakers in a modern government office, studying data on screens showing GDP, unemployment rates, and fiscal stimulus plans during a modern economic crisis. Charts on their screens echo Keynes's aggregate demand curves. Between the two scenes, a bridge of bold geometric golden light connects past and present. Floating annotations link both sides — "Aggregate Demand" and "Countercyclical Spending" on Keynes's side transform into modern terms like "Stimulus Package," "Fiscal Policy," "Automatic Stabilizers" on the modern side. The color palette blends warm Art Deco gold on the left with clean, bright modern tones — electric blues, vibrant greens, warm oranges — on the right, unified by the golden geometric bridge. The emotional tone is deeply inspiring — the ideas of a man who died in 1946 are still saving economies today.
 Generate the image now.
