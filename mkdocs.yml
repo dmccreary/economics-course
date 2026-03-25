@@ -222,11 +222,16 @@ watch:
   - docs
   - mkdocs.yml
 
-# these are mostly image prompts and some README files that we don't want to include in the generated site
+# Listing a path here prevents the error messages in the mkdocs build step
+# these are mostly image prompts and some README files that we don't want to include in the 
+# generated site 
 exclude_docs: |
   img/mascot/image-prompts.md
   prompts/create-logo-generator.md
   learning-graph/linkedin-announcement.md
+  prompts/generate-chapter-content.md
+  prompts/story-ideas.md
+  stories/story-ideas.md
 
 # Minimal Markdown Extensions
 markdown_extensions:
