@@ -205,7 +205,7 @@ Think about the miracle that happens every day: millions of people wake up and w
 
 #### Diagram: Price Mechanism Feedback Loop
 
-<iframe src="../../sims/price-mechanism-loop/main.html" width="100%" height="400px" scrolling="no"></iframe>
+<iframe src="../../sims/price-mechanism-loop/main.html" width="100%" height="575px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Price Mechanism Feedback Loop Workflow</summary>
@@ -604,7 +604,7 @@ Policies that maximize efficiency might increase unfairness:
 
 #### Diagram: Efficiency-Equity Spectrum
 
-<iframe src="../../sims/efficiency-equity-spectrum/main.html" width="100%" height="400px" scrolling="no"></iframe>
+<iframe src="../../sims/efficiency-equity-spectrum/main.html" width="100%" height="500px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Efficiency-Equity Trade-off Spectrum Infographic</summary>

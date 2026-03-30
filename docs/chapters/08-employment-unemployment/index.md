@@ -81,7 +81,7 @@ This matters a lot, as we'll see.
 
 #### Diagram: Who's In the Labor Force?
 
-<iframe src="../../sims/labor-force-breakdown/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/labor-force-breakdown/main.html" width="100%" height="500px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Labor Force Population Breakdown Infographic</summary>
@@ -159,7 +159,7 @@ That's the number you hear in the news: "The unemployment rate is 4.2%."
 
 #### Diagram: Unemployment Rate Calculator
 
-<iframe src="../../sims/unemployment-calculator/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/unemployment-calculator/main.html" width="100%" height="575px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Unemployment Rate Calculator MicroSim</summary>

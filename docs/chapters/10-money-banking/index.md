@@ -130,7 +130,7 @@ Not everything works well as money. Good money has these characteristics:
 
 #### Diagram: Money Characteristics Evaluator
 
-<iframe src="../../sims/money-evaluator/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/money-evaluator/main.html" width="100%" height="575px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Money Characteristics Evaluator MicroSim</summary>
