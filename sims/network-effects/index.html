@@ -5084,9 +5084,16 @@
 <br/>
 <a href="https://editor.p5js.org/">Edit in the p5.js Editor</a></p>
 <h2 id="about-this-microsim">About This MicroSim<a class="headerlink" href="#about-this-microsim" title="Permanent link">&para;</a></h2>
-<p>TODO: Describe what this MicroSim demonstrates.</p>
+<p>This MicroSim visualizes Metcalfe's Law by showing how the value of a network grows proportionally to the square of its users. Students add users to a network and watch as nodes and connections multiply on screen, with a metrics panel displaying user count, possible connections, and total network value. The sim also lets students compare their network against a competitor to understand first-mover advantage and includes preset scenarios based on real platforms like Facebook, WhatsApp, and PayPal.</p>
 <h2 id="how-to-use">How to Use<a class="headerlink" href="#how-to-use" title="Permanent link">&para;</a></h2>
-<p>TODO: Describe how students should interact with this MicroSim.</p>
+<ol>
+<li><strong>Click "Add 10 Users"</strong> to grow your network. Watch new nodes appear and connections form between nearby users. Each click adds 10 users to the visualization.</li>
+<li><strong>Click "Start from Scratch"</strong> to reset the network back to 5 users and clear the competitor.</li>
+<li><strong>Adjust the Speed slider</strong> to control how fast the physics animation runs (1 = slow, 5 = fast). This affects how quickly nodes settle into position.</li>
+<li><strong>Check "Show Competitor"</strong> to display a second network's metrics below your own. This reveals the competitive advantage ratio between the two networks.</li>
+<li><strong>Select a preset scenario</strong> from the dropdown (Facebook vs MySpace, WhatsApp Growth, PayPal Network) to load real-world-inspired network sizes for both your platform and the competitor.</li>
+<li><strong>Read the metrics panel</strong> at the bottom of the visualization to see user count, possible connections (n*(n-1)/2), network value (n-squared), and value per user. Notice the "Past tipping point!" indicator when your network exceeds 30 users.</li>
+</ol>
 <h2 id="iframe-embed-code">Iframe Embed Code<a class="headerlink" href="#iframe-embed-code" title="Permanent link">&para;</a></h2>
 <p>You can add this MicroSim to any web page by adding this to your HTML:</p>
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://dmccreary.github.io/economics-course/sims/network-effects/main.html&quot;</span>
@@ -5096,22 +5103,32 @@
 </code></pre></div>
 <h2 id="lesson-plan">Lesson Plan<a class="headerlink" href="#lesson-plan" title="Permanent link">&para;</a></h2>
 <h3 id="grade-level">Grade Level<a class="headerlink" href="#grade-level" title="Permanent link">&para;</a></h3>
-<p>9-12 (High School Geometry)</p>
+<p>9-12 (High School Economics)</p>
 <h3 id="duration">Duration<a class="headerlink" href="#duration" title="Permanent link">&para;</a></h3>
 <p>10-15 minutes</p>
 <h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
-<p>TODO: List prerequisites.</p>
+<ul>
+<li>Understanding of basic exponents (squaring a number)</li>
+<li>Familiarity with social media platforms and how they grow</li>
+<li>Awareness that some markets tend toward monopoly or dominant players</li>
+</ul>
 <h3 id="activities">Activities<a class="headerlink" href="#activities" title="Permanent link">&para;</a></h3>
 <ol>
-<li><strong>Exploration</strong> (5 min): TODO</li>
-<li><strong>Guided Practice</strong> (5 min): TODO</li>
-<li><strong>Assessment</strong> (5 min): TODO</li>
+<li><strong>Exploration</strong> (5 min): Start from scratch and click "Add 10 Users" five times, recording the network value after each click. Plot these values on paper to see the exponential growth curve. Explain why doubling users more than doubles the network value.</li>
+<li><strong>Guided Practice</strong> (5 min): Select the "Facebook vs MySpace" scenario and examine the advantage ratio. Discuss why a network with 80 users has far more than twice the value of a network with 40 users. Connect this to why social media markets tend toward winner-take-all outcomes.</li>
+<li><strong>Assessment</strong> (5 min): Using the competitor comparison feature, explain in writing why it is so difficult for a new social network to compete with an established one, even if the new platform has better features. Use specific numbers from the simulator to support your argument.</li>
 </ol>
 <h3 id="assessment">Assessment<a class="headerlink" href="#assessment" title="Permanent link">&para;</a></h3>
-<p>TODO: List assessment criteria.</p>
+<ul>
+<li>Students can state Metcalfe's Law and explain why network value grows as n-squared</li>
+<li>Students can define "tipping point" and "critical mass" in the context of network effects</li>
+<li>Students can explain first-mover advantage using quantitative evidence from the simulator</li>
+</ul>
 <h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
 <ol>
-<li>TODO: Add references.</li>
+<li><a href="https://en.wikipedia.org/wiki/Network_effect">Network Effect</a> - Wikipedia article on network effects, Metcalfe's Law, and their role in technology markets</li>
+<li><a href="https://en.wikipedia.org/wiki/Metcalfe%27s_law">Metcalfe's Law</a> - Wikipedia explanation of the mathematical relationship between network size and value</li>
+<li><a href="https://www.investopedia.com/terms/n/network-effect.asp">Network Effects</a> - Investopedia overview of how network effects create competitive advantages and barriers to entry</li>
 </ol>
 
 

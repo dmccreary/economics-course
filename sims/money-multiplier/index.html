@@ -5084,9 +5084,17 @@
 <br/>
 <a href="https://editor.p5js.org/">Edit in the p5.js Editor</a></p>
 <h2 id="about-this-microsim">About This MicroSim<a class="headerlink" href="#about-this-microsim" title="Permanent link">&para;</a></h2>
-<p>TODO: Describe what this MicroSim demonstrates.</p>
+<p>This MicroSim visualizes how a single deposit multiplies through the banking system under fractional reserve banking. When a bank receives a deposit, it keeps a fraction as reserves and lends out the rest, which gets deposited in another bank, which lends again, and so on. Students can watch this chain reaction unfold step by step or in auto-play mode, seeing how an initial $1,000 deposit can create thousands of dollars in total deposits across the banking system.</p>
 <h2 id="how-to-use">How to Use<a class="headerlink" href="#how-to-use" title="Permanent link">&para;</a></h2>
-<p>TODO: Describe how students should interact with this MicroSim.</p>
+<ol>
+<li><strong>Set the Initial Deposit:</strong> Use the deposit slider to choose a starting amount from $100 to $10,000.</li>
+<li><strong>Set the Reserve Ratio:</strong> Use the reserve slider to set the percentage each bank must hold in reserve (from 5% to 50%). A lower ratio means more money creation.</li>
+<li><strong>Step Through Rounds:</strong> Click the "Step" button to advance one bank at a time, watching each deposit split into reserves (dark green) and loans (light green).</li>
+<li><strong>Use Auto-Play:</strong> Click "Auto-Play" to watch the chain reaction animate automatically. Adjust the speed slider to control the animation pace. Click "Pause" to stop.</li>
+<li><strong>Reset:</strong> Click "Reset" to start over with current slider settings.</li>
+<li><strong>Show the Formula:</strong> Check "Show Formula" to display the money multiplier equation: Money Multiplier = 1 / Reserve Ratio.</li>
+<li><strong>Read the Totals:</strong> The summary panel shows running totals for deposits, reserves, and loans, plus the current and theoretical maximum money multiplier.</li>
+</ol>
 <h2 id="iframe-embed-code">Iframe Embed Code<a class="headerlink" href="#iframe-embed-code" title="Permanent link">&para;</a></h2>
 <p>You can add this MicroSim to any web page by adding this to your HTML:</p>
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://dmccreary.github.io/economics-course/sims/money-multiplier/main.html&quot;</span>
@@ -5096,22 +5104,32 @@
 </code></pre></div>
 <h2 id="lesson-plan">Lesson Plan<a class="headerlink" href="#lesson-plan" title="Permanent link">&para;</a></h2>
 <h3 id="grade-level">Grade Level<a class="headerlink" href="#grade-level" title="Permanent link">&para;</a></h3>
-<p>9-12 (High School Geometry)</p>
+<p>9-12 (High School Economics)</p>
 <h3 id="duration">Duration<a class="headerlink" href="#duration" title="Permanent link">&para;</a></h3>
 <p>10-15 minutes</p>
 <h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
-<p>TODO: List prerequisites.</p>
+<ul>
+<li>Understanding of what banks do with deposits (lend money to borrowers)</li>
+<li>Basic knowledge of fractions and percentages</li>
+<li>Familiarity with the concept of reserves and why banks hold them</li>
+</ul>
 <h3 id="activities">Activities<a class="headerlink" href="#activities" title="Permanent link">&para;</a></h3>
 <ol>
-<li><strong>Exploration</strong> (5 min): TODO</li>
-<li><strong>Guided Practice</strong> (5 min): TODO</li>
-<li><strong>Assessment</strong> (5 min): TODO</li>
+<li><strong>Exploration</strong> (5 min): Set the reserve ratio to 10% and the deposit to $1,000. Click "Step" through all 10 rounds and record total deposits after each round. Note how each successive bank creates less new money. Check "Show Formula" to see the theoretical maximum.</li>
+<li><strong>Guided Practice</strong> (5 min): Compare reserve ratios of 10%, 20%, and 50%. For each, predict the theoretical money multiplier before running the simulation, then verify. Discuss why a higher reserve ratio means less money creation and how this gives central banks a policy tool.</li>
+<li><strong>Assessment</strong> (5 min): Answer: If the Federal Reserve raises the required reserve ratio from 10% to 20%, what happens to the money supply? Use the simulation to demonstrate your answer with specific dollar amounts.</li>
 </ol>
 <h3 id="assessment">Assessment<a class="headerlink" href="#assessment" title="Permanent link">&para;</a></h3>
-<p>TODO: List assessment criteria.</p>
+<ul>
+<li>Students can explain how fractional reserve banking creates money through the lending cycle</li>
+<li>Students can calculate the money multiplier given a reserve ratio (1 / reserve ratio)</li>
+<li>Students can predict how changes in the reserve ratio affect total money creation in the economy</li>
+</ul>
 <h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
 <ol>
-<li>TODO: Add references.</li>
+<li><a href="https://en.wikipedia.org/wiki/Money_multiplier">Money Multiplier - Wikipedia</a> - Explanation of the money multiplier concept and its relationship to reserve requirements</li>
+<li><a href="https://en.wikipedia.org/wiki/Fractional-reserve_banking">Fractional-Reserve Banking - Wikipedia</a> - How banks create money by lending out deposits while keeping a fraction in reserve</li>
+<li><a href="https://www.khanacademy.org/economics-finance-domain/macroeconomics/macro-economic-indicators-and-the-business-cycle/macro-the-money-market/v/the-money-multiplier">The Money Multiplier - Khan Academy</a> - Video walkthrough of money creation through the banking system</li>
 </ol>
 
 

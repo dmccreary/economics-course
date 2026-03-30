@@ -3636,6 +3636,33 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#about-this-microsim" class="md-nav__link">
+    <span class="md-ellipsis">
+      About This MicroSim
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Use
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iframe-embed-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Iframe Embed Code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#lesson-plan" class="md-nav__link">
     <span class="md-ellipsis">
       Lesson Plan
@@ -3735,6 +3762,15 @@
   <a href="#sample-code" class="md-nav__link">
     <span class="md-ellipsis">
       Sample Code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
     </span>
   </a>
   
@@ -4972,6 +5008,33 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#about-this-microsim" class="md-nav__link">
+    <span class="md-ellipsis">
+      About This MicroSim
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Use
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iframe-embed-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Iframe Embed Code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#lesson-plan" class="md-nav__link">
     <span class="md-ellipsis">
       Lesson Plan
@@ -5076,6 +5139,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -5101,13 +5173,23 @@
 <p><a class="md-button md-button--primary" href="main.html">Run the Supply and Demand Demo</a>
 <br/>
 <a href="https://editor.p5js.org/dmccreary/sketches/1fr3e7xtB">Edit the Supply and Demand MicroSim</a></p>
-<p>In this example, I uploaded an image of an old JavaScript SVG program I had written over 15
-years ago.  I asked ChatGPT to replicate the program using p5.js</p>
-<div class="admonition prompt">
-<p class="admonition-title">Prompt</p>
-<p>Create a single file p5.js sketch that replicates the function of this image.</p>
-</div>
-<p><img alt="Input Image" src="input-image.png" /></p>
+<h2 id="about-this-microsim">About This MicroSim<a class="headerlink" href="#about-this-microsim" title="Permanent link">&para;</a></h2>
+<p>This MicroSim demonstrates the fundamental economic relationship between price and quantity demanded using a simple linear demand curve. Students move a price slider and watch a blue dot travel along the red demand curve, with guide lines extending to both axes to show the corresponding price and quantity values. The inverse relationship is immediately visible: as price increases, quantity sold decreases, and vice versa.</p>
+<h2 id="how-to-use">How to Use<a class="headerlink" href="#how-to-use" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>Move the price slider</strong> at the bottom of the display to set a price between 0 and 200. The current price value is displayed to the left of the slider.</li>
+<li><strong>Watch the blue dot</strong> move along the red demand curve. The dot shows the intersection of the current price with the demand curve.</li>
+<li><strong>Read the guide lines</strong>: the horizontal silver line from the Y-axis to the dot shows the current price, and the vertical silver line from the dot down to the X-axis shows the resulting quantity sold.</li>
+<li><strong>Observe the inverse relationship</strong>: drag the slider to a high price and note the low quantity sold. Then drag it to a low price and note the high quantity sold.</li>
+<li><strong>Read the quantity value</strong> displayed at the bottom-right of the control area.</li>
+</ol>
+<h2 id="iframe-embed-code">Iframe Embed Code<a class="headerlink" href="#iframe-embed-code" title="Permanent link">&para;</a></h2>
+<p>You can add this MicroSim to any web page by adding this to your HTML:</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://dmccreary.github.io/economics-course/sims/supply-and-demand/main.html&quot;</span>
+        <span class="na">height</span><span class="o">=</span><span class="s">&quot;452px&quot;</span>
+        <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span>
+        <span class="na">scrolling</span><span class="o">=</span><span class="s">&quot;no&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+</code></pre></div>
 <h2 id="lesson-plan">Lesson Plan<a class="headerlink" href="#lesson-plan" title="Permanent link">&para;</a></h2>
 <p>This is a lesson plan for 10th-grade students in a microeconomics class.
 The lesson plan will include objectives, materials, procedure, and assessment for a lab activity using the p5.js sketch.</p>
@@ -5232,11 +5314,11 @@ The lesson plan will include objectives, materials, procedure, and assessment fo
 <span class="w">  </span><span class="nx">fill</span><span class="p">(</span><span class="mf">0</span><span class="p">);</span>
 <span class="w">  </span><span class="nx">noStroke</span><span class="p">();</span>
 <span class="w">  </span><span class="nx">circle</span><span class="p">(</span>
-<span class="w">    </span><span class="nx">margin</span><span class="p">,</span><span class="w"> </span>
+<span class="w">    </span><span class="nx">margin</span><span class="p">,</span>
 <span class="w">    </span><span class="nx">map</span><span class="p">(</span><span class="nx">price</span><span class="p">,</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span><span class="w"> </span><span class="nx">maxPrice</span><span class="p">,</span><span class="w"> </span><span class="nx">width</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nx">margin</span><span class="p">,</span><span class="w"> </span><span class="nx">margin</span><span class="p">),</span><span class="w"> </span><span class="mf">10</span><span class="p">);</span>
 
 <span class="w">  </span><span class="nx">circle</span><span class="p">(</span>
-<span class="w">    </span><span class="nx">map</span><span class="p">(</span><span class="nx">quantity</span><span class="p">,</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span><span class="w"> </span><span class="nx">maxQuantity</span><span class="p">,</span><span class="w"> </span><span class="nx">margin</span><span class="p">,</span><span class="w"> </span><span class="nx">height</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nx">margin</span><span class="p">),</span><span class="w"> </span>
+<span class="w">    </span><span class="nx">map</span><span class="p">(</span><span class="nx">quantity</span><span class="p">,</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span><span class="w"> </span><span class="nx">maxQuantity</span><span class="p">,</span><span class="w"> </span><span class="nx">margin</span><span class="p">,</span><span class="w"> </span><span class="nx">height</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nx">margin</span><span class="p">),</span>
 <span class="w">    </span><span class="nx">height</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nx">margin</span><span class="p">,</span><span class="w"> </span><span class="mf">10</span><span class="p">);</span>
 
 <span class="w">  </span><span class="c1">// Text annotations</span>
@@ -5258,6 +5340,12 @@ The lesson plan will include objectives, materials, procedure, and assessment fo
 <span class="w">  </span><span class="nx">text</span><span class="p">(</span><span class="sb">`At low prices a high quantity is sold.`</span><span class="p">,</span><span class="w"> </span><span class="nx">keyMargin</span><span class="p">,</span><span class="w"> </span><span class="nx">margin</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">80</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div>
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ol>
+<li><a href="https://en.wikipedia.org/wiki/Supply_and_demand">Supply and Demand</a> - Wikipedia article on the fundamental economic model of price determination in a market</li>
+<li><a href="https://en.wikipedia.org/wiki/Demand_curve">Demand Curve</a> - Wikipedia explanation of the demand curve and the law of demand</li>
+<li><a href="https://www.investopedia.com/terms/l/lawofdemand.asp">Law of Demand</a> - Investopedia article on the inverse relationship between price and quantity demanded</li>
+</ol>
 
 
 

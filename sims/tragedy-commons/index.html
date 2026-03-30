@@ -5084,9 +5084,17 @@
 <br/>
 <a href="https://editor.p5js.org/">Edit in the p5.js Editor</a></p>
 <h2 id="about-this-microsim">About This MicroSim<a class="headerlink" href="#about-this-microsim" title="Permanent link">&para;</a></h2>
-<p>TODO: Describe what this MicroSim demonstrates.</p>
+<p>This MicroSim simulates a shared fishing lake where you and three AI fishers compete to harvest fish. The fish population reproduces according to logistic growth, but if total harvesting exceeds reproduction, the population declines and can collapse entirely. Each fisher profits by catching more, but if everyone maximizes their individual catch, the shared resource is destroyed. This demonstrates the tragedy of the commons -- one of the most important concepts in environmental and resource economics.</p>
 <h2 id="how-to-use">How to Use<a class="headerlink" href="#how-to-use" title="Permanent link">&para;</a></h2>
-<p>TODO: Describe how students should interact with this MicroSim.</p>
+<ol>
+<li><strong>Set your fishing rate</strong> using the "Your rate" slider (0 to 80 fish per year).</li>
+<li><strong>Set AI fisher behavior</strong> using the three dropdown menus (Conservative, Moderate, or Aggressive). Conservative fishers take 15 fish/year, Moderate take 30, and Aggressive take 50.</li>
+<li><strong>Click "Advance 1 Year"</strong> to simulate one year of fishing and reproduction, or <strong>click "Run 10 Years"</strong> to simulate a decade at once.</li>
+<li><strong>Watch the lake visualization</strong> on the left -- gold dots represent fish, and the total count is displayed in the center. If the population drops below 50, the fishery collapses.</li>
+<li><strong>Monitor the population graph</strong> on the right, which shows fish population over time with green (sustainable) and red (danger) reference lines.</li>
+<li><strong>Read the stats panel</strong> for reproduction rate, total harvest, net change, maximum sustainable yield, your catch, and your profit.</li>
+<li><strong>Click Reset</strong> to restore the lake to its starting population of 1,000 fish.</li>
+</ol>
 <h2 id="iframe-embed-code">Iframe Embed Code<a class="headerlink" href="#iframe-embed-code" title="Permanent link">&para;</a></h2>
 <p>You can add this MicroSim to any web page by adding this to your HTML:</p>
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://dmccreary.github.io/economics-course/sims/tragedy-commons/main.html&quot;</span>
@@ -5096,22 +5104,32 @@
 </code></pre></div>
 <h2 id="lesson-plan">Lesson Plan<a class="headerlink" href="#lesson-plan" title="Permanent link">&para;</a></h2>
 <h3 id="grade-level">Grade Level<a class="headerlink" href="#grade-level" title="Permanent link">&para;</a></h3>
-<p>9-12 (High School Geometry)</p>
+<p>9-12 (High School Economics)</p>
 <h3 id="duration">Duration<a class="headerlink" href="#duration" title="Permanent link">&para;</a></h3>
 <p>10-15 minutes</p>
 <h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
-<p>TODO: List prerequisites.</p>
+<ul>
+<li>Understanding of renewable resources and sustainability</li>
+<li>Basic knowledge of supply and incentives</li>
+<li>Awareness that shared resources face unique economic challenges</li>
+</ul>
 <h3 id="activities">Activities<a class="headerlink" href="#activities" title="Permanent link">&para;</a></h3>
 <ol>
-<li><strong>Exploration</strong> (5 min): TODO</li>
-<li><strong>Guided Practice</strong> (5 min): TODO</li>
-<li><strong>Assessment</strong> (5 min): TODO</li>
+<li><strong>Exploration</strong> (5 min): Have students set all AI fishers to Aggressive and their own rate to 50. Run the simulation for 10 years and observe the collapse. Then reset, set everyone to Conservative (15/year), and run again. Compare the outcomes and total profits.</li>
+<li><strong>Guided Practice</strong> (5 min): Challenge students to find the maximum sustainable yield -- the highest total harvest rate that keeps the fish population stable indefinitely. Discuss why individual fishers are unlikely to voluntarily limit their catch even when they know the sustainable level.</li>
+<li><strong>Assessment</strong> (5 min): Students propose three different policy solutions to prevent overfishing (e.g., fishing quotas, property rights, taxes, seasonal closures) and explain how each addresses the misalignment between individual and collective incentives.</li>
 </ol>
 <h3 id="assessment">Assessment<a class="headerlink" href="#assessment" title="Permanent link">&para;</a></h3>
-<p>TODO: List assessment criteria.</p>
+<ul>
+<li>Students can explain the tragedy of the commons using the fishing simulation as evidence.</li>
+<li>Students can identify the maximum sustainable yield and explain why unregulated harvesting exceeds it.</li>
+<li>Students can compare at least two policy solutions for managing common resources and evaluate their tradeoffs.</li>
+</ul>
 <h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
 <ol>
-<li>TODO: Add references.</li>
+<li><a href="https://en.wikipedia.org/wiki/Tragedy_of_the_commons">Tragedy of the commons - Wikipedia</a> -- Garrett Hardin's foundational concept explaining how shared resources are overexploited.</li>
+<li><a href="https://en.wikipedia.org/wiki/Common-pool_resource">Common-pool resource - Wikipedia</a> -- Economic analysis of resources that are rivalrous but non-excludable, like fisheries.</li>
+<li><a href="https://en.wikipedia.org/wiki/Overfishing">Overfishing - Wikipedia</a> -- Real-world examples of fishery collapse and management strategies that connect directly to this simulation.</li>
 </ol>
 
 
