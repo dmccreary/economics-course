@@ -223,7 +223,7 @@ This pattern explains SO MUCH about consumer behavior:
 
 #### Diagram: Marginal Utility Satisfaction Meter
 
-<iframe src="../../sims/marginal-utility-meter/main.html" width="100%" height="400px" scrolling="no"></iframe>
+<iframe src="../../sims/marginal-utility-meter/main.html" width="100%" height="450px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Marginal Utility Satisfaction Meter MicroSim</summary>
@@ -438,7 +438,7 @@ Two types of related goods affect demand:
 
 #### Diagram: Substitutes and Complements Network
 
-<iframe src="../../sims/related-goods-network/main.html" width="100%" height="400px" scrolling="no"></iframe>
+<iframe src="../../sims/related-goods-network/main.html" width="100%" height="500px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Related Goods Network Infographic</summary>
@@ -631,7 +631,7 @@ Examples of inelastic goods:
 
 #### Diagram: Elasticity Calculator
 
-<iframe src="../../sims/elasticity-calculator/main.html" width="100%" height="400px" scrolling="no"></iframe>
+<iframe src="../../sims/elasticity-calculator/main.html" width="100%" height="500px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Price Elasticity Calculator MicroSim</summary>
