@@ -1,7 +1,7 @@
 ---
 title: Supply and Demand
 description: An interactive MicroSim demonstrating supply and demand.
-quality_score: 67
+quality_score: 76
 image: /sims/supply-and-demand/supply-and-demand.png
 og:image: /sims/supply-and-demand/supply-and-demand.png
 twitter:image: /sims/supply-and-demand/supply-and-demand.png
@@ -16,13 +16,28 @@ social:
 <br/>
 [Edit the Supply and Demand MicroSim](https://editor.p5js.org/dmccreary/sketches/1fr3e7xtB)
 
-In this example, I uploaded an image of an old JavaScript SVG program I had written over 15
-years ago.  I asked ChatGPT to replicate the program using p5.js
+## About This MicroSim
 
-!!! prompt
-    Create a single file p5.js sketch that replicates the function of this image.
+This MicroSim demonstrates the fundamental economic relationship between price and quantity demanded using a simple linear demand curve. Students move a price slider and watch a blue dot travel along the red demand curve, with guide lines extending to both axes to show the corresponding price and quantity values. The inverse relationship is immediately visible: as price increases, quantity sold decreases, and vice versa.
 
-![Input Image](./input-image.png)
+## How to Use
+
+1. **Move the price slider** at the bottom of the display to set a price between 0 and 200. The current price value is displayed to the left of the slider.
+2. **Watch the blue dot** move along the red demand curve. The dot shows the intersection of the current price with the demand curve.
+3. **Read the guide lines**: the horizontal silver line from the Y-axis to the dot shows the current price, and the vertical silver line from the dot down to the X-axis shows the resulting quantity sold.
+4. **Observe the inverse relationship**: drag the slider to a high price and note the low quantity sold. Then drag it to a low price and note the high quantity sold.
+5. **Read the quantity value** displayed at the bottom-right of the control area.
+
+## Iframe Embed Code
+
+You can add this MicroSim to any web page by adding this to your HTML:
+
+```html
+<iframe src="https://dmccreary.github.io/economics-course/sims/supply-and-demand/main.html"
+        height="452px"
+        width="100%"
+        scrolling="no"></iframe>
+```
 
 ## Lesson Plan
 
@@ -96,23 +111,23 @@ function setup() {
   const canvas = createCanvas(width, height);
   canvas.parent('canvas-container');
   textSize(16);
-  
+
   // Create a slider element for price adjustment
   priceSlider = createSlider(0, maxPrice, price);
   priceSlider.position(labelValueMargin, height - 35);
   priceSlider.style('width', width - labelValueMargin - 20 + 'px');
-  
+
   // Define the demand curve as a function
   demandCurve = (p) => maxQuantity - p;
 }
 
 function draw() {
   background(240);
-  
+
   // Update quantity based on the current value of the price slider
   price = priceSlider.value();
   quantity = demandCurve(price);
-  
+
   // Draw the axes
   stroke(0);
   strokeWeight(1);
@@ -122,43 +137,43 @@ function draw() {
   strokeWeight(0);
   text('Price', 30, 40); // Y-axis label
   text('Quantity Sold', width - margin - 70, height - margin - 10); // X-axis label
-  
+
   // Draw the demand curve
   stroke(255, 0, 0);
   strokeWeight(3);
   line(margin, margin, width - margin, height - margin);
-  
+
   // Draw a point on the demand curve based on current price and quantity
   fill(0, 0, 255);
   noStroke();
   x = map(quantity, 0, maxQuantity, margin, height - margin)
   y = map(price, 0, maxPrice, width - margin, margin)
   circle(x,y,10);
-  
+
   stroke('silver');
   line(margin, y, x, y)
   line(x, y, x, height - margin)
-  
+
   fill(0);
   noStroke();
   circle(
-    margin, 
+    margin,
     map(price, 0, maxPrice, width - margin, margin), 10);
-  
+
   circle(
-    map(quantity, 0, maxQuantity, margin, height - margin), 
+    map(quantity, 0, maxQuantity, margin, height - margin),
     height - margin, 10);
-  
+
   // Text annotations
   noStroke();
   fill(0);
   textSize(16);
   text("Price and Demand Curve", 120, 30);
   text(`Input Price: ${price}`, 10, height - 20);
-  
+
   text(`Output: Quantity = ${quantity}`, 70, 490);
   textSize(12);
-  
+
   // instructions
   let keyMargin = 180;
   text(`Adjust price by moving the slider.`,     keyMargin, margin);
@@ -168,3 +183,9 @@ function draw() {
   text(`At low prices a high quantity is sold.`, keyMargin, margin + 80);
 }
 ```
+
+## References
+
+1. [Supply and Demand](https://en.wikipedia.org/wiki/Supply_and_demand) - Wikipedia article on the fundamental economic model of price determination in a market
+2. [Demand Curve](https://en.wikipedia.org/wiki/Demand_curve) - Wikipedia explanation of the demand curve and the law of demand
+3. [Law of Demand](https://www.investopedia.com/terms/l/lawofdemand.asp) - Investopedia article on the inverse relationship between price and quantity demanded

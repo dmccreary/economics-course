@@ -695,7 +695,7 @@ This explains why:
 
 #### Diagram: Economies of Scale Visualizer
 
-<iframe src="../../sims/economies-of-scale/main.html" width="100%" height="400px" scrolling="no"></iframe>
+<iframe src="../../sims/economies-of-scale/main.html" width="100%" height="450px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Economies of Scale Infographic</summary>
@@ -777,7 +777,7 @@ On a graph, producer surplus is the area ABOVE the supply curve and BELOW the ma
 
 #### Diagram: Surplus Explorer
 
-<iframe src="../../sims/surplus-explorer/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/surplus-explorer/main.html" width="100%" height="550px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Consumer and Producer Surplus Explorer MicroSim</summary>

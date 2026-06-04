@@ -117,7 +117,7 @@ This is why economists say **there's no such thing as a free lunch**. Even if so
 
 #### Diagram: Opportunity Cost Calculator
 
-<iframe src="../../sims/opportunity-cost-calculator/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/opportunity-cost-calculator/main.html" width="100%" height="600px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Opportunity Cost Calculator MicroSim</summary>
@@ -213,7 +213,7 @@ This applies everywhere:
 
 #### Diagram: Diminishing Marginal Benefit
 
-<iframe src="../../sims/marginal-benefit-pizza/main.html" width="100%" height="400px" scrolling="no"></iframe>
+<iframe src="../../sims/marginal-benefit-pizza/main.html" width="100%" height="450px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Pizza Slices Marginal Benefit MicroSim</summary>
@@ -463,7 +463,7 @@ Different countries answer this differently. The United States leans more toward
 
 #### Diagram: Economic Systems Comparison
 
-<iframe src="../../sims/economic-systems-spectrum/main.html" width="100%" height="400px" scrolling="no"></iframe>
+<iframe src="../../sims/economic-systems-spectrum/main.html" width="100%" height="500px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Economic Systems Spectrum Infographic</summary>

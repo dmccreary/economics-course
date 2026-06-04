@@ -78,7 +78,7 @@ Think of market structure as a spectrum. On one end, you have lots of competitio
 
 #### Diagram: Market Structure Spectrum
 
-<iframe src="../../sims/market-structure-spectrum/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/market-structure-spectrum/main.html" width="100%" height="550px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Market Structure Spectrum MicroSim</summary>

@@ -121,7 +121,7 @@ Add up the value added by every industry. Agriculture contributes X, manufacturi
 
 #### Diagram: GDP Components Breakdown
 
-<iframe src="../../sims/gdp-components-pie/main.html" width="100%" height="400px" scrolling="no"></iframe>
+<iframe src="../../sims/gdp-components-pie/main.html" width="100%" height="450px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>GDP Components Pie Chart</summary>
