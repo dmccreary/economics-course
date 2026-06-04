@@ -618,7 +618,7 @@ This doesn't mean policies are bad—it means we need to think carefully about s
 
 #### Diagram: Systems Thinking Feedback Loops
 
-<iframe src="../../sims/feedback-loops/main.html" width="100%" height="400px" scrolling="no"></iframe>
+<iframe src="../../sims/feedback-loops/main.html" width="100%" height="500px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Systems Thinking Feedback Loop Diagram</summary>
