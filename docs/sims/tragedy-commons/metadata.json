@@ -41,5 +41,8 @@
     "commonMisconceptions": [],
     "assessmentOpportunities": []
   },
-  "chapter": "06-market-failures"
+  "chapter": "06-market-failures",
+  "search": {
+    "showcase": true
+  }
 }
